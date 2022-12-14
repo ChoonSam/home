@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>ComforTravel</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <div class="search">
+                <div class="search_box">
+                    <h1 class="logo">ComforTravel</h1>
+                    <div class="window">
+                        <form action="/applysearch" method="GET">
+                            <input type="text" id="fname" class="input_text" name="location" placeholder="검색어를 입력하세요">
+                            <button class="Button" type="submit"><div class="searchBtn">검색</div></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            
+            <div class="main">
+                <h1>동대문디지털플라자</h1>
+                <div class="pinfo">
+                    <b>DDP는 대한민국 서울특별시 동대문역사문화공원역에 위치한 복합 문화 공간입니다.</b><br/>
+                    2014년 3월 21일 개관한 이래 DDP에서는 각종 전시, 패션쇼, 신제품발표회, 포럼, 컨퍼런스 등 다양한 문화 행사가 진행되어 왔습니다.
+                     DDP는 디자인 트렌드가 시작되고 문화가 교류하는 장소입니다. 세계 최초 신제품과 패션 트렌드를 알리고, 
+                     새로운 전시를 통해 지식을 공유하며, 다양한 디자인 체험이 가능한 콘텐츠로 운영됩니다. 이러한 활동을 통해 DDP는 아시아로, 
+                     세계로 향하는 ‘디자인·패션산업의 발신지’의 역할을 할 것입니다.
+                </div>
+                <!-- 사진 -->
+                <div class="main_img">
+                    <table>
+                        <tr>
+                          <td><img alt="" src="https://ldb-phinf.pstatic.net/20170526_171/1495772011947hzUIv_JPEG/DDP1_%281%29.jpg" /></td>
+                          <td><img alt="" src="https://ldb-phinf.pstatic.net/20170526_292/1495772012106jt7pv_JPEG/DDP2.jpg" /></td>
+                          <td><img alt="" src="https://ldb-phinf.pstatic.net/20210404_196/16175461380535UyIT_JPEG/Zm6zwGYPvBbSk_HHnKp6u3Uc.jpg" /></td>
+                        <tr>
+                      </table>
+                </div>
+                
+                <div class="main">
+                    <ul class="ullist">
+                        <ul class="ninfo">
+                            <li>주소 : 서울시 중구 을지로 281</li>
+                            <li>전화 : 02-2153-0000</li>
+                            <li>사이트 : <a href="https://ddp.or.kr/" target="_blank">https://ddp.or.kr/</a></li>
+                            <li>운영시간 : 10:00 ~ 20:00</li>
+                        </ul>
+                        <li>
+                            <h2 style="margin-top:50px;">행사/시설</h2>
+                        </li>
+                        <ul class="ninfo">
+                            <li><b>전체 일정</b>
+                                <ul>
+                                    <li>
+                                        <a href="https://ddp.or.kr/?menuno=239" target="_blank">전체 일정 보기</a>
+                                    </li>
+                                </ul>                               
+                            </li><br/>
+                            <li><b>전시</b>
+                                <ul>
+                                    <li>
+                                        <a href="https://ddp.or.kr/?menuno=240" target="_blank">전시 안내</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <br/>
+                            <li>
+                                <b>행사</b>
+                                <ul>
+                                    <li>
+                                        <a href="https://ddp.or.kr/?menuno=241" target="_blank">행사 안내</a>
+                                    </li>
+                                </ul>
+                            </li><br/>
+                            <li>
+                                <b>키즈</b>
+                                <ul>
+                                    <li>
+                                        <a href="https://ddp.or.kr/index.html?menuno=243" target="_blank">키즈 안내</a>
+                                    </li>
+                                </ul>
+                            </li><br/>
+                            <li>
+                                <b>상설</b>
+                                <ul>
+                                    <li>
+                                        <a href="https://ddp.or.kr/?menuno=244" target="_blank">상설 안내</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <li>
+                            <h2 style="margin-top:50px;">오시는길</h2>
+                        </li>
+                        <ul class="ninfo">
+                            <li><b>지하철</b>
+                                <ul>
+                                    <li>
+                                        2호선 | 동대문역사문화공원역 1,2번 출구
+                                    </li>
+                                    <li>
+                                        4호선 | 동대문역사문화공원역 1,2번 출구
+                                    </li>
+                                    <li>
+                                        5호선 | 동대문역사문화공원역 1,2번 출구
+                                    </li>
+                                </ul>
+                            </li>
+                            <br/>
+                            <li><b>버스</b>
+                                <ul>
+                                    <li>
+                                        간선
+                                        <ul>
+                                            <li>
+                                                N13, N16, N30, N62, 100, 105, 144, 202, 261, 301, 420, 507
+                                            </li>
+                                        </ul>
+                                    </li><br/>
+                                    <li>
+                                        지선
+                                        <ul>
+                                            <li>
+                                               2012, 2014, 2015, 2233, 7212
+                                            </li>
+                                        </ul>
+                                    </li><br/>
+                                    <li>
+                                        순환
+                                        <ul>
+                                            <li>
+                                                01A, 01B, 04
+                                            </li>
+                                        </ul>
+                                    </li><br/>
+                                    <li>
+                                        TOUR
+                                        <ul>
+                                            <li>
+                                                TOUR01
+                                            </li>
+                                        </ul>
+                                    </li><br/>
+                                    <li>
+                                        광역
+                                        <ul>
+                                            <li>
+                                                9403
+                                            </li>
+                                        </ul>
+                                    </li><br/>
+                                    <li>
+                                        마을
+                                        <ul>
+                                            <li>
+                                                60, 60-3, 69, 88, 1002
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

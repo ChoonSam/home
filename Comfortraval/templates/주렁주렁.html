@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>ComforTravel</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <div class="search">
+                <div class="search_box">
+                    <h1 class="logo">ComforTravel</h1>
+                    <div class="window">
+                        <form action="/applysearch" method="GET">
+                            <input type="text" id="fname" class="input_text" name="location" placeholder="검색어를 입력하세요">
+                            <button class="Button" type="submit"><div class="searchBtn">검색</div></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            
+            <div class="main">
+                <h1>주렁주렁</h1>
+                <div class="pinfo">
+                    주렁주렁은 도심 속에서 살아 숨쉬는 생명들을 만날 수 있는 대한민국 최초 애니멀 테마파크 입니다. 단순히 동물을 관찰하는 동물원을 넘어, 울타리 없는 따뜻한 교감을 통해 생명의 소중함과 힐링을 느껴보세요.
+                </div>
+                <!-- 사진 -->
+                <div class="main_img">
+                    <table>
+                        <tr>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20220203_93/1643877384310JT91Y_JPEG/%B4%EB%C7%A5%BD%E6%B3%D7%C0%CF1%28%B9%AE%B1%B8X%29.jpg" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20200417_50/1587113344130edyr8_PNG/SmartSelectImage_2020-04-17-16-03-36.png" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20191217_288/1576549149408C6SdA_JPEG/%C1%D6%B7%B7%BD%A3%C3%A7%B8%B0%C1%F66.JPG" /></td>
+                        <tr>
+                      </table>
+                </div>
+                
+                <div class="main">
+                    <ul class="ullist">
+                        <ul class="ninfo">
+                            <li>주소 : 경기 하남시 하남유니온로 120</li>
+                            <li>전화 : 1644-2153</li>
+                            <li>사이트 :  <a href="http://www.zoolungzoolung.com/" target="_blank">http://www.zoolungzoolung.com/</a></li>
+                        <li>운영시간 : 평일 12:00 ~ 18:00 | 주말 10:30 ~ 19:00</li>
+                        </ul>
+                        <li>
+                            <h2 style="margin-top:50px;">오시는길</h2>
+                        </li>
+                        <ul class="ninfo">
+                            <li><b>지하철</b>
+                                <ul>
+                                    <li>
+                                        5호선 | 하남검단산 1번 출구 도보 8번
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><b>버스</b>
+                                <ul>
+                                    <li>
+                                        일반 | 23, 81, 87
+                                    </li>
+                                    <li>
+                                        직행 | 9302, 9303, 9303-1
+                                    </li>
+                                    <li>
+                                        마을 | 22, 50
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

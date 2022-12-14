@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>ComforTravel</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <div class="search">
+                <div class="search_box">
+                    <h1 class="logo">ComforTravel</h1>
+                    <div class="window">
+                        <form action="/applysearch" method="GET">
+                            <input type="text" id="fname" class="input_text" name="location" placeholder="검색어를 입력하세요">
+                            <button class="Button" type="submit"><div class="searchBtn">검색</div></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            
+            <div class="main">
+                <h1>서울중앙성원</h1>
+                <div class="pinfo">
+                    한국 최초, 최대의 이슬람 모스크이다. 전국의 이슬람 성소를 총괄하는 한국이슬람중앙회의 본부가 위치해 있으며, 서울의 이슬람 성원으로 한국에 체류하는 내, 외국인 무슬림들이 방문한다. 흔히 '외국물'로 유명한 이태원역에서 두 블럭 남짓 떨어져 있기에 이태원동 소속인 줄 아는 사람들이 많으나, 행정구역상 한남동에 위치해 있다. 1976년 5월 21일에 건립되었는데, 건립 과정에서 사우디아라비아와 일부 중동 국가의 지원을 받았다. 성원 근처에는 무슬림들을 위한 할랄 푸드를 파는 가게와 아랍 잡화 가게 등 이국적인 상점이 있고, 성원 바로 옆에는 이슬람 학교가 있다. 사전 연락 후 이슬람에 대한 설명을 들으며 성원을 관람해 볼 수도 있다. 2010년도까지는 미흐랍까지 직접 들어갈 수도 있었지만 이후에는 허락을 받아야만 들어갈 수 있다.
+                </div>
+                <!-- 사진 -->
+                <div class="main_img">
+                    <table>
+                        <tr>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20140407_16/1396855773262FN3Tc_JPEG/%BC%AD%BF%EF_%C7%D1%B3%B2%B5%BF%C0%CC%BD%BD%B6%F7%C1%DF%BE%D3%BB%E7%BF%F8_11.JPG?type=m500_500" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20140407_124/1396855773377MtMI7_JPEG/%BC%AD%BF%EF_%C7%D1%B3%B2%B5%BF%C0%CC%BD%BD%B6%F7%C1%DF%BE%D3%BB%E7%BF%F8_12.JPG?type=m500_500" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20140407_42/1396855773581wqYKk_JPEG/%BC%AD%BF%EF_%C7%D1%B3%B2%B5%BF%C0%CC%BD%BD%B6%F7%C1%DF%BE%D3%BB%E7%BF%F8_13.JPG?type=m500_500" /></td>
+                        <tr>
+                      </table>
+                </div>
+                
+                <div class="main">
+                    <ul class="ullist">
+                        <ul class="ninfo">
+                            <li>주소 : 서울 용산구 우사단로10길 39</li>
+                            <li>전화 : 02-793-6908</li>
+                            <li>사이트 : <a href="http://www.koreaislam.org/" target="_blank">http://www.koreaislam.org/</a></li>
+                            <li>운영시간 : </li>
+                        </ul>
+                        <li>
+                            <h2 style="margin-top:50px;">오시는길</h2>
+                        </li>
+                        <ul class="ninfo">
+                            <li><b>지하철</b>
+                                <ul>
+                                    <li>
+                                        6호선 | 이태원역 3번 출구 100m
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

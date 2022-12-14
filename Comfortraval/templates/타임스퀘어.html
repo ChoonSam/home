@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>ComforTravel</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <div class="search">
+                <div class="search_box">
+                    <h1 class="logo">ComforTravel</h1>
+                    <div class="window">
+                        <form action="/applysearch" method="GET">
+                            <input type="text" id="fname" class="input_text" name="location" placeholder="검색어를 입력하세요">
+                            <button class="Button" type="submit"><div class="searchBtn">검색</div></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            
+            <div class="main">
+                <h1>타임스퀘어</h1>
+                <div class="pinfo">
+                    단순한 쇼핑 공간을 넘어 백화점, 멀티플렉스, 쇼핑몰, 레스토랑 등 도시적이고 세련된 공간과 휴식광장, 테라스, 분수와 정원 등 여유롭고 친근한 자연의 공간이 어우러진 선진국형 라이프스타일센터입니다.
+                </div>
+                <!-- 사진 -->
+                <div class="main_img">
+                    <table>
+                        <tr>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20150206_266/1423208421891p9ePF_JPEG/%BC%AD%BF%EF_%C5%B8%C0%D3%BD%BA%C4%F9%BE%EE_1.JPG?type=m500_500" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20150901_254/1441044210632UfAHS_JPEG/116260566034254_0.jpg" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20150901_174/14410442119449tqEw_JPEG/116260566034254_6.jpg" /></td>
+                        <tr>
+                      </table>
+                </div>
+                
+                <div class="main">
+                    <ul class="ullist">
+                        <ul class="ninfo">
+                            <li>주소 : 서울 영등포구 영중로 15</li>
+                            <li>전화 : 02-2638-2000</li>
+                            <li>사이트 : <a href="www.timessquare.co.kr" target="_blank">www.timessquare.co.kr</a></li>
+                            <li>운영시간 : 10:30 ~ 22:00</li>
+                        </ul>
+                        <li>
+                            <h2 style="margin-top:50px;">오시는길</h2>
+                        </li>
+                        <ul class="ninfo">
+                            <li><b>지하철</b>
+                                <ul>
+                                    <li>
+                                        1호선 | 영등포역 5번 출구 도보 5분
+                                    </li>
+                                    <li>
+                                        2호선 | 문래역 4번 출구 도보 14분 | 신도림역 1번 출구
+                                    </li>
+                                    <li>
+                                        5호선 | 영등포시장역 4번 출구 도보 12분 | 신길역 3번 출구 도보 17분
+                                    </li>
+                                </ul>
+                            </li><br/>
+                            <li><b>버스</b>
+                                <ul>
+                                    <li>
+                                        간선
+                                        <ul>
+                                            <li>
+                                                9707, 670, 605, 5616, 6628, 6629, 462, 5625, 6654, 9408, 6008, 5714, 6640A, 605, 760, 6631, 6637, 6640B
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        마을
+                                        <ul>
+                                            <li>
+                                                영등포03, 영등포04, 영등포05
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        광역
+                                        <ul>
+                                            <li>
+                                                1082, 7500, 870, 830, 9000, 9030, 88-1, 88, 5-1, 5, 700, 871
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

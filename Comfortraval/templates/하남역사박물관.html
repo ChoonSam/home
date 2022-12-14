@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>ComforTravel</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <div class="search">
+                <div class="search_box">
+                    <h1 class="logo">ComforTravel</h1>
+                    <div class="window">
+                        <form action="/applysearch" method="GET">
+                            <input type="text" id="fname" class="input_text" name="location" placeholder="검색어를 입력하세요">
+                            <button class="Button" type="submit"><div class="searchBtn">검색</div></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            
+            <div class="main">
+                <h1>하남 역사박물관</h1>
+                <div class="pinfo">
+                    하남역사박물관의 상설전시공간은 지상 2~3층으로 총 1,049점의 유물이 전시되어 있습니다. 현재 전시된 유물 중 90% 이상이 하남지역 출토 유물 및 관련 유물로, 하남의 유구한 역사와 문화를 체계적으로 전시해놓은 곳입니다. 1층엔 기획전시실과 어린이 체험실, 2층엔 조선실과 근현대실, 3층에는 선사실과 고대실, 고려실이 배치되어 있습니다. 전시 외에도 교육 프로그램과 체험교실, 문화유적답사 프로그램이 진행되고 있습니다.
+                </div>
+                <!-- 사진 -->
+                <div class="main_img">
+                    <table>
+                        <tr>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20220521_274/1653103753618xWWjb_JPEG/%BC%D2_%C7%CF%B3%B2%BF%AA%BB%E7%B9%DA%B9%B0%B0%FC_%BD%BA%C4%C9%C4%A1.jpg" /></td>
+                            <td><img alt="" src="" /></td>
+                            <td><img alt="" src="" /></td>
+                        <tr>
+                      </table>
+                </div>
+                
+                <div class="main">
+                    <ul class="ullist">
+                        <ul class="ninfo">
+                            <li>주소 : 경기 하남시 덕풍동로 30</li>
+                            <li>전화 : 031-790-7990</li>
+                            <li>사이트 : <a href="https://www.hnart.or.kr/museum/index.do" target="_blank">https://www.hnart.or.kr/museum/index.do</a></li>
+                        <li>운영시간 : 09:00 ~ 18:00 | 매달 3,4,5 번째 월요일 휴무</li>
+                        </ul>
+                        <li>
+                            <h2 style="margin-top:50px;">오시는길</h2>
+                        </li>
+                        <ul class="ninfo">
+                            <li><b>지하철</b>
+                                <ul>
+                                    <li>
+                                        5호선 | 하남시청역 도보 2분 | 초호역 6번 출구
+                                    </li>
+                                    <li>
+                                        2호선 | 잠실역 8,9번 출구
+                                    </li>
+                                </ul>
+                            </li><br/>
+                            <li><b>버스</b>
+                                <ul>
+                                    <li>
+                                        일반 | 28-275, 28-280, 28-082, 28-083, 28-378, 28-379, 28-249, 28-250, 30-3, 341, 9304
+                                    </li>
+                                    <li>
+                                        마을 | 1, 2, 3, 5, 10, 20, 22, 100, 
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>ComforTravel</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <div class="search">
+                <div class="search_box">
+                    <h1 class="logo">ComforTravel</h1>
+                    <div class="window">
+                        <form action="/applysearch" method="GET">
+                            <input type="text" id="fname" class="input_text" name="location" placeholder="검색어를 입력하세요">
+                            <button class="Button" type="submit"><div class="searchBtn">검색</div></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            
+            <div class="main">
+                <h1>국립과천과학관</h1>
+                <div class="pinfo">
+                    2008년 개관한 과학문화공간으로 전시품의 50%이상을 첨단 연출매체를 이용하여 체험·참여형으로 꾸며져 있다는 것이 특징이다.
+                </div>
+                <!-- 사진 -->
+                <div class="main_img">
+                    <table>
+                        <tr>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20220901_168/1661988371332Yl0Ly_JPEG/%B3%D7%C0%CC%B9%F6_%BB%E7%C1%F81.jpg" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20220901_183/1661988359731PGN0y_JPEG/%B3%D7%C0%CC%B9%F6_%BB%E7%C1%F84.jpg" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20220901_132/16619883331519iHpS_JPEG/%B3%D7%C0%CC%B9%F6_%BB%E7%C1%F811.jpg" /></td>
+                        <tr>
+                      </table>
+                </div>
+                
+                <div class="main">
+                    <ul class="ullist">
+                        <ul class="ninfo">
+                            <li>주소 : 경기 과천시 상하벌로 110</li>
+                            <li>전화 : 02-3677-1500</li>
+                            <li>사이트 : <a href="https://www.sciencecenter.go.kr/scipia/" target="_blank">https://www.sciencecenter.go.kr/scipia/</a></li>
+                            <li>운영시간 : 09:30 ~ 17:30 | 매주 월요일 정기휴무</li>
+                        </ul>
+                        <li>
+                            <h2 style="margin-top:50px;">오시는길</h2>
+                        </li>
+                        <ul class="ninfo">
+                            <li><b>지하철</b>
+                                <ul>
+                                    <li>
+                                        4호선 | 대공원역 6번 출구 | 경마공원역 5번 출구 도보 10분
+                                    </li>
+                                </ul>
+                            </li><br/>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

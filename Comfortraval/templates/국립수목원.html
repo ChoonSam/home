@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>ComforTravel</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <div class="search">
+                <div class="search_box">
+                    <h1 class="logo">ComforTravel</h1>
+                    <div class="window">
+                        <form action="/applysearch" method="GET">
+                            <input type="text" id="fname" class="input_text" name="location" placeholder="검색어를 입력하세요">
+                            <button class="Button" type="submit"><div class="searchBtn">검색</div></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            
+            <div class="main">
+                <h1>국립수목원</h1>
+                <div class="pinfo">
+                    국립수목원 은 102ha규모로 경기도 포천시 소흘읍 직동리와 경기도 남양주시 진접읍 부평리에 위치한 유네스코 생물권보전지역이자 수목원으로서 대한민국 산림청 산하의 정부 기관이다.
+                </div>
+                <!-- 사진 -->
+                <div class="main_img">
+                    <table>
+                        <tr>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20161109_34/1478658222976Md41g_JPEG/177059515360777_0.jpeg" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20200510_192/1589072321711Skw30_JPEG/kB9f51G-hWxBJKDeNJVYvOeD.jpg" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20140407_100/1396854683278N5ynD_JPEG/%B0%E6%B1%E2_%B1%A4%B8%AA%BC%F6%B8%F1%BF%F8_12.JPG?type=m500_500" /></td>
+                        <tr>
+                      </table>
+                </div>
+                
+                <div class="main">
+                    <ul class="ullist">
+                        <ul class="ninfo">
+                            <li>주소 : 경기 포천시 소흘읍 광릉수목원로 415</li>
+                            <li>전화 : 031-540-2000</li>
+                            <li>사이트 : <a href="http://kna.forest.go.kr/" target="_blank">http://kna.forest.go.kr/</a></li>
+                            <li>운영시간 : 4~10월 09:00 - 18:00 | 11~3월 09:00 - 17:00 | 1월 2월 12월 매주 일요일 휴원 | 월요일 휴무
+                                </li>
+                        </ul>
+                    </ul>
+                    <!-- <li>
+                        <h2 style="margin-top:50px;">오시는길</h2>
+                    </li>
+                    <ul class="ninfo">
+                        <li><b>버스</b>
+                            <ul>
+                                <li>
+                                    일반 | 73, 138, 138-5, 1386
+                                </li>
+                                <li>
+                                    광역 | 3000, 3001, 3002
+                                </li>
+                            </ul>
+                        </li>
+                    </ul> -->
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>ComforTravel</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <div class="search">
+                <div class="search_box">
+                    <h1 class="logo">ComforTravel</h1>
+                    <div class="window">
+                        <form action="/applysearch" method="GET">
+                            <input type="text" id="fname" class="input_text" name="location" placeholder="검색어를 입력하세요">
+                            <button class="Button" type="submit"><div class="searchBtn">검색</div></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            
+            <div class="main">
+                <h1>숭례문</h1>
+                <div class="pinfo">
+                    <b>서울특별시 중구 남대문로 4가에 있는 도성의 남쪽 정문. 1962년 12월 20일 국보로 지정되었다.</b><br/>
+                </div>
+                <!-- 사진 -->
+                <div class="main_img">
+                    <table>
+                        <tr>
+                          <td><img alt="" src="https://ldb-phinf.pstatic.net/20150901_60/1441045635833GhE61_JPEG/13491509_0.jpg" /></td>
+                          <td><img alt="" src="https://ldb-phinf.pstatic.net/20140407_205/139685667995047bDi_JPEG/%BC%AD%BF%EF_%BC%FE%B7%CA%B9%AE%28%B3%B2%B4%EB%B9%AE%29_16.JPG?type=m500_500" /></td>
+                          <td><img alt="" src="https://ldb-phinf.pstatic.net/20140407_276/1396856681200liFcF_JPEG/%BC%AD%BF%EF_%BC%FE%B7%CA%B9%AE%28%B3%B2%B4%EB%B9%AE%29_21.JPG?type=m500_500" /></td>
+                        <tr>
+                      </table>
+                </div>
+                
+                <div class="main">
+                    <ul class="ullist">
+                        <ul class="ninfo">
+                            <li>주소 : 서울특별시 중구 세종대로 40</li>
+                            <li>전화 : 042-481-4650</li>
+                            <!-- <li>사이트 : <a href="http://jm.cha.go.kr/" target="_blank">http://jm.cha.go.kr/</a></li> -->
+                            <li>관람시간 : 09:00 ~ 18:00(입장마감 17:50)<br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:red;">매주 월요일은 휴무입니다.</span>
+                            </li>
+                            <!-- <li>관람료<br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;〉내국인 : 만25세 ~ 만64세 : 1,000원<br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;만24세 이하 및 만 65세 이상 : 무료<br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;매월 마지막 수요일 [문화가 있는 날] : 무료<br/><br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;〉외국인 : 만19세 ~ 만64세 : 1,000원<br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;만7세 ~ 만18세 : 500원<br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;만6세 이하 및 만 65세 이상 : 무료<br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;매월 마지막 수요일 [문화가 있는 날] : 무료<br/><br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;〉특별권 : 홈페이지 참고바람<br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;〉종로구 주민 50% 할인<br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;※ 할인 대상자는 반드시 신분증 또는 등본 등의 증빙서류 제시
+                            </li> -->
+                        </ul>
+                        <li>
+                            <h2 style="margin-top:50px;">오시는길</h2>
+                        </li>
+                        <ul class="ninfo">
+                            <li><b>지하철</b>
+                                <ul>
+                                    <li>
+                                        1호선 | 서울역 4번 출구 도보 4분 | 시청역 7번 출구 도보 14분
+                                    </li>
+                                    <li>
+                                        2호선 | 시청역 7번 출구 도보 14분
+                                    </li>
+                                    <li>
+                                        4호선 | 서울역 4번 출구 도보 4분 | 회현역 5번 출구 도보 7분
+                                    </li>
+                                    <li>
+                                        공항철도 | 서울역 4번 출구 도보 4분
+                                    </li>
+                                </ul>
+                            </li>
+                            <br/>
+                            <li><b>버스</b>
+                                <ul>
+                                    <li>
+                                        직행
+                                        <ul>
+                                            <li>
+                                                1101, 1150, 4101, 4103, 5000A, 5000B, 5005, 5007, 5500-2, 8100, 9000, 9000-1, 9003, 9007, 9200, 9300, 9301, P9211
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        광역
+                                        <ul>
+                                            <li>
+                                                9401, M4101, M4102, M7154
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <br/>
+                            
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

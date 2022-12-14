@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>ComforTravel</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <div class="search">
+                <div class="search_box">
+                    <h1 class="logo">ComforTravel</h1>
+                    <div class="window">
+                        <form action="/applysearch" method="GET">
+                            <input id="query" class="input_text" name="location" type="search" placeholder="검색어를 입력하세요">
+                            <button class="Button" type="submit"><div class="searchBtn">검색</div></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            <div style="height: 100px;"></div>
+            <div class="result">
+                <div class="rbox" onClick="window.location.href='/{{ ppp[1][1] }}'">
+                    <div class="rimg">
+                        <img alt="" src="{{b}}" />
+                    </div>
+                    <div class="rinfo">
+                        {{ ppp[1][1] }}
+                    </div>
+                </div>
+                <div style="clear:both"></div>
+
+                <div class="rbox" onClick="window.location.href='/{{ ppp[2][1] }}'">
+                    <div class="rimg">
+                        <img alt="" src="{{d}}" />
+                    </div>
+                    <div class="rinfo">
+                        {{ ppp[2][1] }}
+                    </div>
+                </div>
+                <div style="clear:both"></div>
+
+                <div class="rbox" onClick="window.location.href='/{{ ppp[3][1] }}'">
+                    <div class="rimg">
+                        <img alt="" src="{{e}}" />
+                    </div>
+                    <div class="rinfo">
+                        {{ ppp[3][1] }}
+                    </div>
+                </div>
+                <div style="clear:both"></div>
+
+                <div class="rbox" onClick="window.location.href='/{{ ppp[4][1] }}'">
+                    <div class="rimg">
+                        <img alt="" src="{{g}}" />
+                    </div>
+                    <div class="rinfo">
+                        {{ ppp[4][1] }}
+                    </div>
+                </div>
+                <div style="clear:both"></div>
+
+                <div class="rbox" onClick="window.location.href='/{{ ppp[5][1] }}'">
+                    <div class="rimg">
+                        <img alt="" src="{{i}}" />
+                    </div>
+                    <div class="rinfo">
+                        {{ ppp[5][1] }}
+                    </div>
+                </div>
+                <div style="clear:both"></div>
+
+                <div class="rbox" onClick="window.location.href='/{{ ppp[6][1] }}'">
+                    <div class="rimg">
+                        <img alt="" src="{{j}}" />
+                    </div>
+                    <div class="rinfo">
+                        {{ ppp[6][1] }}
+                    </div>
+                </div>
+                <div style="clear:both"></div>
+
+                <div class="rbox" onClick="window.location.href='/{{ ppp[7][1] }}'">
+                    <div class="rimg">
+                        <img alt="" src="{{k}}" />
+                    </div>
+                    <div class="rinfo">
+                        {{ ppp[7][1] }}
+                    </div>
+                </div>
+                <div style="clear:both"></div>
+
+                <div class="rbox" onClick="window.location.href='{{ ppp[8][1] }}'">
+                    <div class="rimg">
+                        <img alt="" src="{{l}}" />
+                    </div>
+                    <div class="rinfo">
+                        {{ ppp[8][1] }}
+                    </div>
+                </div>
+                <div style="clear:both"></div>
+
+                <div class="rbox" onClick="window.location.href='{{ ppp[9][1] }}'">
+                    <div class="rimg">
+                        <img alt="" src="{{m}}" />
+                    </div>
+                    <div class="rinfo">
+                        {{ ppp[9][1] }}
+                    </div>
+                </div>
+                <div style="clear:both"></div>
+
+                <div class="rbox" onClick="window.location.href='{{ ppp[10][1] }}'">
+                    <div class="rimg">
+                        <img alt="" src="{{n}}" />
+                    </div>
+                    <div class="rinfo">
+                        {{ ppp[10][1] }}
+                    </div>
+                </div>
+                <div style="clear:both"></div>
+            </div>
+        </div>
+        <script>function c() { 
+            var img = document.createElement('img'); 
+            img.src = 'https://ldb-phinf.pstatic.net/20190711_62/1562823704121InE2t_JPEG/usfc9L8iEAQfjJK8oKoBwa4d.jpg'; 
+            document.getElementById('{{ ppp[1][1] }}').appendChild(img);
+        }</script>
+    </body>
+</html>

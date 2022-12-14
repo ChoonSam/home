@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>ComforTravel</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <div class="search">
+                <div class="search_box">
+                    <h1 class="logo">ComforTravel</h1>
+                    <div class="window">
+                        <form action="/applysearch" method="GET">
+                            <input type="text" id="fname" class="input_text" name="location" placeholder="검색어를 입력하세요">
+                            <button class="Button" type="submit"><div class="searchBtn">검색</div></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            
+            <div class="main">
+                <h1>국립현대미술관 덕수궁</h1>
+                <div class="pinfo">
+                    <b>국립현대미술관은 개관 반세기의 역사를 자랑하는 국내 유일의 국가현대미술관입니다</b><Br/><br/>
+                    우리 미술관은 ‘확장과 연결’로 열린 미술관을 지향하고 있습니다. 생활 속에서 삶의 질을 높이고, 
+                    감동과 상상력의 충전소로 거듭 나기를 노력하고 있습니다. 더불어 이건희컬렉션의 대량기증으로 소장품 1만점 시대에 진입했고, 
+                    보다 다양한 전시와 미술관 프로젝트로 국민의 곁에 늘 있기를 희망하고 있습니다. 거기다 미술한류 사업에도 박차를 가해 세계 
+                    속에서 한국현대미술의 존재감을 높이고자 합니다.<br><br/>
+                    국립현대미술관은 항상 여러분의 곁에 있습니다. 언제라도 방문하셔서 다양한 프로그램을 즐기시기를 바랍니다. 
+                    바로 이웃과 같은 친근하고 포근한 열린 미술관이기 때문입니다.<br/><br/>
+                    개방적이고도 신바람 나는 미술관, 그러면서도 감동을 주는 미술관으로 여러분을 초대합니다.
+
+
+                </div>
+                <!-- 사진 -->
+                <div class="main_img">
+                    <table>
+                        <tr>
+                          <td><img alt="" src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAxNzAyMjFfMTIw%2FMDAxNDg3NjgxMjA1MzMy.zxgoeCS_cymCCfKHn6nsaq7itLQ5Q5jTxXKSIKyV0VQg.rqTXbtZAdLHygjy_zBmcwYDNOkBoG1z9zou5mPX3KLYg.JPEG.dufao0987%2FKakaoTalk_20170221_213747466.jpg%23720x960" /></td>
+                          <td><img alt="" src="https://search.pstatic.net/common/?src=https%3A%2F%2Fdbscthumb-phinf.pstatic.net%2F2765_000_227%2F20181224041445970_4S8F1G11V.jpg%2F5517612.jpg%3Ftype%3Dm4500_4500_fst&type=sc960_832" /></td>
+                          <td><img alt="" src="https://myplace-phinf.pstatic.net/20211120_63/1637399828286uAGda_JPEG/upload_95cbd11cf9ff24cb217269c84d3e56a4.jpg" /></td>
+                        <tr>
+                      </table>
+                </div>
+                
+                <div class="main">
+                    <ul class="ullist">
+                        <ul class="ninfo">
+                            <li>주소 : 서울특별시 중구 세종대로 99</li>
+                            <li>전화 : 02-2022-0600</li>
+                            <li>사이트 : <a href="http://www.mmca.go.kr/" target="_blank">http://www.mmca.go.kr/</a></li>
+                            <li>운영시간 : 화, 목, 금, 일요일 10:00 ~ 18:00 <br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;수, 토요일 10:00 ~ 21:00 (18:00 ~ 21:00 야간개장)<br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:red;">휴관일 : 1월 1일, 매주 월요일<span><br/>
+                            </li>
+                            <li>관람료는 전시에 따라 다릅니다. 자세한 관람료는 개별 전시 페이지를 확인하시기 바랍니다.<br/>
+                            </li>
+                        </ul>
+                        <li>
+                            <h2 style="margin-top:50px;">행사/전시</h2>
+                        </li>
+                        <ul class="ninfo">
+                            <li><b>전시</b>
+                                <ul>
+                                    <li>문신(文信) : 우주를 향하여
+                                        <ul>
+                                            <li>
+                                               기간 :  2022.09.01 ~ 2023.01.29
+                                            </li>
+                                            <li>
+                                                작가 : 문신
+                                            </li>
+                                            <li>
+                                                관람료 : 2,000원
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <li>
+                            <h2 style="margin-top:50px;">오시는길</h2>
+                        </li>
+                        <ul class="ninfo">
+                            <li><b>지하철</b>
+                                <ul>
+                                    <li>
+                                        5호선 | 서대문역 5번 출구
+                                    </li>
+                                    <li>
+                                        1호선 | 시청역 1번 출구
+                                    </li>
+                                    <li>
+                                        2호선 | 시청역 1번 출구
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

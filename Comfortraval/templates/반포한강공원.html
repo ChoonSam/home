@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>ComforTravel</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <div class="search">
+                <div class="search_box">
+                    <h1 class="logo">ComforTravel</h1>
+                    <div class="window">
+                        <form action="/applysearch" method="GET">
+                            <input type="text" id="fname" class="input_text" name="location" placeholder="검색어를 입력하세요">
+                            <button class="Button" type="submit"><div class="searchBtn">검색</div></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            
+            <div class="main">
+                <h1>반포 한강공원</h1>
+                <div class="pinfo">
+                    반포대교(잠수교)를 중심으로 상류는 한남대교, 하류는 동작대교 사이 강변 남단에 위치해 있고, 
+                    길이는 7.2㎞로 서초구 반포동, 동작구 흑석동에 인접해 있습니다. 한강르네상스 사업으로 조성된 반포한강공원에서 
+                    반포대교 교량 양쪽에 설치된 달빛무지개분수는 총길이1,140m(상·하류 570m)이고 2008년도에 세계에서 가장 긴 교량분수로 
+                    세계기네스협회에 등재되어 있으며, 물을 뿜을 때마다 아름다운 풍경을 연출하여 일곱빛깔 무지개처럼 다양한 볼거리와 즐길거리를 제공합니다. 
+                    또한 물방울놀이터, 인라인허브, 축구장, 농구장 등 체육시설이 있습니다. 동작대교 남단에는 전망대가 설치되어 탁 트인 한강수면 위로 펼쳐진 넓은 하늘과 강변 빌딩숲을 감상할 수 있습니다. 
+                    서래섬은 계절에 따라 유채, 메밀 등의 작물을 식재하여 꽃이 피는 시기에는 서래섬을 일주하는 산책코스로 인기가 높습니다. 
+                    여의도와 잠원한강공원으로 연결되는 7.2㎞의 자전거도로, 산책로가 분리되어 시원한 강바람을 맞으며 자전거타기, 조깅, 산책을 즐기면서 반포한강공원에서 오감만족 시간을 누려보세요.
+                </div>
+                <!-- 사진 -->
+                <div class="main_img">
+                    <table>
+                        <tr>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20150901_163/1441033987325uASB2_JPEG/13416963_0.jpg" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20140407_64/1396856367297YkxUE_JPEG/%BC%AD%BF%EF_%C7%D1%B0%AD%BD%C3%B9%CE%B0%F8%BF%F8%B9%DD%C6%F7%C1%F6%B1%B8_7.JPG?type=m500_500" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20140407_90/1396856363376pLcn4_JPEG/%BC%AD%BF%EF_%C7%D1%B0%AD%BD%C3%B9%CE%B0%F8%BF%F8%B9%DD%C6%F7%C1%F6%B1%B8_13.JPG?type=m500_500" /></td>
+                        <tr>
+                      </table>
+                </div>
+                
+                <div class="main">
+                    <ul class="ullist">
+                        <ul class="ninfo">
+                            <li>주소 : 서울 서초구 신반포로11길 40</li>
+                            <li>전화 : 02-591-5943</li>
+                            <li>사이트 : <a href="https://hangang.seoul.go.kr/archives/46727" target="_blank">https://hangang.seoul.go.kr/archives/46727</a></li>
+                        </ul>
+                        <li>
+                            <h2 style="margin-top:50px;">시설</h2>
+                        </li>
+                        <ul class="ninfo">
+                            <li><b>달빛무지개분수</b>
+                                <ul>
+                                    <li>
+                                        가동시간 : 20분
+                                    </li>
+                                    <li>
+                                        성수기, 비수기, 평일, 휴일에 따라 가동시간 상이
+                                    </li>
+                                </ul>                               
+                            </li>
+                            <br/>
+                            <li><b>나들목(4개소)</b>
+                                <ul>
+                                    <li>
+                                        반포나들목
+                                    </li>
+                                    <li>
+                                        잠수교남단 나들목
+                                    </li>
+                                    <li>
+                                        반포안내센터나들목
+                                    </li>
+                                    <li>
+                                        서래섬나들목
+                                    </li>
+                                </ul>
+                            </li>
+                            <br/>
+                            <li><b>수상레저스포츠</b>
+                                <ul>
+                                    <li>
+                                        요트, 모터보트, 수상스키 등 <a href="https://hangang.seoul.go.kr/archives/46875#program-area5">(수상레저스포츠 이용안내 바로가기)</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <br/>
+                            <li><b>자전거대여점</b>
+                                <ul>
+                                    <li>
+                                        위치 : 반포나들목 입구
+                                    </li>
+                                    <li>
+                                        운영시간 : 09:00 ~ 일몰시 까지 (월별 탄력적 이용)
+                                    </li>
+                                    <li>
+                                        1인용 : 1시간당 3,000원(15분 초과시 마다 500원 추가)
+                                    </li>
+                                    <li>
+                                        2인용 : 1시간당 6,000원(15분 초과시 마다 1,000원 추가)
+                                    </li>
+                                    <li>
+                                        <a href="https://hangang.seoul.go.kr/archives/46889">(자전거 대여점 정보 및 요금 안내 바로가기)</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <br/>
+                            <li><b>자전거도로, 산책로</b>
+                                <ul>
+                                    <li>
+                                        길이 7.2km
+                                    </li>
+                                    <li>
+                                        여의도 한강공원과 잠원한강공원으로 연결됨
+                                    </li>
+                                </ul>
+                            </li>
+                            <br/>
+                            <li><b>잠수교</b>
+                                <ul>
+                                    <li>
+                                        보행환경 개선으로 차도를 축소하고 보도를 확장하여 한강 수면을 만끽하며 산책할 수 있음
+                                    </li>
+                                </ul>
+                            </li>
+                            <br/>
+                            <li><b>체육시설</b>
+                                <ul>
+                                    <li>
+                                        축구장 1면, 농구장 3면
+                                    </li>
+                                    <li>
+                                        배드민턴장 2개소
+                                        <ul>
+                                            <li>
+                                                반포대교 상류 농구장 · 배트민턴장
+                                            </li>
+                                            <li>
+                                                반포대교 하류 농구장 · 배트민턴장
+                                            </li>
+                                            <li>
+                                                <a href="https://hangang.seoul.go.kr/archives/2413">(체육시설 이용 안내 바로가기)</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <br/>
+                            <li><b>구름카페(전망대)</b>
+                                <ul>
+                                    <li>
+                                        위치 : 동작대교 상류 <a href="https://hangang.seoul.go.kr/archives/767">(동작 구름카페 이용 안내 바로가기)</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <br/>
+                            <li><b>노을카페(전망대)</b>
+                                <ul>
+                                    <li>
+                                        위치 : 동작대교 하류 <a href="https://hangang.seoul.go.kr/archives/772">(노을카페 이용 안내 바로가기)</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <br/>
+                            <li><b>낚시</b>
+                                <ul>
+                                    <li>
+                                        낚시 제한 사항 : 떡밥 · 어분 낚시 행위, 낚시대 4대 이상, 훌치기 낚시행위 금지 등
+                                    </li>
+                                    <li>
+                                        금지구역에서의 낚시 및 제한사항 위반자는 과태료 부과 대상입니다 <a href="https://hangang.seoul.go.kr/archives/46872">(한강낚시 금지 및 제한사항 안내 바로가기)</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <br/>
+                            <li><b>편의시설</b>
+                                <ul>
+                                    <li>
+                                        달빛광장, 초생마루, 피크닉장, 물방울놀이터
+                                    </li>
+                                    <li>
+                                        매점(2동), 화장실(5동), 음수대11, 그늘막53, 의자264 등
+                                    </li>
+                                    <li>
+                                        유모차 및 휠체어 무료 대여
+                                        <ul>
+                                            <li>
+                                                대여위치 : 반포안내센터
+                                            </li>
+                                            <li>
+                                                이용시간 : 09:00 ~ 18:00
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <br/>
+                        </ul>
+                        <li>
+                            <h2 style="margin-top:50px;">오시는길</h2>
+                        </li>
+                        <ul class="ninfo">
+                            <li><b>지하철</b>
+                                <ul>
+                                    <li>
+                                        3호선 | 고속터미널역 8-1, 8-2번 출구
+                                    </li>
+                                    <li>
+                                        4호선 | 동작역 1,2번 출구 도보 약 10분
+                                    </li>
+                                    <li>
+                                        7호선 | 고속터미널역 8-1, 8-2번 출구
+                                    </li>
+                                    <li>
+                                        9호선 | 고속터미널역 8-1, 8-2번 출구 | 동작역 1,2번 출구 도보 약 10뷴
+                                    </li>
+                                </ul>
+                            </li>
+                            <br/>
+                            <li><b>버스</b>
+                                <ul>
+                                    <li>
+                                        간선
+                                        <ul>
+                                            <li>
+                                                143, 148, 360, 362, 401, 405, 406, 452, 540, 640, 643, 740, 3012, 4212, 4318, 6411, 8541, 9408, 9500, 9501, 9802, 6000, 6020
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        마을
+                                        <ul>
+                                            <li>
+                                                서초10, 서초14
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li><br/>
+                            <li><b>주차장</b>
+                                <ul>
+                                    <li>
+                                        주차장 수 : 3개소(반포1주차장, 반포2주차장, 반포3주차장)
+                                    </li>
+                                    <li>
+                                        이용시간 : 오전 6시 ~ 오후 12시
+                                    </li>
+                                    <li>
+                                        주차요금
+                                        <ul>
+                                            <li>
+                                                기본요금 : 최초 30분 1,000원
+                                            </li>
+                                            <li>
+                                                초과 10분당 200원
+                                            </li>
+                                            <li>
+                                                1일 주차 최고한도 10,000원
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

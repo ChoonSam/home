@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>ComforTravel</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <div class="search">
+                <div class="search_box">
+                    <h1 class="logo">ComforTravel</h1>
+                    <div class="window">
+                        <form action="/applysearch" method="GET">
+                            <input type="text" id="fname" class="input_text" name="location" placeholder="검색어를 입력하세요">
+                            <button class="Button" type="submit"><div class="searchBtn">검색</div></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            
+            <div class="main">
+                <h1>이천세라피아</h1>
+                <div class="pinfo">
+                    이천 설봉 세라피아의 메인 콘텐츠인 경기도자미술관(이천세라피아)는 세계 도자예술의 흐름과 경향을 볼 수 있는 도자전문 미술관과 예술가들이 창작활동에 전념할 수 있는 창작 레지던시와 공작소, 체험시설 등 복합문화공간으로 조성되어 있습니다. 매년 도자를 중심으로 다양한 기획·특별전 개최를 통해 세계현대 도자의 예술적, 문화적 현상들을 수용하고, 분석하는 동시에 신진작가를 발굴하는 세계 도자 트렌드의 중심으로서 역할을 다하고 있습니다.
+                </div>
+                <!-- 사진 -->
+                <div class="main_img">
+                    <table>
+                        <tr>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20201214_56/1607920096511OlP2m_JPEG/5oRlGKUgBJ3D4AQkwUX5Rr9K.jpg" /></td>
+                            <td><img alt="" src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAxNzA5MTRfNDIg%2FMDAxNTA1MzYzMzA2MzEx.E9Z5BxLF4rv3PjTxUY46cY1n4skQubJmuLXXCPxVnokg.faaQ5kPScfPkx44c_mGT3XFSGVCigymeJN7Oq-WnhrYg.JPEG.2000happy_%2F1.jpg%235472x3648" /></td>
+                            <td><img alt="" src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAxNzA0MDlfNDgg%2FMDAxNDkxNzM2NDkyMDM0.tkRRNP15pJZGcX0XMLrM9f-ZWeW6O68tL8LqP8VUG5og.Ac3MpnSe6zFUEjmUEjA-bT0s7KUH10teBevDYbjCTPMg.JPEG.0dajung0%2FDSC02813.JPG%234912x2760" /></td>
+                        <tr>
+                      </table>
+                </div>
+                
+                <div class="main">
+                    <ul class="ullist">
+                        <ul class="ninfo">
+                            <li>주소 : 경기 이천시 경충대로2697번길 167-29</li>
+                            <li>전화 : 031-631-6501</li>
+                            <li>사이트 : <a href="https://www.kocef.org/02museum/04_02.asp" target="_blank">https://www.kocef.org/02museum/04_02.asp</a></li>
+                            <li>운영시간 : 09:00 - 18:00 | 매주 월요일 휴관</li>
+                        </ul>
+                        <li>
+                            <h2 style="margin-top:50px;">오시는길</h2>
+                        </li>
+                        <ul class="ninfo">
+                            <li><b>지하철</b>
+                                <ul>
+                                    <li>
+                                        경강선 | 이천역
+                                    </li>
+                                </ul>
+                            </li><br/>
+                            <li><b>버스</b>
+                                <ul>
+                                    <li>
+                                        일반 | 20-1, 20-3, 25-1, 28-8, 28-5, 29-4
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

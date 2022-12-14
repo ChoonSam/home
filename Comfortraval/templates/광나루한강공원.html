@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>ComforTravel</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <div class="search">
+                <div class="search_box">
+                    <h1 class="logo">ComforTravel</h1>
+                    <div class="window">
+                        <form action="/applysearch" method="GET">
+                            <input type="text" id="fname" class="input_text" name="location" placeholder="검색어를 입력하세요">
+                            <button class="Button" type="submit"><div class="searchBtn">검색</div></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            
+            <div class="main">
+                <h1>광나루 한강공원</h1>
+                <div class="pinfo">
+                    강동대교에서 잠실철교 사이에 있는 광나루 한강공원은 한강 상류로부터 유입된 토사가 퇴적되어 자연스럽게 형성된 모래톱과 
+                    대규모 갈대군락지로 자연 그대로의 한강의 모습을 가장 잘 유지하고 있는 곳입니다. 서울시의 유일한 상수원보호구역으로 
+                    뱃놀이와 각종 수상레저활동이 금지되어 있어 물이 맑고 깨끗하며, 북쪽 아차산 수목의 푸르름과 2km에 이르는 한강둔치의 
+                    갈대밭이 잘 조화되어 아름다운 경관을 자랑합니다. 또한 광나루 한강공원은 철새들의 서식처이기도 합니다.
+                     더욱이 근처에는 암사선사주거지 등 많은 문화유적지가 곳곳에 산재해 있어 자연과 문화가 잘 조화를 이루는 곳입니다.
+                </div>
+                <!-- 사진 -->
+                <div class="main_img">
+                    <table>
+                        <tr>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20150901_202/1441033968574OYURh_JPEG/13416918_0.jpg" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20140407_280/1396856344188ta2E8_JPEG/%BC%AD%BF%EF_%C7%D1%B0%AD%BD%C3%B9%CE%B0%F8%BF%F8%B1%A4%B3%AA%B7%E7%C1%F6%BF%AA_1.JPG?type=m500_500" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20140407_163/1396856345816A5v8Y_JPEG/%BC%AD%BF%EF_%C7%D1%B0%AD%BD%C3%B9%CE%B0%F8%BF%F8%B1%A4%B3%AA%B7%E7%C1%F6%BF%AA_7.JPG?type=m500_500" /></td>
+                        <tr>
+                      </table>
+                </div>
+                
+                <div class="main">
+                    <ul class="ullist">
+                        <ul class="ninfo">
+                            <li>주소 : 서울 강동구 암사동 659-1</li>
+                            <li>전화 : 02-3780-0501</li>
+                            <li>사이트 : <a href="https://hangang.seoul.go.kr/archives/46585" target="_blank">https://hangang.seoul.go.kr/archives/46585</a></li>
+                        </ul>
+                        <li>
+                            <h2 style="margin-top:50px;">시설</h2>
+                        </li>
+                        <ul class="ninfo">
+                            <li><b>자전거공원</b>
+                                <ul>
+                                    <li>
+                                        레이싱경기장, 어린이 놀이터, 어린이 자전거 교육장<br/>
+                                        <a href="https://hangang.seoul.go.kr/archives/46889"target="_blank">(자전거공원 및 자전거 대여점 안내 바로가기)</a>
+                                    </li>
+                                </ul>                               
+                            </li>
+                            <br/>
+                            <li><b>자전거도로</b>
+                                <ul>
+                                    <li>
+                                        총 7.9km (자전거 및 보행자 겸용 5.7km , 자동차 겸용 2.2km)
+                                    </li>
+                                </ul>                               
+                            </li>
+                            <br/>
+                            <li><b>광진교 전망쉼터(광진교8번가)</b>
+                                <ul>
+                                    <li>
+                                        광진교교각 한강, 워커힐, 암사생태공원 조망 <a href="https://hangang.seoul.go.kr/archives/730" target="_blank">(광진교8번가 안내 바로가기)</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <br/>
+                            <li><b>운동시설</b>
+                                <ul>
+                                    <li>
+                                        축구장3, 배구장2, 농구장4, 간이야구장2, 족구장3 <a href="https://hangang.seoul.go.kr/archives/2413" target="_blank">(체육시설 예약 안내 바로가기)</a>
+                                    </li>
+                                    <li>
+                                        테니스장8 <a href="https://hangang.seoul.go.kr/archives/46878" target="_blank">(테니스장 예약 안내 바로가기)</a>
+                                    </li>
+                                    <li>
+                                        게이트볼장2, 인라인스케이트광장, 체력단련장7, 스케이트보드장1
+                                    </li>
+                                </ul>
+                            </li>
+                            <br/>
+                            <li><b>수영장</b>
+                                <ul>
+                                    <li>
+                                        수용인원 1,200명 (7월 ~ 8월 개장) <a href="https://hangang.seoul.go.kr/archives/46886" target="_blank">(수영장·물놀이장 이용 안내 바로가기)</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <br/>
+                            <li><b>한강드론장</b>
+                                <ul>
+                                    <li>
+                                        위치 : 광나루 한강공원 어린이 놀이터 뒤편 <a href="https://hangang.seoul.go.kr/archives/38748" target="_blank">(드론장 소개 및 예약안내 바로가기)</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <br/>
+                        </ul>
+                        <li>
+                            <h2 style="margin-top:50px;">오시는길</h2>
+                        </li>
+                        <ul class="ninfo">
+                            <li><b>지하철</b>
+                                <ul>
+                                    <li>
+                                        5호선 | 천호역 1번 출구 500m
+                                    </li>
+                                    <li>
+                                        8호선 | 천호역 1번 출구 500m | 암사역 4번 출구 700m
+                                    </li>
+                                </ul>
+                            </li>
+                            <br/>
+                            <li><b>버스</b>
+                                <ul>
+                                    <li>
+                                        마을
+                                        <ul>
+                                            <li>
+                                                강동02
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        지선
+                                        <ul>
+                                            <li>
+                                                1020, 1711, 7012, 7016, 7018, 7022
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li><br/>
+                            <li><b>주차장</b>
+                                <ul>
+                                    <li>
+                                        주차장 수 : 3개소(광나루1주차장, 광나루2주차장, 광나루3주차장)
+                                    </li>
+                                    <li>
+                                        이용시간 : 오전 6시 ~ 오후 12시
+                                    </li>
+                                    <li>
+                                        주차요금
+                                        <ul>
+                                            <li>
+                                                기본요금 : 최초 30분 1,000원
+                                            </li>
+                                            <li>
+                                                초과 10분당 200원
+                                            </li>
+                                            <li>
+                                                1일 주차 최고한도 10,000원
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

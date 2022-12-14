@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>ComforTravel</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <div class="search">
+                <div class="search_box">
+                    <h1 class="logo">ComforTravel</h1>
+                    <div class="window">
+                        <form action="/applysearch" method="GET">
+                            <input type="text" id="fname" class="input_text" name="location" placeholder="검색어를 입력하세요">
+                            <button class="Button" type="submit"><div class="searchBtn">검색</div></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            
+            <div class="main">
+                <h1>창덕궁</h1>
+                <div class="pinfo">
+                    <b>창덕궁은 북악산 왼쪽 봉우리인 응봉자락에 자리 잡고 있는 조선의 궁궐이다.</b><Br/>
+                    1405년(태종5) 경복궁의 이궁으로 동쪽에 지어진 창덕궁은 이웃한 창경궁과 서로 다른 별개의 용도로 사용되었으나 
+                    하나의 궁역을 이루고 있어 조선 시대에는 이 두 궁궐을 형제궁궐이라 하여 ‘동궐’이라 불렀다.<br/>
+                    1592년(선조25) 임진왜란으로 모든 궁궐이 소실되어 광해군 때에 재건된 창덕궁은 1867년 흥선대원군에 의해 경복궁이 
+                    중건되기 전까지 조선의 법궁(法宮) 역할을 하였다. 또한 조선의 궁궐 중 가장 오랜 기간 동안 임금들이 거처했던 궁궐이다.<br/><br/>
+                    경복궁의 주요 건물들이 좌우대칭의 일직선상으로 왕의 권위를 상징한다면 창덕궁은 응봉자락의 지형에 따라 건물을 배치하여 
+                    한국 궁궐건축의 비정형적 조형미를 대표하고 있다. 더불어 비원으로 잘 알려진 후원은 각 권역마다 정자, 연못, 괴석이 어우러진 
+                    왕실의 후원이다. 현재 남아있는 조선의 궁궐 중 그 원형이 가장 잘 보존되어 있는 창덕궁은 자연과의 조화로운 배치와 한국의 정서가 
+                    담겨있다는 점에서 1997년 유네스코 세계유산으로 등록되었다.
+                </div>
+                <!-- 사진 -->
+                <div class="main_img">
+                    <table>
+                        <tr>
+                          <td><img alt="" src="https://ldb-phinf.pstatic.net/20150831_186/1441015173592vvta5_JPEG/116268483930416_0.jpg" /></td>
+                          <td><img alt="" src="http://www.cdg.go.kr/upload/1.JPG" /></td>
+                          <td><img alt="" src="http://www.cdg.go.kr/upload/1001.jpg" /></td>
+                        <tr>
+                      </table>
+                </div>
+                
+                <div class="main">
+                    <ul class="ullist">
+                        <ul class="ninfo">
+                            <li>주소 : 서울특별시 종로구 율곡로 99번지</li>
+                            <li>전화 : 02-3668-2300</li>
+                            <li>사이트 : <a href="http://www.cdg.go.kr/default.jsp" target="_blank">http://www.cdg.go.kr/default.jsp</a></li>
+                            <li>관람시간 : 2월 ~ 5월 : 09:00 ~ 18:00(입장마감 : 17:00)<br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6월 ~ 8월
+                                : 09:00~18:30(입장마감 : 17:30)<br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;9월 ~ 10월
+                                : 09:00~18:00(입장마감 : 17:00)<br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;11월 ~ 1월
+                                : 09:00~17:30(입장마감 : 16:30)<br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:red;">매주 월요일은 휴관일입니다.</span>
+                            </li>
+                            <li>관람료<br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;〉내국인 : 만25세 ~ 만64세 : 3,000원 (10인이상 : 2,400원)<br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;만24세 이하 및 만 65세 이상 : 무료<br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;매월 마지막 수요일 [문화가 있는 날] : 무료<br/><br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;〉외국인 : 만7세 ~ 만18세 : 1,500원 (10인이상 : 1,200원)<br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;만19세 ~ 만64세 : 3,000원(10인이상 : 2,400원)<br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;만6세 이하 및 만 65세 이상, 한복 착용자 : 무료<br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;매월 마지막 수요일 [문화가 있는 날] : 무료<br/><br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;〉특별권, 무료관람 : 홈페이지 참고바람<br/><br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;〉종로구민 궁궐전각 관람료 50% 할인<br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;※ 할인 대상자는 반드시 신분증 또는 등본 등의 증빙서류 제시
+                            </li>
+                        </ul>
+                        
+                        <li>
+                            <h2 style="margin-top:50px;">오시는길</h2>
+                        </li>
+                        <ul class="ninfo">
+                            <li><b>지하철</b>
+                                <ul>
+                                    <li>
+                                        1호선 종로3가역 7번 출구 도보 11분
+                                    </li>
+                                    <li>
+                                        3호선 안국역 3번 출구 도보 7분, 종로3가역 7번 출구 도보 11분
+                                    </li>
+                                    <li>
+                                        5호선 종로3가역 7번 출구 도보 11분
+                                    </li>
+                                </ul>
+                            </li>
+                            <br/>
+                            <li><b>버스</b>
+                                <ul>
+                                    <li>
+                                        마을
+                                        <ul>
+                                            <li>
+                                                종로01, 종로12
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        공항
+                                        <ul>
+                                            <li>
+                                                6011
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        간선
+                                        <ul>
+                                            <li>
+                                                109, 151, 162, 171, 172, 272, 601
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        지선
+                                        <ul>
+                                            <li>
+                                                7025
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        순환
+                                        <ul>
+                                            <li>
+                                                90S투어, 91S투어
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <br/>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

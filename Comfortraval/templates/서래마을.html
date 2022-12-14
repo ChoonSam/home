@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>ComforTravel</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <div class="search">
+                <div class="search_box">
+                    <h1 class="logo">ComforTravel</h1>
+                    <div class="window">
+                        <form action="/applysearch" method="GET">
+                            <input type="text" id="fname" class="input_text" name="location" placeholder="검색어를 입력하세요">
+                            <button class="Button" type="submit"><div class="searchBtn">검색</div></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            
+            <div class="main">
+                <h1>서래마을</h1>
+                <div class="pinfo">
+                    서울특별시 서초구 반포4동과 방배본동 일대에 위치한 강남의 부촌으로 고급빌라, 주택들의 밀집 단지이다. 이전에는 외부사람들의 왕래가 별로 없는 그저 한적한 동네였는데, 어느 순간부터 인터넷, 신문 등으로 알려지면서 순식간에 상업지구로 변해버렸다. 2010년대와 2020년대 들어 구반포, 신반포와 함께 서울/강남 서초구 권역에서 한국 집 값 상승을 견인하는 동네가 되었다. 유명세를 타기 시작한 초창기 이곳에 사는 프랑스 출신 방송인 이다도시가 직접 소개하기도 했다. 
+                </div>
+                <!-- 사진 -->
+                <div class="main_img">
+                    <table>
+                        <tr>
+                            <td><img alt="" src="" /></td>
+                            <td><img alt="" src="" /></td>
+                            <td><img alt="" src="" /></td>
+                        <tr>
+                      </table>
+                </div>
+                
+                <div class="main">
+                    <ul class="ullist">
+                        <ul class="ninfo">
+                            <li>주소 : 서울 서초구 반포4동</li>
+                            <li>전화 : </li>
+                            <li>사이트 : </li>
+                            <li>운영시간 : </li>
+                        </ul>
+                        <li>
+                            <h2 style="margin-top:50px;">오시는길</h2>
+                        </li>
+                        <ul class="ninfo">
+                            <li><b>지하철</b>
+                                <ul>
+                                    <li>
+                                        3호선 | 고속터미널 5,6번 출구 도보 10분
+                                    </li>
+                                    <li>
+                                        7호선 | 고속터미널 5,6번 출구 도보 10분
+                                    </li>
+                                    <li>
+                                        9호선 | 고속터미널 5,6번 출구 도보 10분
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

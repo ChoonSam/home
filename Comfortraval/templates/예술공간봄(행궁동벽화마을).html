@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>ComforTravel</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <div class="search">
+                <div class="search_box">
+                    <h1 class="logo">ComforTravel</h1>
+                    <div class="window">
+                        <form action="/applysearch" method="GET">
+                            <input type="text" id="fname" class="input_text" name="location" placeholder="검색어를 입력하세요">
+                            <button class="Button" type="submit"><div class="searchBtn">검색</div></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            
+            <div class="main">
+                <h1>예술공간 봄(행궁동 벽화마을)</h1>
+                <div class="pinfo">
+                    예술공간 봄 건물은 1980년에 지어져 방앗간, 오락실, 건설사무소, 가정집으로 쓰였습니다.  2005년, 바로 옆집에 대안공간 눈이 개관을 하였고 그로 인해 슬럼화되어가던 마을은 예술로 점차 활력을 찾았습니다. 이에 크게 감명받은 원주인은 대안공간 눈의 대표와 관장을 찾아가 자신의 추억이 깃든 이 공간을 대안공간 눈과 같이 의미있는 공간으로 사용해달라며 인수를 요청하였습니다. 그렇게 2014년에 예술공간 봄이 탄생하게 되었습니다.
+                </div>
+                <!-- 사진 -->
+                <div class="main_img">
+                    <table>
+                        <tr>
+                            <td><img alt="" src="https://static.wixstatic.com/media/709290_baf7a0fd727c4739bc8e94a0c30ab625~mv2.png/v1/fill/w_463,h_433,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/%EC%98%88%EC%88%A0%EA%B3%B5%EA%B0%84%EB%B4%84%20%EC%A0%84%EA%B2%BD.png" /></td>
+                            <td><img alt="" src="https://static.wixstatic.com/media/709290_10b291c67da74d8a8717595afa04bb59~mv2.jpg/v1/fill/w_573,h_370,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/709290_10b291c67da74d8a8717595afa04bb59~mv2.jpg" /></td>
+                            <td><img alt="" src="https://static.wixstatic.com/media/709290_e86a6568e1d745389c8048b2d0800d39~mv2.jpg/v1/fill/w_573,h_370,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/709290_e86a6568e1d745389c8048b2d0800d39~mv2.jpg" /></td>
+                        <tr>
+                      </table>
+                </div>
+                
+                <div class="main">
+                    <ul class="ullist">
+                        <ul class="ninfo">
+                            <li>주소 : 경기 수원시 팔달구 화서문로 76-1</li>
+                            <li>전화 : 031-246-4519</li>
+                            <li>사이트 : <a href="https://www.artspacebom.com/" target="_blank">https://www.artspacebom.com/</a></li>
+                            <li>운영시간 : 10:00 ~ 18:00 | 매주 월요일 정기휴무</li>
+                        </ul>
+                        <li>
+                            <h2 style="margin-top:50px;">오시는길</h2>
+                        </li>
+                        <ul class="ninfo">
+                            <li><b>지하철</b>
+                                <ul>
+                                    <li>
+                                        1호선 | 수원역
+                                    </li>
+                                    <li>
+                                        분당선 | 수원역
+                                    </li>
+                                </ul>
+                            </li><br/>
+                            <li><b>버스</b>
+                                <ul>
+                                    <li>
+                                        일반 | 3, 4-1, 7-2, 11, 13, 16, 16-1, 16-2, 20-1, 25, 25-1, 25-2, 25-5, 26, 27, 32-1, 32-2, 32-5, 35, 36, 45, 46, 50-2, 50-5, 60, 61, 62-1, 63, 64, 65, 66, 66-4, 83-1, 88, 98, 112, 660, 700-2
+                                    </li>
+                                    <li>
+                                        직행 | 1007(잠실), 2007(성남), 7770(사당), 8401(구리-의정부), 8409(의정부), 3000
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

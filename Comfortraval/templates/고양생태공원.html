@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>ComforTravel</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <div class="search">
+                <div class="search_box">
+                    <h1 class="logo">ComforTravel</h1>
+                    <div class="window">
+                        <form action="/applysearch" method="GET">
+                            <input type="text" id="fname" class="input_text" name="location" placeholder="검색어를 입력하세요">
+                            <button class="Button" type="submit"><div class="searchBtn">검색</div></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            
+            <div class="main">
+                <h1>고양 생태공원</h1>
+                <div class="pinfo">
+                    <b>도심 속 나대지를 활용하여 사람과 자연이 함께 살아가는 생태공간으로 조성하였으며, 자연 속에서 살아가는 생물들을 쉽게 관찰하고 체험 할 수 있는 공원이다.</b>
+                </div>
+                <!-- 사진 -->
+                <div class="main_img">
+                    <table>
+                        <tr>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20200702_283/1593655523937iNN0t_JPEG/Sqa2Ux-nI9RRZYyh48Z19ddb.JPG.jpg" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20200701_275/1593578328241sRlUu_JPEG/7Ww-ISZCr3DfOTJlQXhlpq3z.jpg" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20200701_142/15935783066479nBs6_JPEG/D9Nxm8R_216Mwx3D_SmJycUT.JPG.jpg" /></td>
+                        <tr>
+                      </table>
+                </div>
+                
+                <div class="main">
+                    <ul class="ullist">
+                        <ul class="ninfo">
+                            <li>주소 : 경기 고양시 일산서구 대화로 315 고양생태공원</li>
+                            <li>전화 : 031-924-7341</li>
+                            <li>사이트 : <a href="http://ecopark.goyang.go.kr/" target="_blank">http://ecopark.goyang.go.kr/</a></li>
+                            <li>운영시간 : 3월~10월 09:00 ~ 18:00 | 11월~2월 10:00 ~ 17:00 | 매주 월요일 정기휴무</li>
+                        </ul>
+                        <li>
+                            <h2 style="margin-top:50px;">오시는길</h2>
+                        </li>
+                        <ul class="ninfo">
+                            <li><b>지하철</b>
+                                <ul>
+                                    <li>
+                                        3호선 | 대화역 4번 출구
+                                    </li>
+                                </ul>
+                            </li><br/>
+                            <li><b>버스</b>
+                                <ul>
+                                    <li>마을 | 10, 55, 56, 58, 59, 66, 70, 80</li>
+                                    <li>일반 | 88A, 150, 600, 900</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

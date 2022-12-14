@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>ComforTravel</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <div class="search">
+                <div class="search_box">
+                    <h1 class="logo">ComforTravel</h1>
+                    <div class="window">
+                        <form action="/applysearch" method="GET">
+                            <input type="text" id="fname" class="input_text" name="location" placeholder="검색어를 입력하세요">
+                            <button class="Button" type="submit"><div class="searchBtn">검색</div></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            
+            <div class="main">
+                <h1>애기봉평화생태공원</h1>
+                <div class="pinfo">
+                    1978년에 설치되어 노후화된 기존의 애기봉 전망대를 철거하고 평화생태전시관, 조강전망대, 생태탐방로를 조성하며 ‘애기봉 평화생태공원’으로 새롭게 단장했습니다. 세계적인 건축가 승효상씨가 설계한 건축물과 주변의 자연경관이 아름답게 어우러진 애기봉 평화생태공원은 평화가 가진 다양한 의미를 되새길 수 있는 공간입니다. 먹먹한 과거와 풍요로운 자연을 품은 이 곳, 애기봉 평화생태공원에서 여러분의 오늘이 희망과 행복, 평화로 가득 채워지기를 바랍니다.
+                </div>
+                <!-- 사진 -->
+                <div class="main_img">
+                    <table>
+                        <tr>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20210901_67/1630456065038IbX3H_PNG/TPWyxHKH0qRj1YHK9OkISZ6j.png" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20211028_250/1635379796149uQwyJ_JPEG/pIuE4Q8hcoUDD2MDASYPy2Xl.jpg" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20211028_127/1635379796351FkiBm_JPEG/FFiyhS_XxUOyZaFzUfYPMhuP.jpg" /></td>
+                        <tr>
+                      </table>
+                </div>
+                
+                <div class="main">
+                    <ul class="ullist">
+                        <ul class="ninfo">
+                            <li>주소 : 경기 김포시 월곶면 평화공원로 289</li>
+                            <li>전화 : 031-989-7492</li>
+                            <li>사이트 : <a href="https://aegibong.or.kr/Home/index" target="_blank">https://aegibong.or.kr/Home/index</a></li>
+                            <li>운영시간 : 10:00 ~ 17:30 | 매주 월요일 정기휴무</li>
+                        </ul>
+                        <li>
+                            <h2 style="margin-top:50px;">오시는길</h2>
+                        </li>
+                        <ul class="ninfo">
+                            <li><b>버스</b>
+                                <ul>
+                                    <li>일반 | 1-1, 7, 7-2, 70, 80, 88, 96, 97, 101</li>
+                                    <li>광역 | 3000</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

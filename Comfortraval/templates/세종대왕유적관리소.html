@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>ComforTravel</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <div class="search">
+                <div class="search_box">
+                    <h1 class="logo">ComforTravel</h1>
+                    <div class="window">
+                        <form action="/applysearch" method="GET">
+                            <input type="text" id="fname" class="input_text" name="location" placeholder="검색어를 입력하세요">
+                            <button class="Button" type="submit"><div class="searchBtn">검색</div></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            
+            <div class="main">
+                <h1>세종대왕 유적관리소</h1>
+                <div class="pinfo">
+                    조선 제4대 세종대왕, 소헌왕후의 합장릉(영릉,英陵)과 제17대 효종대왕, 인선왕후의 쌍릉(영릉, 寧陵)을 보존하고, 민족의 성군인 세종대왕을 널리 기리며 그분의 유덕과 위업을 계승하여 후손에게 이어주는 일을 하고 있습니다. 조선왕릉은 우리나라의 전통문화를 담은 독특한 건축양식과 아름다운 자연이 어우러진 신성하고 엄숙한 공간으로 600여년전의 제례가 오늘날까지 이어져 내려오고 있는 살아있는 문화유산입니다. 이러한 역사성과 우수성의 가치를 인정받아 2009년 6월 30일 유네스코 세계유산으로 등재되었습니다. 그 중에서도 이 곳 영릉(英陵)과 영릉(寧陵)은 조선왕조의 능제를 가장 잘 보존, 관리하고 있는 능으로 평가되고 있으며, 소나무숲과 어우러진 아름다운 여강(남한강)의 수려한 경관과 함께 국민들에게 사랑받는 공간으로 자리하고 있습니다. 세종대왕은 우리 역사상 가장 위대한 업적을 남긴 어진 임금으로서 정치, 경제, 사회, 문화 전반에 걸쳐 훌륭한 업적을 쌓아 수준 높은 민족문화를 이룩하였습니다. 이러한 업적은 백성들을 특별히 아끼고 배려하였던 세종대왕의 애민정신에 바탕하고 있습니다. 우리 관리소는 세종대왕의 애민정신을 계승하고, 그분의 유덕과 위업을 선양하기 위해 세종대왕의 탄신을 기념하는 ‘숭모제전’을 매년 5월 15일 거행하고 있습니다.
+                </div>
+                <!-- 사진 -->
+                <div class="main_img">
+                    <table>
+                        <tr>
+                            <td><img alt="" src="" /></td>
+                            <td><img alt="" src="" /></td>
+                            <td><img alt="" src="" /></td>
+                        <tr>
+                      </table>
+                </div>
+                
+                <div class="main">
+                    <ul class="ullist">
+                        <ul class="ninfo">
+                            <li>주소 : 경기도 여주시 세종대왕면 영릉로 269-10</li>
+                            <li>전화 : 031-885-3123~4</li>
+                            <li>사이트 : <a href="https://sejong.cha.go.kr/agapp/main/index.do?siteCd=SEJONG" target="_blank">https://sejong.cha.go.kr/agapp/main/index.do?siteCd=SEJONG</a></li>
+                            <li>운영시간 : 2월~5월,9월~10월 09:00 ~ 18:00 | 6월~8월 09:00 ~ 18:30 | 11월~1월 09:00 ~ 17:30 | 매주 월요일 정기휴무</li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

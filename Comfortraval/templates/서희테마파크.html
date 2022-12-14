@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>ComforTravel</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <div class="search">
+                <div class="search_box">
+                    <h1 class="logo">ComforTravel</h1>
+                    <div class="window">
+                        <form action="/applysearch" method="GET">
+                            <input type="text" id="fname" class="input_text" name="location" placeholder="검색어를 입력하세요">
+                            <button class="Button" type="submit"><div class="searchBtn">검색</div></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            
+            <div class="main">
+                <h1>서희테마파크</h1>
+                <div class="pinfo">
+                    서희테마파크는 우리나라 최고의 정치외교관인 장위공 서희가 태어나고 자란 역사적인 고장 이천 효양산 일대에 조성되었다. 서희역사산책로, 서희역사관, 추모관, 누각 등을 갖추었고 청소년들이 역사를 체험하고 미래상을 그려볼 수 있는 공간이며, 매년 서희문 화제를 개최하고 있다
+                </div>
+                <!-- 사진 -->
+                <div class="main_img">
+                    <table>
+                        <tr>
+                            <td><img alt="" src="" /></td>
+                            <td><img alt="" src="" /></td>
+                            <td><img alt="" src="" /></td>
+                        <tr>
+                      </table>
+                </div>
+                
+                <div class="main">
+                    <ul class="ullist">
+                        <ul class="ninfo">
+                            <li>주소 : 경기 이천시 부발읍 무촌로18번길 130</li>
+                            <li>전화 : 0507-1412-3657</li>
+                            <li>사이트 : </li>
+                            <li>운영시간 : 24시 연중무휴</li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

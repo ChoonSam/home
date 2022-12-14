@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>ComforTravel</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <div class="search">
+                <div class="search_box">
+                    <h1 class="logo">ComforTravel</h1>
+                    <div class="window">
+                        <form action="/applysearch" method="GET">
+                            <input type="text" id="fname" class="input_text" name="location" placeholder="검색어를 입력하세요">
+                            <button class="Button" type="submit"><div class="searchBtn">검색</div></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            
+            <div class="main">
+                <h1>부천 천문과학관</h1>
+                <div class="pinfo">
+                    우리가 쉽게 가보지 못하는 우주라는 곳은 이름만 들어도 설레는 곳입니다. 우주는 얼마나 크고, 언제 생겨났을까요? 또 별은 어떻게 생겨났을까요? 우주에 대한 관심은 많지만 그것을 알기에는 너무 어려운 점들이 많이 있습니다. 도시에서 별을 보는 것조차 광해와 바쁜 일상 때문에 쉬운 일이 아닙니다. 2016년 8월 개관한 부천천문과학관은 멀리 지방에 있는 천문대를 굳이 가지 않아도 도심에서 보기 어려운 별들을 망원경으로 한층 더 가까이 볼 수 있습니다. 그리고 단순한 1회성 체험보다는 깊이 있는 천문학 이야기들을 쉽고 재미있게 알려주고자 천문학 교육에 더 중점을 둔 시민천문대입니다. 그 교육을 통해 미래의 주역인 어린이들과 청소년들이 꿈을 키워가고, 더불어 부모님들에게는 어린 시절의 추억을 떠올리게 하는, 온가족이 즐길 수 있는 부천시의 랜드마크로 성장하고자 합니다. 또 우수한 천체관측 장비를 통해 지역 내 학교, 유치원 등 교육기관에서 하기 어려운 체험교육을 진행하여 학습에 도움을 주고자 합니다.
+                </div>
+                <!-- 사진 -->
+                <div class="main_img">
+                    <table>
+                        <tr>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20210224_111/1614140903804w8F7g_JPEG/-dhnR4_RZaXyK4cDJNGmIvED.jpg" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20210224_234/1614140669016e416X_JPEG/JXpEsS_UuV-xFdYLiLtLYT2l.jpg" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20210224_14/1614140754294Ah6P7_JPEG/MnoagIcxcKJ_PS_0D2BdI2i8.jpg" /></td>
+                        <tr>
+                      </table>
+                </div>
+                
+                <div class="main">
+                    <ul class="ullist">
+                        <ul class="ninfo">
+                            <li>주소 : 경기 부천시 부천로264번길 117</li>
+                            <li>전화 : 032-674-7057</li>
+                            <li>사이트 : <a href="http://astrobucheon.or.kr/" target="_blank">http://astrobucheon.or.kr/</a></li>
+                            <li>운영시간 : 평일 09:30 ~ 17:30 | 주말 09:30 ~ 21:30 | 매주 월요일 정기휴무</li>
+                        </ul>
+                        <li>
+                            <h2 style="margin-top:50px;">오시는길</h2>
+                        </li>
+                        <ul class="ninfo">
+                            <li><b>지하철</b>
+                                <ul>
+                                    <li>
+                                        7호선 | 춘의역 7번 출구 도보 20분
+                                    </li>
+                                </ul>
+                            </li><br/>
+                            <li><b>버스</b>
+                                <ul>
+                                    <li>일반 | 12, 13-4, 23-1, 50, 70-2, 661</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

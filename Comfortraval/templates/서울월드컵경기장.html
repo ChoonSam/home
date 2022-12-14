@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>ComforTravel</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <div class="search">
+                <div class="search_box">
+                    <h1 class="logo">ComforTravel</h1>
+                    <div class="window">
+                        <form action="/applysearch" method="GET">
+                            <input type="text" id="fname" class="input_text" name="location" placeholder="검색어를 입력하세요">
+                            <button class="Button" type="submit"><div class="searchBtn">검색</div></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            
+            <div class="main">
+                <h1>서울 월드컵경기장</h1>
+                <div class="pinfo">
+                    2002 FIFA 한일월드컵 개최 시 온 국민이 하나가 되어 함성이 울려 퍼졌던 장소이며, 영국의 세계적인 축구 전문지 '월드 사커'가 선정한 세계에서 가장 아름다운 10대 축구 경기장 중 하나이기도 합니다.
+                </div>
+                <!-- 사진 -->
+                <div class="main_img">
+                    <table>
+                        <tr>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20191105_150/1572927511681CGg2P_JPEG/GKPkz7rEO-evwjDpOzttUZFu.jpg" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20190325_233/1553496511335FwSNW_JPEG/R9C2Q-i4gRPU2_MBkaaI7cuG.JPG.jpg" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20140407_237/13968538589826InAP_JPEG/%BC%AD%BF%EF_%BF%F9%B5%E5%C4%C5%B0%E6%B1%E2%C0%E5_11.JPG?type=m500_500" /></td>
+                        <tr>
+                      </table>
+                </div>
+                
+                <div class="main">
+                    <ul class="ullist">
+                        <ul class="ninfo">
+                            <li>주소 : 서울 마포구 성산동 515-39</li>
+                            <li>전화 : 02-2128-2000</li>
+                            <li>사이트 : <a href="https://www.sisul.or.kr/open_content/worldcup/" target="_blank">https://www.sisul.or.kr/open_content/worldcup/</a></li>
+                            <li>운영시간 : 09:00 - 18:00</li>
+                        </ul>
+                        <li>
+                            <h2 style="margin-top:50px;">오시는길</h2>
+                        </li>
+                        <ul class="ninfo">
+                            <li><b>지하철</b>
+                                <ul>
+                                    <li>
+                                        6호선 | 월드컵경기장역 1번 출구
+                                    </li>
+                                </ul>
+                            </li><br/>
+                            <li><b>버스</b>
+                                <ul>
+                                    <li>간선
+                                        <ul>
+                                            <li>
+                                                271, 571, 710
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>지선
+                                        <ul>
+                                            <li>
+                                                7011, 7013A, 7013B, 7715, 7019, 7715
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>일반
+                                        <ul>
+                                            <li>
+                                               773
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>마을
+                                        <ul>
+                                            <li>
+                                                마포08
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>광역
+                                        <ul>
+                                            <li>
+                                                9711A
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>ComforTravel</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <div class="search">
+                <div class="search_box">
+                    <h1 class="logo">ComforTravel</h1>
+                    <div class="window">
+                        <form action="/applysearch" method="GET">
+                            <input type="text" id="fname" class="input_text" name="location" placeholder="검색어를 입력하세요">
+                            <button class="Button" type="submit"><div class="searchBtn">검색</div></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            
+            <div class="main">
+                <h1>동묘 벼룩시장</h1>
+                <div class="pinfo">
+                    동묘 벼룩시장은 1980년대 말 생겨났으며 명성에 비하면 그 규모가 많이 위축됐지만 지금도 온갖 희귀한 물건들이 모여드는 명소이다. 의류, 신발, 지갑부터 시계나 전자제품, 심지어 고서, 영화 포스터에 이르기까지 온갖 제품들을 망라하고 있다. 이곳의 물건은 대부분 1,000원으로, 거의 공짜라는 생각이 들 정도다.
+                    동묘 벼룩시장에서 가장 인기 있는 품목은 의외로 중고의류다. 주로 아파트 단지 재활용품 수거함에 모인 옷가지를 상인들이 1년 단위로 계약해 1㎏에 250~300원에 사온다. 옷의 가격은 대부분 1,000원이지만 모피나 가죽 등은 1만 원대, 명품은 10만원을 호가하기도 한다. 입소문이 퍼지면서 지방에서도 알뜰족들이 찾아오고, 인터넷 쇼핑몰 운영자들이 대량 구매를 해가기도 한다. 250여 명의 노점상들이 매대를 펼치는 휴일 오후가 쇼핑하기에 가장 좋은 타이밍이다.
+                </div>
+                <!-- 사진 -->
+                <div class="main_img">
+                    <table>
+                        <tr>
+                            <td><img alt="" src="#" /></td>
+                            <td><img alt="" src="#" /></td>
+                            <td><img alt="" src="#" /></td>
+                        <tr>
+                      </table>
+                </div>
+                
+                <div class="main">
+                    <ul class="ullist">
+                        <ul class="ninfo">
+                            <li>주소 : 서울 종로구 숭인동 102-8</li>
+                            <li>전화 : </li>
+                            <li>사이트 : </li>
+                            <li>운영시간 :</li>
+                        </ul>
+                        <li>
+                            <h2 style="margin-top:50px;">오시는길</h2>
+                        </li>
+                        <ul class="ninfo">
+                            <li><b>지하철</b>
+                                <ul>
+                                    <li>
+                                        1호선 | 동묘앞역 3번 출구 도보 5분
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

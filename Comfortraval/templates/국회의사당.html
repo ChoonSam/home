@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>ComforTravel</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <div class="search">
+                <div class="search_box">
+                    <h1 class="logo">ComforTravel</h1>
+                    <div class="window">
+                        <form action="/applysearch" method="GET">
+                            <input type="text" id="fname" class="input_text" name="location" placeholder="검색어를 입력하세요">
+                            <button class="Button" type="submit"><div class="searchBtn">검색</div></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            
+            <div class="main">
+                <h1>국회의사당</h1>
+                <div class="pinfo">
+                    대한민국 국회가 활동하는 건물. 근·현대 대의민주주의 국가에서 국회의사당은 어느 나라든지 그 나라 모든 국민들의 정치적 의사가 총집되는 '민의의 전당'으로, 그 나라를 대표하는 상징적 건축물이라 할 수 있다. 따라서 법적으로도 대통령실를 제외하고 가장 중요한 대접을 받고 있는 건물이다. 방송에 자주 나온다고 해서 쉽게 볼 만한 그런 건물이 아니라, 민의를 총집(總集)하여 법을 만듦으로써 한 국가를 돌아가게 만드는 3권 분립 기관의 중심 관청 중 하나다. 1948년 대한민국 국회 개원 후 서울특별시 종로구 경복궁 내 중앙청과 중구 태평로의 옛 의사당을 썼으며, 1975년부터 현재까지 서울특별시 영등포구 여의도동의 의사당을 쓰고 있다.
+                </div>
+                <!-- 사진 -->
+                <div class="main_img">
+                    <table>
+                        <tr>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20150831_85/1440999999023sWm0S_JPEG/106977538145565_0.jpg" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20140407_172/13968539574054rgXr_JPEG/%BC%AD%BF%EF_%B1%B9%C8%B8%C0%C7%BB%E7%B4%E7_10.jpg?type=m500_500" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20140407_22/1396853963956I2V6U_JPEG/%BC%AD%BF%EF_%B1%B9%C8%B8%C0%C7%BB%E7%B4%E7_9.jpg?type=m500_500" /></td>
+                        <tr>
+                      </table>
+                </div>
+                
+                <div class="main">
+                    <ul class="ullist">
+                        <ul class="ninfo">
+                            <li>주소 : 서울 영등포구 의사당대로 1</li>
+                            <li>전화 : 02-6788-2114</li>
+                            <li>사이트 : <a href="https://www.assembly.go.kr/portal/main/main.do" target="_blank">https://www.assembly.go.kr/portal/main/main.do</a></li>
+                        </ul>
+                        <li>
+                            <h2 style="margin-top:50px;">오시는길</h2>
+                        </li>
+                        <ul class="ninfo">
+                            <li><b>지하철</b>
+                                <ul>
+                                    <li>
+                                        5호선 | 여의도역 5번 출구
+                                    </li>
+                                    <li>
+                                        9호선 | 국회의사당역 1,6번 출구
+                                    </li>
+                                </ul>
+                            </li>
+                            <Br/>
+                            <li><b>버스</b>
+                                <ul>
+                                    <li>간선
+                                        <ul>
+                                            <li>
+                                                153, 162, 260, 271B, 362, 461, 463
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>지선
+                                        <ul>
+                                            <li>
+                                                5615, 5618, 6623, 7613, 8761
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>광역
+                                        <ul>
+                                            <li>
+                                                10, 70-2, 1002, 7007-1, G7625
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>마을
+                                        <ul>
+                                            <li>
+                                                영등포10
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

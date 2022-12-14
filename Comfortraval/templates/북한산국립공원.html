@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>ComforTravel</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <div class="search">
+                <div class="search_box">
+                    <h1 class="logo">ComforTravel</h1>
+                    <div class="window">
+                        <form action="/applysearch" method="GET">
+                            <input type="text" id="fname" class="input_text" name="location" placeholder="검색어를 입력하세요">
+                            <button class="Button" type="submit"><div class="searchBtn">검색</div></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            
+            <div class="main">
+                <h1>북한산 국립공원</h1>
+                <div class="pinfo">
+                    세계적으로 드문 도심 속의 자연공원인 북한산국립공원은 1983년 우리나라 15번째 국립공원으로 지정되었다. 면적은 76.922㎢로 우이령을 경계로 하여 북쪽으로는 도봉산 지역, 남쪽으로는 북한산 지역으로 나뉜다. 북한산국립공원은 화강암 지반이 침식되고 오랜 세월 풍화되면서 곳곳에 깎아지른 바위봉우리와 그 사이로 흘러내리는 아름다운 계곡들을 이루고 있다. 또한, 2,000년의 역사가 담긴 북한산성을 비롯한 수많은 역사, 문화유적과 100여 개의 사찰, 암자가 위치하여 다양한 볼거리를 제공함과 동시에 역사 문화 학습의 장이 되고 있다.
+                </div>
+                <!-- 사진 -->
+                <div class="main_img">
+                    <table>
+                        <tr>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20191125_116/15746705048288V83E_JPEG/93SxDP1Z-5fWKoJcF8AqUtJM.jpg" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20150831_259/14409922621599Cqxh_JPEG/11491416_1.jpg" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20140407_289/1396853504740xJH6y_JPEG/%BC%AD%BF%EF_%BA%CF%C7%D1%BB%EA_1.jpg?type=m500_500" /></td>
+                        <tr>
+                      </table>
+                </div>
+                
+                <div class="main">
+                    <ul class="ullist">
+                        <ul class="ninfo">
+                            <li>주소 : 경기 고양시 덕양구 대서문길 375</li>
+                            <li>전화 : 02-909-0497</li>
+                            <li>사이트 : <a href="https://www.knps.or.kr/front/portal/visit/visitCourseMain.do?parkId=121500&menuNo=7020092" target="_blank">https://www.knps.or.kr/</a></li>
+                            <li>운영시간 : 하절기 (3월-11월) 04:00 - 17:00 | 동절기 (12월-2월) 04:00 - 16:00</li>
+                        </ul>
+                        <li>
+                            <h2 style="margin-top:50px;">오시는길</h2>
+                        </li>
+                        <ul class="ninfo">
+                            <li><b>지하철</b>
+                                <ul>
+                                    <li>
+                                        3호선 | 구파발역
+                                    </li>
+                                </ul>
+                            </li><br/>
+                            <li><b>버스</b>
+                                <ul>
+                                    <li>간선
+                                        <ul>
+                                            <li>
+                                                34, 704
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

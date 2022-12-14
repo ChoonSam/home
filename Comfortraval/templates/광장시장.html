@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>ComforTravel</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <div class="search">
+                <div class="search_box">
+                    <h1 class="logo">ComforTravel</h1>
+                    <div class="window">
+                        <form action="/applysearch" method="GET">
+                            <input type="text" id="fname" class="input_text" name="location" placeholder="검색어를 입력하세요">
+                            <button class="Button" type="submit"><div class="searchBtn">검색</div></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            
+            <div class="main">
+                <h1>광장시장</h1>
+                <div class="pinfo">
+                    광장시장(廣藏市場)은 서울특별시 종로구 예지동에 위치한 시장이다. 100여년의 역사를 지닌 대한민국 최초의 상설시장이다.
+                </div>
+                <!-- 사진 -->
+                <div class="main_img">
+                    <table>
+                        <tr>
+                            <td><img alt="" src="" /></td>
+                            <td><img alt="" src="" /></td>
+                            <td><img alt="" src="" /></td>
+                        <tr>
+                      </table>
+                </div>
+                
+                <div class="main">
+                    <ul class="ullist">
+                        <ul class="ninfo">
+                            <li>주소 : 서울특별시 종로구 창경궁로 88</li>
+                            <li>전화 : 02-2267-0291</li>
+                            <li>사이트 : <a href="http://www.kwangjangmarket.co.kr/" target="_blank">http://www.kwangjangmarket.co.kr/</a></li>
+                            <li>운영시간 : </li>
+                        </ul>
+                        <li>
+                            <h2 style="margin-top:50px;">오시는길</h2>
+                        </li>
+                        <ul class="ninfo">
+                            <li><b>지하철</b>
+                                <ul>
+                                    <li>
+                                        1호선 | 종로5가역 8번 출구
+                                    </li>
+                                    <li>
+                                        2호선 | 을지로4가역 4번 출구 100m
+                                    </li>
+                                    <li>
+                                        5호선 | 을지로4가역 4번 출구 100m
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

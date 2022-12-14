@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>ComforTravel</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <div class="search">
+                <div class="search_box">
+                    <h1 class="logo">ComforTravel</h1>
+                    <div class="window">
+                        <form action="/applysearch" method="GET">
+                            <input type="text" id="fname" class="input_text" name="location" placeholder="검색어를 입력하세요">
+                            <button class="Button" type="submit"><div class="searchBtn">검색</div></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            
+            <div class="main">
+                <h1>예술의 전당</h1>
+                <div class="pinfo">
+                    <b>세계적인 예술가들의 공연과 전시를 즐길 수 있는 대한민국 최초 복합아트센터.</b><Br/><br/> 
+                    음악당과 콘서트홀, 극장을 중심으로 오페라, 발레, 관현악, 합창뿐 아니라 한가람미술관, 
+                    세계 유일 서예 전문 전시 공간인 서울서예박물관 등에서 주최하는 국내외 유수한 작가들의 회화, 조형물 기획 전시까지 
+                    장르를 가리지 않고 양질의 공연, 전시 콘텐츠를 제공한다.
+                </div>
+                <!-- 사진 -->
+                <div class="main_img">
+                    <table>
+                        <tr>
+                          <td><img alt="" src="https://ldb-phinf.pstatic.net/20140407_101/1396854505015dsETb_JPEG/%BC%AD%BF%EF_%BF%B9%BC%FA%C0%C7%C0%FC%B4%E7_16.JPG?type=m500_500" /></td>
+                          <td><img alt="" src="https://ldb-phinf.pstatic.net/20140407_279/1396854510876rE3dP_JPEG/%BC%AD%BF%EF_%BF%B9%BC%FA%C0%C7%C0%FC%B4%E7_9.JPG?type=m500_500" /></td>
+                          <td><img alt="" src="https://ldb-phinf.pstatic.net/20150831_25/1441007000869EPNSP_JPEG/11621559_3.jpg" /></td>
+                        <tr>
+                      </table>
+                </div>
+                
+                <div class="main">
+                    <ul class="ullist">
+                        <ul class="ninfo">
+                            <li>주소 : 서울특별시 서초구 남부순환로 2406</li>
+                            <li>전화 : 02-580-1300</li>
+                            <li>사이트 : <a href="www.sac.or.kr" target="_blank">www.sac.or.kr</a></li>
+                            <li>운영시간 : 월, 화, 목, 금, 일요일 10:00 ~ 18:00 <br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;수, 토요일 10:00 ~ 21:00 (18:00 ~ 21:00 야간개장)<br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:red;">휴관일 : 1월 1일, 설날, 추석</span><br/>
+                            </li>
+                            <li>관람료 : 4,000원 (수, 토 야간개장 시 무료관람)<br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;무료대상 : 홈페이지 <a href="http://www.mmca.go.kr/" target="_blank">(http://www.mmca.go.kr/)</a> 참조
+                            </li>
+                        </ul>
+                        <li>
+                            <h2 style="margin-top:50px;">행사/전시</h2>
+                        </li>
+                        <ul class="ninfo">
+                            <li><b>전시</b>
+                                <ul>
+                                    <li>
+                                        예술의 전당<a href="https://www.sac.or.kr/site/main/program/schedule">(www.sac.or.kr)</a> 홈페이지 참조
+                                    </li>
+                                </ul>                               
+                            </li>
+                        </ul>
+                        <li>
+                            <h2 style="margin-top:50px;">오시는길</h2>
+                        </li>
+                        <ul class="ninfo">
+                            <li><b>지하철</b>
+                                <ul>
+                                    <li>
+                                        2호선 | 서초역 3번 출구
+                                    </li>
+                                    <li>
+                                        3호선 | 남부터미널역 5번 출구
+                                    </li>
+                                    <li>
+                                        4호선 | 사당역 1번 출구
+                                    </li>
+                                </ul>
+                            </li>
+                            <br/>
+                            <li><b>버스</b>
+                                <ul>
+                                    <li>
+                                        간선
+                                        <ul>
+                                            <li>
+                                                405, 406
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        지선
+                                        <ul>
+                                            <li>
+                                                5413
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>직행
+                                        <ul>
+                                            <li>
+                                                1500-2, 1553
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>마을
+                                        <ul>
+                                            <li>
+                                                서초11, 서초17, 서초22
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

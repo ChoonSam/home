@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>ComforTravel</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <div class="search">
+                <div class="search_box">
+                    <h1 class="logo">ComforTravel</h1>
+                    <div class="window">
+                        <form action="/applysearch" method="GET">
+                            <input type="text" id="fname" class="input_text" name="location" placeholder="검색어를 입력하세요">
+                            <button class="Button" type="submit"><div class="searchBtn">검색</div></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            
+            <div class="main">
+                <h1>몽촌토성</h1>
+                <div class="pinfo">
+                    <b>한강의 지류인 성내천 남쪽에 있으며, 둘레가 약 2.7㎞ 되는 백제 전기의 토성이다. </b><br/>
+                    자연 지형을 이용해 진흙으로 성벽을 쌓고, 나무 울타리로 목책을 세웠던 흔적도 확인되었다. 
+                    자연 암반층을 급경사로 깎아 만들기도 하였으며, 성을 둘러싼 물길인 해자도 확인되었다. 조사 결과 문터와 집자리, 저장용 구덩이가 확인되었고, 
+                    출토유물로는 동전무늬가 찍힌 자기조각과 여러 종류의 토기류, 철제 무기류 등이 나왔다. 특히 동전무늬가 찍힌 자기조각은 중국 서진(265∼316)대의 
+                    유물이어서 시대 확인에 있어 중요한 역할을 한다. 성의 위치·규모·출토유물로 볼 때 백제 초기 군사적·문화적 성격을 살필 수 있는 유적이며, 
+                    주변에 풍납토성과 백제 석촌동 무덤들을 비롯한 백제 전기의 유적이 있어 역사적으로도 가치있는 곳이다.
+
+
+                </div>
+                <!-- 사진 -->
+                <div class="main_img">
+                    <table>
+                        <tr>
+                          <td><img alt="" src="https://ldb-phinf.pstatic.net/20140407_6/1396856771502WMYLe_JPEG/%BC%AD%BF%EF_%B8%F9%C3%CC%C5%E4%BC%BA_10.jpg?type=m500_500" /></td>
+                          <td><img alt="" src="https://ldb-phinf.pstatic.net/20140407_186/13968567718357aYsN_JPEG/%BC%AD%BF%EF_%B8%F9%C3%CC%C5%E4%BC%BA_12.jpg?type=m500_500" /></td>
+                          <td><img alt="" src="https://ldb-phinf.pstatic.net/20140407_104/1396856774045Tsao6_JPEG/%BC%AD%BF%EF_%B8%F9%C3%CC%C5%E4%BC%BA_5.jpg?type=m500_500" /></td>
+                        <tr>
+                      </table>
+                </div>
+                
+                <div class="main">
+                    <ul class="ullist">
+                        <ul class="ninfo">
+                            <li>주소 : 서울특별시 송파구 올림픽로 424 올림픽공원</li>
+                            <li>전화 : 02-2147-2001</li>
+                            
+                            <!-- <li>관람시간 : 09:00 ~ 18:00(입장마감 17:50)<br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:red;">매주 월요일은 휴무입니다.</span>
+                            </li> -->
+                            <!-- <li>관람료<br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;〉내국인 : 만25세 ~ 만64세 : 1,000원<br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;만24세 이하 및 만 65세 이상 : 무료<br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;매월 마지막 수요일 [문화가 있는 날] : 무료<br/><br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;〉외국인 : 만19세 ~ 만64세 : 1,000원<br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;만7세 ~ 만18세 : 500원<br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;만6세 이하 및 만 65세 이상 : 무료<br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;매월 마지막 수요일 [문화가 있는 날] : 무료<br/><br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;〉특별권 : 홈페이지 참고바람<br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;〉종로구 주민 50% 할인<br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;※ 할인 대상자는 반드시 신분증 또는 등본 등의 증빙서류 제시
+                            </li> -->
+                        </ul>
+                        <li>
+                            <h2 style="margin-top:50px;">오시는길</h2>
+                        </li>
+                        <ul class="ninfo">
+                            <li><b>지하철</b>
+                                <ul>
+                                    <li>
+                                        5호선 | 올림픽공원역 3번 출구 도보 15분
+                                    </li>
+                                    <li>
+                                        8호선 | 몽촌토성역 1번 출구
+                                    </li>
+                                </ul>
+                            </li>
+                            <br/>
+                            <li><b>버스</b>
+                                <ul>
+                                    <li>
+                                        지선
+                                        <ul>
+                                            <li>
+                                                3321
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <br/>
+                            
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

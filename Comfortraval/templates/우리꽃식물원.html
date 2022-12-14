@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>ComforTravel</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <div class="search">
+                <div class="search_box">
+                    <h1 class="logo">ComforTravel</h1>
+                    <div class="window">
+                        <form action="/applysearch" method="GET">
+                            <input type="text" id="fname" class="input_text" name="location" placeholder="검색어를 입력하세요">
+                            <button class="Button" type="submit"><div class="searchBtn">검색</div></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            
+            <div class="main">
+                <h1>우리꽃 식물원</h1>
+                <div class="pinfo">
+                    우리나라 금수강산을 표현한 석산과 한옥형태의 사계절관, 야외화단, 석림원 등 총 128,312 ㎡ 부지에 1,100여종의 식물들을 사계절 즐길 수 있는 식물원입니다. 여러 볼거리와 웃음만발 놀이숲, 은행나무 산책로, 솔숲쉼터에서 가족, 연인들이 아름다운 자연을 만끽하고 우리꽃의 소중함도 느낄 수 있는 공간입니다.
+                </div>
+                <!-- 사진 -->
+                <div class="main_img">
+                    <table>
+                        <tr>
+                            <td><img alt="" src="" /></td>
+                            <td><img alt="" src="" /></td>
+                            <td><img alt="" src="" /></td>
+                        <tr>
+                      </table>
+                </div>
+                
+                <div class="main">
+                    <ul class="ullist">
+                        <ul class="ninfo">
+                            <li>주소 : 경기 화성시 팔탄면 3.1만세로 777-17 우리꽃식물원</li>
+                            <li>전화 : 031-5189-6160</li>
+                            <li>사이트 :  <a href="https://botanic.hscity.go.kr/botanic/index.jsp" target="_blank">https://botanic.hscity.go.kr/botanic/index.jsp</a></li>
+                        <li>운영시간 : 3월-10월 09:00 ~ 18:00 | 11월-2월 09:00 ~ 17:00 | 매주 월요일 정기휴무</li>
+                        </ul>
+                        <li>
+                            <h2 style="margin-top:50px;">오시는길</h2>
+                        </li>
+                        <ul class="ninfo">
+                            <li><b>지하철</b>
+                                <ul>
+                                    <li>
+                                        5호선 | 수원역 | 병점역
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><b>버스</b>
+                                <ul>
+                                    <li>
+                                        일반 | 34, 34-1
+                                    </li>
+                                    <li>
+                                        광역 | 1111, 8155, 9802
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

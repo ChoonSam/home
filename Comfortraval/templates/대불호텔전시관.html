@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>ComforTravel</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <div class="search">
+                <div class="search_box">
+                    <h1 class="logo">ComforTravel</h1>
+                    <div class="window">
+                        <form action="/applysearch" method="GET">
+                            <input type="text" id="fname" class="input_text" name="location" placeholder="검색어를 입력하세요">
+                            <button class="Button" type="submit"><div class="searchBtn">검색</div></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            
+            <div class="main">
+                <h1>대불호텔전시관</h1>
+                <div class="pinfo">
+                    대불호텔은 개항 후, 인천항을 통해 입국한 외국인들이 서울로 가기 전 묵었던 조선 최초의 호텔입니다. 대불호텔 전시관에서 대불호텔의 역사를 알아보고 호텔 객실을 재현한 모습을 볼 수 있습니다.
+                </div>
+                <!-- 사진 -->
+                <div class="main_img">
+                    <table>
+                        <tr>
+                            <td><img alt="" src="https://www.icjg.go.kr/humanframe/theme/culture/assets/images/story/01openport/daebulhotel/img-daebulhotel2.jpg" /></td>
+                            <td><img alt="" src="https://www.icjg.go.kr/humanframe/theme/culture/assets/images/story/01openport/daebulhotel/img-daebulhotel3.jpg" /></td>
+                            <td><img alt="" src="https://www.icjg.go.kr/humanframe/theme/culture/assets/images/story/01openport/daebulhotel/img-daebulhotel8.jpg" /></td>
+                        <tr>
+                      </table>
+                </div>
+                
+                <div class="main">
+                    <ul class="ullist">
+                        <ul class="ninfo">
+                            <li>주소 : 인천광역시 중구 신포로23번길 97</li>
+                            <li>전화 : 032-766-2202</li>
+                            <li>사이트 :  <a href="https://www.icjg.go.kr/tour/cttu0101a14" target="_blank">https://www.icjg.go.kr/tour/cttu0101a14</a></li>
+                        <li>운영시간 : </li>
+                        </ul>
+                        <li>
+                            <h2 style="margin-top:50px;">오시는길</h2>
+                        </li>
+                        <ul class="ninfo">
+                            <li><b>지하철</b>
+                                <ul>
+                                    <li>
+                                        1호선 | 인천역 1번 출구 401m
+                                    </li>
+                                    <li>
+                                        수인분당선 | 인천역 1번 출구 401m
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

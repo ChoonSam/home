@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>ComforTravel</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <div class="search">
+                <div class="search_box">
+                    <h1 class="logo">ComforTravel</h1>
+                    <div class="window">
+                        <form action="/applysearch" method="GET">
+                            <input type="text" id="fname" class="input_text" name="location" placeholder="검색어를 입력하세요">
+                            <button class="Button" type="submit"><div class="searchBtn">검색</div></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            
+            <div class="main">
+                <h1>여의도 한강공원</h1>
+                <div class="pinfo">
+                    여의도한강공원은 정치, 금융, 언론의 중심지인 여의도에 자리하고 지하철, 버스 등 대중교통으로 접근성이 좋아 직장인과 일반시민들이 즐겨찾는 명소이자 봄꽃축제, 세계불꽃축제, 각종 공연 및 마라톤행사 등 다양한 행사가 이어져 볼거리와 즐길거리가 풍부한 휴식공간입니다. 또한 밤섬, 여의도 샛강 등이 비교적 자연그대로 보존되어 있어 생태학습장 및 자연친화형 공원으로 조성되어 있습니다.
+                </div>
+                <!-- 사진 -->
+                <div class="main_img">
+                    <table>
+                        <tr>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20140407_219/139685632105192M9n_JPEG/%BC%AD%BF%EF_%C7%D1%B0%AD%BD%C3%B9%CE%B0%F8%BF%F8%BF%A9%C0%C7%B5%B5%C1%F6%B1%B8_13.JPG?type=m500_500" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20140407_279/1396856324105iMLDe_JPEG/%BC%AD%BF%EF_%C7%D1%B0%AD%BD%C3%B9%CE%B0%F8%BF%F8%BF%A9%C0%C7%B5%B5%C1%F6%B1%B8_18.JPG?type=m500_500" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20140407_49/1396856319740JzHko_JPEG/%BC%AD%BF%EF_%C7%D1%B0%AD%BD%C3%B9%CE%B0%F8%BF%F8%BF%A9%C0%C7%B5%B5%C1%F6%B1%B8_1.JPG?type=m500_500" /></td>
+                        <tr>
+                      </table>
+                </div>
+                
+                <div class="main">
+                    <ul class="ullist">
+                        <ul class="ninfo">
+                            <li>주소 : 서울 영등포구 여의동로 330</li>
+                            <li>전화 : 02-3780-0561</li>
+                            <li>사이트 : <a href="https://hangang.seoul.go.kr/archives/46758" target="_blank">https://hangang.seoul.go.kr/archives/46758</a></li>
+                        </ul>
+                        <li>
+                            <h2 style="margin-top:50px;">시설</h2>
+                        </li>
+                        <ul class="ninfo">
+                            <li><b>한강르네상스 특화사업 등으로 새로 조성된 시설물</b>
+                                <ul>
+                                    <li>
+                                        물빛광장, 수상무대 및 수상분수, 빛의폭포, 너른들판, 천상계단, 피아노물길, 광역여객선선착장
+                                    </li>
+                                    <li>
+                                        친수형스탠드, 페스티발랜드, 자연형 호안, 서울색공원
+                                    </li>
+                                    <li>
+                                        요트마리나, 샛강 상·하류 IC, 샛강 생태공원 방문자센터 등
+                                    </li>
+                                    <li>
+                                        샛강 문화의 다리
+                                    </li>
+                                </ul>                               
+                            </li>
+                            <br/>
+                            <li><b>공원도로</b>
+                                <ul>
+                                    <li>
+                                        자전거도로(4km), 보행자전용도로(산책로)
+                                    </li>
+                                </ul>
+                            </li>
+                            <br/>
+                            <li><b>광장</b>
+                                <ul>
+                                    <li>
+                                        너른들판, 멀티플라자, 여의마당, 버들광장, 민속마당, 잔디마당 등
+                                    </li>
+                                </ul>
+                            </li>
+                            <br/>
+                            <li><b>자전거대여점</b>
+                                <ul>
+                                    <li>
+                                        위치 : 원효대교, 마포대교 하류
+                                    </li>
+                                    <li>
+                                        운영시간 : 09:00 ~ 일몰시 까지 (월별 탄력적 이용)
+                                    </li>
+                                    <li>
+                                        1인용 : 1시간당 3,000원(15분 초과시 마다 500원 추가)
+                                    </li>
+                                    <li>
+                                        2인용 : 1시간당 6,000원(15분 초과시 마다 1,000원 추가)
+                                    </li>
+                                    <li>
+                                        <a href="https://hangang.seoul.go.kr/archives/46889">(자전거 대여점 정보 및 요금 안내 바로가기)</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <br/>
+                            <li><b>샛강 생태공원</b>
+                                <ul>
+                                    <li>
+                                        방문자센터(생태프로그램 운영), 여의마당, 민속마당, 버들광장, 여의못, 생태연못, 창포원, 버들숲, 수질정화원, 물억새마당 등
+                                    </li>
+                                    <li>
+                                        일출 후부터 일몰 전까지 자유롭게 이용할 수 있습니다. <a href="https://hangang.seoul.go.kr/archives/316">(여의도샛강 생태공원 안내 바로가기)</a>
+                                    </li>
+                                    <li>
+                                        생태교육 프로그램 참여를 원하는 경우에는 미리 인터넷 예약해야 합니다. <a href="https://hangang.seoul.go.kr/archives/2505">(생태프로그램 예약 안내 바로가기)</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <br/>
+                            <li><b>수영장</b>
+                                <ul>
+                                    <li>
+                                        수용인원 3,600명(7월~8월 개장)<a href="https://hangang.seoul.go.kr/archives/46886">(수영장·물놀이장 소개 바로가기)</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <br/>
+                            <li><b>운동시설</b>
+                                <ul>
+                                    <li>
+                                        축구장 2면, 족구장 3면 <a href="https://hangang.seoul.go.kr/archives/2413" target="_blank">(체육시설 이용 안내 바로가기)</a>
+                                    </li>
+                                    <li>
+                                        여의도 인라인스케이트장1(서강대교 교각 밑, 5,320㎡), 게이트볼장2면
+                                    </li>
+                                    <li>
+                                        체력단련장2, 다목적운동장
+                                    </li>
+                                </ul>                               
+                            </li>
+                            <br/>
+                            <li><b>수상시설</b>
+                                <ul>
+                                    <li>
+                                        이랜드크루즈(원효대교 밑) - 유람선, 레스토랑, 편의점
+                                    </li>
+                                    <li>
+                                        파라다이스(원효대교 밑) - 오리배, 모터보트, 레스토랑
+                                    </li>
+                                    <li>
+                                        마리나요트장, 수상무대, 수상분수, 여객선선착장, 유람선선착장, 119수난구조대, 관공선 선착장
+                                    </li>
+                                </ul>                               
+                            </li>
+                            <br/>
+                            <li><b>여의도 물빛무대(수상무대)</b>
+                                <ul>
+                                    <li>
+                                        위치 : 마포대교 하류
+                                    </li>
+                                    <li>
+                                        4~10월 매주 금, 토요일 저녁 음악공연, 영화상영, 레이져분수쇼 등 진행(동절기 제외)
+                                    </li>
+                                </ul>
+                            </li>
+                            <br/>
+                            <li><b>놀이시설</b>
+                                <ul>
+                                    <li>
+                                        어린이놀이터(원효대교 하류)
+                                    </li>
+                                </ul>
+                            </li>
+                            <br/>
+                            <li><b>낚시</b>
+                                <ul>
+                                    <li>
+                                        여의도한강시민공원은 전지역이 낚시 금지 구역으로 지정되어 있습니다.
+                                    </li>
+                                    <li>
+                                        <a href="https://hangang.seoul.go.kr/archives/46872">(한강낚시 금지 및 제한사항 안내 바로가기)</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <br/>
+                            <li><b>편의시설</b>
+                                <ul>
+                                    <li>
+                                        음수대20, 그늘막34, 의자415 등
+                                    </li>
+                                    <li>
+                                        유모차 및 휠체어 무료 대여
+                                        <ul>
+                                            <li>
+                                                대여위치 : 여의도안내센터
+                                            </li>
+                                            <li>
+                                                이용시간 : 09:00 ~ 18:00
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <br/>
+                        </ul>
+                        <li>
+                            <h2 style="margin-top:50px;">오시는길</h2>
+                        </li>
+                        <ul class="ninfo">
+                            <li><b>지하철</b>
+                                <ul>
+                                    <li>
+                                        5호선 | 여의나루역 2,3번 출구
+                                    </li>
+                                    <li>
+                                        9호선 | 샛강역 4번 출구 | 여의도역 1번 출구
+                                    </li>
+                                </ul>
+                            </li>
+                            <br/>
+                            <li><b>버스</b>
+                                <ul>
+                                    <li>
+                                        간선
+                                        <ul>
+                                            <li>
+                                                10, 261, 262, 360, 461, 662, 753, 108, 700, 5534, 5615, 5618, 5633, 6623, 7611, 7613, 7007-1
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        마을
+                                        <ul>
+                                            <li>
+                                                영등포10, 영등포11
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li><br/>
+                            <li><b>주차장</b>
+                                <ul>
+                                    <li>
+                                        주차장 수 : 5개소(여의도1주차장, 여의도2주차장, 여의도3주차장, 여의도4주창, 여의도5주차장)
+                                    </li>
+                                    <li>
+                                        이용시간 : 오전 6시 ~ 오후 12시
+                                    </li>
+                                    <li>
+                                        주차요금
+                                        <ul>
+                                            <li>
+                                                기본요금 : 최초 30분 1,000원
+                                            </li>
+                                            <li>
+                                                초과 10분당 200원
+                                            </li>
+                                            <li>
+                                                1일 주차 최고한도 10,000원
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

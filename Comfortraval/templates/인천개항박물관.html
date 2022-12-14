@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>ComforTravel</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <div class="search">
+                <div class="search_box">
+                    <h1 class="logo">ComforTravel</h1>
+                    <div class="window">
+                        <form action="/applysearch" method="GET">
+                            <input type="text" id="fname" class="input_text" name="location" placeholder="검색어를 입력하세요">
+                            <button class="Button" type="submit"><div class="searchBtn">검색</div></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            
+            <div class="main">
+                <h1>인천개항박물관</h1>
+                <div class="pinfo">
+                    인천광역시 유형문화제 제7호로 지정되어있는 인천개항박물관은 옛 일본 제1은행 인천지점 건물로 중앙 돔형식의 후기 르네상스 양식 석조건축물로 건축된 근대건축물입니다. 총 4개의 상설전시실로 구성되어 개항 이후 인천항을 통해 처음 유입된 근대문물들을 직접 관람하며 확인할 수 있습니다
+                </div>
+                <!-- 사진 -->
+                <div class="main_img">
+                    <table>
+                        <tr>
+                            <td><img alt="" src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAxNjEyMzBfMjkw%2FMDAxNDgzMDMwNDk5MTA0.0gjjKGb-MHlO4ugSITy1WdX3plftRr6X9tA2j7okXNEg.CfBAtX3D79UNyYfOypuF3ht2AfolC-ppHAhADcv1DXog.JPEG.bl85219%2FDSC_8581_-_%25BA%25B9%25BB%25E7%25BA%25BB.jpg%231336x891" /></td>
+                            <td><img alt="" src="" /></td>
+                            <td><img alt="" src="" /></td>
+                        <tr>
+                      </table>
+                </div>
+                
+                <div class="main">
+                    <ul class="ullist">
+                        <ul class="ninfo">
+                            <li>주소 : 인천 중구 신포로23번길 89</li>
+                            <li>전화 : 032-764-0488</li>
+                            <li>사이트 :  <a href="https://ijcf.or.kr/load.asp?subPage=522.04" target="_blank">https://ijcf.or.kr/load.asp?subPage=522.04</a></li>
+                        <li>운영시간 : 09:00 ~ 18:00 | 매주 월요일 정기휴무</li>
+                        </ul>
+                        <li>
+                            <h2 style="margin-top:50px;">오시는길</h2>
+                        </li>
+                        <ul class="ninfo">
+                            <li>
+                                <b>지하철</b>
+                                <ul>
+                                    <li>
+                                        1호선 | 인천역 도보 5분
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>ComforTravel</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <div class="search">
+                <div class="search_box">
+                    <h1 class="logo">ComforTravel</h1>
+                    <div class="window">
+                        <form action="/applysearch" method="GET">
+                            <input type="text" id="fname" class="input_text" name="location" placeholder="검색어를 입력하세요">
+                            <button class="Button" type="submit"><div class="searchBtn">검색</div></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            
+            <div class="main">
+                <h1>에버랜드</h1>
+                <div class="pinfo">
+                    마음속에 품고 있는 “소중한 가치”를 담아 모두와 함께 나눌 행복이 머무는 곳, 그 곳이 바로 에버랜드입니다. 에버랜드는 글로벌 페어, 아메리칸 어드벤처, 매직랜드, 유러피언 어드벤처, 주토피아로 구분되어 5개의 행복의 공간으로 구성되어 있습니다.
+                </div>
+                <!-- 사진 -->
+                <div class="main_img">
+                    <table>
+                        <tr>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20220304_149/1646361473513nkMxU_JPEG/1.T%C0%CD%BD%BA%C7%C1%B7%B9%BD%BA_001.jpg" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20220304_289/16463614733855qwJA_JPEG/9.%B4%D9%BF%EE%B7%CE%B5%E5_%282%29.jpg" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20220304_281/1646361473486Y1zow_JPEG/11.%B9%AE%B6%F3%C0%CC%C6%AE_%C6%F7%C5%E4%C6%C4%C6%BC.jpg" /></td>
+                        <tr>
+                      </table>
+                </div>
+                
+                <div class="main">
+                    <ul class="ullist">
+                        <ul class="ninfo">
+                            <li>주소 : 경기 용인시 처인구 포곡읍 에버랜드로 199</li>
+                            <li>전화 : 031-320-5000</li>
+                            <li>사이트 : <a href="http://everland.com/" target="_blank">http://everland.com/</a></li>
+                            <li>운영시간 : 10:00 ~ 22:00</li>
+                        </ul>
+                        <li>
+                            <h2 style="margin-top:50px;">오시는길</h2>
+                        </li>
+                        <ul class="ninfo">
+                            <li><b>지하철</b>
+                                <ul>
+                                    <li>
+                                        경전철 | 에버라인
+                                    </li>
+                                </ul>
+                            </li><br/>
+                            <li><b>버스</b>
+                                <ul>
+                                    <li>
+                                        광역 | 1113, 1500-2, 5002, 5700
+                                    </li>
+                                    <li>
+                                        직행 | 8839, 8862
+                                    </li>
+                                    <li>
+                                        일반 | 66, 66-4, 670
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

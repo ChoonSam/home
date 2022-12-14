@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>ComforTravel</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <div class="search">
+                <div class="search_box">
+                    <h1 class="logo">ComforTravel</h1>
+                    <div class="window">
+                        <form action="/applysearch" method="GET">
+                            <input type="text" id="fname" class="input_text" name="location" placeholder="검색어를 입력하세요">
+                            <button class="Button" type="submit"><div class="searchBtn">검색</div></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            
+            <div class="main">
+                <h1>석촌호수공원</h1>
+                <div class="pinfo">
+                    한성과 충청도, 전라도, 경상도로 이어지는 중요한 뱃길의 요지인 송파나루터가 있었던 곳, 호수와 공원으로 조성되어 시민들의 휴식 공간으로 이용되고 있다.
+                </div>
+                <!-- 사진 -->
+                <div class="main_img">
+                    <table>
+                        <tr>
+                          <td><img alt="" src="https://ldb-phinf.pstatic.net/20190526_274/1558857372748NcJ3A_JPEG/GoKL7wK0asZWJ2muQHQJTGVz.jpeg.jpg" /></td>
+                          <td><img alt="" src="https://ldb-phinf.pstatic.net/20190526_204/1558857381718Qzpnu_JPEG/19un4Rh0YRAWYnxgn74s1bf7.jpeg.jpg" /></td>
+                          <td><img alt="" src="https://ldb-phinf.pstatic.net/20140407_167/1396856692374VDMRt_JPEG/%BC%AD%BF%EF_%BC%AE%C3%CC%C8%A3%BC%F6%28%B0%A1%C0%BB%29_6.JPG?type=m500_500" /></td>
+                        <tr>
+                      </table>
+                </div>
+                
+                <div class="main">
+                    <ul class="ullist">
+                        <ul class="ninfo">
+                            <li>주소 : 서울 송파구 잠실동</li>
+                            <li>전화 : 02-412-0190</li>
+                            <li>운영시간 : 24시간 연중무휴</li>
+                        </ul>
+                        
+                        <li>
+                            <h2 style="margin-top:50px;">오시는길</h2>
+                        </li>
+                        <ul class="ninfo">
+                            <li><b>지하철</b>
+                                <ul>
+                                    <li>
+                                        2호선 | 잠실역 2, 3번 출구 200m
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

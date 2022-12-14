@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>ComforTravel</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <div class="search">
+                <div class="search_box">
+                    <h1 class="logo">ComforTravel</h1>
+                    <div class="window">
+                        <form action="/applysearch" method="GET">
+                            <input type="text" id="fname" class="input_text" name="location" placeholder="검색어를 입력하세요">
+                            <button class="Button" type="submit"><div class="searchBtn">검색</div></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            
+            <div class="main">
+                <h1>북촌 한옥마을</h1>
+                <div class="pinfo">
+                    대청에 유리문을 달고, 처마에 잇대어 함석 챙을 다는 등, 새로운 재료를 사용한 북촌의 한옥은 전통적인 한옥이 갖고 있는 유형적 성격을 잃지 않으면서, 근대적인 도시조직에 적응하여 새로운 도시주택유형 으로 진화했다는 점에 주목할 수 있다. 북촌의 한옥은 한옥을 대량으로 지어야 하기 때문에 목재소에서 공급되는 표준화된 목재를 효율적으로 사용하였으며, 전체적으로 전통한옥의 특성을 유지하고 있으면서, 새로운 조건에 적응하며 새로운 도시 주택유형으로 정착되었다. 북촌 한옥의 특징은 크게 '진화된 구법'과 '장식화 경향'이라는 두 가지로 정의할 수 있다. 낮은 지붕물매, 굴도리, 겹처마, 좁은 주간에 많은 칸수 등 전통한옥과 배교할 때 비록 온전히 품격을 갖추지 못했지만, 북촌한옥에는 한옥의 구성과 아름다움이 응축되어 있다. 당시의 한옥 분양광고에서 볼 수 있듯, 밀도와 익명성에 대한 도시주택으로서의 요구를 반영하며 북촌의 한옥은 당시의 새로운 도시주택유형으로 정착되어 오늘에 이르렀다.
+                </div>
+                <!-- 사진 -->
+                <div class="main_img">
+                    <table>
+                        <tr>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20140407_107/13968560141817GJAo_JPEG/%BC%AD%BF%EF_%BA%CF%C3%CC%C7%D1%BF%C1%B8%B6%C0%BB_13.jpg?type=m500_500" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20140407_118/1396856013658RKzfL_JPEG/%BC%AD%BF%EF_%BA%CF%C3%CC%C7%D1%BF%C1%B8%B6%C0%BB_1.jpg?type=m500_500" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20140407_95/1396856014079kkFbD_JPEG/%BC%AD%BF%EF_%BA%CF%C3%CC%C7%D1%BF%C1%B8%B6%C0%BB_12.jpg?type=m500_500" /></td>
+                        <tr>
+                      </table>
+                </div>
+                
+                <div class="main">
+                    <ul class="ullist">
+                        <ul class="ninfo">
+                            <li>주소 : 서울 종로구 계동길 37</li>
+                            <li>전화 : 02-2133-1372</li>
+                            <li>사이트 : <a href="https://hanok.seoul.go.kr/front/index.do" target="_blank">https://hanok.seoul.go.kr/front/index.do</a></li>
+                            <li>운영시간 : </li>
+                        </ul>
+                        <li>
+                            <h2 style="margin-top:50px;">오시는길</h2>
+                        </li>
+                        <ul class="ninfo">
+                            <li><b>지하철</b>
+                                <ul>
+                                    <li>
+                                        3호선 | 안국역 2번 출구
+                                    </li>
+                                </ul>
+                            </li><br/>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

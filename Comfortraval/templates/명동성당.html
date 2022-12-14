@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>ComforTravel</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <div class="search">
+                <div class="search_box">
+                    <h1 class="logo">ComforTravel</h1>
+                    <div class="window">
+                        <form action="/applysearch" method="GET">
+                            <input type="text" id="fname" class="input_text" name="location" placeholder="검색어를 입력하세요">
+                            <button class="Button" type="submit"><div class="searchBtn">검색</div></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            
+            <div class="main">
+                <h1>명동성당</h1>
+                <div class="pinfo">
+                    서울특별시 중구 명동에 있는 한국 천주교 서울대교구 주교좌 성당. 1977년 11월 22일 사적으로 지정되었다.
+                </div>
+                <!-- 사진 -->
+                <div class="main_img">
+                    <table>
+                        <tr>
+                          <td><img alt="" src="https://ldb-phinf.pstatic.net/20150901_101/1441038042127bwdJK_JPEG/11781308_0.jpg" /></td>
+                          <td><img alt="" src="#" /></td>
+                          <td><img alt="" src="#" /></td>
+                        <tr>
+                      </table>
+                </div>
+                
+                <div class="main">
+                    <ul class="ullist">
+                        <ul class="ninfo">
+                            <li>주소 : 서울시 중구 명동길 74</li>
+                            <li>전화 : 02-774-1784</li>
+                            <li>사이트 : <a href="http://www.mdsd.or.kr/" target="_blank">http://www.mdsd.or.kr/</a></li>
+                            <!-- <li>
+                                운영시간
+                            </li> -->
+                            <!-- <li>
+                                관람료
+                            </li> -->
+                        </ul>
+                        
+                        <li>
+                            <h2 style="margin-top:50px;">오시는길</h2>
+                        </li>
+                        <ul class="ninfo">
+                            <li><b>지하철</b>
+                                <ul>
+                                    <li>
+                                        2호선 | 을지로입구역 5번 출구
+                                    </li>
+                                    <li>
+                                        3호선 | 을지로3가역 12번 출구
+                                    </li>
+                                    <li>
+                                        4호선 | 명동역 8, 5번 출구
+                                    </li>
+                                </ul>
+                            </li>
+                            <br/>
+                            <li><b>버스</b>
+                                <ul>
+                                    <li>
+                                        간선
+                                        <ul>
+                                            <li>
+                                                100, 105, 152, 202, 261, 140, 470, 472, 741
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        광역
+                                        <ul>
+                                            <li>
+                                                1150, 3201, 4108, 5000A, 5005, 5007, 5500-2, 8100, 8800, 9000, 9000-1, 9003, 9200, 9300, G8110, 9401, M4101, M4102, M4108, M4130, M4137, M5107, M5115, M5121
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

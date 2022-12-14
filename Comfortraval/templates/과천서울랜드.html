@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>ComforTravel</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <div class="search">
+                <div class="search_box">
+                    <h1 class="logo">ComforTravel</h1>
+                    <div class="window">
+                        <form action="/applysearch" method="GET">
+                            <input type="text" id="fname" class="input_text" name="location" placeholder="검색어를 입력하세요">
+                            <button class="Button" type="submit"><div class="searchBtn">검색</div></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            
+            <div class="main">
+                <h1>과천 서울랜드</h1>
+                <div class="pinfo">
+                    <b>1988년 5월에 개장한 국내 최초의 테마파크로 세계의 광장, 모험의 나라, 미래의 나라 등 각각 독특한 테마로 구성되어 있다.</b>
+                </div>
+                <!-- 사진 -->
+                <div class="main_img">
+                    <table>
+                        <tr>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20150206_149/1423206263185bkw2s_JPEG/%B0%E6%B1%E2_%B0%FA%C3%B5%BC%AD%BF%EF%B7%A3%B5%E5_1.JPG?type=m500_500" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20150206_266/1423206264634yGV1h_JPEG/%B0%E6%B1%E2_%B0%FA%C3%B5%BC%AD%BF%EF%B7%A3%B5%E5_13.JPG?type=m500_500" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20150206_63/1423206272219mn4Ur_JPEG/%B0%E6%B1%E2_%B0%FA%C3%B5%BC%AD%BF%EF%B7%A3%B5%E5_8.JPG?type=m500_500" /></td>
+                        <tr>
+                      </table>
+                </div>
+                
+                <div class="main">
+                    <ul class="ullist">
+                        <ul class="ninfo">
+                            <li>주소 : 경기 과천시 광명로 181</li>
+                            <li>전화 : 02-509-6000</li>
+                            <li>사이트 : <a href="https://seoulland.co.kr/" target="_blank">https://seoulland.co.kr/</a></li>
+                            <li>운영시간 : 월~목 10:00 ~ 21:00 | 금 10:00 ~ 22:00 | 토,일 09:30 ~ 22:00</li>
+                        </ul>
+                        <li>
+                            <h2 style="margin-top:50px;">오시는길</h2>
+                        </li>
+                        <ul class="ninfo">
+                            <li><b>지하철</b>
+                                <ul>
+                                    <li>
+                                        4호선 | 대공원/서울랜드역 2번 출구
+                                    </li>
+                                </ul>
+                            </li><br/>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

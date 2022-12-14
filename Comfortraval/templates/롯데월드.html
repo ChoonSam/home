@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>ComforTravel</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <div class="search">
+                <div class="search_box">
+                    <h1 class="logo">ComforTravel</h1>
+                    <div class="window">
+                        <form action="/applysearch" method="GET">
+                            <input type="text" id="fname" class="input_text" name="location" placeholder="검색어를 입력하세요">
+                            <button class="Button" type="submit"><div class="searchBtn">검색</div></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            
+            <div class="main">
+                <h1>롯데월드</h1>
+                <div class="pinfo">
+                    서울특별시 송파구에 위치한 쇼핑몰. 더 넓게 보면 롯데월드타워와 롯데월드몰, 롯데월드 아쿠아리움, 롯데워터파크도 포함된다. 1989년 7월 12일에 실내 테마파크 롯데월드 어드벤처가 정식으로 개장하고, 1990년 3월 24일 호수공원 매직아일랜드가 개장하면서 완전한 모습을 갖추었다. 총 투자 비용은 6,500억원이며, 운영은 롯데그룹의 계열사인 호텔롯데의 월드사업부에서 하고 있다. 서울 지하철 2호선 및 8호선 잠실역과 지하통로로 연결되어 있으며, 3번 출구 및 4번 출구를 통해서도 지상으로 접근이 가능하다. 대한민국에서 최대규모의 쇼핑몰부터 시작해서 영화관, 테마파크까지 자연경관만을 제외한다면 없는게 없는 곳이다. 페라리 월드 다음으로 세계 최대 규모의 실내 테마파크인 어드벤처와 세계에서 다섯번 째로 가장 높은 마천루 빌딩인 롯데타워가 쌍두마차를 이루면서 OECD GDP순위 10위의 경제대국이자 선진국인 한국의 위엄을 보여준다.
+                </div>
+                <!-- 사진 -->
+                <div class="main_img">
+                    <table>
+                        <tr>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20220511_277/1652262862608SOmBc_JPEG/5.jpg" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20200617_141/15923595201971JAU4_JPEG/%BB%E7%C1%F8%BC%F8%BC%AD_17.jpg" /></td>
+                            <td><img alt="" src="https://naverbooking-phinf.pstatic.net/20220907_61/1662543791028wBWpN_JPEG/1.jpg" /></td>
+                        <tr>
+                      </table>
+                </div>
+                
+                <div class="main">
+                    <ul class="ullist">
+                        <ul class="ninfo">
+                            <li>주소 : 서울 송파구 올림픽로 240</li>
+                            <li>전화 : 1661-2000</li>
+                            <li>사이트 : <a href="https://adventure.lotteworld.com/kor/main/index.do" target="_blank">https://adventure.lotteworld.com/kor/main/index.do</a></li>
+                            <li>운영시간 : 매일 10:00 - 22:00</li>
+                        </ul>
+                        <li>
+                            <h2 style="margin-top:50px;">오시는길</h2>
+                        </li>
+                        <ul class="ninfo">
+                            <li><b>지하철</b>
+                                <ul>
+                                    <li>
+                                        2호선 | 잠실역 4번 출구
+                                    </li>
+                                    <li>
+                                        8호선 | 잠실역 4번 출구
+                                    </li>
+                                </ul>
+                            </li>
+                            <br/>
+                            <li><b>버스</b>
+                                <ul>
+                                    <li>
+                                        간선
+                                        <ul>
+                                            <li>
+                                                301, 341, 360, 362
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        지선
+                                        <ul>
+                                            <li>
+                                                3217, 3313, 3314, 3315, 3317, 3411, 3414, 4319
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        공항
+                                        <ul>
+                                            <li>
+                                                6000, 6006, 6705, 6706A
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li><br/>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

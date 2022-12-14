@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>ComforTravel</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <div class="search">
+                <div class="search_box">
+                    <h1 class="logo">ComforTravel</h1>
+                    <div class="window">
+                        <form action="/applysearch" method="GET">
+                            <input type="text" id="fname" class="input_text" name="location" placeholder="검색어를 입력하세요">
+                            <button class="Button" type="submit"><div class="searchBtn">검색</div></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            
+            <div class="main">
+                <h1>김포장릉</h1>
+                <div class="pinfo">
+                    선조의 5번째 아들이자 인조의 아버지인 원종(1580~1619)과 부인 인헌왕후(1578~1626)의 무덤이다. 인조반정(1623)으로 아들 능양군인 인조가 왕위에 오르자 대원군에 봉해졌고, 인조 10년(1633) 원종의 칭호와 함께 그의 무덤을 장릉으로 불렀다. 왕릉과 왕비릉이 나란히 있는 쌍릉으로, 병풍석이나 난간석은 설치하지 않고 보호석만 둘렀다. 무덤 아래에는 영조 29년(1753)에 세운 ‘조선국원종대왕장릉 인헌왕후부좌(朝鮮國元宗大王章陵 仁獻王后부左)’라고 새긴 비각이 있다.
+                </div>
+                <!-- 사진 -->
+                <div class="main_img">
+                    <table>
+                        <tr>
+                            <td><img alt="" src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMTA0MjRfMiAg%2FMDAxNjE5MjQ3Mjc2Nzc0.GyEpj_apmcZUWnU10EuO3D-aNN6Xi29t9_lYDmnWIFUg.Tklu4MSa6-m8hAcH7GU8NnXy2DxZaZdDZo0rGKTaAEwg.JPEG.wjdwkdud147%2F20210424_095035.jpg%233000x3000" /></td>
+                            <td><img alt="" src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMTA0MjRfMjM2%2FMDAxNjE5MjQ3Mjc4Mzg5.TwbTiwOwSUlOuaRBClqmccMf-p4WaRFHwoF36ksuW90g.Tv6B5QCDBZk44UJRUb_-tffmAaZ3PPp-d09RBoNDkO4g.JPEG.wjdwkdud147%2F20210424_095140.jpg%232999x1685" /></td>
+                            <td><img alt="" src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMTA0MDdfMjg0%2FMDAxNjE3NzcyNTI4MTA0.cmTAJlqQy8N9jdoUgNC5YxrAICcj_iXTCB0TnCxPtzog.JrCxllUydtEg59bI9f2lauQTKqJML04U1vW-lZ3r0oMg.JPEG.bbomiss%2FR1004849.JPG%231280x853" /></td>
+                        <tr>
+                      </table>
+                </div>
+                
+                <div class="main">
+                    <ul class="ullist">
+                        <ul class="ninfo">
+                            <li>주소 : 경기 김포시 장릉로 79</li>
+                            <li>전화 : 031-984-2897</li>
+                            <li>사이트 : <a href="http://royaltombs.cha.go.kr/cha/idx/SubIndex.do?mn=RT" target="_blank">http://royaltombs.cha.go.kr/cha/idx/SubIndex.do?mn=RT</a></li>
+                            <li>운영시간 : 06:00 ~ 18:00 | 매주 월요일 정기휴무</li>
+                        </ul>
+                        <li>
+                            <h2 style="margin-top:50px;">오시는길</h2>
+                        </li>
+                        <ul class="ninfo">
+                            <li><b>지하철</b>
+                                <ul>
+                                    <li>
+                                        1호선 | 계양역 1번 출구
+                                    </li>
+                                    <li>
+                                        2호선 | 합정역 6번 출구(광역 1004번 버스 이용)
+                                    </li>
+                                    <li>
+                                        5호선 | 송정역 1번 출구
+                                    </li>
+                                    <li>
+                                        6호선 | 합정역 6번 출구(광역 1004번 버스 이용)
+                                    </li>
+                                    <li>
+                                        공항철도 | 계양역 1번 출구
+                                    </li>
+                                    <li>
+                                        김포골드라인 | 사우(김포시청)역 3번 출구 도보 15분
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><b>버스</b>
+                                <ul>
+                                    <li>일반 | 2, 60, 60-3, 81, 81-1, 88, 388</li>
+                                    <li>광역 | 1002, 1004, 3000</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

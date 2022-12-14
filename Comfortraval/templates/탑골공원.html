@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>ComforTravel</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <div class="search">
+                <div class="search_box">
+                    <h1 class="logo">ComforTravel</h1>
+                    <div class="window">
+                        <form action="/applysearch" method="GET">
+                            <input type="text" id="fname" class="input_text" name="location" placeholder="검색어를 입력하세요">
+                            <button class="Button" type="submit"><div class="searchBtn">검색</div></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            
+            <div class="main">
+                <h1>탑골공원</h1>
+                <div class="pinfo">
+                    <b>우리나라 최초의 도심 공원</b><br/>
+                    조선시대 원각사터에 세운 서울 최초의 근대식 공원으로 파고다 공원이라고도 불리운다. 
+                    원각사는 고려 때 흥복사라 불린 절로, 조선 전기에 절을 넓히면서 원각사로 이름을 바꾸었다. 
+                    그러나 불교를 억누르는 정책으로 인해 연산군과 중종때 절이 폐사되었다. 
+                    그 후 영국인 브라운의 건의로 이곳에 서양식 공원을 세웠으나, 그 이유와 시기에 대한 정확한 기록은 없다. 
+                    공원 안에는 원각사지 10층석탑(국보)과 원각사비(보물)가 있다. 
+                    또한 독립선언문을 낭독하고 만세를 부른 팔각정·독립만세 부조판·손병희 선생의 동상들도 있다. 
+                    1919년 3월 1일 처음으로 독립선언문을 낭독하고 독립만세를 외친 3·1운동의 출발지로서, 
+                    우리 민족의 독립 정신이 살아 숨쉬는 유서 깊은 곳이다.
+                </div>
+                <!-- 사진 -->
+                <div class="main_img">
+                    <table>
+                        <tr>
+                          <td><img alt="" src="https://post-phinf.pstatic.net/MjAxOTAyMjBfMjY0/MDAxNTUwNjQ0NDQwNTQ4.zPwEIKrmT_g1tn2MkG8iSgOq1cThoyYUM06rvCqbw5sg.EZkFzADeQS-eKXPwuDN5MSdrQlvxgrPk63gdsvExyC4g.JPEG/Ihk5E11y17aOSV7_9A9ezoMIPX7s.jpg?type=m4500_4500_fst" /></td>
+                          <td><img alt="" src="#" /></td>
+                          <td><img alt="" src="#" /></td>
+                        <tr>
+                      </table>
+                </div>
+                
+                <div class="main">
+                    <ul class="ullist">
+                        <ul class="ninfo">
+                            <li>주소 : 서울특별시 종로구 종로 99 탑골공원</li>
+                            <!-- <li>전화 : 02-768-8600</li>
+                            <li>사이트 : <a href="https://www.jogyesa.kr/" target="_blank">https://www.jogyesa.kr/</a></li> -->
+                            <!-- <li>관람시간 : 1월 ~ 2월 : 09:00 ~ 17:00(입장마감 : 16:00)<br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3월 ~ 5월 
+                                : 09:00 ~ 18:00(입장마감 : 17:00)<br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6월 ~ 8월
+                                : 09:00~18:30(입장마감 : 17:30)<br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;9월 ~ 10월
+                                : 09:00~18:00(입장마감 : 17:00)<br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;11월 ~ 12월
+                                : 09:00~17:00(입장마감 : 16:00)<br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:red;">매주 화요일은 휴궁일(休宮日)입니다.</span>
+                            </li>
+                            <li>관람료<br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;〉내국인 : 만25세 ~ 만64세 : 3,000원 (10인이상 : 2,400원)<br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;만24세 이하 및 만 65세 이상 : 무료<br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;매월 마지막 수요일 [문화가 있는 날] : 무료<br/><br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;〉외국인 : 만19세 ~ 만64세 : 3,000원 (10인이상 2,400원)<br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;만7세 ~ 만18세 : 1,500원(10인이상 1,200원)<br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;만6세 이하 및 만 65세 이상, 한복 착용자 : 무료<br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;매월 마지막 수요일 [문화가 있는 날] : 무료<br/><br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;〉특별권 : 홈페이지 참고바람
+                            </li> -->
+                        </ul>
+                        
+                        <li>
+                            <h2 style="margin-top:50px;">오시는길</h2>
+                        </li>
+                        <ul class="ninfo">
+                            <li><b>지하철</b>
+                                <ul>
+                                    <li>
+                                        1호선 | 종각역 11번 출구 도보 9분 | 종로3가역 1번 출구 도보 7분
+                                    </li>
+                                    <li>
+                                        3호선 | 종로3가역 1번 출구 도보 7분
+                                    </li>
+                                </ul>
+                            </li>
+                            <br/>
+                            <li><b>버스</b>
+                                <ul>
+                                    <li>
+                                        간선
+                                        <ul>
+                                            <li>
+                                                101, 103, 143, 150, 160, 201, 260, 262, 270, 271, 273, 370, 470, 601, 720, 721, 741
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        지선
+                                        <ul>
+                                            <li>
+                                                7212
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        마을
+                                        <ul>
+                                            <li>
+                                                종로01, 종로02
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

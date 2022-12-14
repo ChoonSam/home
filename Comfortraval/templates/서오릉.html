@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>ComforTravel</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <div class="search">
+                <div class="search_box">
+                    <h1 class="logo">ComforTravel</h1>
+                    <div class="window">
+                        <form action="/applysearch" method="GET">
+                            <input type="text" id="fname" class="input_text" name="location" placeholder="검색어를 입력하세요">
+                            <button class="Button" type="submit"><div class="searchBtn">검색</div></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            
+            <div class="main">
+                <h1>서오릉</h1>
+                <div class="pinfo">
+                    「고양 서오릉(西五陵)」은 유네스코 세계유산이자 사적으로 지정된 곳으로, 조선왕릉 중 동구릉에 이어 두 번째로 큰 규모의 조선왕실 가족분을 이루고 있습니다. 세조 3년(1457), 왕세자였던 장(덕종)이 일찍 돌아가시자 풍수지리설에 따라 여러 길지를 물색하여 세자묘로 경릉(敬陵)이 들어서면서부터 8대 예종과 계비 안순왕후의 창릉(昌陵), 19대 숙종의 비 인경왕후의 익릉(翼陵), 19대 숙종과 제1계비 인현왕후·제2계비 인원왕후의 명릉(明陵), 21대 영조의 비 정성왕후의 홍릉(弘陵)이 들어와 서오릉이라는 명칭을 얻었습니다. 또한 서오릉에는 왕릉뿐만 아니라 원과 묘도 다수 있는데, 명종의 첫째아들 순회세자의 순창원(順昌園), 영조의 후궁이자 장조의황제(사도세자)의 어머니인 영빈 이씨의 수경원(綏慶園), 숙종의 후궁인 장희빈(옥산부대빈)의 대빈묘(大嬪墓) 등 총 능5·원2·묘1기가 있습니다. 또한 우리 관리소에서는 비공개지역인 19대 숙종의 후궁 숙빈 최씨(영조의 생모)의 소령원(昭寧園)과 21대 영조의 후궁 정빈 이씨(진종의 생모)의 수길원(綏吉園), 그리고 16대 인조의 아들 소현세자의 부인인 민회빈 강씨의 영회원(永懷園)을 관리하고 있습니다.
+                </div>
+                <!-- 사진 -->
+                <div class="main_img">
+                    <table>
+                        <tr>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20150831_73/14410153692775WWAx_JPEG/116167534821728_0.jpg" /></td>
+                            <td><img alt="" src="" /></td>
+                            <td><img alt="" src="" /></td>
+                        <tr>
+                      </table>
+                </div>
+                
+                <div class="main">
+                    <ul class="ullist">
+                        <ul class="ninfo">
+                            <li>주소 : 경기 고양시 덕양구 서오릉로 334-32</li>
+                            <li>전화 : 02-359-0090</li>
+                            <li>사이트 : <a href="http://royaltombs.cha.go.kr/html/HtmlPage.do?pg=/new/html/portal_01_10_01.jsp&mn=RT_01_10" target="_blank">http://royaltombs.cha.go.kr/html/HtmlPage.do?pg=/new/html/portal_01_10_01.jsp&mn=RT_01_10</a></li>
+                            <li>운영시간 : 06:00 ~ 18:00 | 매주 월요일 정기휴무</li>
+                        </ul>
+                        <li>
+                            <h2 style="margin-top:50px;">오시는길</h2>
+                        </li>
+                        <ul class="ninfo">
+                            <li><b>지하철</b>
+                                <ul>
+                                    <li>
+                                        3호선 | 홍제역 2번 츨구 | 녹번역 4번 출구 | 원당역 2번 출구
+                                    </li>
+                                    <li>
+                                        6호선 | 역촌역 2번 출구 | 구산역 1번 출구
+                                    </li>
+                                </ul>
+                            </li><br/>
+                            <li><b>버스</b>
+                                <ul>
+                                    <li>일반 | 702A, 702B</li>
+                                    <li>광역 | 9701</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

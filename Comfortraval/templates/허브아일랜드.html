@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>ComforTravel</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <div class="search">
+                <div class="search_box">
+                    <h1 class="logo">ComforTravel</h1>
+                    <div class="window">
+                        <form action="/applysearch" method="GET">
+                            <input type="text" id="fname" class="input_text" name="location" placeholder="검색어를 입력하세요">
+                            <button class="Button" type="submit"><div class="searchBtn">검색</div></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            
+            <div class="main">
+                <h1>허브아일랜드</h1>
+                <div class="pinfo">
+                    허브아일랜드 식물원은 박물관으로 등록된 식물박물관입니다. 해마다 80만 명 이상의 관람객이 방문하는 한국 대표의 식물박물관으로 허브와 관련된 생활문화를 몸소 느끼고 체험할 수 있는 곳입니다.
+                </div>
+                <!-- 사진 -->
+                <div class="main_img">
+                    <table>
+                        <tr>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20200520_184/1589942464318OhMLG_JPEG/JCQ96CR0TG851Dmux-_osl5s.jpg" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20200520_78/1589942499255O8aeO_JPEG/Be8IYGWTbOhhZb-J7E93W6lF.jpg" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20200520_225/1589942508308OBHPA_JPEG/25o-ETGk7OfeAiCacG0nzxcp.jpg" /></td>
+                        <tr>
+                      </table>
+                </div>
+                
+                <div class="main">
+                    <ul class="ullist">
+                        <ul class="ninfo">
+                            <li>주소 : 경기 포천시 신북면 청신로947번길 51</li>
+                            <li>전화 : 031-535-6494</li>
+                            <li>사이트 : <a href="http://www.herbisland.co.kr/" target="_blank">http://www.herbisland.co.kr/</a></li>
+                            <li>운영시간 : 평일 10:00 ~ 21:00 | 토요일 10:00 ~ 22:00 | 일요일 10:00 ~ 21:00 | 매주 수요일 정기휴무</li>
+                        </ul>
+                    </ul>
+                    <li>
+                        <h2 style="margin-top:50px;">오시는길</h2>
+                    </li>
+                    <ul class="ninfo">
+                        <li><b>버스</b>
+                            <ul>
+                                <li>
+                                    일반 | 57, 57-1, 87-1
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

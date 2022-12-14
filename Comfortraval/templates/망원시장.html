@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>ComforTravel</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <div class="search">
+                <div class="search_box">
+                    <h1 class="logo">ComforTravel</h1>
+                    <div class="window">
+                        <form action="/applysearch" method="GET">
+                            <input type="text" id="fname" class="input_text" name="location" placeholder="검색어를 입력하세요">
+                            <button class="Button" type="submit"><div class="searchBtn">검색</div></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            
+            <div class="main">
+                <h1>망원시장</h1>
+                <div class="pinfo">
+                    망원시장은 한강시민공원 망원지구의 관할 쾌적한 환경여건을 구비하고 있으며 강변도로 및 도심지역으로 연결되는 교통의 관문이며 안정된 주거지역으로 생활여건 및 수준 양호한 시장 기반과 2002년 월드컵이 개최된 경기장 인접지역의 대표적인 전통시장입니다.
+                </div>
+                <!-- 사진 -->
+                <div class="main_img">
+                    <table>
+                        <tr>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20191119_220/1574159662919Pmwrq_JPEG/ddKpdE75c4pyzBlW9rn4y1by.jpg" /></td>
+                            <td><img alt="" src="#" /></td>
+                            <td><img alt="" src="#" /></td>
+                        <tr>
+                      </table>
+                </div>
+                
+                <div class="main">
+                    <ul class="ullist">
+                        <ul class="ninfo">
+                            <li>주소 : 서울 마포구 포은로8길 14</li>
+                            <li>전화 : 02-335-3591</li>
+                            <li>사이트 : <a href="https://mangwonsijang.modoo.at/" target="_blank">https://mangwonsijang.modoo.at/</a></li>
+                            <li>운영시간 : 매일 08:00 ~ 22:00</li>
+                        </ul>
+                        <li>
+                            <h2 style="margin-top:50px;">오시는길</h2>
+                        </li>
+                        <ul class="ninfo">
+                            <li><b>지하철</b>
+                                <ul>
+                                    <li>
+                                        6호선 | 망원역 2번 출구 도보 5분 | 마포구청역 5번 출구 도보 12분
+                                    </li>
+                                </ul>
+                            </li>
+                            <Br/>
+                            <li><b>버스</b>
+                                <ul>
+                                    <li>마을
+                                        <ul>
+                                            <li>
+                                                마포09
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>ComforTravel</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <div class="search">
+                <div class="search_box">
+                    <h1 class="logo">ComforTravel</h1>
+                    <div class="window">
+                        <form action="/applysearch" method="GET">
+                            <input type="text" id="fname" class="input_text" name="location" placeholder="검색어를 입력하세요">
+                            <button class="Button" type="submit"><div class="searchBtn">검색</div></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            
+            <div class="main">
+                <h1>안성천문대</h1>
+                <div class="pinfo">
+                    기존 천문대가 연구 목적으로 설립된 것과 달리, 안성천문대는 국내 최초 교육천문대로 1996년 10월 개관하였습니다. 국내 1호 교육천문대라는 자부심을 가지고 그동안 쌓아온 연구실적과 교육 노하우를 바탕으로 학생과 일반인들에게 천문과 우주를 좀 더 쉽고 재미있게 다가가고자 노력하고 있습니다. 일상 속에서 밤하늘 별을 보며, 꿈을 꾸고 삶의 평안과 추억을 되새겨 보시기 바랍니다.
+                </div>
+                <!-- 사진 -->
+                <div class="main_img">
+                    <table>
+                        <tr>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20191126_108/15747605368157ufIB_JPEG/d-48f4FZFakgWvFMDxyGDQaV.jpg" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20191126_200/15747605368561hmzp_JPEG/rS-kWK3xw1kbCXzUdcf5zEsn.jpg" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20191126_36/1574760536861zYKB0_JPEG/tVYCtYqtRf_cDh5HKIU-hRp9.jpg" /></td>
+                        <tr>
+                      </table>
+                </div>
+                
+                <div class="main">
+                    <ul class="ullist">
+                        <ul class="ninfo">
+                            <li>주소 : 경기 안성시 미양면 천문대길 60</li>
+                            <li>전화 : 031-677-2245</li>
+                            <li>사이트 : <a href="https://starmaker.kr/" target="_blank">https://starmaker.kr/</a></li>
+                            <li>운영시간 : 10:00 ~ 22:00</li>
+                        </ul>
+                        <li>
+                            <h2 style="margin-top:50px;">오시는길</h2>
+                        </li>
+                        <ul class="ninfo">
+                            <li><b>버스</b>
+                                <ul>
+                                    <li>
+                                        일반 | 5, 5-2, 201
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

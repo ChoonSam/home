@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>ComforTravel</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <div class="search">
+                <div class="search_box">
+                    <h1 class="logo">ComforTravel</h1>
+                    <div class="window">
+                        <form action="/applysearch" method="GET">
+                            <input type="text" id="fname" class="input_text" name="location" placeholder="검색어를 입력하세요">
+                            <button class="Button" type="submit"><div class="searchBtn">검색</div></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            
+            <div class="main">
+                <h1>실학박물관</h1>
+                <div class="pinfo">
+                    경기도는 실학이 태동하고 성장, 발전했을 뿐만 아니라 실학 관련 문화유산을 가장 많이 보유한 곳입니다. 한강 유역을 중심으로 경기도 곳곳에 실학자들의 흔적이 많이 남아 있으며, 실학박물관은 그중 실학을 종합적으로 완성한 다산 정약용 생가에 자리하고 있습니다. 실학사상과 관련된 유·무형의 자료와 정보를 수집, 보존, 연구, 교류, 전시하며, 경기도민에게 다양한 교육과 즐거움을 제공하는 실학 중심의 문화복합공간입니다.
+                </div>
+                <!-- 사진 -->
+                <div class="main_img">
+                    <table>
+                        <tr>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20220830_72/1661827092418AEedp_JPEG/1111.jpg" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20201215_277/1608007723733UY9B2_PNG/ipyfs7zndGmUEmhGGsThOoR5.png" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20201215_210/1608007731845a2ub0_PNG/mEa0PDPlc6iw8T1hv1VtU0DA.png" /></td>
+                        <tr>
+                      </table>
+                </div>
+                
+                <div class="main">
+                    <ul class="ullist">
+                        <ul class="ninfo">
+                            <li>주소 : 경기 남양주시 조안면 다산로747번길 16</li>
+                            <li>전화 : 031-579-6000</li>
+                            <li>사이트 : <a href="https://silhak.ggcf.kr/" target="_blank">https://silhak.ggcf.kr/</a></li>
+                            <li>운영시간 : 10:00 ~ 18:00 | 매주 월요일 정기휴무</li>
+                        </ul>
+                        <li>
+                            <h2 style="margin-top:50px;">오시는길</h2>
+                        </li>
+                        <ul class="ninfo">
+                            <li><b>지하철</b>
+                                <ul>
+                                    <li>
+                                        중앙선 | 도심역 | 덕소역 | 팔당역 | 운길산역
+                                    </li>
+                                </ul>
+                            </li><br/>
+                            <li><b>버스</b>
+                                <ul>
+                                    <li>일반 | 8, 58, 167, 2000-1, 2000-2</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

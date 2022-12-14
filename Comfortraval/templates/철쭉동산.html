@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>ComforTravel</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <div class="search">
+                <div class="search_box">
+                    <h1 class="logo">ComforTravel</h1>
+                    <div class="window">
+                        <form action="/applysearch" method="GET">
+                            <input type="text" id="fname" class="input_text" name="location" placeholder="검색어를 입력하세요">
+                            <button class="Button" type="submit"><div class="searchBtn">검색</div></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            
+            <div class="main">
+                <h1>철쭉동산</h1>
+                <div class="pinfo">
+                    군포의 철쭉동산은 수리산 등산로와 이어져 잇는 작은 언덕에 인공으로 조성한 철쭉 단지이다. 20,000㎡의 동산에 자산홍, 영산홍, 산철쭉, 백 철쭉 등 약 15만 그루를 심어 철쭉으로 채웠다. 4월 말에서 5월 초 철쭉이 만개하면 양지공원과 연계하여 각종 음악공연과 전시회 체험행사 같은 다양한 문화행사가 열리고 방송 프로그램에도 소개되고 있다. 철쭉 동산은 군포 8경 중 하나로 꼽힐 만큼 장관이다.
+                </div>
+                <!-- 사진 -->
+                <div class="main_img">
+                    <table>
+                        <tr>
+                            <td><img alt="" src="" /></td>
+                            <td><img alt="" src="" /></td>
+                            <td><img alt="" src="" /></td>
+                        <tr>
+                      </table>
+                </div>
+                
+                <div class="main">
+                    <ul class="ullist">
+                        <ul class="ninfo">
+                            <li>주소 : 경기 군포시 산본동 1152-14</li>
+                            <li>전화 : </li>
+                            <li>사이트 : </li>
+                            <li>운영시간 : </li>
+                        </ul>
+                        <li>
+                            <h2 style="margin-top:50px;">오시는길</h2>
+                        </li>
+                        <ul class="ninfo">
+                            <li><b>지하철</b>
+                                <ul>
+                                    <li>
+                                        4호선 | 수리산역 3번 출구 도보 9분 | 산본역 2번 출구 도보 16분
+                                    </li>
+                                </ul>
+                            </li><br/>
+                            <li><b>버스</b>
+                                <ul>
+                                    <li>일반 | 11-5, 917</li>
+                                    <li>간선 | 541</li>
+                                    <li>지선 | 5623</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

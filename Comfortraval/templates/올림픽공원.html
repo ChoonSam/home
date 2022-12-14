@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>ComforTravel</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <div class="search">
+                <div class="search_box">
+                    <h1 class="logo">ComforTravel</h1>
+                    <div class="window">
+                        <form action="/applysearch" method="GET">
+                            <input type="text" id="fname" class="input_text" name="location" placeholder="검색어를 입력하세요">
+                            <button class="Button" type="submit"><div class="searchBtn">검색</div></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            
+            <div class="main">
+                <h1>올림픽 공원</h1>
+                <div class="pinfo">
+                    세계 5대 조각공원이라는 명성 그대로 현시대 최고의 작가들이 선보이는 조각 작품이 자연과 어우러져 여행으로 지친 몸에 힐링을 선사하는 공원이다.
+                </div>
+                <!-- 사진 -->
+                <div class="main_img">
+                    <table>
+                        <tr>
+                          <td><img alt="" src="https://ldb-phinf.pstatic.net/20200107_124/1578375531091GGK7T_JPEG/1wOJJQEx68Nd8zXzwCEDeC4l.jpg" /></td>
+                          <td><img alt="" src="https://ldb-phinf.pstatic.net/20140407_37/1396855799150jF5fJ_JPEG/%BC%AD%BF%EF_%BF%C3%B8%B2%C7%C8%B0%F8%BF%F8_10.JPG?type=m500_500" /></td>
+                          <td><img alt="" src="https://ldb-phinf.pstatic.net/20140407_194/13968558021660CCet_JPEG/%BC%AD%BF%EF_%BF%C3%B8%B2%C7%C8%B0%F8%BF%F8_4.JPG?type=m500_500" /></td>
+                        <tr>
+                      </table>
+                </div>
+                
+                <div class="main">
+                    <ul class="ullist">
+                        <ul class="ninfo">
+                            <li>주소 : 서울 송파구 올림픽로 424</li>
+                            <li>전화 : 02-410-1114</li>
+                            <li>사이트 : <a href="https://www.ksponco.or.kr/olympicpark/" target="_blank">https://www.ksponco.or.kr/olympicpark/</a></li>
+                            <li>공원입장시간
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;도보, 자전거 출입 : 05:00 ~ 22:00(광장지역 24:00)<br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;차량출입 : 06:00 ~ 22:00
+                            </li>
+                            <li>관람료 : 무료
+                            </li>
+                        </ul>
+                        <li>
+                            <h2 style="margin-top:50px;">공간</h2>
+                        </li>
+                        <ul class="ninfo">
+                            <li><b>체육공간</b>
+                                <ul>
+                                    <li>
+                                        스포츠교실 [올림픽수영장, 올림픽스포츠센터]
+                                    </li>
+                                    <li>
+                                        산책조깅코스
+                                    </li>
+                                    <li>
+                                        생활건강시설
+                                    </li>
+                                </ul>                               
+                            </li><br/>
+                            <li><b>문화공간</b>
+                                <ul>
+                                    <li>올림픽공원 공연/행사 안내
+                                        <ul>
+                                            <li>
+                                                <a href="https://www.ksponco.or.kr/olympicpark/eventInfo/eventInfoList?mid=a20301010100">일정안내 바로가기</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            
+                        </ul>
+                        <li>
+                            <h2 style="margin-top:50px;">오시는길</h2>
+                        </li>
+                        <ul class="ninfo">
+                            <li><b>지하철</b>
+                                <ul>
+                                    <li>
+                                        5호선 | 올림픽공원역 3번 출구
+                                    </li>
+                                    <li>
+                                        8호선 | 몽촌토성역 1번 출구
+                                    </li>
+                                    <li>
+                                        9호선 | 올림픽공원역 3번 출구 | 한성백제역 2번 출구
+                                    </li>
+                                </ul>
+                            </li>
+                            <br/>
+                            <li><b>버스</b>
+                                <ul>
+                                    <li>
+                                        간선
+                                        <ul>
+                                            <li>
+                                                3214, 3220, 3319, 3412, 3413, 30-5, 6300, 30, 3216, 3414, 35, 3318, 3411, 4318, N34, 16, 30-3, 340, 341, 342, 6006, 6006-1
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>ComforTravel</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <div class="search">
+                <div class="search_box">
+                    <h1 class="logo">ComforTravel</h1>
+                    <div class="window">
+                        <form action="/applysearch" method="GET">
+                            <input type="text" id="fname" class="input_text" name="location" placeholder="검색어를 입력하세요">
+                            <button class="Button" type="submit"><div class="searchBtn">검색</div></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            
+            <div class="main">
+                <h1>서울 식물원</h1>
+                <div class="pinfo">
+                    <b>공원과 식물원이 유기적으로 결합한 서울 최초의 도시형 식물원.</b><br/>
+                     숲, 정원, 호수, 습지가 공존하는 공간으로 세계 12개 도시를 주세로 식물을 전시한 대형 온실이 위치해 있다.
+                </div>
+                <!-- 사진 -->
+                <div class="main_img">
+                    <table>
+                        <tr>
+                          <td><img alt="" src="" /></td>
+                          <td><img alt="" src="" /></td>
+                          <td><img alt="" src="" /></td>
+                        <tr>
+                      </table>
+                </div>
+                
+                <div class="main">
+                    <ul class="ullist">
+                        <ul class="ninfo">
+                            <li>주소 : 서울 강서구 마곡동로 161</li>
+                            <li>전화 : 02-2104-9716</li>
+                            <li>사이트 : <a href="https://botanicpark.seoul.go.kr/front/main.do" target="_blank">https://botanicpark.seoul.go.kr/front/main.do</a></li>
+                            <li>이용시간<br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;열린숲, 호수원, 습지원 : 연중무휴<br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;주제원(온실, 주제정원) 3월 ~ 10월 : 09:30 ~ 18:00 (매표마감 17:00)<br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;11월 ~ 2월 : 09:30 ~ 17:00 (매표마감 16:00)
+                            </li>
+                            <li>관람료<br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;〉만 19세 ~ 만 64세 : 5,000원 (30인이상 : 3,500원)<br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;〉만 13세 ~ 만 18세 : 3,000원 (30인이상 : 2,100원)<br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;〉만 6세 ~ 만 12세 : 2,000원 (30인이상 : 1,400원)<br/>
+                            </li>
+                        </ul>
+                        <li>
+                            <h2 style="margin-top:50px;">행사/시설</h2>
+                        </li>
+                        <ul class="ninfo">
+                            <li><b>열린숲</b>
+                                <ul>
+                                    <li>
+                                        서울식물원의 입구이자 방문자 안내서비스가 제공되는 공간. 지하철역과 연결된 광장에 들어서면 둘레숲 한가운데 넓은 잔디마당을 만날 수 있습니다. 축제, 특별 전시 등 사계절 다양한 볼거리가 펼쳐집니다.
+                                    </li>
+                                </ul>                               
+                            </li><br/>
+                            <li><b>주제원</b>
+                                <ul>
+                                    <li>
+                                        한국 자생식물로 전통정원을 재현한 야외 주제정원과 열대․지중해 12개 도시 식물을 전시한 온실로 구성됩니다. 어린이정원학교와 서울시 등록문화재로 지정된 마곡문화관(옛 배수펌프장)을 만나볼 수도 있습니다.
+                                    </li><br/>
+                                    <li>
+                                        주제정원
+                                        <ul>
+                                            <li>한국 정원문화의 과거와 현재를 경험할 수 있는 공간입니다.</li>
+                                        </ul>
+                                    </li><br/>
+                                    <li>온실
+                                        <ul>
+                                            <li>
+                                                지중해와 열대기후 환경을 바탕으로 독특한 식물문화를 발전시킨 세계 12개 도시 정원을 관람할 수 있습니다.
+                                            </li>
+                                        </ul>
+                                    </li><br/>
+                                    <li>
+                                        마곡문화관
+                                    </li>
+                                </ul>
+                            </li>
+                            <br/>
+                            <li>
+                                <b>호수원</b>
+                                <ul>
+                                    <li>
+                                        호수 주변으로 산책길과 수변관찰 데크가 조성된 공간. 호수계단에 앉아 식물원을 조망하거나 습지식물과 텃새를 관찰할 수도 있는 휴식공간이자 생태 교육장입니다.
+                                    </li>
+                                </ul>
+                            </li><br/>
+                            <li>
+                                <b>습지원</b>
+                                <ul>
+                                    <li>
+                                        서울식물원과 한강이 만나는 지점으로, 물이 만드는 경이로운 생태경관을 관찰할 수 있습니다. 자연천이가 보존되어 생물종다양성이 실현되는 공간입니다. 한강나들목을 통해 식물원을 편리하게 찾아올 수 있습니다.
+                                    </li>
+                                </ul>
+                            </li><br/>
+                            <li>
+                                <b>전시</b>
+                                <ul>
+                                    <li>
+                                        <a href="https://botanicpark.seoul.go.kr/front/lookaround/exhibit.do" target="_blank">전시 안내 바로가기</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <li>
+                            <h2 style="margin-top:50px;">오시는길</h2>
+                        </li>
+                        <ul class="ninfo">
+                            <li><b>지하철</b>
+                                <ul>
+                                    <li>
+                                        5호선 | 마곡역 3번 출구 도보 20분
+                                    </li>
+                                    <li>
+                                        9호선 | 양천향교역 8번 출구 도보 10분 | 마곡나루역 3,4번 출구
+                                    </li>
+                                </ul>
+                            </li>
+                            <br/>
+                            <li><b>버스</b>
+                                <ul>
+                                    <li>
+                                        간선
+                                        <ul>
+                                            <li>
+                                                601, 605, 654, 672
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        지선
+                                        <ul>
+                                            <li>
+                                               6629, 6631, 6642, 6645, 6648, 6712
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        마을
+                                        <ul>
+                                            <li>
+                                                강서05-1, 강서07
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        공항
+                                        <ul>
+                                            <li>
+                                                6000, 6003, 6008
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        광역
+                                        <ul>
+                                            <li>
+                                                3000
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        마을
+                                        <ul>
+                                            <li>
+                                                60, 60-3, 69, 88, 1002
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

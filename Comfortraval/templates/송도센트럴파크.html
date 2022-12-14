@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>ComforTravel</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <div class="search">
+                <div class="search_box">
+                    <h1 class="logo">ComforTravel</h1>
+                    <div class="window">
+                        <form action="/applysearch" method="GET">
+                            <input type="text" id="fname" class="input_text" name="location" placeholder="검색어를 입력하세요">
+                            <button class="Button" type="submit"><div class="searchBtn">검색</div></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            
+            <div class="main">
+                <h1>송도 센트럴파크</h1>
+                <div class="pinfo">
+                    국내 최초로 바닷물을 이용한 해수공원이자 한국의 지형적 특성을 살린 도시공원으로 인공수로에는 수상 택시, 카누 등 수상 레저 시설이 갖춰져 있고 공원 곳곳에서 다양한 문화와 예술을 만끽할 수 있는 송도의 랜드마크이자 휴식공간입니다.
+                </div>
+                <!-- 사진 -->
+                <div class="main_img">
+                    <table>
+                        <tr>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20150901_185/144103497406046DAK_JPEG/20118926_0.jpg" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20150206_208/142321200569460gMb_JPEG/%C0%CE%C3%B5_%BC%DB%B5%B5%BC%BE%C6%AE%B7%B2%C6%C4%C5%A9%B0%F8%BF%F8_15.JPG?type=m500_500" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20150206_45/1423212011124ovuoa_JPEG/%C0%CE%C3%B5_%BC%DB%B5%B5%BC%BE%C6%AE%B7%B2%C6%C4%C5%A9%B0%F8%BF%F8_21.JPG?type=m500_500" /></td>
+                        <tr>
+                      </table>
+                </div>
+                
+                <div class="main">
+                    <ul class="ullist">
+                        <ul class="ninfo">
+                            <li>주소 : 인천 연수구 컨벤시아대로 160</li>
+                            <li>전화 : </li>
+                            <li>사이트 : </li>
+                        <li>운영시간 : </li>
+                        </ul>
+                    </ul>
+                    <li>
+                        <h2 style="margin-top:50px;">오시는길</h2>
+                    </li>
+                    <ul class="ninfo">
+                        <li>
+                            <b>지하철</b>
+                            <ul>
+                                <li>
+                                    인천 1호선 | 센트럴파크역
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

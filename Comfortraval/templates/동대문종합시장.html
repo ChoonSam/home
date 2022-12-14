@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>ComforTravel</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <div class="search">
+                <div class="search_box">
+                    <h1 class="logo">ComforTravel</h1>
+                    <div class="window">
+                        <form action="/applysearch" method="GET">
+                            <input type="text" id="fname" class="input_text" name="location" placeholder="검색어를 입력하세요">
+                            <button class="Button" type="submit"><div class="searchBtn">검색</div></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            
+            <div class="main">
+                <h1>동대문 종합시장</h1>
+                <div class="pinfo">
+                    1970년생인 동대문 종합시장은 동대문시장과 40여 년 동안 희로애락을 함께한 터줏대감이다. 동대문 종합시장은 의류 재료인 원단부터 의류 부자재, 액세서리 등과 일부 혼수용품을 파는 대규모 전문 시장이다. 국내 시장에서 거래되는 원단의 80%가 이곳을 거쳐간다. 동대문 종합시장엔 아직도 여전히 옛 정서, 옛 풍경을 간직한 채 사람 냄새 나는 시장의 모습이 남아 있다. 청계천이 복원되고 난 후 일반 소비자들이 발걸음이 좀 더 잦아지면서 새로운 아이템이절실해졌다. 이에 따라 구슬, 크리스털 등 액세서리 전문 매장이 전략적으로 늘어났다. 특히 동대문 종합시장 5층은 핸드메이드 천국으로 통한다. 비즈 액세서리, 사랑스러운 퀼트, 수제 인형 등 손으로 만든 모든 것이 모여 있다.쇼핑뿐 아니라 비즈, 퀼트는 간단한 작품을 가르치는 수강 코스까지 갖추고 있으니 관심 있는 사람들은 들러볼 만하다. 
+                </div>
+                <!-- 사진 -->
+                <div class="main_img">
+                    <table>
+                        <tr>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20150901_29/1441033865721VwkwJ_JPEG/11739103_0.jpg" /></td>
+                            <td><img alt="" src="" /></td>
+                            <td><img alt="" src="" /></td>
+                        <tr>
+                      </table>
+                </div>
+                
+                <div class="main">
+                    <ul class="ullist">
+                        <ul class="ninfo">
+                            <li>주소 : 서울 종로구 종로 272</li>
+                            <li>전화 : 02-2262-0114</li>
+                            <li>사이트 : <a href="https://www.ddm-mall.com/" target="_blank">https://www.ddm-mall.com/</a></li>
+                            <li>운영시간<br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;원단/의류부자재 08:00 - 18:00  (일요일 휴장)<br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;혼수용품 및 홈인테리어 08:00 - 19:00 <br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;액세서리 09:30 - 19:00  (일요일 휴장)<br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:red;">일요일 휴무 (2,4주 전체 휴장/1,3주만 혼수용품 및 홈인테리어 매장만 부분 영업)</span><br/>
+                            </li>
+                        </ul>
+                        <li>
+                            <h2 style="margin-top:50px;">오시는길</h2>
+                        </li>
+                        <ul class="ninfo">
+                            <li><b>지하철</b>
+                                <ul>
+                                    <li>
+                                        1호선 | 동대문역 6,9번 출구
+                                    </li>
+                                    <li>
+                                        4호선 | 동대문역 6,9번 출구
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

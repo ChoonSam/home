@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>ComforTravel</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <div class="search">
+                <div class="search_box">
+                    <h1 class="logo">ComforTravel</h1>
+                    <div class="window">
+                        <form action="/applysearch" method="GET">
+                            <input type="text" id="fname" class="input_text" name="location" placeholder="검색어를 입력하세요">
+                            <button class="Button" type="submit"><div class="searchBtn">검색</div></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            
+            <div class="main">
+                <h1>커먼그라운드</h1>
+                <div class="pinfo">
+                    200개의 컨테이너로 구성된 국내 최대 컨테이너 팝업 쇼핑몰 커먼그라운드에서는 색다른 쇼핑의 재미와 다양한 미식 브랜드들을 만나보실 수 있습니다. 젊고 유니크한 CULTURE를 향유하는 YOUTH를 위한 복합문화공간, 커먼그라운드에서 기존의 쇼핑몰에서 느낄 수 없었던 다채로운 즐거움을 경험해보세요.
+                </div>
+                <!-- 사진 -->
+                <div class="main_img">
+                    <table>
+                        <tr>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20190827_26/1566885848943sMDB0_JPEG/GVqYrFzdv5bshzH1nhC6DHUI.jpg" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20190827_287/1566885848356x3khc_JPEG/JTqNo0uVE2U8DvhFgl_bJkCc.jpg" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20190827_270/1566885877620N9DOe_JPEG/DR-o_WW8eK1-V6v0rVBr9Wab.jpg" /></td>
+                        <tr>
+                      </table>
+                </div>
+                
+                <div class="main">
+                    <ul class="ullist">
+                        <ul class="ninfo">
+                            <li>주소 : 서울 광진구 아차산로 200</li>
+                            <li>전화 : 02-467-2747</li>
+                            <li>사이트 : <a href="https://www.common-ground.co.kr/" target="_blank">https://www.common-ground.co.kr/</a></li>
+                            <li>운영시간 : 11:00 ~ 22:00</li>
+                        </ul>
+                        <li>
+                            <h2 style="margin-top:50px;">오시는길</h2>
+                        </li>
+                        <ul class="ninfo">
+                            <li><b>지하철</b>
+                                <ul>
+                                    <li>
+                                        2호선 | 건대입구역 6번 출구
+                                    </li>
+                                </ul>
+                            </li><br/>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

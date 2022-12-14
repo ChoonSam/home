@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>ComforTravel</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <div class="search">
+                <div class="search_box">
+                    <h1 class="logo">ComforTravel</h1>
+                    <div class="window">
+                        <form action="/applysearch" method="GET">
+                            <input type="text" id="fname" class="input_text" name="location" placeholder="검색어를 입력하세요">
+                            <button class="Button" type="submit"><div class="searchBtn">검색</div></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            
+            <div class="main">
+                <h1>김포아트빌리지</h1>
+                <div class="pinfo">
+                    1980년대 초, 서울 북촌과 을지로가 재개발되면서 도시의 한옥을 이축한 것이 김포의 샘재 한옥마을입니다. 재탄생의 이미지를 가진 이 마을은 2004년 김포 한강신도시 지구에 편입되면서 다시 한 번 해체의 위기를 맞이하지만, 하지만 기존 자원의 리모델링을 통한 문화자산의 활용이라는 비전을 가지고 새로운 문화관광복합공간으로 탄생하게 됩니다. 김포시 운양동 모담산 자락에 안겨있는 김포아트빌리지는 모담산이 주는 소담한 자연의 아름다움이 느껴지는 자연친화적 문화·예술 공간으로, 17개의 한옥과 5개의 창작스튜디오, 아트센터와 야외공연장, 전통놀이마당 등으로 구성되어 있습니다. 한옥마을의 고즈넉한 전통적 아름다움과 아트센터의 현대적 아름다움이 공존하며 시민들에게는 생활 속에서 문화와 예술을 항상 접할 수 있는 친근한 공간으로, 타 지역의 관광객들에게는 다시 찾고 싶은 즐거운 공간으로 기억될 수 있도록 다양한 콘텐츠를 선보일 예정입니다.
+                </div>
+                <!-- 사진 -->
+                <div class="main_img">
+                    <table>
+                        <tr>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20201029_35/1603958908367Eo8b5_JPEG/0brYK1lmLAPx6rip7CZuUNxF.jpg" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20201029_149/1603958917924Pbpwk_JPEG/GbXo9QIojB1p7vj-0WRhYCNK.jpg" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20201103_225/1604377512178SOHar_JPEG/_lpDONdMDDfSLBABW6TN50Jh.jpg" /></td>
+                        <tr>
+                      </table>
+                </div>
+                
+                <div class="main">
+                    <ul class="ullist">
+                        <ul class="ninfo">
+                            <li>주소 : 경기 김포시 모담공원로 170-1</li>
+                            <li>전화 : 031-996-6836</li>
+                            <li>사이트 : <a href="https://www.gcf.or.kr/main/?load_popup=1" target="_blank">https://www.gcf.or.kr/main/?load_popup=1</a></li>
+                            <li>운영시간 : 10:00 ~ 22:00</li>
+                        </ul>
+                        <li>
+                            <h2 style="margin-top:50px;">오시는길</h2>
+                        </li>
+                        <ul class="ninfo">
+                            <li><b>버스</b>
+                                <ul>
+                                    <li>일반 | 81-1, 388</li>
+                                    <li>광역 | 7100</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

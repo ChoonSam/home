@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>ComforTravel</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <div class="search">
+                <div class="search_box">
+                    <h1 class="logo">ComforTravel</h1>
+                    <div class="window">
+                        <form action="/applysearch" method="GET">
+                            <input type="text" id="fname" class="input_text" name="location" placeholder="검색어를 입력하세요">
+                            <button class="Button" type="submit"><div class="searchBtn">검색</div></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            
+            <div class="main">
+                <h1>전쟁기념관</h1>
+                <div class="pinfo">
+                    <b>서울의 중심, 용산에 위치한 전쟁기념관은 전쟁을 단일 주제로, 5천년 민족사를 조망한 대한민국 유일의 전쟁사 종합박물관입니다.</b><br/>
+                    </div>
+                <!-- 사진 -->
+                <div class="main_img">
+                    <table>
+                        <tr>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20160921_125/1474442065795aF4tH_JPEG/176871564444565_1.jpeg" /></td>
+                          <td><img alt="" src="https://ldb-phinf.pstatic.net/20160921_58/1474442066397RtSIw_JPEG/176871564444565_3.jpeg" /></td>
+                          <td><img alt="" src="https://ldb-phinf.pstatic.net/20160921_287/1474442066781wlj6d_JPEG/176871564444565_5.jpeg" /></td>
+                        <tr>
+                      </table>
+                </div>
+                
+                <div class="main">
+                    <ul class="ullist">
+                        <ul class="ninfo">
+                            <li>주소 : 서울 용산구 이태원로 29</li>
+                            <li>전화 : 02-709-3114</li>
+                            <li>사이트 : <a href="http://www.warmemo.or.kr/" target="_blank">https://www.warmemo.or.kr/</a></li>
+                            <li>관람시간 : 09:30 ~ 18:00(입장마감 : 17:00)<br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:red;">정기 휴관일 : 매주 월요일</span>
+                            </li>
+                            <li>관람료 : 무료<br/>
+                            </li>
+                        </ul>
+                        <li>
+                            <h2 style="margin-top:50px;">행사/전시</h2>
+                        </li>
+                        <ul class="ninfo">
+                            <li><b>전시실</b>
+                                <ul>
+                                    <li>
+                                        전쟁기념관은 옥내전시와 옥외전시로 구분되어 있으며 전시자료는 총 6,300여점에 이른다. 14,000여㎡의 옥내전시실은 호국추모실, 전쟁역사실, 6·25전쟁실, 해외파병실, 국군발전실, 기증실 ,대형장비실 등 7개 전시실로 구성되어 있다. 멀리 선사시대부터 현대까지의 각종 호국전쟁 자료와 위국 헌신한 분들의 공훈 등이 실물 · 디오라마 · 복제품 · 기록화 · 영상 등의 다양한 전시자료에 따라 역동적이고 입체적으로 전시되어 있다. 특히 6·25전쟁의 발발 원인과 전쟁 경과 및 휴전에 이르기까지의 전 과정을 쉽고 올바르게 이해할 수 있도록 체험시설 등으로 구성되어 있다. 야외에는 6·25전쟁 당시의 장비를 비롯, 세계 각국의 대형무기와 6·25전쟁 상징 조형물, 광개토대왕릉비, 형제의 상, 평화의 시계탑 등이 전시되어 있으며 기념관 전시실 입구 양측 회랑에는 창군 이래 나라를 위해 목숨 바친 국군 전사자와 유엔군 전사자명비가 있다.
+                                    </li>
+                                </ul>                               
+                            </li>
+                            <br/>
+                            <li><b>온라인전시</b>
+                                <ul>
+                                    <li>전쟁기념관 홈페이지<a href="http://www.warmemo.or.kr/" target="_blank">(https://www.warmemo.or.kr/)</a>참조
+                                    </li>
+                                </ul>                               
+                            </li>
+                        </ul>
+                        <li>
+                            <h2 style="margin-top:50px;">오시는길</h2>
+                        </li>
+                        <ul class="ninfo">
+                            <li><b>지하철</b>
+                                <ul>
+                                    <li>
+                                        6호선 | 삼각지역 12번 출구 도보 3분
+                                    </li>
+                                    <li>
+                                        4호선 | 삼각지역 1번 출구 도보 5분
+                                    </li>
+                                    <li>
+                                        1호선 | 남영역 1번 출구 도보 10분
+                                    </li>
+                                </ul>
+                            </li>
+                            <br/>
+                            <li><b>버스</b>
+                                <ul>
+                                    <li>
+                                        간선
+                                        <ul>
+                                            <li>
+                                                110A. 110B, 740, 421, 421, 100, 150, 151, 152, 500, 501, 502, 504, 506, 507, 605, 750A, 750B, 751, 752
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        마을
+                                        <ul>
+                                            <li>
+                                                용산03
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>공항
+                                        <ul>
+                                            <li>
+                                                601
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

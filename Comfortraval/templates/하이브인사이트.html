@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>ComforTravel</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <div class="search">
+                <div class="search_box">
+                    <h1 class="logo">ComforTravel</h1>
+                    <div class="window">
+                        <form action="/applysearch" method="GET">
+                            <input type="text" id="fname" class="input_text" name="location" placeholder="검색어를 입력하세요">
+                            <button class="Button" type="submit"><div class="searchBtn">검색</div></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            
+            <div class="main">
+                <h1>하이브 인사이트</h1>
+                <div class="pinfo">
+                    하이브 레이블즈 소솟 아티스트의 음악 세계를 엿볼 수 있는 공간. 자하 1,2층으로 구성된 이곳은 듣는 음악에서 나아가 음악으로 소통할 수 있는 공간을 만들었다. 관람 제한 시간은 2시간이며, 100% 예약제로 사전예매를 하고 방문하길 바란다.
+                </div>
+                <!-- 사진 -->
+                <div class="main_img">
+                    <table>
+                        <tr>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20210510_111/1620626824238Ie3GK_JPEG/BbVI-GQyiktu9plRoc4Clt4h.jpg" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20211118_129/1637200935818cbxe1_JPEG/2._HYBE_INSIGHT_B2F_%C0%D4%B1%B8.jpg" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20211118_225/16372009443921vX0N_JPEG/19._HYBE_INSIGHT_%BE%C6%BF%F4%C6%AE%B7%CE%282%29.jpg" /></td>
+                        <tr>
+                      </table>
+                </div>
+                
+                <div class="main">
+                    <ul class="ullist">
+                        <ul class="ninfo">
+                            <li>주소 : 서울 용산구 한강대로 42 지하 1,2층 HYBE INSIGHT</li>
+                            <li>전화 : 0507-1376-5057</li>
+                            <li>사이트 : <a href="https://hybeinsight.com/" target="_blank">https://hybeinsight.com/</a></li>
+                            <li>운영시간 : 10:00 - 21:20 | 매주 월요일 정기휴무</li>
+                        </ul>
+                        <li>
+                            <h2 style="margin-top:50px;">오시는길</h2>
+                        </li>
+                        <ul class="ninfo">
+                            <li><b>지하철</b>
+                                <ul>
+                                    <li>
+                                        1호선 | 용산역 1번 출구 도보 10분
+                                    </li>
+                                    <li>
+                                        4호선 | 신용산역 2번 출구 도보 9분 | 이촌역 5번 출구 도보 16분
+                                    </li>
+                                    <li>
+                                        경의중앙선 | 용산역 1번 출구 도보 10분 | 이촌역 5번 출구 도보 16분
+                                    </li>
+                                </ul>
+                            </li><br/>
+                            <li><b>버스</b>
+                                <ul>
+                                    <li>간선
+                                        <ul>
+                                            <li>
+                                                100, 150, 151, 400, 500, 501, 502, 504, 506, 507, 605, 750A, 750B, 751, 752
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>지선
+                                        <ul>
+                                            <li>
+                                                17, 5012
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

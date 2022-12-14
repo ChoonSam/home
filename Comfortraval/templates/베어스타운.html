@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>ComforTravel</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <div class="search">
+                <div class="search_box">
+                    <h1 class="logo">ComforTravel</h1>
+                    <div class="window">
+                        <form action="/applysearch" method="GET">
+                            <input type="text" id="fname" class="input_text" name="location" placeholder="검색어를 입력하세요">
+                            <button class="Button" type="submit"><div class="searchBtn">검색</div></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            
+            <div class="main">
+                <h1>베어스타운</h1>
+                <div class="pinfo">
+                    베어스타운은 서울에서 50분 거리의 수도권 레저 복합리조트로 스키장, 국내 최장 길이의 리프트 탑승형 눈썰매장, 국내 최초 사계절 슬로프 피스랩, 자연 속 숲속 체험 짚라인 어드벤처 등 다양한 레저와 액티비티를 제공하고 있습니다. 편안한 객실과 다양한 레저 시설을 통해 사계절 진정한 여행을 경험하는 곳, 수도권 최초의 사계절 복합 리조트 베어스타운입니다.
+                </div>
+                <!-- 사진 -->
+                <div class="main_img">
+                    <table>
+                        <tr>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20220411_104/1649660817956QcxM1_JPEG/%BA%A3%BE%EE%BD%BA%C5%B8%BF%EE_%B4%EB%C7%A5%BB%E7%C1%F8.jpg" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20220411_167/1649660853155f2SPh_JPEG/BBQ_02.jpg" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20200305_68/1583376328198Wm0p7_JPEG/g5xwGqN7sAwE3VR__2P6a4d4.jpg" /></td>
+                        <tr>
+                      </table>
+                </div>
+                
+                <div class="main">
+                    <ul class="ullist">
+                        <ul class="ninfo">
+                            <li>주소 : 경기 포천시 내촌면 금강로2536번길 27</li>
+                            <li>전화 : 031-540-5151</li>
+                            <li>사이트 : <a href="http://www.bearstown.com/" target="_blank">http://www.bearstown.com/</a></li>
+                            <li>운영시간 : 체크인 15:00체크아웃 11:00 </li>
+                        </ul>
+                    </ul>
+                    <li>
+                        <h2 style="margin-top:50px;">오시는길</h2>
+                    </li>
+                    <ul class="ninfo">
+                        <li><b>버스</b>
+                            <ul>
+                                <li>
+                                    광역 | 7-2, 11, 33, 7007, 8012
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

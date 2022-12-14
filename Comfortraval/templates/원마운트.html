@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>ComforTravel</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <div class="search">
+                <div class="search_box">
+                    <h1 class="logo">ComforTravel</h1>
+                    <div class="window">
+                        <form action="/applysearch" method="GET">
+                            <input type="text" id="fname" class="input_text" name="location" placeholder="검색어를 입력하세요">
+                            <button class="Button" type="submit"><div class="searchBtn">검색</div></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            
+            <div class="main">
+                <h1>원마운트</h1>
+                <div class="pinfo">
+                    워터파크, 스노우파크와 쇼핑몰이 결합한 새로운 형태의 복합문화 공간이다. 싸이의 젠틀맨 뮤직비디오를 비롯 런닝맨, 각종 영화 로케이션 장소로 활용되어 신한류의 대표 관광 명소로 거듭나고 있다.
+                </div>
+                <!-- 사진 -->
+                <div class="main_img">
+                    <table>
+                        <tr>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20210618_186/1623997229428Bjzvg_JPEG/k4SyajNiRnOOE9FFhJSDo-ea.jpg" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20210618_140/1623997229773d9bhC_JPEG/NKn8-SYJoSywveFOmEIlwNGI.jpg" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20210108_158/1610087293942xs4rx_PNG/%B3%D7%C0%CC%B9%F63.png" /></td>
+                        <tr>
+                      </table>
+                </div>
+                
+                <div class="main">
+                    <ul class="ullist">
+                        <ul class="ninfo">
+                            <li>주소 : 경기 고양시 일산서구 한류월드로 300</li>
+                            <li>전화 : 1566-2232</li>
+                            <li>사이트 : <a href="http://www.onemount.co.kr/" target="_blank">http://www.onemount.co.kr/</a></li>
+                            <li>운영시간 : 10:00 ~ 22:00</li>
+                        </ul>
+
+                        <li>
+                            <h2 style="margin-top:50px;">오시는길</h2>
+                        </li>
+                        <ul class="ninfo">
+                            <li><b>지하철</b>
+                                <ul>
+                                    <li>
+                                        3호선 | 주엽역 2,4번 출구 800m
+                                    </li>
+                                </ul>
+                            </li><br/>
+                            <li><b>버스</b>
+                                <ul>
+                                    <li>마을 | 10, 80, 92</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

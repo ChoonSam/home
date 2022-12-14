@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>ComforTravel</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <div class="search">
+                <div class="search_box">
+                    <h1 class="logo">ComforTravel</h1>
+                    <div class="window">
+                        <form action="/applysearch" method="GET">
+                            <input type="text" id="fname" class="input_text" name="location" placeholder="검색어를 입력하세요">
+                            <button class="Button" type="submit"><div class="searchBtn">검색</div></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            
+            <div class="main">
+                <h1>연천전곡리유적</h1>
+                <div class="pinfo">
+                    구석기 시대는 최초의 인류가 살던 시기로 약 300만년전부터 1만년전까지로 신석기시대가 시작되기 전까지의 시기이다. 이 시대에 인류의 흔적 중에 가장 대표적으로 확인되는 것은 석기로 이 시대 사람들은 돌을 깨뜨려 도구를 만들고 식물의 뿌리, 열미를 먹거나 사냥을 하면서 삶을 영위했다. 구석기시대의 위대한 발견 '불'은 그들을 추위와 어둠 수로부터의 새로운 탈출구를 제공해주었다. 전곡리 유적은 우리나라의 대표적인 구석기 유적으로 30만년 전 부터의 인류의 흔적이 나타나고 있다.
+                </div>
+                <!-- 사진 -->
+                <div class="main_img">
+                    <table>
+                        <tr>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20190316_186/15527387591975nJRE_JPEG/v7tGlKX7FOe5HqaL36v0Y7H1.jpg" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20150206_141/1423208091076aAllf_JPEG/%B0%E6%B1%E2_%C0%FC%B0%EE%B8%AE%BC%B1%BB%E7%C0%AF%C0%FB%C1%F6_3.JPG?type=m500_500" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20150206_122/1423208092168Bh6TW_JPEG/%B0%E6%B1%E2_%C0%FC%B0%EE%B8%AE%BC%B1%BB%E7%C0%AF%C0%FB%C1%F6_6.JPG?type=m500_500" /></td>
+                        <tr>
+                      </table>
+                </div>
+                
+                <div class="main">
+                    <ul class="ullist">
+                        <ul class="ninfo">
+                            <li>주소 : 경기 연천군 전곡읍 양연로 1510</li>
+                            <li>전화 : 031-834-2200</li>
+                            <li>사이트 : </li>
+                            <li>운영시간 : 하절기 09:00 - 18:00 | 동절기 09:00 - 17:00 | 매주월요일 정기휴무</li>
+                        </ul>
+                        <li>
+                            <h2 style="margin-top:50px;">오시는길</h2>
+                        </li>
+                        <ul class="ninfo">
+                            <li><b>지하철</b>
+                                <ul>
+                                    <li>
+                                        1호선 | 동두천역
+                                    </li>
+                                </ul>
+                            </li><br/>
+                            <li><b>버스</b>
+                                <ul>
+                                    <li>
+                                        일반 | 39, 39-2, 53-5, 53-6
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>ComforTravel</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <div class="search">
+                <div class="search_box">
+                    <h1 class="logo">ComforTravel</h1>
+                    <div class="window">
+                        <form action="/applysearch" method="GET">
+                            <input type="text" id="fname" class="input_text" name="location" placeholder="검색어를 입력하세요">
+                            <button class="Button" type="submit"><div class="searchBtn">검색</div></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            
+            <div class="main">
+                <h1>와우목장</h1>
+                <div class="pinfo">
+                    40년이 넘도록 좋은 우유를 생산하고자 노력하고 있으며, 9만평 면적의 목장으로 연간 1,500톤의 우유를 생산하고 있다. 야외체험장, 교육장, 젖짜기체험장 등에서 즐거운 체험을 할 수 있다.
+                </div>
+                <!-- 사진 -->
+                <div class="main_img">
+                    <table>
+                        <tr>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20161017_139/1476692837610w05Fh_JPEG/176967575736562_0.jpeg" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20161017_30/147669283770422VTV_JPEG/176967575736562_1.jpeg" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20161017_261/14766928378761MCee_JPEG/176967575736562_3.jpeg" /></td>
+                        <tr>
+                      </table>
+                </div>
+                
+                <div class="main">
+                    <ul class="ullist">
+                        <ul class="ninfo">
+                            <li>주소 : 경기 이천시 설성면 진상미로665번길 95-14</li>
+                            <li>전화 : 0507-1320-3367</li>
+                            <li>사이트 : <a href="http://www.wowdairy.com/" target="_blank">http://www.wowdairy.com/</a></li>
+                            <li>운영시간 : 10:30 ~ 14:30 | 매주 일요일 정기휴무</li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

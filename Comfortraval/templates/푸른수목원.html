@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>ComforTravel</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <div class="search">
+                <div class="search_box">
+                    <h1 class="logo">ComforTravel</h1>
+                    <div class="window">
+                        <form action="/applysearch" method="GET">
+                            <input type="text" id="fname" class="input_text" name="location" placeholder="검색어를 입력하세요">
+                            <button class="Button" type="submit"><div class="searchBtn">검색</div></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            
+            <div class="main">
+                <h1>푸른수목원</h1>
+                <div class="pinfo">
+                    푸른수목원은 인적 없는 공터에서 친환경 청정수목원으로 개장한 서울시 최초의 시립 수목원이며 2018년 서울시 1호 공립수목원으로 지정되었습니다. 식물유전자원을 수집해 증식시키고 보존하고 있으며 항동저수지와 20개 주제정원에서 다양한 희귀식물을 볼 수 있습니다. 수목원은 우리 모두가 보호하고 가꾸어야 할 귀중한 자원이며 앞으로 자라날 어린아이들에게 물려주어야 할 생명문화유산입니다. 푸른수목원은 오색정원, 야생화원, 어린이정원 등의 주제정원과 안내센터, 숲교육센터 등 교육콘텐츠와 가드닝 프로그램 등을 통해 생태 학습의 장이 되고 있습니다.
+                </div>
+                <!-- 사진 -->
+                <div class="main_img">
+                    <table>
+                        <tr>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20150206_117/1423212398762Egnxj_JPEG/%BC%AD%BF%EF_%C7%AA%B8%A5%BC%F6%B8%F1%BF%F8_12.JPG?type=m500_500" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20150206_173/1423212405036pztMC_JPEG/%BC%AD%BF%EF_%C7%AA%B8%A5%BC%F6%B8%F1%BF%F8_30.JPG?type=m500_500" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20150206_194/1423212402049Q9gRi_JPEG/%BC%AD%BF%EF_%C7%AA%B8%A5%BC%F6%B8%F1%BF%F8_22.JPG?type=m500_500" /></td>
+                        <tr>
+                      </table>
+                </div>
+                
+                <div class="main">
+                    <ul class="ullist">
+                        <ul class="ninfo">
+                            <li>주소 : 서울 구로구 서해안로 2117</li>
+                            <li>전화 : 02-2686-3203</li>
+                            <li>사이트 : <a href="http://parks.seoul.go.kr/template/sub/pureun.do" target="_blank">http://parks.seoul.go.kr/template/sub/pureun.do</a></li>
+                            <li>운영시간 : 05:00 ~ 22:00</li>
+                        </ul>
+                        <li>
+                            <h2 style="margin-top:50px;">오시는길</h2>
+                        </li>
+                        <ul class="ninfo">
+                            <li><b>지하철</b>
+                                <ul>
+                                    <li>
+                                        1호선 | 온수역 도보 약 20분
+                                    </li>
+                                    <li>
+                                        7호선 | 온수역 도보 약 20분 | 천왕역 도보 약 30분
+                                    </li>
+                                </ul>
+                            </li><br/>
+                            <li><b>버스</b>
+                                <ul>
+                                    <li>간선
+                                        <ul>
+                                            <li>
+                                                27, 56-1, 6615
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>마을
+                                        <ul>
+                                            <li>
+                                                구로07
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

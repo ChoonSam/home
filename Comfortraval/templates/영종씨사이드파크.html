@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>ComforTravel</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <div class="search">
+                <div class="search_box">
+                    <h1 class="logo">ComforTravel</h1>
+                    <div class="window">
+                        <form action="/applysearch" method="GET">
+                            <input type="text" id="fname" class="input_text" name="location" placeholder="검색어를 입력하세요">
+                            <button class="Button" type="submit"><div class="searchBtn">검색</div></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            
+            <div class="main">
+                <h1>영종씨사이드파크</h1>
+                <div class="pinfo">
+                    씨사이드파크는 자연을 활용한 삶의 질향상을 목표로하며, 녹색공간을 통한 마음의 휴식처 제공과 아이들이 마음껏 뛰어 놀 수 있는 공원입니다. 영종의 랜드마크, 밀물과 썰물에 의해 펼쳐지는 갯벌의 모습, 석양에 비치는 서해의 웅장한 배경은 흔치않은 이색적인 경관 입니다.
+                </div>
+                <!-- 사진 -->
+                <div class="main_img">
+                    <table>
+                        <tr>
+                            <td><img alt="" src="" /></td>
+                            <td><img alt="" src="" /></td>
+                            <td><img alt="" src="" /></td>
+                        <tr>
+                      </table>
+                </div>
+                
+                <div class="main">
+                    <ul class="ullist">
+                        <ul class="ninfo">
+                            <li>주소 : 인천 중구 하늘달빛로2번길 6</li>
+                            <li>전화 : 032-456-2973</li>
+                            <li>사이트 : </li>
+                            <li>운영시간 : </li>
+                        </ul>
+                    </ul>
+                    <li>
+                        <h2 style="margin-top:50px;">오시는길</h2>
+                    </li>
+                    <ul class="ninfo">
+                        <li><b>버스</b>
+                            <ul>
+                                <li>일반 | 202, 203, 223, 307, 320</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

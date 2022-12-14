@@ -1,0 +1,34 @@
+.search {text-align: center;height:100px;}
+.searchBtn {color: white;}
+.input_text {border: 2.5px solid #0c3975;width: 400px; ;font-size: 15px;line-height:43px;}
+.Button {border: 0.2px solid black;width: 60px;height: 50px; background:#0c3975;}
+.main{width:1100px; margin:auto;}
+.main h1 {text-align: center;padding:30px;}
+
+.ninfo li{list-style-type:circle;}
+.ullist ul{text-align: left;line-height:2;}
+.ullist li{text-align:left;margin-right:80px;}
+.ninfo ul{padding-left:20px;}
+.ninfo ul li{list-style-type:"\3009";margin:0;line-height:1.5;}
+.ninfo li b{font-size:20px;}
+#wrapper{
+    height: auto;
+    min-height: 100%;
+    padding-bottom: 100px;
+}
+.main a {text-decoration-line: none;}
+.search_box{line-height: 100px;margin:auto;width:700px;}
+.logo{margin:auto;width:210px;float:left;color:#0c3975}
+.window{width:490px;float:left;}
+
+.main_img img{width:367px;height:350px;}
+
+.pinfo{width:1000px;margin:auto;padding:0px 10px 50px 10px;}
+
+.ninfo ul li ul li{list-style-type:circle;}
+
+.result{width:1000px;margin:auto;}
+.rimg{width:150px;height:100px;float:left;padding:20px;}
+.rimg img{width:150px;height:100px;}
+.rinfo{float:left; padding:25px 0 0 10px;font-size: 20px;}
+.rbox{border-bottom:1px solid #696b6e;width:800px;overflow: auto;margin:auto;cursor: pointer;}

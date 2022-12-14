@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>ComforTravel</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <div class="search">
+                <div class="search_box">
+                    <h1 class="logo">ComforTravel</h1>
+                    <div class="window">
+                        <form action="/applysearch" method="GET">
+                            <input type="text" id="fname" class="input_text" name="location" placeholder="검색어를 입력하세요">
+                            <button class="Button" type="submit"><div class="searchBtn">검색</div></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            
+            <div class="main">
+                <h1>한탄강 세계지질공원</h1>
+                <div class="pinfo">
+                    한탄강 지질공원 센터의 전시컨셉은 인간이 살고 있는 지구 즉, 지금의 한탄강을 있게 만든 지질이야기부터 사람이 살고 있는 한탄강의 이야기가 담겨있습니다. 오래전 한탄강에 용암이 흐르기 이전에 있었던 암석과 지질, 이후 용암과 하천의 상호 작용으로 형성된 주상절리 협곡, 하식동굴, 폭포 등이 지금의 수려한 경관을 자랑하는 한탄강을 만들었습니다. 이러한 특징은 인간이 살기 시작하면서부터 수많은 이야기를 남겨 놓았습니다. 태초의 인간이 살아간 구석기·신석기 문화와 수많은 전쟁을 치렀던 삼국시대를 지나 풍류를 즐기던 조선시대까지 많은 역사속에 한탄강이 등장합니다. 또한 최근에는 잘 보존된 자연환경으로 인해 수많은 동식물의 삶의 터전이었으며, 그로 인해 한탄강에서 살아가고 있는 사람들 이야기까지... 한탄강 지질공원 센터는 이런 이야기를 담고 있습니다.
+                </div>
+                <!-- 사진 -->
+                <div class="main_img">
+                    <table>
+                        <tr>
+                            <td><img alt="" src="https://www.hantangeopark.kr/img/sight_slide_03_01.jpg" /></td>
+                            <td><img alt="" src="https://www.hantangeopark.kr/img/sight_slide_17_02.jpg" /></td>
+                            <td><img alt="" src="https://www.hantangeopark.kr/img/sight_slide_10_01.jpg" /></td>
+                        <tr>
+                      </table>
+                </div>
+                
+                <div class="main">
+                    <ul class="ullist">
+                        <ul class="ninfo">
+                            <li>주소 : 경기도 포천시 영북면 비둘기낭길55 한탄강지질공원센터</li>
+                            <li>전화 : </li>
+                            <li>사이트 : <a href="https://www.hantangeopark.kr/" target="_blank">https://www.hantangeopark.kr/</a></li>
+                            <li>운영시간 : </li>
+                        </ul>
+                        <li>
+                            <h2 style="margin-top:50px;">오시는길</h2>
+                        </li>
+                        <ul class="ninfo">
+                            <li><b>버스</b>
+                                <ul>
+                                    <li>
+                                        일반 | 53
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

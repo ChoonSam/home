@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>ComforTravel</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <div class="search">
+                <div class="search_box">
+                    <h1 class="logo">ComforTravel</h1>
+                    <div class="window">
+                        <form action="/applysearch" method="GET">
+                            <input type="text" id="fname" class="input_text" name="location" placeholder="검색어를 입력하세요">
+                            <button class="Button" type="submit"><div class="searchBtn">검색</div></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            
+            <div class="main">
+                <h1>수원화성</h1>
+                <div class="pinfo">
+                    조선시대 제2의 한양이라 불렸던 수원, 그 중심에는 수원화성이 있다. 조선 제 22대 정조대왕이 축조한 것으로 1796년 9월 완공되
+                    었다. 우리나라 성곽건축 사상 가장 독보적인 건축물로 평가받을 정도로 우아하고 장엄한 면모를 갖는다. 1997년 12월 유네스코 세계문화유산으로 등재되었다.
+                </div>
+                <!-- 사진 -->
+                <div class="main_img">
+                    <table>
+                        <tr>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20150206_82/1423209777778TocBg_JPEG/%B0%E6%B1%E2_%BC%F6%BF%F8%C8%AD%BC%BA_14.JPG?type=m500_500" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20150206_26/1423209778450WrGFT_JPEG/%B0%E6%B1%E2_%BC%F6%BF%F8%C8%AD%BC%BA_3.JPG?type=m500_500" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20150206_1/1423209779557WLK1F_JPEG/%B0%E6%B1%E2_%BC%F6%BF%F8%C8%AD%BC%BA_6.JPG?type=m500_500" /></td>
+                        <tr>
+                      </table>
+                </div>
+                
+                <div class="main">
+                    <ul class="ullist">
+                        <ul class="ninfo">
+                            <li>주소 : 경기 수원시 장안구 영화동 320-2</li>
+                            <li>전화 : 031-290-3600</li>
+                            <li>사이트 : <a href="http://www.swcf.or.kr/" target="_blank">http://www.swcf.or.kr/</a></li>
+                            <li>운영시간 : 09:00 ~ 18:00 </li>
+                        </ul>
+                        <li>
+                            <h2 style="margin-top:50px;">오시는길</h2>
+                        </li>
+                        <ul class="ninfo">
+                            <li><b>버스</b>
+                                <ul>
+                                    <li>
+                                        일반 | 7-2, 60, 700-2, 11, 13, 46, 50-2, 50-5, 112, 25, 25-2, 25-5, 64, 112
+                                    </li>
+                                    <li>
+                                        직행 | 1007, 3000, 7000, 7001
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

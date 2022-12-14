@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>ComforTravel</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <div class="search">
+                <div class="search_box">
+                    <h1 class="logo">ComforTravel</h1>
+                    <div class="window">
+                        <form action="/applysearch" method="GET">
+                            <input type="text" id="fname" class="input_text" name="location" placeholder="검색어를 입력하세요">
+                            <button class="Button" type="submit"><div class="searchBtn">검색</div></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            
+            <div class="main">
+                <h1>남산 서울타워</h1>
+                <div class="pinfo">
+                    ‘남산서울타워’는 효율적인 방송전파 송수신과 한국의 전통미를 살린 관광 전망시설의 기능을 겸비한 국내 최초의 종합전파 탑으로 방송문화와 관광산업의 미래를 위해 건립되었습니다.
+                    세계 유명한 종합 탑들이 그 나라 또는 그 도시의 상징적인 존재가 된 것처럼 '남산서울타워' 역시 지난 40여 년간 대한민국의 대표적인 관광지이자 서울의 상징물 역할을 해왔습니다.
+                    ‘남산서울타워’는 서울 시내 전 지역에서 바라보이는 탑의 높이와 독특한 구조, 형태 등으로 인하여 시민의 관심과 사랑의 대상이 되었고, 내외국인들이 즐겨 찾는 제1의 관광 명소로서의 위치를 확고히 하고 있습니다. 최근에는 한류 바람을 몰고 온 각종 예능, 드라마의 촬영지로 이름이 높아지면서 내외국인 관광객들이 발길이 끊이지 않는 곳입니다.
+                </div>
+                <!-- 사진 -->
+                <div class="main_img">
+                    <table>
+                        <tr>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20190711_62/1562823704121InE2t_JPEG/usfc9L8iEAQfjJK8oKoBwa4d.jpg" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20190711_185/1562823546804fKhFN_JPEG/5dJDdMcVkuqYJxy8CMx5hU5i.JPG.jpg" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20190711_187/1562823545844nY6VM_JPEG/ytYrUyxynRKK2AzShcjmL6Io.jpg" /></td>
+                        <tr>
+                      </table>
+                </div>
+                
+                <div class="main">
+                    <ul class="ullist">
+                        <ul class="ninfo">
+                            <li>주소 : 서울 용산구 남산공원길 105</li>
+                            <li>전화 : 02-3780-0521</li>
+                            <li>사이트 : <a href="www.seoultower.co.kr" target="_blank">www.seoultower.co.kr</a></li>
+                            <li>전망대 이용시간 : 월 ~ 목 : 11:00 ~ 22:00 (입장마감 21:30)<br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;금 ~ 일 : 11:00 ~ 22:30 (입장 마감 22:00)<br/>
+                            </li>
+                            <li>전망대 이용요금<br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;〉만 13세 이상 : 16,000원<br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;〉만 3세 ~ 만 12세 : 12,000원<br/>
+                            </li>
+                        </ul>
+                        
+                        <li>
+                            <h2 style="margin-top:50px;">오시는길</h2>
+                        </li>
+                        <ul class="ninfo">
+                            <li><b>도보</b>
+                                <ul>
+                                    <li>
+                                        삼순이 계단에서 시작
+                                        <ul>
+                                            <li>
+                                                드라마 ‘내 이름은 김삼순’으로 유명한 계단길(서울특별시 교육연구정보원 옆)을 이용하여 팔각정까지 걸어오는 방법
+                                            </li>
+                                            <li>
+                                                소요시간 : 약 40분
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <br/>
+                                    <li>
+                                        남산도서관에서 시작
+                                        <ul>
+                                            <li>
+                                                남산도서관 앞 남측 순환로 입구부터 걸어오는 방법
+                                            </li>
+                                            <li>
+                                                소요시간 : 약 30분
+                                            </li>
+                                        </ul>
+                                    </li><br/>
+                                    <li>
+                                        국립극장에서 시작
+                                        <ul>
+                                            <li>
+                                                국립극장 옆 매표소를 따라 남측 순환로를 이용하여 걸어오는 방법
+                                            </li>
+                                            <li>
+                                                소요시간 : 약 40분
+                                            </li>
+                                        </ul>
+                                    </li><br/>
+                                    <li>
+                                        국립극장 옆 계단길 이용
+                                        <ul>
+                                            <li>
+                                                국립극장 옆 매표소에서 남측 순환로를 따라 이동, 우측 계단 산책로를 이용하여 걸어오는 방법
+                                            </li>
+                                            <li>
+                                                소요시간 : 약 30분
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <br/>
+                            <li><b>케이블카</b>
+                            </li><br/>
+                            <li><b>버스</b>
+                                <ul>
+                                    <li>
+                                        순환01번
+                                    </li>
+                                </ul>
+                            </li>
+                            <br/>
+                            <li>주차장
+                                <ul>
+                                    <li>
+                                        남산서울타워는 생태 환경 보호를 위해 일반차량 운행을 제한하고 있습니다. 차량은 가까운 주차장에 맡겨주세요.
+                                        <ul>
+                                            <li>
+                                                남산동 공영주차장 [요금 : 5분당 250원]
+                                            </li>
+                                            <li>
+                                                남산케이블카 주차장 [요금 : 10분당 1,000원]
+                                            </li>
+                                            <li>
+                                                남산공원 주차장 [요금 : 10분당 300원]
+                                            </li>
+                                            <li>
+                                                국립극장 주차장 [요금 : 30분 1,000원(추가 10분당 500원)]
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

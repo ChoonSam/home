@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>ComforTravel</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <div class="search">
+                <div class="search_box">
+                    <h1 class="logo">ComforTravel</h1>
+                    <div class="window">
+                        <form action="/applysearch" method="GET">
+                            <input type="text" id="fname" class="input_text" name="location" placeholder="검색어를 입력하세요">
+                            <button class="Button" type="submit"><div class="searchBtn">검색</div></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            
+            <div class="main">
+                <h1>파라다이스시티</h1>
+                <div class="pinfo">
+                    ‘파라다이스시티(PARADISE CITY)’는 관광, 문화체험, 휴식, 쇼핑, 엔터테인먼트 등을 융합한 동북아 최초 복합리조트입니다. 3천여 점의 아트워크가 선사하는 문화예술의 감동과 다채로운 즐거움이 공존하는 엔터테인먼트의 융합을 통해 ‘아트테인먼트(Art-tainment) 리조트’라는 새로운 패러다임을 제시했습니다.
+                </div>
+                <!-- 사진 -->
+                <div class="main_img">
+                    <table>
+                        <tr>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20190412_246/1555054051846J47VD_JPEG/GZBM6B5kNqjCzRx8bveU25vL.jpg" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20190412_185/15550540529385XBY6_JPEG/5drtnV_mmFU6fm_vVnUkyIKQ.jpg" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20190412_274/1555054046936g1Pca_JPEG/hULJ4Y6Li4Hf1LQGB4pYX7Du.jpg" /></td>
+                        <tr>
+                      </table>
+                </div>
+                
+                <div class="main">
+                    <ul class="ullist">
+                        <ul class="ninfo">
+                            <li>주소 : 인천 중구 영종해안남로321번길 186</li>
+                            <li>전화 : 1833-8855</li>
+                            <li>사이트 : <a href="http://www.p-city.com/" target="_blank">http://www.p-city.com/</a></li>
+                        <li>운영시간 : 체크인 15:00 | 체크아웃 11:00</li>
+                        </ul>
+                    </ul>
+                    <li>
+                        <h2 style="margin-top:50px;">오시는길</h2>
+                    </li>
+                    <ul class="ninfo">
+                        <li><b>버스</b>
+                            <ul>
+                                <li>일반 | 302, 306, 306A</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

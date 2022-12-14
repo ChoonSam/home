@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>ComforTravel</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <div class="search">
+                <div class="search_box">
+                    <h1 class="logo">ComforTravel</h1>
+                    <div class="window">
+                        <form action="/applysearch" method="GET">
+                            <input type="text" id="fname" class="input_text" name="location" placeholder="검색어를 입력하세요">
+                            <button class="Button" type="submit"><div class="searchBtn">검색</div></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            
+            <div class="main">
+                <h1>검단산</h1>
+                <div class="pinfo">
+                    검단산(657m)은 하남시의 대표적인 명산으로 수도권에 위치한 편리함으로 인해 등산인들의 발길이 끊이지 않는 곳입니다. 한성백제 500년의 도읍지인 하남 위례성을 지키는 영산이기도 했던 검단산의 ‘검’은 거룩하고 신성한 숭배의 대상을 일컫던 말로 ‘검단’이란 성스러운 제단을 의미합니다. 곳곳에 백제 초·중기의 왕들이 국가의 번영과 태평을 빌던 제단의 흔적이 남아있으며, 현재에도 매년 산악인들이 산신제를 지내고 있습니다. 정상 부근은 넓은 공터로 사방이 탁 트인 전망을 자랑한다.
+                </div>
+                <!-- 사진 -->
+                <div class="main_img">
+                    <table>
+                        <tr>
+                            <td><img alt="" src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAxNzEwMjZfOSAg%2FMDAxNTA4OTQ3NTI2NDY1.4oFESjEQDRyWD1iTe9IUaRJN62u5EaM7uIqNKC70NS0g.AEYze1FVbZBi4mxMxVgf_-NNxFoxjDWuqFdn8-sZt6Mg.JPEG.fort40%2F20171022_105627.jpg%23900x506" /></td>
+                            <td><img alt="" src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAxNzEwMTRfMTE1%2FMDAxNTA3OTUxNTg5NDc2.8BKIoqvfmk7KerF8CGyW-nnxk-CLrSJax088_A94lIgg.qug-zD3LQav8IW9M7iigCVroChVoaRV4RRmuYXIgVRsg.JPEG.yhchang1308%2FDSC01075.JPG%234240x2832" /></td>
+                            <td><img alt="" src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAxNzEwMTRfMTU4%2FMDAxNTA3OTQxNzYwMDg5.MYcrXqeO7bsj0z6WNxHZ6vZk72rYfFid_jqiJWCb7usg.4j5Fzv8lZG8jmuxSOUAyeXarB9Eh0fqyz_KNwEa4S9Qg.JPEG.yhchang1308%2FDSC01045.JPG%234240x2832" /></td>
+                        <tr>
+                      </table>
+                </div>
+                
+                <div class="main">
+                    <ul class="ullist">
+                        <ul class="ninfo">
+                            <li>주소 : 경기 하남시 신장동</li>
+                            <li>전화 : 031-790-6341</li>
+                            <li>사이트 : </li>
+                            <li>운영시간 : </li>
+                        </ul>
+                    </ul>
+                    <li>
+                        <h2 style="margin-top:50px;">오시는길</h2>
+                    </li>
+                    <ul class="ninfo">
+                        <li><b>지하철</b>
+                            <ul>
+                                <li>
+                                    5호선 | 하남검단산역 3번 출구 | 천호역 6번 출구
+                                </li>
+                                <li>
+                                    8호선 | 천호역 6번 출구
+                                </li>
+                                <li>
+                                    2호선 | 잠실역 8,9번 출구
+                                </li>
+                            </ul>
+                        </li>
+                        <li><b>버스</b>
+                            <ul>
+                                <li>
+                                    일반 | 30-3, 30-5, 112, 112-1
+                                </li>
+                                <li>
+                                    광역 | 9301
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

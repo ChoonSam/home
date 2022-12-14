@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>ComforTravel</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <div class="search">
+                <div class="search_box">
+                    <h1 class="logo">ComforTravel</h1>
+                    <div class="window">
+                        <form action="/applysearch" method="GET">
+                            <input type="text" id="fname" class="input_text" name="location" placeholder="검색어를 입력하세요">
+                            <button class="Button" type="submit"><div class="searchBtn">검색</div></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            
+            <div class="main">
+                <h1>축령산 자연휴양림</h1>
+                <div class="pinfo">
+                    경기도 남양주시 수동면 외방리에 소재한 축령산자연휴양림은 서울에서 약 1시간 거리에 있습니다. 주요 시설물로는 숲속의집 7동, 산림휴양관 1동 18실, 축령관 1동, 야영장 30개, 공중화장실 3동을 갖추고 있고 경기도 공무원 후생복지에 관한 조례에 따라 경기도청 소속직원의 직원복지용으로 일부 사용되며 축령산(887m)과 서리산(832m)으로 이어지는 다양한 등산로와 함께 울창한 잣나무 숲에는 숲속의 집 등 각종 편의 시설이 잘 갖추어져 있어, 자연과 함께 숨쉬며 스트레스와 지친 심신을 말끔히 씻고 즐거움과 편안함을 더할 수 있는 곳입니다. 특히, 서리산 정상에 연분홍터널로 이루어진 약13,000㎡의 철쭉군락지와 사계절 푸른 수십년생의 아름드리 잣나무림은 진한 감동과 긴 여운이 있어 여행의 설레임과 삶의 윤기를 더해 주는 수도권 제일의 자연휴양림입니다.
+                </div>
+                <!-- 사진 -->
+                <div class="main_img">
+                    <table>
+                        <tr>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20150831_110/1440992284340W6Yrm_JPEG/11491553_1.jpg" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20150206_134/1423205908294XpP7X_JPEG/%B0%E6%B1%E2_%B3%B2%BE%E7%C1%D6%C3%E0%B7%C9%BB%EA%C0%DA%BF%AC%C8%DE%BE%E7%B8%B2_1.JPG?type=m500_500" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20150206_191/14232059091374fA8a_JPEG/%B0%E6%B1%E2_%B3%B2%BE%E7%C1%D6%C3%E0%B7%C9%BB%EA%C0%DA%BF%AC%C8%DE%BE%E7%B8%B2_11.JPG?type=m500_500" /></td>
+                        <tr>
+                      </table>
+                </div>
+                
+                <div class="main">
+                    <ul class="ullist">
+                        <ul class="ninfo">
+                            <li>주소 : 경기 남양주시 수동면 축령산로 299</li>
+                            <li>전화 : 031-8008-6690</li>
+                            <li>사이트 : <a href="https://www.foresttrip.go.kr/indvz/main.do?hmpgId=ID02030050" target="_blank">https://www.foresttrip.go.kr/indvz/main.do?hmpgId=ID02030050</a></li>
+                            <li>운영시간 : 06:00 ~ 18:00</li>
+                        </ul>
+                        <li>
+                            <h2 style="margin-top:50px;">오시는길</h2>
+                        </li>
+                        <ul class="ninfo">
+                            <li><b>지하철</b>
+                                <ul>
+                                    <li>
+                                        경춘선 | 마석역
+                                    </li>
+                                </ul>
+                            </li><br/>
+                            <li><b>버스</b>
+                                <ul>
+                                    <li>일반 | 30-4</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

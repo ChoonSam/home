@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>ComforTravel</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <div class="search">
+                <div class="search_box">
+                    <h1 class="logo">ComforTravel</h1>
+                    <div class="window">
+                        <form action="/applysearch" method="GET">
+                            <input type="text" id="fname" class="input_text" name="location" placeholder="검색어를 입력하세요">
+                            <button class="Button" type="submit"><div class="searchBtn">검색</div></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            
+            <div class="main">
+                <h1>리움미술관</h1>
+                <div class="pinfo">
+                    리움미술관은 한국 고유의 미를 담고 있는 전통미술과 생동하는 현대미술, 시대적 가치를 반영한 국제미술이 함께 공존하는 세계를 향한 열린 미술관입니다.
+                </div>
+                <!-- 사진 -->
+                <div class="main_img">
+                    <table>
+                        <tr>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20211025_172/1635124509680Ur4O9_JPEG/Rvr7Sj1QtL_pId9hf39V9_VO.jpg" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20150831_107/1440999987012N6PRT_JPEG/11582919_2.jpg" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20150831_264/1440999986778BovLN_JPEG/11582919_1.jpg" /></td>
+                        <tr>
+                      </table>
+                </div>
+                
+                <div class="main">
+                    <ul class="ullist">
+                        <ul class="ninfo">
+                            <li>주소 : 서울 용산구 이태원로55길 60-16</li>
+                            <li>전화 : 02-2014-6900</li>
+                            <li>사이트 : <a href="http://www.leeum.org/" target="_blank">http://www.leeum.org/</a></li>
+                            <li>운영시간 : 10:00 ~ 18:00 | 매주 월요일 정기휴무</li>
+                        </ul>
+                        <li>
+                            <h2 style="margin-top:50px;">오시는길</h2>
+                        </li>
+                        <ul class="ninfo">
+                            <li><b>지하철</b>
+                                <ul>
+                                    <li>
+                                        6호선 | 한강진역 1번 출구
+                                    </li>
+                                </ul>
+                            </li><br/>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

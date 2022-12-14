@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>ComforTravel</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <div class="search">
+                <div class="search_box">
+                    <h1 class="logo">ComforTravel</h1>
+                    <div class="window">
+                        <form action="/applysearch" method="GET">
+                            <input type="text" id="fname" class="input_text" name="location" placeholder="검색어를 입력하세요">
+                            <button class="Button" type="submit"><div class="searchBtn">검색</div></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            
+            <div class="main">
+                <h1>봉선사</h1>
+                <div class="pinfo">
+                    서기 969년 고려 광종 20년에 법인 국사께서 창건하고 운악사라고 하였습니다. 그 후 서기 1469년, 조선 예종 1년에 세조의 비 정희왕후가 세조의 능침을 이산에 모시고는 광릉이라하고, 이어 당사를 초창하여 선왕의 능침의 명 복을 비는 자복사로 삼고 봉선사라 하였습니다.
+                </div>
+                <!-- 사진 -->
+                <div class="main_img">
+                    <table>
+                        <tr>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20150831_273/14410136244910D8f8_JPEG/116574595721949_0.jpg" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20150831_149/1441013625218Ljq0m_JPEG/116574595721949_3.jpg" /></td>
+                            <td><img alt="" src="" /></td>
+                        <tr>
+                      </table>
+                </div>
+                
+                <div class="main">
+                    <ul class="ullist">
+                        <ul class="ninfo">
+                            <li>주소 : 경기 남양주시 진접읍 봉선사길 32 봉선사</li>
+                            <li>전화 : 031-527-1951</li>
+                            <li>사이트 : <a href="http://www.bongsunsa.net/" target="_blank">http://www.bongsunsa.net/</a></li>
+                            <li>운영시간 : </li>
+                        </ul>
+                        <li>
+                            <h2 style="margin-top:50px;">오시는길</h2>
+                        </li>
+                        <ul class="ninfo">
+                            <li><b>버스</b>
+                                <ul>
+                                    <li>일반 | 1, 11, 21, 73, 707</li>
+                                    <li>마을 | 2</li>
+                                    <li>광역 | 3000, 7000</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>ComforTravel</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <div class="search">
+                <div class="search_box">
+                    <h1 class="logo">ComforTravel</h1>
+                    <div class="window">
+                        <form action="/applysearch" method="GET">
+                            <input type="text" id="fname" class="input_text" name="location" placeholder="검색어를 입력하세요">
+                            <button class="Button" type="submit"><div class="searchBtn">검색</div></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            
+            <div class="main">
+                <h1>차이나타운</h1>
+                <div class="pinfo">
+                    인천 차이나타운은 인천역 앞에 있는 차이나타운이다. 중국 음식점이나 기념품 등을 파는 상점이 많은 편이다. 화교중산학교가 있다. 매년 9월과 10월엔 각각 인천-중국의날 문화축제와 짜장면 축제가 열린다. 1883년 인천항 개항 후 1884년에 만들어진 중국(청나라) 조계지에 화교들이 모여들면서 형성되었다. 인천 차이나타운은 특이하게 산둥 출신이 중심을 이룬다.
+                </div>
+                <!-- 사진 -->
+                <div class="main_img">
+                    <table>
+                        <tr>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20150831_70/1441015127097GCs1r_JPEG/126759555552994_1.jpg" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20150831_138/1441015127313TSCUB_JPEG/116076586727847_0.jpg" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20140407_127/13968557790593SMng_JPEG/%C0%CE%C3%B5_%C2%F7%C0%CC%B3%AA%C5%B8%BF%EE_2.JPG?type=m500_500" /></td>
+                        <tr>
+                      </table>
+                </div>
+                
+                <div class="main">
+                    <ul class="ullist">
+                        <ul class="ninfo">
+                            <li>주소 : 인천 중구 차이나타운로26번길 12-17</li>
+                            <li>전화 : </li>
+                            <li>사이트 :  <a href="http://ic-chinatown.co.kr/" target="_blank">http://ic-chinatown.co.kr/</a></li>
+                        <li>운영시간 : </li>
+                        </ul>
+                        <li>
+                            <h2 style="margin-top:50px;">오시는길</h2>
+                        </li>
+                        <ul class="ninfo">
+                            <li>
+                                <b>지하철</b>
+                                <ul>
+                                    <li>
+                                        1호선 | 인천역 1번 출구
+                                    </li>
+                                    <li>
+                                        수인분당선 | 인천역 3번 출구
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

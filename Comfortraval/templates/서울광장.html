@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>ComforTravel</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <div class="search">
+                <div class="search_box">
+                    <h1 class="logo">ComforTravel</h1>
+                    <div class="window">
+                        <form action="/applysearch" method="GET">
+                            <input type="text" id="fname" class="input_text" name="location" placeholder="검색어를 입력하세요">
+                            <button class="Button" type="submit"><div class="searchBtn">검색</div></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            
+            <div class="main">
+                <h1>서울광장</h1>
+                <div class="pinfo">
+                    <b>서울광장(서울廣場)은 서울 중구(中區)의 서울특별시청 앞에 있는 광장이다.</b><br/>
+                    본래 차도였지만, 1987년 6월 항쟁과 2002년 FIFA 월드컵 등 각종 집회·시위·행사의 장소로 널리 이용되었다. 월드컵 이후 광장 조성 계획이 세워져 차도를 없애고 잔디광장을 만들었으며, 2004년 5월 1일에 완공하였다. 서울시 중구 태평로1가에 있고, 규모는 13,207m2이다.
+                </div>
+                <!-- 사진 -->
+                <div class="main_img">
+                    <table>
+                        <tr>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20150901_278/1441039546609pfreY_JPEG/116065565079888_0.jpg" /></td>
+                            <td><img alt="" src="#" /></td>
+                            <td><img alt="" src="#" /></td>
+                        <tr>
+                      </table>
+                </div>
+                
+                <div class="main">
+                    <ul class="ullist">
+                        <ul class="ninfo">
+                            <li>주소 : 서울시 중구 태평로 1가</li>
+                            <li>전화 : 02-120</li>
+                            <li>사이트 : <a href="https://plaza.seoul.go.kr/" target="_blank">https://plaza.seoul.go.kr/</a></li>
+                            <!-- <li>운영시간 : 매일 10:00 - 22:00</li> -->
+                        </ul>
+                        <li>
+                            <h2 style="margin-top:50px;">오시는길</h2>
+                        </li>
+                        <ul class="ninfo">
+                            <li><b>지하철</b>
+                                <ul>
+                                    <li>
+                                        1호선 | 시청역 5번 출구
+                                    </li>
+                                    <li>
+                                        2호선 | 시청역 5번 출구
+                                    </li>
+                                </ul>
+                            </li>
+                            <br/>
+                            <li><b>버스</b>
+                                <ul>
+                                    <li>
+                                        간선
+                                        <ul>
+                                            <li>
+                                                402, N75(심야), 401, 406, N16(심야), N75(심야), 172, 405, 472
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        지선
+                                        <ul>
+                                            <li>
+                                                1711, 7016, 7022
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        마을
+                                        <ul>
+                                            <li>
+                                                종로09, 종로11
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        공항
+                                        <ul>
+                                            <li>
+                                                6701
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li><br/>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

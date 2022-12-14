@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>ComforTravel</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <div class="search">
+                <div class="search_box">
+                    <h1 class="logo">ComforTravel</h1>
+                    <div class="window">
+                        <form action="/applysearch" method="GET">
+                            <input type="text" id="fname" class="input_text" name="location" placeholder="검색어를 입력하세요">
+                            <button class="Button" type="submit"><div class="searchBtn">검색</div></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            
+            <div class="main">
+                <h1>스타필드 하남</h1>
+                <div class="pinfo">
+                    국내 최대 규모, 최초의 쇼핑테마파크로 기존의 백화점, 쇼핑몰이 소비 활동 자체를 유도한 것과 달리 쇼핑과 함께 방문객의 체류를 유도하는 차별화된 방향성이 특징입니다. 건물 옥상에 한강과 검단산의 자연환경을 조망하며 국내 최장 규모의 수영장인 '인피니티 풀'과 익스트림 스포츠를 즐길 수 있는 '스포츠몬스터' 등 다양한 스포츠시설에서 레저, 여가를 즐길 수 있습니다. 또한 식음료시설도 500여개의 맛집을 선정해 구성하여 다채로운 식사를 즐길 수 있습니다
+                </div>
+                <!-- 사진 -->
+                <div class="main_img">
+                    <table>
+                        <tr>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20190315_164/1552614758845cqteP_JPEG/SO-pGf86QF0sKbnRSM_mhjml.jpg" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20190315_1/1552614755075btf3E_JPEG/JFkodXNnE6L7zogGBZVCo0b9.jpg" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20190315_220/1552614762443s8qnH_JPEG/QNDlZY75-sWq8ZdMijfruHke.jpg" /></td>
+                        <tr>
+                      </table>
+                </div>
+                
+                <div class="main">
+                    <ul class="ullist">
+                        <ul class="ninfo">
+                            <li>주소 : 경기 하남시 미사대로 750 스타필드 하남</li>
+                            <li>전화 : 1833-9001</li>
+                            <li>사이트 :  <a href="https://www.starfield.co.kr/hanam/main.do" target="_blank">https://www.starfield.co.kr/hanam/main.do</a></li>
+                        <li>운영시간 : 10:00 ~ 22:00</li>
+                        </ul>
+                        <li>
+                            <h2 style="margin-top:50px;">오시는길</h2>
+                        </li>
+                        <ul class="ninfo">
+                            <li><b>버스</b>
+                                <ul>
+                                    <li>
+                                        일반 | 81, 23, 341, 112, 30, 30-5, 20, 10, 5, 2, 2-1, 1
+                                    </li>
+                                    <li>
+                                        광역 | 9301, 9302, 9303
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

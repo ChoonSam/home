@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>ComforTravel</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <div class="search">
+                <div class="search_box">
+                    <h1 class="logo">ComforTravel</h1>
+                    <div class="window">
+                        <form action="/applysearch" method="GET">
+                            <input type="text" id="fname" class="input_text" name="location" placeholder="검색어를 입력하세요">
+                            <button class="Button" type="submit"><div class="searchBtn">검색</div></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            
+            <div class="main">
+                <h1>경기도 사격 테마파크</h1>
+                <div class="pinfo">
+                    화성시 양감면 초록산 3만여평에 소재하여 우수한 자연환경을 갖추고 있으며 클레이사격장, 전자표적 공기총 및 화약총 사격장을 갖춘 종합사격장으로 관광(일반인) 클레이사격 및 권총 사격 시설을 갖춘 대한민국 ‘사격의 메카’입니다. 안전하고 쾌적한 사격 공원 조성이라는 목표 하에 사람과 레저 스포츠의 품격을 높이는 사격 문화의 중심지로서 도민의 여가선용 및 쾌적한 훈련 공간 제공을 위해 노력하고 있습니다. 또한 초록산 산림욕장과 및 화성시의 볼거리, 먹거리와 연계하여 대자연 속에서 현대인의 ‘참살이’를 위한 종합 레포츠 타운으로 변모하고 있습니다.
+                </div>
+                <!-- 사진 -->
+                <div class="main_img">
+                    <table>
+                        <tr>
+                            <td><img alt="" src="" /></td>
+                            <td><img alt="" src="" /></td>
+                            <td><img alt="" src="" /></td>
+                        <tr>
+                      </table>
+                </div>
+                
+                <div class="main">
+                    <ul class="ullist">
+                        <ul class="ninfo">
+                            <li>주소 : 경기 화성시 양감면 사격장길 142</li>
+                            <li>전화 : 031-352-6056</li>
+                            <li>사이트 :  <a href="https://www.ggshooting.or.kr/" target="_blank">https://www.ggshooting.or.kr/</a></li>
+                        <li>운영시간 : 3-10월 09:00 ~ 18:00 | 11-2월 09:00 ~ 17:00</li>
+                        </ul>
+                        <li>
+                            <h2 style="margin-top:50px;">오시는길</h2>
+                        </li>
+                        <ul class="ninfo">
+                            <li><b>버스</b>
+                                <ul>
+                                    <li>
+                                        일반 | 21, 22, 79
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

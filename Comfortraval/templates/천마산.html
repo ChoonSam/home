@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>ComforTravel</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <div class="search">
+                <div class="search_box">
+                    <h1 class="logo">ComforTravel</h1>
+                    <div class="window">
+                        <form action="/applysearch" method="GET">
+                            <input type="text" id="fname" class="input_text" name="location" placeholder="검색어를 입력하세요">
+                            <button class="Button" type="submit"><div class="searchBtn">검색</div></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            
+            <div class="main">
+                <h1>천마산</h1>
+                <div class="pinfo">
+                    높이 812m. 남양주시의 한가운데에 우뚝 솟아 있으며, 북서쪽의 철마산과 함께 광주산맥에 속한다. 멀리서 보면 마치 달마대사가 어깨를 쫙 펴고 앉아있는 형상을 하고 있다. 신록이 아름다운 봄, 짙푸른 녹색이 펼쳐진 여름, 단풍으로 물든 가을, 설산을 이룬 겨울 등 사계절 모두 그림처럼 수려하다. 산세가 험하고 복잡해 예로부터 ‘소박맞은 산’이라 불리기도 했다. 한편 임꺽정이 천마산을 본거지로 활동했다고도 전해진다. 천마산(天摩山)이란 이름의 뜻은 고려 말 이성계의 전설에서 추정할 수 있다. 당시 천마산에 사냥을 나왔던 이성계가 “이 산은 매우 높아 손이 석 자만 더 길었으면 하늘을 만질 수 있겠다” 하여 ‘하늘을 만질 수 있는 산’이란 이름이 붙었다. 산 정상 서남쪽 인근에는 높은 절벽바위가 있는데, 샘물이 풍부하게 솟아 ‘약물바위’라고도 불린다. 산기슭에는 천마산 야영교육장을 비롯해 각종 연수원과 수련장이 들어서 있다. 산행은 천마산 관리소나 수진사 입구 마을버스 종점, 가곡리 버스 종점 등에서 시작하면 된다. 주변의 가까운 인근 산으로는 축령산, 운길산, 백봉산, 예봉산, 수락산, 불암산 등이 있다.
+                </div>
+                <!-- 사진 -->
+                <div class="main_img">
+                    <table>
+                        <tr>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20200626_105/1593175861685JoFeN_JPEG/dO2QWq_I1TM9hUK_nLblpJn4.jpeg.jpg" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20150901_49/1441045672188DN9k7_JPEG/13491738_0.jpg" /></td>
+                            <td><img alt="" src="" /></td>
+                        <tr>
+                      </table>
+                </div>
+                
+                <div class="main">
+                    <ul class="ullist">
+                        <ul class="ninfo">
+                            <li>주소 : 경기 남양주시 화도읍</li>
+                            <li>전화 : 031-590-2733</li>
+                            <li>사이트 : </li>
+                            <li>운영시간 : </li>
+                        </ul>
+                        <li>
+                            <h2 style="margin-top:50px;">오시는길</h2>
+                        </li>
+                        <ul class="ninfo">
+                            <li><b>지하철</b>
+                                <ul>
+                                    <li>
+                                        경춘선 | 평내호평역 | 천마산역
+                                    </li>
+                                </ul>
+                            </li><br/>
+                            <li><b>버스</b>
+                                <ul>
+                                    <li>일반 | 30-1, 165, 168</li>
+                                    <li>광역 | 1330-2, 1330-44, M2316</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

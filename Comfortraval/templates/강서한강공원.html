@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>ComforTravel</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <div class="search">
+                <div class="search_box">
+                    <h1 class="logo">ComforTravel</h1>
+                    <div class="window">
+                        <form action="/applysearch" method="GET">
+                            <input type="text" id="fname" class="input_text" name="location" placeholder="검색어를 입력하세요">
+                            <button class="Button" type="submit"><div class="searchBtn">검색</div></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            
+            <div class="main">
+                <h1>강서 한강공원</h1>
+                <div class="pinfo">
+                    강서 한강공원은 한강 남단 가양대교에서 서울-김포시 경계까지이며, 습지생태공원과 체육공원이 결합된 테마형 공원입니다. 서울시 생태관광명소 30개소 중 하나로 선정된 강서습지생태공원은 하중도, 자연관찰로, 습초지 등 습지생태계를 복원하여 하천의 자연정화 기능을 제공하고, 방화대교 하부, 가족피크닉장 앞, 행주대교 하부에는 체력단련기구 등을 갖춰 시민의 여가활동과 스포츠 공간으로써의 기능을 하고 있습니다.
+                </div>
+                <!-- 사진 -->
+                <div class="main_img">
+                    <table>
+                        <tr>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20150901_170/1441033988895bFru3_JPEG/13416990_0.jpg" /></td>
+                            <td><img alt="" src="#" /></td>
+                            <td><img alt="" src="#" /></td>
+                        <tr>
+                      </table>
+                </div>
+                
+                <div class="main">
+                    <ul class="ullist">
+                        <ul class="ninfo">
+                            <li>주소 : 서울 강서구 방화동 2-32</li>
+                            <li>전화 : 02-3780-0621</li>
+                            <li>사이트 : <a href="https://hangang.seoul.go.kr/archives/46788" target="_blank">https://hangang.seoul.go.kr/archives/46788</a></li>
+                        </ul>
+                        <li>
+                            <h2 style="margin-top:50px;">시설</h2>
+                        </li>
+                        <ul class="ninfo">
+                            <li><b>운동시설</b>
+                                <ul>
+                                    <li>
+                                        족구장2 : 예약 후 이용 가능 <a href="https://hangang.seoul.go.kr/archives/2413" target="_blank">(체육시설 이용 안내 바로가기)</a>
+                                    </li>
+                                    <li>
+                                        강서 인공암벽장 : 신청서 제출 후 이용 가능 <a href="https://hangang.seoul.go.kr/archives/2413" target="_blank">(인공암벽장 이용안내 바로가기)</a>
+                                    </li>
+                                    <li>
+                                        다목적운동장1, 체력단련장3
+                                    </li>
+                                </ul>                               
+                            </li>
+                            <br/>
+                            <li><b>자전거대여점</b>
+                                <ul>
+                                    <li>
+                                        위치 : 방화대교 남단 밑 하류쪽(서울 강서구 방화동 59)
+                                    </li>
+                                    <li>
+                                        1인용 : 1시간당 3,000원(15분 초과시 마다 500원 추가)
+                                    </li>
+                                    <li>
+                                        2인용 : 1시간당 6,000원(15분 초과시 마다 1,000원 추가)
+                                    </li>
+                                    <li>
+                                        <a href="https://hangang.seoul.go.kr/archives/46889">(자전거 대여점 정보 및 요금 안내 바로가기)</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <br/>
+                            <li><b>가족피크닉장</b>
+                                <ul>
+                                    <li>
+                                        피크닉 사이트 50면, 테이블 10개, 어린이놀이터 1개소
+                                    </li>
+                                    <li>
+                                        이용시간 : 일출시부터 ~ 일몰시까지
+                                    </li>
+                                </ul>
+                            </li>
+                            <br/>                           
+                            <li><b>습지생태공원</b>
+                                <ul>
+                                    <li>
+                                        일출 후부터 일몰 전까지 자유롭게 이용 가능
+                                    </li>
+                                    <li>
+                                        생태교육 프로그램 참여를 원하는 경우에는 미리 인터넷 예약해야 합니다. <a href="https://hangang.seoul.go.kr/archives/2505">(생태프로그램 예약 안내 바로가기)</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <br/>
+                            <li><b>편의시설</b>
+                                <ul>
+                                    <li>
+                                        주차장(주차가능대수 : 160대, 장애인구역 6대 포함),음수대 6개소(공원진입광장, 피크닉장, 구암나들목 등), 화장실 4개소(주차장, 방화대교 밑, 구암나들목), 매점 1개소, 그늘막12, 의자152 등
+                                    </li>
+                                    <li>
+                                        유모차 및 휠체어 무료 대여
+                                        <ul>
+                                            <li>
+                                                대여위치 : 강서안내센터
+                                            </li>
+                                            <li>
+                                                이용시간 : 09:00 ~ 18:00
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <br/>
+                        </ul>
+                        <li>
+                            <h2 style="margin-top:50px;">오시는길</h2>
+                        </li>
+                        <ul class="ninfo">
+                            <li><b>지하철</b>
+                                <ul>
+                                    <li>
+                                        5호선 | 방화역 2번 출구
+                                    </li>
+                                </ul>
+                            </li>
+                            <br/>
+                            <li><b>버스</b>
+                                <ul>
+                                    <li>
+                                        651, 654, 672, 6629, 6648, 6712
+                                    </li>
+                                </ul>
+                            </li><br/>
+                            <li><b>주차장</b>
+                                <ul>
+                                    <li>
+                                        주차장 수 : 1개소(강서1주차장)
+                                    </li>
+                                    <li>
+                                        이용시간 : 오전 6시 ~ 오후 12시
+                                    </li>
+                                    <li>
+                                        주차요금
+                                        <ul>
+                                            <li>
+                                                기본요금 : 최초 30분 1,000원
+                                            </li>
+                                            <li>
+                                                초과 10분당 200원
+                                            </li>
+                                            <li>
+                                                1일 주차 최고한도 10,000원
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>ComforTravel</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <div class="search">
+                <div class="search_box">
+                    <h1 class="logo">ComforTravel</h1>
+                    <div class="window">
+                        <form action="/applysearch" method="GET">
+                            <input type="text" id="fname" class="input_text" name="location" placeholder="검색어를 입력하세요">
+                            <button class="Button" type="submit"><div class="searchBtn">검색</div></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            
+            <div class="main">
+                <h1>서울숲공원</h1>
+                <div class="pinfo">
+                    서울숲은 오래전 임금의 사냥터였고 1908년 설치된 서울 최초의 상수원 수원지였으며, 이후 경마장, 골프장으로 활용되기도 했습니다.
+
+2002년 시민의 녹색권리를 위해 뚝섬 개발사업 대신 대규모 공원을 조성하기로 결정하였고, 영국 하이드파크(Hyde Park) 및 뉴욕 센트럴파크(Centarl Park)에 버금가는 서울의 웰빙공간으로 조성함.조성당시 5,000여 시민의 기금과 봉사로 2005년 6월18일 나무가 우거지고 호수가 있는 도시숲으로 탈바꿈했습니다.
+
+서울숲은 한강과 중랑천이 만나고 한강-용산-남찬-청계천-서울숲-한강으로 연결되는 서울 도심을 가로지르는 녹지 축의 하나로서 중요한 역할을 하고 있으며,자연과 함께 숨 쉬는 생명의 숲, 시민들이 함께 만든 참여의 숲, 숲과 문화가 어우러지는 서울의 대표적인 녹색쉼터가 되었습니다.
+                </div>
+                <!-- 사진 -->
+                <div class="main_img">
+                    <table>
+                        <tr>
+                          <td><img alt="" src="https://ldb-phinf.pstatic.net/20170526_171/1495772011947hzUIv_JPEG/DDP1_%281%29.jpg" /></td>
+                          <td><img alt="" src="https://ldb-phinf.pstatic.net/20170526_292/1495772012106jt7pv_JPEG/DDP2.jpg" /></td>
+                          <td><img alt="" src="https://ldb-phinf.pstatic.net/20210404_196/16175461380535UyIT_JPEG/Zm6zwGYPvBbSk_HHnKp6u3Uc.jpg" /></td>
+                        <tr>
+                      </table>
+                </div>
+                
+                <div class="main">
+                    <ul class="ullist">
+                        <ul class="ninfo">
+                            <li>주소 : 서울 성동구 뚝섬로 273</li>
+                            <li>전화 : 02-460-2905</li>
+                            <li>사이트 : <a href="https://parks.seoul.go.kr/template/sub/seoulforest.do" target="_blank">https://parks.seoul.go.kr/template/sub/seoulforest.do</a></li>
+                            <li>운영시간<br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;생태숲&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;05:30 ~ 21:30<br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;곤충식물원&nbsp;&nbsp;10:00 ~ 17:00<br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;나비정원&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10:00 ~ 17:00<br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:red;">곤충식물원, 나비정원 : 월요일 정기휴무</span>
+                            </li>
+                        </ul>
+                        <li>
+                            <h2 style="margin-top:50px;">문화 · 예술 시설</h2>
+                        </li>
+                        <ul class="ninfo">
+                            <li><b>바닥분수</b>
+                                <ul>
+                                    <li>
+                                        100개의 노즐에서 다양한 높이와 형태로 연출되는 경쾌한 물줄기가 바닥에서 힘차게 솟아올라 색다른 물놀이를 제공
+                                    </li>
+                                </ul>                               
+                            </li><br/>
+                            <li><b>거울연못</b>
+                                <ul>
+                                    <li>
+                                        수심3㎝의 얕은 연못이 주변의 아름다운 경관을 한 폭의 그림처럼 담아냄
+                                    </li>
+                                    <li>
+                                        보는 위치에 따라 다양한 경관이 연출되어 보는 즐거움이 더욱 크며, 메타세쿼이아가 투영된 멋진 경관을 담으려는 사람들로 늘 북적이는 서울숲의 유명한 포토 스팟 중 하나임.
+                                    </li>
+                                </ul>
+                            </li><br/>
+                            <li>
+                                <b>군마상</b>
+                                <ul>
+                                    <li>
+                                        서울숲에 들어서면 경마 장면을 역동적으로 표현한 조형물
+                                    </li>
+                                    <li>
+                                        서울숲이 만들어지기 전, 이곳이 경마장으로 쓰인것을 기념해 제작
+                                    </li>
+                                    <li>
+                                        스타트(START,출발) 이라는 제목을 가진 군마상은 새로운 도약을 상징.
+                                    </li>
+                                </ul>
+                            </li><br/>
+                            <li>
+                                <b>야외무대</b>
+                                <ul>
+                                    <li>
+                                        탁 트인 공간에 조명을 설치하여 분지 형태의 야외모임 공간조성
+                                    </li>
+                                    <li>
+                                        소규모의 문화 행사등이 진행되는 공간
+                                    </li>
+                                </ul>
+                            </li><br/>
+                            <li>
+                                <b>가족마당무대</b>
+                                <ul>
+                                    <li>
+                                        서울숲에 들어서면 만나는 넓은 잔디밭
+                                    </li>
+                                    <li>
+                                        탁 트인 잔디밭에서 가족, 친구들과 소풍을 즐겨보세요 가족마당에서는 공연, 페스티벌 등 다양한 문화행사가 진행됨.
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <li>
+                            <h2 style="margin-top:50px;">생태시설</h2>
+                        </li>
+                        <ul class="ninfo">
+                            <li><b>꽃사슴 방사장</b>
+                                <ul>
+                                    <li>
+                                        서울숲의 상징이기도 한 꽃사슴을 만날 수 있는 공간
+                                    </li>
+                                </ul>                               
+                            </li><br/>
+                            <li><b>보행가교</b>
+                                <ul>
+                                    <li>
+                                        서울숲의 공중을 가로질러 바람의 언덕에서 한강공원으로 이어짐
+                                    </li>
+                                    <li>
+                                        다리 위에서 생태숲을 내려다 볼 수 있어 전망대의 역할도 함.
+                                    </li>
+                                </ul>
+                            </li><br/>
+                            <li>
+                                <b>바람의 언덕</b>
+                                <ul>
+                                    <li>
+                                        서울숲에서 가장 높은 장소
+                                    </li>
+                                    <li>
+                                        바람의 언덕에 오르면 한강에서 불어오는 시원한 바람을 느끼며 물결치는 억새밭을 감상할 수 있음.
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <li>
+                            <h2 style="margin-top:50px;">체험시설</h2>
+                        </li>
+                        <ul class="ninfo">
+                            <li>
+                                <b>곤충식물원</b>
+                                <ul>
+                                    <li>
+                                        예전 정수장의 급속여과지 건물을 활용해 만든 온실
+                                    </li>
+                                    <li>
+                                        평소에는 보기 어려운 100여종의 열대 식물과 곤충, 파충류, 양서류 등을 관람할 수 있음.
+                                    </li>
+                                    <li>
+                                        여름엔 시원하고, 겨울엔 따뜻해 사시사철 인기가 많은 공간임
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <li>
+                            <h2 style="margin-top:50px;">서울숲 가드닝 정원</h2>
+                        </li>
+                        <ul class="ninfo">
+                            <li>
+                                <b>구근정원</b>
+                                <ul>
+                                    <li>
+                                        숲속 튤립길을 테마로 한 가로형 정원
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <b>갤러리 정원</b>
+                                <ul>
+                                    <li>
+                                        옛 정수장 침전조의 구조물을 그대로 활용하여, 형형색색의 아름다운 꽃과 덩굴식물이 어우러진 정원
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <b>어린이 정원 (엄마의 정원)</b>
+                                <ul>
+                                    <li>
+                                        엄마가 읽어주는 동화를 테마로 한 정원
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <b>꿀벌 정원</b>
+                                <ul>
+                                    <li>
+                                        꿀벌을 테마로 한 밀원식물정원
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <b>도시락 정원</b>
+                                <ul>
+                                    <li>
+                                        친환경적인 도시락문화를 권장하는 피크닉 정원
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <b>설렘 정원</b>
+                                <ul>
+                                    <li>
+                                        미세먼지를 저감시키고 아늑함을 주는 다층의 숲, 행복이 담긴 열매의 정원 · 외주
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <b>벤치 가든 1호</b>
+                                <ul>
+                                    <li>
+                                        연중 다양한 종류의 꽃을 볼 수 있는 모퉁이 정원
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <b>벤치 가든 2호</b>
+                                <ul>
+                                    <li>
+                                        벤치를 중심으로 한 주변 경관 개선을 위한 미니가든
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <b>벤치 가든 3호</b>
+                                <ul>
+                                    <li>
+                                        벤치를 중심으로 한 주변 경관 개선을 위한 미니가든 조성
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <b>느린 산책의 정원 , 수국길</b>
+                                <ul>
+                                    <li>
+                                        도시인의 바쁜 시간을 자연의 ‘느린 시간‘이 치유해 주길 바라는 마음의 정원
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <b>겨울 정원</b>
+                                <ul>
+                                    <li>
+                                        추운 겨울에도 즐길 수 있는 다채로운 숲 정원
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <b>쉬었다가 길 정원</b>
+                            </li>
+                            <li>
+                                <b>겨울 정원 (Ⅱ)</b>
+                                <ul>
+                                    <li>
+                                        추운 겨울에도 즐길 수 있는 다채로운 숲 정원, 숲속빈터, 2개의 포켓형 녹지공간에 이끼정원, 자작나무 숲 속 미니온실정원 조성
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <b>중앙호수 친수공간 조성 (3멍가든)</b>
+                                <ul>
+                                    <li>
+                                        ‘호숫가’라는 장소성을 반영하여 휴게공간이 특화된 새로운 형태의 산책로 조성, 교목 위주의 공간을 관목과 초화로 어우러진 다양한 식생의 공간으로 재생
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <b>포레스트 가든 (Forest garden)</b>
+                            </li>
+                            <li>
+                                <b>중앙호수 윈터 가든</b>
+                                <ul>
+                                    <li>
+                                        중앙호수 주변 일년초 중심의 식재에서 벗어나 지속가능한 다년생 관목 중심으로 식재, 수피가 아름다운 관목과 겨울에도 푸른 상록성 교관목을 식재하여 겨울철 호수경관 개선
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <li>
+                            <h2 style="margin-top:50px;">오시는길</h2>
+                        </li>
+                        <ul class="ninfo">
+                            <li><b>지하철</b>
+                                <ul>
+                                    <li>
+                                        수인분당선 | 서울숲역 5번 출구 도보 4분
+                                    </li>
+                                    <li>
+                                        경의중앙선 | 응봉역 2번 출구 도보 11분
+                                    </li>
+                                    <li>
+                                        2호선 | 뚝섬역 8번 출구 도보 9분
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>ComforTravel</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <div class="search">
+                <div class="search_box">
+                    <h1 class="logo">ComforTravel</h1>
+                    <div class="window">
+                        <form action="/applysearch" method="GET">
+                            <input type="text" id="fname" class="input_text" name="location" placeholder="검색어를 입력하세요">
+                            <button class="Button" type="submit"><div class="searchBtn">검색</div></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            
+            <div class="main">
+                <h1>수리산 도립공원</h1>
+                <div class="pinfo">
+                    수리산도립공원은 남한산성(1971년)과 연인산(2005년)에 이어 경기도에서 3번째로 지정(2009. 7. 16.)된 도립공원이고 슬기봉(469m)을 중심으로 북쪽의 태을봉(489m)과 관모봉(426m) 일원 약 7.04㎦에 지정되었으며 위치별로 군포시(62.4%), 안양시(36%), 안산시(1.6%)에 속하는데 이는 여의도 면적의 약 2.5배에 달합니다. 또한, 수리산도립공원은 시가지 밀집구역에 자리한 녹지섬 역할을 하고 도립공원 지정목적에 걸맞도록 ‘자연을 지키고 숲을 배우는 공원’ 으로 이용만큼이나 보전에 더 큰 주안점이 두어진 자연공원이며 속달동에 위치한 탐방안내소 주변으로 납덕골·매쟁이골 공원 조성 및 공원 내 야생초 화원, 습지 데크, 숲속 놀이터 등 다양한 휴식공간 및 자연학습 공간이 마련되어 연간 200만명의 탐방객이 찾고 있습니다.
+                </div>
+                <!-- 사진 -->
+                <div class="main_img">
+                    <table>
+                        <tr>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20150901_90/1441045607801r5nzg_JPEG/13491347_0.jpg" /></td>
+                            <td><img alt="" src="" /></td>
+                            <td><img alt="" src="" /></td>
+                        <tr>
+                      </table>
+                </div>
+                
+                <div class="main">
+                    <ul class="ullist">
+                        <ul class="ninfo">
+                            <li>주소 : 경기 군포시 속달로 347-4 수리산도립공원 탐방안내소</li>
+                            <li>전화 : 031-8008-8265</li>
+                            <li>사이트 : </li>
+                            <li>운영시간 : </li>
+                        </ul>
+                        <li>
+                            <h2 style="margin-top:50px;">오시는길</h2>
+                        </li>
+                        <ul class="ninfo">
+                            <li><b>지하철</b>
+                                <ul>
+                                    <li>
+                                        1호선 | 안양역
+                                    </li>
+                                    <li>
+                                        4호선 | 수리산역 3번 출구 | 대야미역 2번 출구
+                                    </li>
+                                </ul>
+                            </li><br/>
+                            <li><b>버스</b>
+                                <ul>
+                                    <li>일반 | 1-1, 1-2, 10, 11-3, 13, 15, 15-2, 100-1</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

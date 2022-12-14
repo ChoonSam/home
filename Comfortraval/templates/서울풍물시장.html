@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>ComforTravel</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <div class="search">
+                <div class="search_box">
+                    <h1 class="logo">ComforTravel</h1>
+                    <div class="window">
+                        <form action="/applysearch" method="GET">
+                            <input type="text" id="fname" class="input_text" name="location" placeholder="검색어를 입력하세요">
+                            <button class="Button" type="submit"><div class="searchBtn">검색</div></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            
+            <div class="main">
+                <h1>서울 풍물시장</h1>
+                <div class="pinfo">
+                    청계천이 복원되면서 터를 잃었다가 2008년 4월 신설동에 새롭게 터를 잡은 서울풍물시장은 생활용품, 관광상품, 토속상품, 민속 먹거리 등 민족 고유의 풍물과 실생활에 사용했던 물건들, 즐겨 먹었던 음식 등이 어우러진 곳이다. 2층으로 지어진 건물에는 화려한 맛은 없어도 옛 서민들의 소박한 삶을 그대로 느낄 수 있는 물건과 먹거리가 가득하다. 서울풍물시장은 빨주노초파남보 무지개 빛깔로 구역이 나누어져 있다. 빨강동은 푸드코트, 주황동은 지역특산물·공예품·수석 등을 다루며 노랑동은 구제물건을, 초록동은 골동품 코너로 전통 앤틱가구 고미술품을, 파랑동은 패션소품, 남색동은 패션의류·서화·한지, 마지막 보라동은 잡화와 전자·공구 등을 다룬다. 인사동과 달리 고가품이 없어 부담 없이 구경하고 구입할 수 있는 것 또한 서울풍물시장의 특징이다. 청계천과 가까워 외국인 관광객들에게 인기 있는 관람코스이기도 하다. 
+                </div>
+                <!-- 사진 -->
+                <div class="main_img">
+                    <table>
+                        <tr>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20200812_28/1597200593747GelUg_JPEG/2O8qmWnxw23iXxpcE8klSOh7.JPG.jpg" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20140407_107/1396855917217EMofQ_JPEG/%BC%AD%BF%EF_%BC%AD%BF%EF%C7%B3%B9%B0%BD%C3%C0%E5_5.JPG?type=m500_500" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20140407_246/1396855917686CEQgg_JPEG/%BC%AD%BF%EF_%BC%AD%BF%EF%C7%B3%B9%B0%BD%C3%C0%E5_7.JPG?type=m500_500" /></td>
+                        <tr>
+                      </table>
+                </div>
+                
+                <div class="main">
+                    <ul class="ullist">
+                        <ul class="ninfo">
+                            <li>주소 : 서울 동대문구 천호대로4길 21</li>
+                            <li>전화 : 02-2232-3367</li>
+                            <li>사이트 : <a href="http://pungmul.or.kr/" target="_blank">http://pungmul.or.kr/</a></li>
+                            <li>운영시간 : 매일 10:00 ~ 19:00<br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:red;">매주 화요일 휴무</span>
+                        </li>
+                        </ul>
+                        <li>
+                            <h2 style="margin-top:50px;">오시는길</h2>
+                        </li>
+                        <ul class="ninfo">
+                            <li><b>지하철</b>
+                                <ul>
+                                    <li>
+                                        1호선 | 신설동역 6번 출구 250m
+                                    </li>
+                                    <li>
+                                        2호선 | 신설동역 9,10번 출구 100m
+                                    </li>
+                                </ul>
+                            </li>
+                            <Br/>
+                            <li><b>버스</b>
+                                <ul>
+                                    <li>간선
+                                        <ul>
+                                            <li>
+                                                105, 201, 260, 261, 262, 270, 271, 272, 300, 303, 370, 420, 720, N13, N26
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>지선
+                                        <ul>
+                                            <li>
+                                                2013, 2221, 2219, 2212, 9403, 2233
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>공항
+                                        <ul>
+                                            <li>
+                                                6022
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>ComforTravel</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <div class="search">
+                <div class="search_box">
+                    <h1 class="logo">ComforTravel</h1>
+                    <div class="window">
+                        <form action="/applysearch" method="GET">
+                            <input type="text" id="fname" class="input_text" name="location" placeholder="검색어를 입력하세요">
+                            <button class="Button" type="submit"><div class="searchBtn">검색</div></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            
+            <div class="main">
+                <h1>보신각</h1>
+                <div class="pinfo">
+                    보신각은 서울특별시 종로구 종로2가에 있는 종각으로, 
+                    서울을 상징하는 대표적인 전통건물 파루(罷漏, 오전 4시경)에 33번, 
+                    인정(人定, 오후 10시경)에 28번 울려 도성의 문을 여닫고 하루의 시작을 알리는데 쓰인 보물 제2호 보신각종이 있던 자리이다. 
+                    보신각종은 조선 세조 14년(1468년)에 주조되어 원각사(圓覺寺)에 있다가 폐사 된 후 광해군 11년(1619년)에 현재의 보신각 자리로 옮겨졌다. 
+                    그러나 이 종은 오랜 세월 동안 많은 병화와 재화로 인하여 몸통에 균열이 생겨 더 이상 타종할 수 없게 되어, 
+                    용산 국립중앙박물관에 보관중이다. 지금 보신각에 걸려 있는 종은 국민의 성금에 의하여 새로 주조된 종이다. 
+                    이종은 1985년 8월 14일 보신각에 걸고, 8월 15일 광복절에 처음 타종되었다.
+                </div>
+                <!-- 사진 -->
+                <div class="main_img">
+                    <table>
+                        <tr>
+                          <td><img alt="" src="https://ldb-phinf.pstatic.net/20140407_172/1396856957167rkObw_JPEG/%BC%AD%BF%EF_%BA%B8%BD%C5%B0%A2%C1%F6_8.jpg?type=m500_500" /></td>
+                          <td><img alt="" src="https://ldb-phinf.pstatic.net/20140407_144/1396856956812SxNPm_JPEG/%BC%AD%BF%EF_%BA%B8%BD%C5%B0%A2%C1%F6_11.jpg?type=m500_500" /></td>
+                          <td><img alt="" src="https://ldb-phinf.pstatic.net/20140407_41/1396856957027osuHR_JPEG/%BC%AD%BF%EF_%BA%B8%BD%C5%B0%A2%C1%F6_2.jpg?type=m500_500" /></td>
+                        <tr>
+                      </table>
+                </div>
+                
+                <div class="main">
+                    <ul class="ullist">
+                        <li>
+                            <h2 style="margin-top:50px;">행사/전시</h2>
+                        </li>
+                        <ul class="ninfo">
+                            <li><b>타종</b>
+                                <ul>
+                                    <li>
+                                        매일 정오에 타종하는 보신각 상설타종행사는 시민 여러분이 함께 참여하는 행사입니다.
+                                        <ul>
+                                            <li>서울문화포털<a href="https://culture.seoul.go.kr/culture/main/main.do" target="_blank">
+                                                https://culture.seoul.go.kr/culture/main/main.do)</a>에서 선착순으로 신청
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>                               
+                            </li>
+                            
+                        </ul>
+                        <li>
+                            <h2 style="margin-top:50px;">오시는길</h2>
+                        </li>
+                        <ul class="ninfo">
+                            <li><b>지하철</b>
+                                <ul>
+                                    <li>
+                                        1호선 종각역 4번 출구 도보 1분
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

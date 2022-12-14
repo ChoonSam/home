@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>ComforTravel</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <div class="search">
+                <div class="search_box">
+                    <h1 class="logo">ComforTravel</h1>
+                    <div class="window">
+                        <form action="/applysearch" method="GET">
+                            <input type="text" id="fname" class="input_text" name="location" placeholder="검색어를 입력하세요">
+                            <button class="Button" type="submit"><div class="searchBtn">검색</div></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            
+            <div class="main">
+                <h1>정동제일교회</h1>
+                <div class="pinfo">
+                    정동제일교회는 대한민국에 최초로 세워진 감리교 교회 중에 하나이다. 덕수궁 옆인 중구 정동길 46 에 있다. 정식명칭은 "기독교대한감리회 정동제일교회"이거나 "정동제일감리교회"이다. 흔히 정동제일교회, 정동감리교회로 지칭되며, 정동교회라고도 부른다.
+                </div>
+                <!-- 사진 -->
+                <div class="main_img">
+                    <table>
+                        <tr>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20150831_266/1441015297279NjyqH_JPEG/107070628520388_0.jpg" /></td>
+                            <td><img alt="" src="" /></td>
+                            <td><img alt="" src="" /></td>
+                        <tr>
+                      </table>
+                </div>
+                
+                <div class="main">
+                    <ul class="ullist">
+                        <ul class="ninfo">
+                            <li>주소 : 서울 중구 정동길 46</li>
+                            <li>전화 : 02-753-0001</li>
+                            <li>사이트 : <a href="http://chungdong.org/html/main.asp" target="_blank">http://chungdong.org/html/main.asp</a></li>
+                            <li>운영시간 : </li>
+                        </ul>
+                        <li>
+                            <h2 style="margin-top:50px;">오시는길</h2>
+                        </li>
+                        <ul class="ninfo">
+                            <li><b>지하철</b>
+                                <ul>
+                                    <li>
+                                        1호선 | 시청역 도보 5분
+                                    </li>
+                                    <li>
+                                        2호선 | 서대문역 5번 출구 도보 15분
+                                    </li>
+                                </ul>
+                            </li><br/>
+                            <li><b>버스</b>
+                                <ul>
+                                    <li>간선
+                                        <ul>
+                                            <li>
+                                                160, 172, 260, 270, 271, 273, 370, 470, 471, 472, 600, 602, 702A, 702B, 710, 720, 721
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>지선
+                                        <ul>
+                                            <li>
+                                                7019
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>일반
+                                        <ul>
+                                            <li>
+                                               1002
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>마을
+                                        <ul>
+                                            <li>
+                                                종로09, 종로11
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

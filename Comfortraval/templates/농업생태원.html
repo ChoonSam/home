@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>ComforTravel</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <div class="search">
+                <div class="search_box">
+                    <h1 class="logo">ComforTravel</h1>
+                    <div class="window">
+                        <form action="/applysearch" method="GET">
+                            <input type="text" id="fname" class="input_text" name="location" placeholder="검색어를 입력하세요">
+                            <button class="Button" type="submit"><div class="searchBtn">검색</div></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            
+            <div class="main">
+                <h1>농업생태원</h1>
+                <div class="pinfo">
+                    평택시농업생태원은 2018년 10월에 개장하여 114.654㎡ 면적에 농업·농촌 볼거리 외에 어린이 놀이터, 펫 놀이터 등 다양한 시설과 꽃축제, 농촌문화체험, 농업교육, 텃밭 등 다양한 체험을 진행하며 사람들에게 휴식처가 되고 있습니다.
+                </div>
+                <!-- 사진 -->
+                <div class="main_img">
+                    <table>
+                        <tr>
+                            <td><img alt="" src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAxOTA1MDVfMTIy%2FMDAxNTU3MDU4MTc0Nzk4.lOD1MUyGy12XQDNXvH3KuPVj6qivXnXZOMAd3yQ6baIg.-DR2Ro3ZxmNyRnNWi3fHGrz_96bugtyXQxee1nlEcqEg.JPEG.rutin1006%2FDSC04989.jpg%235456x3632" /></td>
+                            <td><img alt="" src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAxOTA1MDZfMTQz%2FMDAxNTU3MDk5NDIwMTA5.FvI6eq-8fqeCp4bHgHHSyC2aRBAQheQ3xMkDDSDAGu4g.rufdllTyI9ewhC43uNSi_z9MN01pAAcnhtA2Qge-oLIg.JPEG.rutin1006%2FDSC04925.jpg%235456x3632" /></td>
+                            <td><img alt="" src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAxOTA1MDVfMjI1%2FMDAxNTU3MDU4MjgxODQx.OBcf6dRdSbbPrM-T0uReNRlJJF_-c4c3mxym-Ozr1aAg.tRo3LxAlLASzoC9AhV41QJLx3SapFOHqyxJHmAWxEyog.JPEG.rutin1006%2FDSC04926.jpg%235456x3632" /></td>
+                        <tr>
+                      </table>
+                </div>
+                
+                <div class="main">
+                    <ul class="ullist">
+                        <ul class="ninfo">
+                            <li>주소 : 경기 평택시 오성면 청오로 33-34</li>
+                            <li>전화 : 031-8024-4566</li>
+                            <li>사이트 : <a href="https://www.ptlib.go.kr/mkmp/index.do" target="_blank">https://www.ptlib.go.kr/mkmp/index.do</a></li>
+                            <li>운영시간 : 하절기 09:30 - 18:00 | 동절기 09:30 - 17:00 | 매주 월요일 정기휴무</li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

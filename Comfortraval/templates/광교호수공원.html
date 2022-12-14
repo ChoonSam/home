@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>ComforTravel</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <div class="search">
+                <div class="search_box">
+                    <h1 class="logo">ComforTravel</h1>
+                    <div class="window">
+                        <form action="/applysearch" method="GET">
+                            <input type="text" id="fname" class="input_text" name="location" placeholder="검색어를 입력하세요">
+                            <button class="Button" type="submit"><div class="searchBtn">검색</div></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            
+            <div class="main">
+                <h1>광교호수공원</h1>
+                <div class="pinfo">
+                    광교호수공원은 광교산과 원천저수지 및 신대저수지의 자연을 최대한 보존하며 아름다운 수변공간인 어반레비와 함께 6개의 테마를 가진 둠벙으로 어우러져 여러가지 새로운 문화를 담은 국내 최대의 도심 속 호수공원입니다. 바닥분수 ‘신비한 물너미’, 물보석분수 등 9개의 분수시설과 총 6.5km의 순환보행로와 도심 속 힐링 공간인 가족캠핑장, 다양한 체험이 가능한 다목적 체험장, 가족단위의 피크닉을 즐길 수 있는 행복한 들, 야외공연장, 스포츠 클라이밍장, 수변 위에 5개의 원형테크와 아치형의 정다운 다리가 있는 조용한 숲, 행복한 꽃섬, 습지와 버드나무가 어우러진 먼 섬숲 등 여러 가지 특색 있는 공간이 조성되어 있습니다.
+                </div>
+                <!-- 사진 -->
+                <div class="main_img">
+                    <table>
+                        <tr>
+                            <td><img alt="" src="" /></td>
+                            <td><img alt="" src="" /></td>
+                            <td><img alt="" src="" /></td>
+                        <tr>
+                      </table>
+                </div>
+                
+                <div class="main">
+                    <ul class="ullist">
+                        <ul class="ninfo">
+                            <li>주소 : 경기 수원시 영통구 광교호수로 165</li>
+                            <li>전화 : 070-8800-2460</li>
+                            <li>사이트 : <a href="http://www.gglakepark.or.kr/" target="_blank">http://www.gglakepark.or.kr/</a></li>
+                            <li>운영시간 : </li>
+                        </ul>
+                        <li>
+                            <h2 style="margin-top:50px;">오시는길</h2>
+                        </li>
+                        <ul class="ninfo">
+                            <li><b>버스</b>
+                                <ul>
+                                    <li>
+                                        일반 | 34, 34-1
+                                    </li>
+                                    <li>
+                                        마을 | 7
+                                    </li>
+                                    <li>
+                                        직행 | 5006, 5007
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>ComforTravel</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <div class="search">
+                <div class="search_box">
+                    <h1 class="logo">ComforTravel</h1>
+                    <div class="window">
+                        <form action="/applysearch" method="GET">
+                            <input type="text" id="fname" class="input_text" name="location" placeholder="검색어를 입력하세요">
+                            <button class="Button" type="submit"><div class="searchBtn">검색</div></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            
+            <div class="main">
+                <h1>용인 자연휴양람</h1>
+                <div class="pinfo">
+                    정광산 남쪽 자락에 자리잡은 용인자연휴양림은 수려한 자연경관에 숲속 체험관, 목재 문화 체험관, 산책로, 잔디광장, 어린이 놀이터 등 다양한 체험, 휴양공간을 잘 갖추고 있으며 일상에서 벗어나 자연의 향기와 멋을 마음껏 느낄 수 있는 곳이다. 또한 울창한 숲속에서 짚라인을 타며 짜릿함을 경험할 수 있다.
+                </div>
+                <!-- 사진 -->
+                <div class="main_img">
+                    <table>
+                        <tr>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20150831_4/1441003092938EotDY_JPEG/13179328_0.jpg" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20150831_21/1441003093125xLCsa_JPEG/116677516529923_1.jpg" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20150831_285/1441003093277Q0gp7_JPEG/116677516529923_2.jpg" /></td>
+                        <tr>
+                      </table>
+                </div>
+                
+                <div class="main">
+                    <ul class="ullist">
+                        <ul class="ninfo">
+                            <li>주소 : 경기 용인시 처인구 모현읍 초부로 220</li>
+                            <li>전화 : 0507-1383-0054</li>
+                            <li>사이트 : <a href="http://yonginforest.foresttrip.go.kr/" target="_blank">http://yonginforest.foresttrip.go.kr/</a></li>
+                            <li>운영시간 : </li>
+                        </ul>
+                        <li>
+                            <h2 style="margin-top:50px;">오시는길</h2>
+                        </li>
+                        <ul class="ninfo">
+                            <li><b>버스</b>
+                                <ul>
+                                    <li>
+                                        일반 | 20, 60, 66, 66-4
+                                    </li>
+                                    <li>
+                                        마을 | 89
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

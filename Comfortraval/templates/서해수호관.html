@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>ComforTravel</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <div class="search">
+                <div class="search_box">
+                    <h1 class="logo">ComforTravel</h1>
+                    <div class="window">
+                        <form action="/applysearch" method="GET">
+                            <input type="text" id="fname" class="input_text" name="location" placeholder="검색어를 입력하세요">
+                            <button class="Button" type="submit"><div class="searchBtn">검색</div></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            
+            <div class="main">
+                <h1>서해수호관</h1>
+                <div class="pinfo">
+                    파도의 형상을 본 따 지어진 서해수호관은 거친 파도에도 조국의 바다를 수호하는 해군의 강한의지를 표현합니다. 서해수호관에서는 제 1 연평해전부터 연평도 포격전에 이르기까지 한반도의 안보현실을 정확히 보여 줄 수 있는 여러 가지 자료를 전시하고 있습니다. 서해수호관은 제 2 연평해전에서 교전한 참수리-357호정과 천안함 함체등 모형이 아닌 실물을 전시함으로써 국민들에게 보다 더 와닿게 되는 안보교육의 중심지의 역할을 하고 있습니다.
+                </div>
+                <!-- 사진 -->
+                <div class="main_img">
+                    <table>
+                        <tr>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20200227_28/1582776600411fpgrm_JPEG/-lwUaIo7SmUvVAX5luwbpRHx.jpg" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20200227_49/1582776600074mzj2V_JPEG/yPlALKZjpPdc8WxeOUCJMz1l.jpg" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20200227_201/1582776602879dj870_JPEG/ZANXhMhwM6VV5Bh8mErTXj8I.JPG.jpg" /></td>
+                        <tr>
+                      </table>
+                </div>
+                
+                <div class="main">
+                    <ul class="ullist">
+                        <ul class="ninfo">
+                            <li>주소 : 경기 평택시 포승읍 2함대길 91</li>
+                            <li>전화 : 031-685-4123</li>
+                            <li>사이트 : <a href="http://wsph.navy.mil.kr/" target="_blank">http://wsph.navy.mil.kr/</a></li>
+                            <li>운영시간 : 10:00 ~ 16:00</li>
+                        </ul>
+                        <li>
+                            <h2 style="margin-top:50px;">오시는길</h2>
+                        </li>
+                        <ul class="ninfo">
+                            <li><b>버스</b>
+                                <ul>
+                                    <li>
+                                        일반 | 98
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

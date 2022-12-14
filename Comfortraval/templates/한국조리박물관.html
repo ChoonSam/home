@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>ComforTravel</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <div class="search">
+                <div class="search_box">
+                    <h1 class="logo">ComforTravel</h1>
+                    <div class="window">
+                        <form action="/applysearch" method="GET">
+                            <input type="text" id="fname" class="input_text" name="location" placeholder="검색어를 입력하세요">
+                            <button class="Button" type="submit"><div class="searchBtn">검색</div></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            
+            <div class="main">
+                <h1>한국조리박물관</h1>
+                <div class="pinfo">
+                    한국조리박물관(MOCA)은 과거와 현재, 미래가 공존하며 조리 산업 종사자와 일반 방문객 모두의 눈높이에 맞도록 구성된 복합 문화 공간이다. 1895년부터 2000년까지 국내 서양요리역사의 발전사를 시기별, 주제별, 인물별로 체계적으로 살펴볼 수 있도록 전시를 구성하였으며, 한국 조리 발전에 기여한 요리인들의 삶의 흔적을 엿볼 수 있는 전시공간도 마련하였다. 전국 조리인들의 지지와 도움을 받아 전시자료를 수집하고 전문 조리 시설을 겸비한 교육 공간으로 자리잡을 전망이다. 요리에 관심이 많은 어린이부터 예비 조리인들까지 누구나 참여할 수 있는 다양한 체험 프로그램과 교육의 시간이 준비될 공간으로 자연 속에서 힐링 할 수 있는 조리테마파크 박물관이다.
+                </div>
+                <!-- 사진 -->
+                <div class="main_img">
+                    <table>
+                        <tr>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20210709_267/1625813162884dxhoC_JPEG/98C5G72GqWqYVFHrjD4VCABO.jpg" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20200212_286/1581488895393re0kt_JPEG/UJUQ3Giij1oLR8ydxuYZUpk3.JPG.jpg" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20200212_54/1581488895456voBeK_JPEG/LX3HNVBVnuHJEQUbIJLJ6_OE.jpg" /></td>
+                        <tr>
+                      </table>
+                </div>
+                
+                <div class="main">
+                    <ul class="ullist">
+                        <ul class="ninfo">
+                            <li>주소 : 경기 안성시 일죽면 주래본죽로 158-60</li>
+                            <li>전화 : 031-673-9966</li>
+                            <li>사이트 : <a href="http://moca-museum.co.kr/" target="_blank">http://moca-museum.co.kr/</a></li>
+                            <li>운영시간 : 10:00 ~ 17:00 | 매주 월요일 정기휴무</li>
+                        </ul>
+                        <li>
+                            <h2 style="margin-top:50px;">오시는길</h2>
+                        </li>
+                        <ul class="ninfo">
+                            <li><b>버스</b>
+                                <ul>
+                                    <li>
+                                        일반 | 3-7
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

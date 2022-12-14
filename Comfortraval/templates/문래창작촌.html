@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>ComforTravel</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <div class="search">
+                <div class="search_box">
+                    <h1 class="logo">ComforTravel</h1>
+                    <div class="window">
+                        <form action="/applysearch" method="GET">
+                            <input type="text" id="fname" class="input_text" name="location" placeholder="검색어를 입력하세요">
+                            <button class="Button" type="submit"><div class="searchBtn">검색</div></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            
+            <div class="main">
+                <h1>문래창작촌</h1>
+                <div class="pinfo">
+                    중소 철공소들이 모여 있는 서울시 영등포구 문래3가를 중심으로 2003년부터 형성된 예술작업실 마을이다. 2000년대 들어 공장 이전 정책과 재개발로 단지 안 업체들이 옮겨가자 홍대, 대학로 등지에서 젊은 예술가들이 알음알음 찾아와 비어 있는 철공소 공간에 작업실을 만들면서 자연스럽게 형성되었다. 2011년 상반기 기준 작업 공간 100여 곳 170여명의 예술가들이 활동하고 있다. 회화, 설치, 조각, 디자인, 일러스트, 사진, 영상, 서예, 영화, 패션, 애니메이션 등의 시각예술 장르를 비롯해 춤, 연극 마임, 거리 퍼포먼스, 전통예술, 음악 등의 공연예술가와 비평, 문화기획, 시나리오, 자연과학 등 다양한 분야의 문화 활동가들이 작업하고 있다.
+                </div>
+                <!-- 사진 -->
+                <div class="main_img">
+                    <table>
+                        <tr>
+                            <td><img alt="" src="" /></td>
+                            <td><img alt="" src="" /></td>
+                            <td><img alt="" src="" /></td>
+                        <tr>
+                      </table>
+                </div>
+                
+                <div class="main">
+                    <ul class="ullist">
+                        <ul class="ninfo">
+                            <li>주소 : 서울 영등포구 도림로128가길 13-8</li>
+                            <li>전화 : </li>
+                            <li>사이트 : </li>
+                            <li>운영시간 : </li>
+                        </ul>
+                        <li>
+                            <h2 style="margin-top:50px;">오시는길</h2>
+                        </li>
+                        <ul class="ninfo">
+                            <li><b>지하철</b>
+                                <ul>
+                                    <li>
+                                        2호선 | 문래역 7번 출구
+                                    </li>
+                                </ul>
+                            </li><br/>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

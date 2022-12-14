@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>ComforTravel</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <div class="search">
+                <div class="search_box">
+                    <h1 class="logo">ComforTravel</h1>
+                    <div class="window">
+                        <form action="/applysearch" method="GET">
+                            <input type="text" id="fname" class="input_text" name="location" placeholder="검색어를 입력하세요">
+                            <button class="Button" type="submit"><div class="searchBtn">검색</div></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            
+            <div class="main">
+                <h1>한택식물원</h1>
+                <div class="pinfo">
+                    사계절 언제 방문하더라도 아름다운 정원을 즐길 수 있는 국내 최대의 종합식물원이다. 다양한 식물품종을 전시한 원추리원, 비비추원, 아이리스원 등이 있으며, 어린왕자에 등장하는 바오밥나무가 있는 호주온실과 남아프리카온실, 허브&식충식물원, 편안한 휴식과 여유를 느낄 수 있는 잔디화단, 쉼터 등 색다른 정원을 갖추고 있다.
+                </div>
+                <!-- 사진 -->
+                <div class="main_img">
+                    <table>
+                        <tr>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20180813_176/15341244322754YVCC_JPEG/thumb04.jpg" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20180813_285/15341244323136H6hd_JPEG/thumb05.jpg" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20180813_81/1534124432246mtN5a_JPEG/thumb07.jpg" /></td>
+                        <tr>
+                      </table>
+                </div>
+                
+                <div class="main">
+                    <ul class="ullist">
+                        <ul class="ninfo">
+                            <li>주소 : 경기 용인시 처인구 백암면 한택로 2 한택식물원</li>
+                            <li>전화 : 031-333-3558</li>
+                            <li>사이트 : <a href="http://www.hantaek.co.kr/" target="_blank">http://www.hantaek.co.kr/</a></li>
+                            <li>운영시간 : 09:00 ~ 17:30</li>
+                        </ul>
+                        <li>
+                            <h2 style="margin-top:50px;">오시는길</h2>
+                        </li>
+                        <ul class="ninfo">
+                            <li><b>버스</b>
+                                <ul>
+                                    <li>
+                                        일반 | 10-4
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

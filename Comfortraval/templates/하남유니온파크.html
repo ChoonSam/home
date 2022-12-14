@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>ComforTravel</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <div class="search">
+                <div class="search_box">
+                    <h1 class="logo">ComforTravel</h1>
+                    <div class="window">
+                        <form action="/applysearch" method="GET">
+                            <input type="text" id="fname" class="input_text" name="location" placeholder="검색어를 입력하세요">
+                            <button class="Button" type="submit"><div class="searchBtn">검색</div></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            
+            <div class="main">
+                <h1>하남 유니온파크</h1>
+                <div class="pinfo">
+                    기존의 노후화 된 소각장, 재활용선별장, 음식물처리장, 중계펌프장 등의 시설 개선과 미사지구와 같은 택지개발사업 등으로 환경기초시설 확충이 요구됨에 따라 국내최초로 지하에 폐기물처리시설과 하수처리시설을 함께 설치한 신개념 환경기초시설이다. 지하에는 소각처리시설, 재활용선별시설, 음식물자원화시설, 하수처리시설 등이 설치되어 있고, 지상에는 잔디광장, 어린이물놀이시설, 다목적체육관, 야외체육시설 등 다양한 주민친화시설이 있는 하남유니온파크와 한강·검단산 등 하남의 아름다운 경관을 한눈에 조망할 수 있는 하남유니온타워(105m)가 설치되어있다.
+                </div>
+                <!-- 사진 -->
+                <div class="main_img">
+                    <table>
+                        <tr>
+                            <td><img alt="" src="" /></td>
+                            <td><img alt="" src="" /></td>
+                            <td><img alt="" src="" /></td>
+                        <tr>
+                      </table>
+                </div>
+                
+                <div class="main">
+                    <ul class="ullist">
+                        <ul class="ninfo">
+                            <li>주소 : 경기 하남시 미사대로 710 하남시환경기초시설</li>
+                            <li>전화 : 031-790-6225</li>
+                            <li>사이트 : </li>
+                        <li>운영시간 : </li>
+                        </ul>
+                        <li>
+                            <h2 style="margin-top:50px;">오시는길</h2>
+                        </li>
+                        <ul class="ninfo">
+                            <li><b>버스</b>
+                                <ul>
+                                    <li>
+                                        일반 | 23, 87
+                                    </li>
+                                    <li>
+                                        광역 | 9302, 9303, 9303-1
+                                    </li>
+                                    <li>
+                                        마을 | 5
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>ComforTravel</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <div class="search">
+                <div class="search_box">
+                    <h1 class="logo">ComforTravel</h1>
+                    <div class="window">
+                        <form action="/applysearch" method="GET">
+                            <input type="text" id="fname" class="input_text" name="location" placeholder="검색어를 입력하세요">
+                            <button class="Button" type="submit"><div class="searchBtn">검색</div></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            
+            <div class="main">
+                <h1>신륵사</h1>
+                <div class="pinfo">
+                    강을 따라 위치한 유일한 사찰. 1376년에 나옹선사가 입적하면서 유명한 절이 되었다. 조선시대에는 영릉의 원찰이었다. 신륵사 경내에는 다층전탑을 비롯한 8점의 보물과 유형 문화재가 있다.
+                </div>
+                <!-- 사진 -->
+                <div class="main_img">
+                    <table>
+                        <tr>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20150831_73/1441013626342FNq7H_JPEG/116168548123408_0.jpg" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20150831_146/1441013626556sOHoX_JPEG/116574588651224_0.jpg" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20150831_151/1441013627549oA7iA_JPEG/116574588651224_5.jpg" /></td>
+                        <tr>
+                      </table>
+                </div>
+                
+                <div class="main">
+                    <ul class="ullist">
+                        <ul class="ninfo">
+                            <li>주소 : 경기 여주시 신륵사길 73</li>
+                            <li>전화 : 031-885-2505</li>
+                            <li>사이트 : <a href="http://www.silleuksa.org/" target="_blank">http://www.silleuksa.org/</a></li>
+                            <li>운영시간 : </li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

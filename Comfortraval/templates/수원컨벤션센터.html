@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>ComforTravel</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <div class="search">
+                <div class="search_box">
+                    <h1 class="logo">ComforTravel</h1>
+                    <div class="window">
+                        <form action="/applysearch" method="GET">
+                            <input type="text" id="fname" class="input_text" name="location" placeholder="검색어를 입력하세요">
+                            <button class="Button" type="submit"><div class="searchBtn">검색</div></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            
+            <div class="main">
+                <h1>수원컨벤션센터</h1>
+                <div class="pinfo">
+                    대한민국 경기도 수원시 영통구 광교신도시에 세워진 전시장(컨벤션센터). 2019년 3월 29일 1단계 공사가 완료되어 개관하였다. 경기도에서 KINTEX(고양시)에 이어서 두번째로 추진하는 컨벤션센터 사업이다.
+                </div>
+                <!-- 사진 -->
+                <div class="main_img">
+                    <table>
+                        <tr>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20191028_30/1572244333109E8LtD_JPEG/KEuB8VAMarTSQL_cEPwKX5ao.JPG.jpg" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20191105_13/1572946224820DFDyI_PNG/_vJsrbPsMDczSMRH5gztW45t.png" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20191105_54/1572946225653VQf8x_PNG/d1BDHLdHlbYaY4_ixMjLgz8V.png" /></td>
+                        <tr>
+                      </table>
+                </div>
+                
+                <div class="main">
+                    <ul class="ullist">
+                        <ul class="ninfo">
+                            <li>주소 : 경기 수원시 영통구 광교중앙로 140</li>
+                            <li>전화 : 031-303-6000</li>
+                            <li>사이트 : <a href="http://www.scc.or.kr/" target="_blank">http://www.scc.or.kr/</a></li>
+                            <li>운영시간 : </li>
+                        </ul>
+                        <li>
+                            <h2 style="margin-top:50px;">오시는길</h2>
+                        </li>
+                        <ul class="ninfo">
+                            <li><b>지하철</b>
+                                <ul>
+                                    <li>
+                                        신분당선 | 광교중앙역 4번 출구 도보 10분
+                                    </li>
+                                </ul>
+                            </li><br/>
+                            <li><b>버스</b>
+                                <ul>
+                                    <li>
+                                        일반 | 5-4, 19, 20, 32, 32-3, 32-4, 670, 720-3, 999
+                                    </li>
+                                    <li>
+                                        광역 | M5115, M5121, M5422
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

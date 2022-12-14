@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>ComforTravel</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <div class="search">
+                <div class="search_box">
+                    <h1 class="logo">ComforTravel</h1>
+                    <div class="window">
+                        <form action="/applysearch" method="GET">
+                            <input type="text" id="fname" class="input_text" name="location" placeholder="검색어를 입력하세요">
+                            <button class="Button" type="submit"><div class="searchBtn">검색</div></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            
+            <div class="main">
+                <h1>용인농촌테마파크</h1>
+                <div class="pinfo">
+                    용인농촌테마파크는 주변 관광자원과 연계를 고려한 농촌, 전원 특성에 맞는 규모 있는 종합 체험 시설물입니다. 도시민에게 ‘일상을 벗어난 전원 체험 공간’과 ‘가족단위의 휴식 공간’을 테마별로 제공합니다.
+                </div>
+                <!-- 사진 -->
+                <div class="main_img">
+                    <table>
+                        <tr>
+                            <td><img alt="" src="" /></td>
+                            <td><img alt="" src=" " /></td>
+                            <td><img alt="" src=" " /></td>
+                        <tr>
+                      </table>
+                </div>
+                
+                <div class="main">
+                    <ul class="ullist">
+                        <ul class="ninfo">
+                            <li>주소 : 경기 용인시 처인구 원삼면 농촌파크로 80-1 농촌테마파크</li>
+                            <li>전화 : 031-324-4081</li>
+                            <li>사이트 : <a href="https://www.yongin.go.kr/home/yitour/ytour01/yttour05.jsp" target="_blank">https://www.yongin.go.kr/home/yitour/ytour01/yttour05.jsp</a></li>
+                            <li>운영시간 : </li>
+                        </ul>
+                        <li>
+                            <h2 style="margin-top:50px;">오시는길</h2>
+                        </li>
+                        <ul class="ninfo">
+                            <li><b>버스</b>
+                                <ul>
+                                    <li>
+                                        일반 | 820
+                                    </li>
+                                    <li>
+                                        광역 | 5001, 5002, 5005, 5600, 5800
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

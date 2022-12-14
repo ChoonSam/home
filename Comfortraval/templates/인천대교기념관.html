@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>ComforTravel</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <div class="search">
+                <div class="search_box">
+                    <h1 class="logo">ComforTravel</h1>
+                    <div class="window">
+                        <form action="/applysearch" method="GET">
+                            <input type="text" id="fname" class="input_text" name="location" placeholder="검색어를 입력하세요">
+                            <button class="Button" type="submit"><div class="searchBtn">검색</div></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            
+            <div class="main">
+                <h1>인천대교 기념관</h1>
+                <div class="pinfo">
+                    세계 10대 건설프로젝트에 포함된 인천대교를 기념하기 위하여 2010년 3월 5일 개관한 기념관은 인천대교 프로젝트의 시작부터 완공까지의 건설과정, 국내교량 건설의 기술력, 아시아의 허브공항인 인천국제공항을 연결하는 관문으로서의 파급 효과 등을 볼 수 있으며, 아름다운 서해안과 함께 송도국제도시의 스카이라인과 이어지는 인천대교의 경관을 조망할 수 있다.
+                </div>
+                <!-- 사진 -->
+                <div class="main_img">
+                    <table>
+                        <tr>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20221013_175/1665646135794ykuaK_JPEG/20220510_101008.jpg" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20221013_270/1665646166767Pj0pv_JPEG/IMG_9080_3%C3%FE3%C0%FC%B8%C1%B4%EB%2C_%C6%F7%C5%E4%C1%B8.JPG" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20221013_118/1665646117362DqgBe_JPEG/IMG_9034_1%C3%FE1%C1%BE%C7%D5%BE%C8%B3%BB.JPG" /></td>
+                        <tr>
+                      </table>
+                </div>
+                
+                <div class="main">
+                    <ul class="ullist">
+                        <ul class="ninfo">
+                            <li>주소 : 인천 중구 인천대교고속도로 3</li>
+                            <li>전화 : 032-745-8123</li>
+                            <li>사이트 : <a href="https://www.incheonbridge.com/" target="_blank">https://www.incheonbridge.com/</a></li>
+                        <li>운영시간 : 11월-3월 10:00 ~ 17:00 | 4월-10월 10:00 ~ 17:30</li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

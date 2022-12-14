@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>ComforTravel</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <div class="search">
+                <div class="search_box">
+                    <h1 class="logo">ComforTravel</h1>
+                    <div class="window">
+                        <form action="/applysearch" method="GET">
+                            <input type="text" id="fname" class="input_text" name="location" placeholder="검색어를 입력하세요">
+                            <button class="Button" type="submit"><div class="searchBtn">검색</div></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            
+            <div class="main">
+                <h1>아라폭포</h1>
+                <div class="pinfo">
+                    계양산 협곡의 지형을 이용해 수직적 경관을 연출해내는 폭 150m의 거대한 인공폭포로, 아라폭포 수변 산책길은 인공폭포까지 계단으로 이어져 있습니다. 인근에 바닥이 유리로 된 원형전망대 아라마루가 있습니다.
+                </div>
+                <!-- 사진 -->
+                <div class="main_img">
+                    <table>
+                        <tr>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20210719_276/16266604021394vXvU_JPEG/m6K0DKU_tEtGtTBdoZu1j7_I.JPG.jpg" /></td>
+                            <td><img alt="" src="" /></td>
+                            <td><img alt="" src="" /></td>
+                        <tr>
+                      </table>
+                </div>
+                
+                <div class="main">
+                    <ul class="ullist">
+                        <ul class="ninfo">
+                            <li>주소 : 인천 계양구 둑실동 26-12</li>
+                            <li>전화 : 1899-3650</li>
+                            <li>사이트 : <a href="https://www.kwater.or.kr/giwaterway/ara.do" target="_blank">https://www.kwater.or.kr/giwaterway/ara.do</a></li>
+                        <li>운영시간 : 11:30 ~ 12:30</li>
+                        </ul>
+                    </ul>
+                    <li>
+                        <h2 style="margin-top:50px;">오시는길</h2>
+                    </li>
+                    <ul class="ninfo">
+                        <li><b>지하철</b>
+                            <ul>
+                                <li>인천2호선 | 검암역 3번 출구 도보 45분</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

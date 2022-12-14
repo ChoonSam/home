@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>ComforTravel</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <div class="search">
+                <div class="search_box">
+                    <h1 class="logo">ComforTravel</h1>
+                    <div class="window">
+                        <form action="/applysearch" method="GET">
+                            <input type="text" id="fname" class="input_text" name="location" placeholder="검색어를 입력하세요">
+                            <button class="Button" type="submit"><div class="searchBtn">검색</div></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            
+            <div class="main">
+                <h1>덕포진</h1>
+                <div class="pinfo">
+                    조선시대 진영으로, 이곳은 서울로 통하는 바닷길의 중요한 전략적 요충지대였던 곳이다. 처음 세운 시기는 알 수 없으나, 조선 현종 7년(1666)에 강화에 포함되었다. 높직한 평지에 세운 포대인 돈대와 대포를 쏘는 포대, 그리고 포를 쏠 때 필요한 불씨를 보관하고 포병을 지휘하는 파수청이 있다. 돈대는 중요한 전략지에 있어 병인양요 때는 프랑스함대와 신미양요 때는 미국 함대와 싸웠다. 1980년에 행한 발굴조사 결과 7개의 포탄과 2개의 상평통보 등이 출토되었고 주춧돌과 화덕자리를 발견하였다.
+                </div>
+                <!-- 사진 -->
+                <div class="main_img">
+                    <table>
+                        <tr>
+                            <td><img alt="" src="" /></td>
+                            <td><img alt="" src="" /></td>
+                            <td><img alt="" src="" /></td>
+                        <tr>
+                      </table>
+                </div>
+                
+                <div class="main">
+                    <ul class="ullist">
+                        <ul class="ninfo">
+                            <li>주소 : 경기 김포시 대곶면 신안리 산105</li>
+                            <li>전화 : 031-980-2965</li>
+                            <li>사이트 : </li>
+                            <li>운영시간 : </li>
+                        </ul>
+                        <li>
+                            <h2 style="margin-top:50px;">오시는길</h2>
+                        </li>
+                        <ul class="ninfo">
+                            <li><b>버스</b>
+                                <ul>
+                                    <li>일반 | 60-3, 8000</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

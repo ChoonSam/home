@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>ComforTravel</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <div class="search">
+                <div class="search_box">
+                    <h1 class="logo">ComforTravel</h1>
+                    <div class="window">
+                        <form action="/applysearch" method="GET">
+                            <input type="text" id="fname" class="input_text" name="location" placeholder="검색어를 입력하세요">
+                            <button class="Button" type="submit"><div class="searchBtn">검색</div></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            
+            <div class="main">
+                <h1>세종문화회관</h1>
+                <div class="pinfo">
+                    세종문화회관은 서울특별시 종로구 세종대로 175 에 위치한 53,202m²크기의 종합 예술 시설이다. 3,000석 규모의 최신식 주요 공연장과 아시아에서 가장 큰 파이프 오르간이 있는 대극장입니다.
+                </div>
+                <!-- 사진 -->
+                <div class="main_img">
+                    <table>
+                        <tr>
+                          <td><img alt="" src="https://ldb-phinf.pstatic.net/20140407_198/1396853904613Y6vJy_JPEG/%BC%AD%BF%EF_%BC%BC%C1%BE%B9%AE%C8%AD%C8%B8%B0%FC_8.JPG?type=m500_500" /></td>
+                          <td><img alt="" src="https://ldb-phinf.pstatic.net/20140407_222/13968539061194MjwI_JPEG/%BC%AD%BF%EF_%BC%BC%C1%BE%B9%AE%C8%AD%C8%B8%B0%FC_9.JPG?type=m500_500" /></td>
+                          <td><img alt="" src="https://ldb-phinf.pstatic.net/20140407_110/1396853904238M8iRP_JPEG/%BC%AD%BF%EF_%BC%BC%C1%BE%B9%AE%C8%AD%C8%B8%B0%FC_6.JPG?type=m500_500" /></td>
+                        <tr>
+                      </table>
+                </div>
+                
+                <div class="main">
+                    <ul class="ullist">
+                        <ul class="ninfo">
+                            <li>주소 : 서울 종로구 세종대로 175</li>
+                            <li>전화 : 02-399-1000</li>
+                            <li>사이트 : <a href="https://www.sejongpac.or.kr/portal/main/main.do" target="_blank">https://www.sejongpac.or.kr/portal/main/main.do</a></li>
+                        </ul>
+                        <li>
+                            <h2 style="margin-top:50px;">안내</h2>
+                        </li>
+                        <ul class="ninfo">
+                            <li><b>공연일정</b>
+                                <ul>
+                                    <li>
+                                        <a href="https://www.sejongpac.or.kr/portal/subMain/perform.do?menuNo=200001" target="_blank">공연, 전시, 강좌 바로가기</a></li>
+                                    </li>
+                                </ul>
+                            </li><br/>
+                            <li><b>세종투어</b>
+                                <ul>
+                                    <li>
+                                        <a href="https://www.sejongpac.or.kr/portal/main/contents.do?menuNo=200025" target="_blank">투어 안내 바로가기</a></li>
+                                    </li>
+                                </ul>
+                            </li>
+                            <br/>
+                        </ul>
+                        <li>
+                            <h2 style="margin-top:50px;">오시는길</h2>
+                        </li>
+                        <ul class="ninfo">
+                            <li><b>지하철</b>
+                                <ul>
+                                    <li>
+                                        1호선 | 종각역 1번 출구 350m
+                                    </li>
+                                    <li>
+                                        3호선 | 경복궁역 6번 출구
+                                    </li>
+                                    <li>
+                                        5호선 | 광화문역 1,8번 출구 | 광화문역 7번 출구 200m
+                                    </li>
+                                </ul>
+                            </li>
+                            <br/>
+                            <li><b>버스</b>
+                                <ul>
+                                    <li>
+                                        간선
+                                        <ul>
+                                            <li>
+                                                109, 130, 150, 160, 260, 270, 271, 273, 370, 401, 406, 470, 600, 601, 602, 606, 700, 702A, 702B, 704, 705, 707, 708, 720, 721, 741
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        지선
+                                        <ul>
+                                            <li>
+                                                1020, 1711, 7016, 7018, 7022, 721, 7212
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        광역
+                                        <ul>
+                                            <li>
+                                                5000A, 5000B, 5005, 5500-2, 9000, 9000-1, 9200, 9401, 970, 9701, 9703
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        공항
+                                        <ul>
+                                            <li>
+                                                6002, 6005
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        직행
+                                        <ul>
+                                            <li>
+                                                790, 799, 1002
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        마을
+                                        <ul>
+                                            <li>
+                                                종로03, 종로09, 종로11
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

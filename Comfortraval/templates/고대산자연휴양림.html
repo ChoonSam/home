@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>ComforTravel</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <div class="search">
+                <div class="search_box">
+                    <h1 class="logo">ComforTravel</h1>
+                    <div class="window">
+                        <form action="/applysearch" method="GET">
+                            <input type="text" id="fname" class="input_text" name="location" placeholder="검색어를 입력하세요">
+                            <button class="Button" type="submit"><div class="searchBtn">검색</div></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            
+            <div class="main">
+                <h1>고대산 자연휴양림</h1>
+                <div class="pinfo">
+                    경기도 연천군 신서면 대광리에 소재한 고대산산자연휴양림은 2017년에 개장하였고 3번국도 및 경원선 신탄리역이 근접하고 있어 접근성이 좋으며 접경지역 특유의 맑고 고요한 자연환경을 그대로 즐길 수 있는 곳입니다. 주요 시설물로는 숲속의집 14동, 산림휴양관 1동 6실, 숲속수련원 1동, 야영장 20개소, 공중화장실 및 취사장 1동을 갖추고 있고 고대산(832m)과 보개산(877m)으로 이어지는 다양한 등산로 및 탐방로를 통해 자연과 함께 숨쉬며 스트레스와 지친 심신을 말끔히 씻고 즐거움과 편안함을 더할 수 있는 곳입니다. 자연휴양림이란 산림이 갖고 있는 좋은 것들 즉, 울창한 숲, 맑은 물, 아름다운 경관등을 살려 국민 정서를 함양하고 보건증진에 기여할 목적으로 산림속에 조성한 휴식공간입니다. 
+                </div>
+                <!-- 사진 -->
+                <div class="main_img">
+                    <table>
+                        <tr>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20200420_140/1587355484147aFQ8u_JPEG/3CuYFY3paWtx-D4unitMlvin.jpg" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20180102_72/1514865148423tvLpR_JPEG/V583owNVmF5ld_49yl3dyDkP.JPG.jpg" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20200420_48/1587355643612FHdOJ_JPEG/Bi5kV_3PbnnaNM_03EwFrIf5.jpg" /></td>
+                        <tr>
+                      </table>
+                </div>
+                
+                <div class="main">
+                    <ul class="ullist">
+                        <ul class="ninfo">
+                            <li>주소 : 경기 연천군 신서면 고대산길 84-79</li>
+                            <li>전화 : 031-834-2200</li>
+                            <li>사이트 : <a href="https://www.foresttrip.go.kr/indvz/main.do?hmpgId=ID02030001" target="_blank">https://www.foresttrip.go.kr/indvz/main.do?hmpgId=ID02030001</a></li>
+                            <li>운영시간 : 00:00 ~ 24:00</li>
+                        </ul>
+                        <li>
+                            <h2 style="margin-top:50px;">오시는길</h2>
+                        </li>
+                        <ul class="ninfo">
+                            <li><b>버스</b>
+                                <ul>
+                                    <li>
+                                        일반 | 39-2
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

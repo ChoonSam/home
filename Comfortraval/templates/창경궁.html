@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>ComforTravel</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <div class="search">
+                <div class="search_box">
+                    <h1 class="logo">ComforTravel</h1>
+                    <div class="window">
+                        <form action="/applysearch" method="GET">
+                            <input type="text" id="fname" class="input_text" name="location" placeholder="검색어를 입력하세요">
+                            <button class="Button" type="submit"><div class="searchBtn">검색</div></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            
+            <div class="main">
+                <h1>창경궁</h1>
+                <div class="pinfo">
+                    <b>창경궁은 성종 14년(1483)에 세조비 정희왕후, 예종비 안순왕후, 덕종비(추존왕) 소혜왕후 세분의 대비를 모시기 위해 옛 수강궁터에 창건한 궁이다.</b>
+                    수강궁이란 세종 즉위년 1418년, 세종이 상왕으로 물러난 태종의 거처를 위해서 마련한 궁이다.<br/><br/>
+                    창경궁은 창덕궁과 연결되어 동궐이라는 하나의 궁역을 형성하면서, 
+                    독립적인 궁궐의 역할을 함과 동시에 창덕궁의 모자란 주거공간을 보충해주는 역할을 하였다. 
+                    성종대 창건된 창경궁은 선조 25년(1592) 임진왜란으로 모든 전각이 소실되었고, 광해군 8년(1616)에 재건되었다. 
+                    그러나 인조2년(1624) 이괄의 난과 순조30년(1830) 대화재로 인하여 내전이 소실되었다. 화재에서 살아남은 명정전, 
+                    명정문, 홍화문은 17세기 조선시대 건축양식을 보여주며, 정전인 명정전은 조선왕궁 법전 중에서 가장 오래된 건물이다.
+                </div>
+                <!-- 사진 -->
+                <div class="main_img">
+                    <table>
+                        <tr>
+                          <td><img alt="" src="http://cgg.cha.go.kr/CGG/images/content/pal_ckk_pct01_ori.jpg" /></td>
+                          <td><img alt="" src="https://ldb-phinf.pstatic.net/20150831_188/1440997741969cjjE3_JPEG/11571740_2.jpg" /></td>
+                          <td><img alt="" src="https://ldb-phinf.pstatic.net/20150831_297/1440997741798e9XEC_JPEG/11571740_1.jpg" /></td>
+                        <tr>
+                      </table>
+                </div>
+                
+                <div class="main">
+                    <ul class="ullist">
+                        <ul class="ninfo">
+                            <li>주소 : 서울특별시 종로구 창경궁로 185</li>
+                            <li>전화 : 02-762-4868</li>
+                            <li>사이트 : <a href="http://cgg.cha.go.kr/" target="_blank">http://cgg.cha.go.kr/</a></li>
+                            <li>관람시간 : 09:00 ~ 21:00 (입장마감 : 20:00)<br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:red;">매주 월요일은 휴궁일(休宮日)입니다.</span>
+                            </li>
+                            <li>관람료<br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;〉내국인 : 만25세 ~ 만64세 : 1,000원 (10인이상 : 800원)<br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;만24세 이하 및 만 65세 이상 : 무료<br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;매월 마지막 수요일 [문화가 있는 날] : 무료<br/><br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;〉외국인 : 7세 ~ 18세 : 500원 (10인이상 : 400원)<br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;19세 ~ 64세 : 1,000원(10인이상 : 800원)<br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;만6세 이하 및 만 65세 이상, 한복 착용자 : 무료<br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;매월 마지막 수요일 [문화가 있는 날] : 무료<br/><br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;〉특별권, 무료관람 : 홈페이지 참고바람<br/><br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;〉창경궁 소재지 종로구 주민 일반관람료 50% 할인<br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;※ 할인 대상자는 반드시 신분증 또는 등본 등의 증빙서류 제시
+                            </li>
+                        </ul>
+                        <li>
+                            <h2 style="margin-top:50px;">오시는길</h2>
+                        </li>
+                        <ul class="ninfo">
+                            <li><b>지하철</b>
+                                <ul>
+                                    <li>
+                                        4호선 혜화역 4번 출구 도보 13분
+                                    </li>
+                                </ul>
+                            </li>
+                            <br/>
+                            <li><b>버스</b>
+                                <ul>
+                                    <li>
+                                        간선
+                                        <ul>
+                                            <li>
+                                                100, 102, 104, 106, 107, 108, 140, 143, 150, 151, 160 ,162, 171, 172, 272, 301, 601, 710
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        공항
+                                        <ul>
+                                            <li>
+                                                6011
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <br/>
+                            <li><b>주차장</b>
+                                <ul>
+                                    <li>
+                                        주차 대수 : 22대(주차장이 협소하므로 대중교통 이용을 권장드립니다.)
+                                    </li>
+                                    <li>
+                                        운영시간 09: 00 ~ 22:00
+                                    </li>
+                                    <li>
+                                        주차요금<br/>
+                                        <ul>
+                                            <li>
+                                                기본 30분 : 1,500원
+                                            </li>
+                                            <li>
+                                                초과요금(매 10분) : 500원 : 800원
+                                            </li>
+                                            <li>
+                                                회전시간(10분) : 무료
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <br/>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

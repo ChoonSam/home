@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>ComforTravel</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <div class="search">
+                <div class="search_box">
+                    <h1 class="logo">ComforTravel</h1>
+                    <div class="window">
+                        <form action="/applysearch" method="GET">
+                            <input type="text" id="fname" class="input_text" name="location" placeholder="검색어를 입력하세요">
+                            <button class="Button" type="submit"><div class="searchBtn">검색</div></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            
+            <div class="main">
+                <h1>대한민국역사박물관</h1>
+                <div class="pinfo">
+                    대한민국역사박물관(大韓民國歷史博物館, National Museum of Korean Contemporary History)은 대한민국 근현대 역사자료의 수집·보존·조사·연구·전시·교육 및 교류에 관한 사무를 관장하는 대한민국 문화체육관광부의 소속기관이다. 2012년 3월 30일 발족하였으며, 서울특별시 종로구 세종대로 198에 위치하고 있다. 관장은 임기제공무원으로 보한다. 박물관은 대한민국의 역사를 시대별로 4개의 전시실로 나누어 설명하고 있다. 제1전시실에서는 '대한민국의 태동 1876년 ~ 1948년', 제2전시실에서는 '대한민국의 기초 확립 1948년~ 1961년', 제3전시실에서는 '대한민국의 성장과 발전 1961년 ~ 1987년', 그리고 제4전시실에서는 '대한민국의 선진화, 세계로의 도약 1987년 ~ '을 주제로 전시가 구성되어 있다. '어린이 박물관'에서는 어린이가 직접 체험하면서 근현대사를 배울 수 있다. 또한 근현대사 전반에 걸친 다양한 주제의 특별전시를 통해 대한민국 근현대사에 대한 심층적인 내용을 살펴볼 수 있다. 박물관에서 다양한 교육프로그램과 문화행사도 운영하고 있다. 근처 세종이야기와 광화문, 경복궁 등이 자리잡아 그시대 상황에 맟춰 역사를 알아볼 수 있다. 또한 경복궁의 경우 조선시대의 역사를 갖고 있기에 이곳 박물관에서 배운 사실을 이어나갈수 있다.
+                </div>
+                <!-- 사진 -->
+                <div class="main_img">
+                    <table>
+                        <tr>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20180816_111/1534384499299Yh6hE_JPEG/Noy1bYDrGPqsCfFOFj0mX1iv.jpg" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20160419_105/1461029883962KGDh2_JPEG/176369506821658_12.jpeg" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20160419_282/1461029882146g0Xkw_JPEG/176369506821658_1.jpeg" /></td>
+                        <tr>
+                      </table>
+                </div>
+                
+                <div class="main">
+                    <ul class="ullist">
+                        <ul class="ninfo">
+                            <li>주소 : 서울 종로구 세종대로 198</li>
+                            <li>전화 : 0507-1414-9202</li>
+                            <li>사이트 : <a href="https://www.much.go.kr/" target="_blank">https://www.much.go.kr/</a></li>
+                            <li>운영시간 : 수, 토 : 10:00 ~ 21:00 | 월, 화, 목, 금 ,일 : 10:00 ~ 18:00</li>
+                        </ul>
+                        <li>
+                            <h2 style="margin-top:50px;">오시는길</h2>
+                        </li>
+                        <ul class="ninfo">
+                            <li><b>지하철</b>
+                                <ul>
+                                    <li>
+                                        1호선 | 종각역 1,2번 출구 900m
+                                    </li>
+                                    <li>
+                                        3호선 | 경복궁역 6번 출구 500m | 안국역 6번 출구 800m
+                                    </li>
+                                    <li>
+                                        5호선 | 광화문역 2번 출구 250m
+                                    </li>
+                                </ul>
+                            </li><br/>
+                            <li><b>버스</b>
+                                <ul>
+                                    <li>간선
+                                        <ul>
+                                            <li>
+                                                103, 109, 150, 171, 272, 401, 402, 406, 601, 606, 700, 704, 707
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>지선
+                                        <ul>
+                                            <li>
+                                                1020, 1711, 7016, 7018, 7022, 7025, 7212
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>광역
+                                        <ul>
+                                            <li>
+                                                9401, 9703
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>직행
+                                        <ul>
+                                            <li>
+                                                5000, 5000-2, 9000
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>마을
+                                        <ul>
+                                            <li>
+                                                종로09, 종로11
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>ComforTravel</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <div class="search">
+                <div class="search_box">
+                    <h1 class="logo">ComforTravel</h1>
+                    <div class="window">
+                        <form action="/applysearch" method="GET">
+                            <input type="text" id="fname" class="input_text" name="location" placeholder="검색어를 입력하세요">
+                            <button class="Button" type="submit"><div class="searchBtn">검색</div></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            
+            <div class="main">
+                <h1>초막골 생태공원</h1>
+                <div class="pinfo">
+                    초막골은 수리산이 가지고 있는 자연적인 환경과 조선시대 역사유적 등의 문화적 유산을 겸비한 생태문화공간으로 수리산도립공원,
+                    철쭉공원과 연결되어 군포시의 대표 생태녹지축을 이루고 있습니다. 군포시의 새로운 랜드마크로서 시민의 삶의 질을 높이는 장소로 생태·역사·문화 스토리를 담아내어 문화다양성과 생태다양성이 함께하는 미래의 비전을 제시하고 있습니다.
+                </div>
+                <!-- 사진 -->
+                <div class="main_img">
+                    <table>
+                        <tr>
+                            <td><img alt="" src="https://postfiles.pstatic.net/MjAyMDEwMTlfMjg3/MDAxNjAzMDc4Mjc0OTY3.vFyjoWa6RpgqygAh8P0PFqKS-ZI34ytolpPAXw7LEoEg.DyYDPT3itL7b9MtukDPJBrTehzafXKWPIPZ5z_CKqsQg.JPEG.sohyun1989/DSC02457.jpg?type=w966" /></td>
+                            <td><img alt="" src="https://postfiles.pstatic.net/MjAyMTAxMTZfODEg/MDAxNjEwNzk0OTQ4NTgx.HBipISrbJRw6U8p7DaWnqth7IO_30aRGvoR9VQIFOsog.GKYfZFqEIr5hMtRrfhf36cG4UW24A2SCMaetsNm2nrMg.JPEG.ubouno/DSC06187.JPG?type=w966" /></td>
+                            <td><img alt="" src="https://pup-review-phinf.pstatic.net/MjAyMjA1MTZfMjc1/MDAxNjUyNzA4MDMyNTM1.P85J5j2Mwc6n3vvNb7AAj8IM-w74ZydzdQVVw_kY2Kgg.ASmBd8Ltjlu1mLhpW2S_ZCJ44_y0NQ2RePeTUMQrpmEg.JPEG/upload_3b3a72378ae8fdbfc74f2626e73178a0.jpg" /></td>
+                        <tr>
+                      </table>
+                </div>
+                
+                <div class="main">
+                    <ul class="ullist">
+                        <ul class="ninfo">
+                            <li>주소 : 경기 군포시 산본동 917-3</li>
+                            <li>전화 : </li>
+                            <li>사이트 : </li>
+                            <li>운영시간 : </li>
+                        </ul>
+                        <li>
+                            <h2 style="margin-top:50px;">오시는길</h2>
+                        </li>
+                        <ul class="ninfo">
+                            <li><b>버스</b>
+                                <ul>
+                                    <li>일반 | 15</li>
+                                </ul>
+                                <ul>
+                                    <li>광역 | 2, 3-1</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

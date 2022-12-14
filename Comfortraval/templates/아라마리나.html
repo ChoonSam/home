@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>ComforTravel</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <div class="search">
+                <div class="search_box">
+                    <h1 class="logo">ComforTravel</h1>
+                    <div class="window">
+                        <form action="/applysearch" method="GET">
+                            <input type="text" id="fname" class="input_text" name="location" placeholder="검색어를 입력하세요">
+                            <button class="Button" type="submit"><div class="searchBtn">검색</div></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            
+            <div class="main">
+                <h1>아라마리나</h1>
+                <div class="pinfo">
+                    수도권 최고 시설의 해양과 내수면을 아우르는 마리나로 갑문을 이용하는 아라뱃길을 통해 한강과 서로 자유롭게 운영할 수 있으며, 아라뱃길내 정온수역에 위치하여 태풍, 홍수등 자연재해로 부터 안전하게 요트를 계류할 수 있습니다.
+                </div>
+                <!-- 사진 -->
+                <div class="main_img">
+                    <table>
+                        <tr>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20210417_86/1618618771246tiFmd_JPEG/%C4%AB%C5%B8%B8%B6%B6%F5_%BA%EA%B7%CE%BC%C5_%BB%E7%C1%F8.JPG" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20200326_120/1585191599439KSD34_PNG/tXL8zTd_e4kZa40bwBSPDOiF.png" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20170726_75/1501032725064Yw6xy_JPEG/186669497445311_2.jpeg" /></td>
+                        <tr>
+                      </table>
+                </div>
+                
+                <div class="main">
+                    <ul class="ullist">
+                        <ul class="ninfo">
+                            <li>주소 : 경기 김포시 고촌읍 아라육로270번길 73 아라마린센터</li>
+                            <li>전화 : 1688-7841</li>
+                            <li>사이트 : <a href="https://www.ara-edu.net:444/" target="_blank">https://www.ara-edu.net:444/</a></li>
+                            <li>운영시간 : 09:00 ~ 20:00 | 매주 월요일, 화요일 정기휴무</li>
+                        </ul>
+                        <li>
+                            <h2 style="margin-top:50px;">오시는길</h2>
+                        </li>
+                        <ul class="ninfo">
+                            <li><b>지하철</b>
+                                <ul>
+                                    <li>
+                                        9호선 | 개화역 1번 출구
+                                    </li>
+                                    <li>
+                                        김포골드라인 | 고촌역 1번 출구
+                                    </li>
+                                </ul>
+                            </li><br/>
+                            <li><b>버스</b>
+                                <ul>
+                                    <li>일반 | 16, 16-1</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

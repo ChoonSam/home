@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>ComforTravel</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <div class="search">
+                <div class="search_box">
+                    <h1 class="logo">ComforTravel</h1>
+                    <div class="window">
+                        <form action="/applysearch" method="GET">
+                            <input type="text" id="fname" class="input_text" name="location" placeholder="검색어를 입력하세요">
+                            <button class="Button" type="submit"><div class="searchBtn">검색</div></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            
+            <div class="main">
+                <h1>코엑스</h1>
+                <div class="pinfo">
+                    1979년 3월 개관이래, 글로벌 전시회와 국제회의 개최를 통한 국제교류의 장을 마련하고 글로벌 비즈니스 인프라를 두루 갖춘 최고의 전시 문화, 관광의 명소로서 아시아 마이스 비즈니스의 중심으로 자리매김 하였다. 코엑스(연면적 46만㎡)는 지상 1층부터 4층까지 총 4개의 전시장(총 36,007㎡)과 50개의 회의실(총 11,614㎡, 92개까지 분할 가능), 그리고 최고의 편의시설과 공연장, 오피스 공간을 갖추고 있습니다. 뿐만 아니라 2009년 ‘코엑스 아티움’ 개관, 2014년 ‘뉴코엑스몰’ 오픈, 강남 MICE 관광특구 지정, 2020년 친환경 디지털 미디어 ‘XPACE’ 론칭, 2021년 ‘AV-DROP’ 및 ‘Coex-Live’ 도입 등을 통한 친환경 MICE 테크 시스템을 갖춘 글로벌 문화 · 비즈니스 플랫폼으로 진화, 발전하고 있습니다.
+                </div>
+                <!-- 사진 -->
+                <div class="main_img">
+                    <table>
+                        <tr>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20140407_114/13968539223144607q_JPEG/%BC%AD%BF%EF_%C4%DA%BF%A2%BD%BA_6.JPG?type=m500_500" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20140407_146/1396853914026RtXcg_JPEG/%BC%AD%BF%EF_%C4%DA%BF%A2%BD%BA_14.JPG?type=m500_500" /></td>
+                            <td><img alt="" src="#" /></td>
+                        <tr>
+                      </table>
+                </div>
+                
+                <div class="main">
+                    <ul class="ullist">
+                        <ul class="ninfo">
+                            <li>주소 : 서울 강남구 영동대로 513</li>
+                            <li>전화 : 02-6000-0114</li>
+                            <li>사이트 : <a href="http://www.coex.co.kr/" target="_blank">http://www.coex.co.kr/</a></li>
+                            <li>관람시간 : 매일 10:00 - 18:00 </li>
+                        </ul>
+                        <li>
+                            <h2 style="margin-top:50px;">행사/시설</h2>
+                        </li>
+                        <ul class="ninfo">
+                            <li><b>전체일정</b>
+                                <ul>
+                                    <li>
+                                        <a href="http://www.coex.co.kr/event-performance/total-schedule" target="_blank">행사 전체 일정 안내 바로가기</a>
+                                    </li>
+                                </ul>                               
+                            </li>
+                            <br/>
+                        </ul>
+                        <li>
+                            <h2 style="margin-top:50px;">오시는길</h2>
+                        </li>
+                        <ul class="ninfo">
+                            <li><b>지하철</b>
+                                <ul>
+                                    <li>
+                                        2호선 | 삼성역 5,6번 출구
+                                    </li>
+                                    <li>
+                                        7호선 | 청담역 2번출구 도보 15분
+                                    </li>
+                                    <li>
+                                        9호선 | 봉은사역 7번 출구
+                                    </li>
+                                </ul>
+                            </li>
+                            <br/>
+                            <li><b>버스</b>
+                                <ul>
+                                    <li>
+                                        간선
+                                        <ul>
+                                            <li>
+                                                143, 146, 301, 341, 342, 360, 362, 333, 401, 740, N13(심야), N61(심야), 1100, 2000, 2000-1, 7007, 8001, 9407, 9414, 500-2, 9303, 9507, 9607, 1700, 8001, 9303
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        지선
+                                        <ul>
+                                            <li>
+                                                2413, 2415, 3217, 3411, 3412, 3414, 4318, 4419
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        공항
+                                        <ul>
+                                            <li>
+                                                6000, 6006
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        마을
+                                        <ul>
+                                            <li>
+                                                강남01, 강남03, 강남07, 강남08
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

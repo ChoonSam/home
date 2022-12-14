@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>ComforTravel</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <div class="search">
+                <div class="search_box">
+                    <h1 class="logo">ComforTravel</h1>
+                    <div class="window">
+                        <form action="/applysearch" method="GET">
+                            <input type="text" id="fname" class="input_text" name="location" placeholder="검색어를 입력하세요">
+                            <button class="Button" type="submit"><div class="searchBtn">검색</div></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            
+            <div class="main">
+                <h1>잠원 한강공원</h1>
+                <div class="pinfo">
+                    잠실철교에서 영동대교 사이 강변 남단에 위치해 있으며, 잠실종합운동장, 롯데월드, 올림픽공원이 인접해 있어 어느 지역보다 생활체육시설 및 문화시설을 함께 이용하기 편리합니다. 자연학습장은 각종 꽃,야생화,농작물 등이 잘 조성되어 어린이들의 자연학습과 가족단위의 소풍장소로 인기가 높습니다. 또한 잠실 수중보의 물고기길(어도)은 남녀노소 할 것 없이 살아있는 한강을 직접 느낄수 있고, 생태프로그램도 운영되고 있는 또 하나의 자랑거리입니다.
+                </div>
+                <!-- 사진 -->
+                <div class="main_img">
+                    <table>
+                        <tr>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20150901_135/1441033968800uV38D_JPEG/13416926_0.jpg" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20140407_190/1396856348108hPb6C_JPEG/%BC%AD%BF%EF_%C7%D1%B0%AD%BD%C3%B9%CE%B0%F8%BF%F8%C0%E1%BF%F8%C1%F6%B1%B8_1.JPG?type=m500_500" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20140407_289/1396856354520TJGYa_JPEG/%BC%AD%BF%EF_%C7%D1%B0%AD%BD%C3%B9%CE%B0%F8%BF%F8%C0%E1%BF%F8%C1%F6%B1%B8_9.JPG?type=m500_500" /></td>
+                        <tr>
+                      </table>
+                </div>
+                
+                <div class="main">
+                    <ul class="ullist">
+                        <ul class="ninfo">
+                            <li>주소 : 서울 서초구 잠원동</li>
+                            <li>전화 : 02-3780-0531</li>
+                            <li>사이트 : <a href="https://hangang.seoul.go.kr/archives/46678" target="_blank">https://hangang.seoul.go.kr/archives/46678</a></li>
+                        </ul>
+                        <li>
+                            <h2 style="margin-top:50px;">시설</h2>
+                        </li>
+                        <ul class="ninfo">
+                            <li><b>운동시설</b>
+                                <ul>
+                                    <li>
+                                        축구장1면, 배구장2면, 농구장4면, 테니스장6면 <a href="https://hangang.seoul.go.kr/archives/2413" target="_blank">(체육시설 이용 안내 바로가기)</a>
+                                    </li>
+                                    <li>
+                                        체력단련장7, 육상연습장1
+                                    </li>
+                                </ul>                               
+                            </li>
+                            <br/>
+                            <li><b>낚시</b>
+                                <ul>
+                                    <li>
+                                        낚시 제한 사항 : 떡밥 · 어분 낚시 행위, 낚시대 4대 이상, 훌치기 낚시행위 금지 등
+                                    </li>
+                                    <li>
+                                        금지구역에서의 낚시 및 제한사항 위반자는 과태료 부과 대상입니다 <a href="https://hangang.seoul.go.kr/archives/46872">(한강낚시 금지 및 제한사항 안내 바로가기)</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <br/>
+                            <li><b>수상레저스포츠</b>
+                                <ul>
+                                    <li>
+                                        수상스키, 모터보트, 바나나보트, 웨이크보드, 요트 등 <a href="https://hangang.seoul.go.kr/archives/46875#program-area5">(수상레저스포츠 이용안내 바로가기)</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <br/>
+                            <li><b>자전거대여점</b>
+                                <ul>
+                                    <li>
+                                        위치 : 잠원 제2호 매점 앞
+                                    </li>
+                                    <li>
+                                        운영시간 : 09:00 ~ 일몰시 까지 (월별 탄력적 이용)
+                                    </li>
+                                    <li>
+                                        1인용 : 1시간당 3,000원(15분 초과시 마다 500원 추가)
+                                    </li>
+                                    <li>
+                                        2인용 : 1시간당 6,000원(15분 초과시 마다 1,000원 추가)
+                                    </li>
+                                    <li>
+                                        <a href="https://hangang.seoul.go.kr/archives/46889">(자전거 대여점 정보 및 요금 안내 바로가기)</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <br/>
+                            <li><b>수영장</b>
+                                <ul>
+                                    <li>
+                                        수용인원 : 3,000명(7월 ~ 8월 개장) <a href="https://hangang.seoul.go.kr/archives/46886">(수영장·물놀이장 소개 바로가기)</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <br/>
+                            <li><b>친환경테마 기후 어린이놀이터</b>
+                                <ul>
+                                    <li>
+                                        위치 : 사무실앞 초지대 그늘막 앞에 위치 (잠원나들목 진입 후 왼쪽, 강상 방향)
+                                    </li>
+                                    <li>
+                                        시설물 : 지구온난화와 에너지고갈에 대비한 태양열, 바람, 운동 에너지 등 신재생 에너지를 접목한 시설물 기후놀이대, 태양광전지판, 비단결피아노, 풍력발전기, 자가발전운동기구, 태양광공원 등의 시설물 설치
+                                    </li>
+                                </ul>
+                            </li>
+                            <br/>
+                            <li><b>신사 나들목</b>
+                                <ul>
+                                    <li>
+                                        위치 : 트랙구장 앞(현대고등학교와 신사중학교 사이로 직진 공원진입)
+                                    </li>
+                                    <li>
+                                        시설물 :  보행자도로와 차도 2차선으로 설계된 나들목 신규설치
+                                    </li>
+                                </ul>
+                            </li>
+                            <br/>
+                        </ul>
+                        <li>
+                            <h2 style="margin-top:50px;">오시는길</h2>
+                        </li>
+                        <ul class="ninfo">
+                            <li><b>지하철</b>
+                                <ul>
+                                    <li>
+                                        3호선 | 신사역 5번 출구 1km | 압구정역 1번 출구 800m
+                                    </li>
+                                </ul>
+                            </li>
+                            <br/>
+                            <li><b>버스</b>
+                                <ul>
+                                    <li>
+                                        간선
+                                        <ul>
+                                            <li>
+                                                140, 142, 143, 144, 241, 362, 400, 402, 420, 421, 470, 472, 741, 3011, 4318
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li><br/>
+                            <li><b>주차장</b>
+                                <ul>
+                                    <li>
+                                        주차장 수 : 6개소(잠원1주차장, 잠원2주차장, 잠원3주차장, 잠원4주차장, 잠원5주차장, 잠원6주차장)
+                                    </li>
+                                    <li>
+                                        이용시간 : 오전 6시 ~ 오후 12시
+                                    </li>
+                                    <li>
+                                        주차요금
+                                        <ul>
+                                            <li>
+                                                기본요금 : 최초 30분 1,000원
+                                            </li>
+                                            <li>
+                                                초과 10분당 200원
+                                            </li>
+                                            <li>
+                                                1일 주차 최고한도 10,000원
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

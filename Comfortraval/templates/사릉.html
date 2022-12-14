@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>ComforTravel</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <div class="search">
+                <div class="search_box">
+                    <h1 class="logo">ComforTravel</h1>
+                    <div class="window">
+                        <form action="/applysearch" method="GET">
+                            <input type="text" id="fname" class="input_text" name="location" placeholder="검색어를 입력하세요">
+                            <button class="Button" type="submit"><div class="searchBtn">검색</div></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            
+            <div class="main">
+                <h1>사릉</h1>
+                <div class="pinfo">
+                    「남양주 사릉(思陵)」은 조선왕조 제6대 단종의 비 정순왕후 송씨를 모신 곳으로, 유네스코 세계유산이자 사적으로 지정되어 있습니다.
+                    우리 관리소에서는 사릉 외에 주변에 위치하고 있는 조선 제15대 임금 광해군묘(光海君墓, 사적)와 14대 선조의 후궁 공빈 김씨를 모신 성묘(成墓, 사적), 제17대 효종의 후궁 안빈 이씨를 모신 안빈묘(安嬪墓, 사적)를 관리하고 있습니다. 또한, 문화재청 직영 전통수목 양묘장 및 천연기념물(식물) 유전자원 보존은행을 운영하고 있어 문화재 사적지 및 궁·능원 경관림 조성에 기여하고 하고 있습니다.
+                </div>
+                <!-- 사진 -->
+                <div class="main_img">
+                    <table>
+                        <tr>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20150206_79/1423208002313bF0KT_JPEG/%B0%E6%B1%E2_%BB%E7%B8%AA_1.JPG?type=m500_500" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20150206_238/1423208006244dXUSP_JPEG/%B0%E6%B1%E2_%BB%E7%B8%AA_8.JPG?type=m500_500" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20150206_5/1423208004553ImSHt_JPEG/%B0%E6%B1%E2_%BB%E7%B8%AA_2.JPG?type=m500_500" /></td>
+                        <tr>
+                      </table>
+                </div>
+                
+                <div class="main">
+                    <ul class="ullist">
+                        <ul class="ninfo">
+                            <li>주소 : 경기 남양주시 진건읍 사능리 107</li>
+                            <li>전화 : 031-573-8124</li>
+                            <li>사이트 : <a href="http://royaltombs.cha.go.kr/html/HtmlPage.do?pg=/new/html/portal_01_03_01.jsp&mn=RT_01_03" target="_blank">http://royaltombs.cha.go.kr/html/HtmlPage.do?pg=/new/html/portal_01_03_01.jsp&mn=RT_01_03</a></li>
+                            <li>운영시간 : 2~5월, 9~10월 09:00 - 18:00 | 6~8월 09:00 - 18:30 | 11월~1월 09:00 - 17:30 | 매주 월요일 정기휴무</li>
+                        </ul>
+                        <li>
+                            <h2 style="margin-top:50px;">오시는길</h2>
+                        </li>
+                        <ul class="ninfo">
+                            <li><b>지하철</b>
+                                <ul>
+                                    <li>
+                                        경춘선 | 금곡역 | 사릉역
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><b>버스</b>
+                                <ul>
+                                    <li>일반 | 23, 55, 64</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

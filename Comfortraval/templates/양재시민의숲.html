@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>ComforTravel</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <div class="search">
+                <div class="search_box">
+                    <h1 class="logo">ComforTravel</h1>
+                    <div class="window">
+                        <form action="/applysearch" method="GET">
+                            <input type="text" id="fname" class="input_text" name="location" placeholder="검색어를 입력하세요">
+                            <button class="Button" type="submit"><div class="searchBtn">검색</div></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            
+            <div class="main">
+                <h1>서울 식물원</h1>
+                <div class="pinfo">
+                    <b>시민의숲은 우리나라 최초로 숲 개념을 도입한 공원으로 도심에서 보기 힘든 울창한 숲을 이루고 있는 공원입니다.</b>
+                     86아시안 게임과 88올림픽을 앞두고 당시 서울의 관문이었던 양재 톨게이트 주변 환경을 개선하고자 1986년에 공원으로 조성되었습니다. 매헌로를 기준으로 북측 구역에는 매헌윤봉길의사기념관, 바닥분수, 어린이놀이터 등이 있으며 사계절 풍경이 아름다워 공원을 산책하는 시민들에게 사랑받는 공간입니다. 남측 구역에는 유격 백마부대 충혼탑과 1987년 미얀마 안다만해협 상공에서 북한의 테러로 폭파된 대한항공 858편의 위령탑, 1995년 삼풍백화점 붕괴로 사망한 희생자와 유족들을 위로하기 위해 세운 위령탑, 우면산 산사태 희생자 추모비 등이 있습니다.
+                </div>
+                <!-- 사진 -->
+                <div class="main_img">
+                    <table>
+                        <tr>
+                          <td><img alt="" src="https://ldb-phinf.pstatic.net/20140407_265/1396853750119iiFnp_JPEG/%BC%AD%BF%EF_%BE%E7%C0%E7%B5%BF%BD%C3%B9%CE%C0%C7%BD%A3_1.JPG?type=m500_500" /></td>
+                          <td><img alt="" src="https://ldb-phinf.pstatic.net/20140407_183/1396853751701swNI7_JPEG/%BC%AD%BF%EF_%BE%E7%C0%E7%B5%BF%BD%C3%B9%CE%C0%C7%BD%A3_15.JPG?type=m500_500" /></td>
+                          <td><img alt="" src="https://ldb-phinf.pstatic.net/20140407_75/1396853756353iVgS7_JPEG/%BC%AD%BF%EF_%BE%E7%C0%E7%BD%C3%B9%CE%C0%C7%BD%A3%28%BF%A9%B8%A7%29_10.JPG?type=m500_500" /></td>
+                        <tr>
+                      </table>
+                </div>
+                
+                <div class="main">
+                    <ul class="ullist">
+                        <ul class="ninfo">
+                            <li>주소 : 서울 서초구 매헌로 99</li>
+                            <li>전화 : 02-575-3895</li>
+                            <li>사이트 : <a href="http://parks.seoul.go.kr/template/sub/citizen.do" target="_blank">http://parks.seoul.go.kr/template/sub/citizen.do</a></li>
+                            <li>이용시간 : 24시간 연중무휴</li>
+                        </ul>
+                        <li>
+                            <h2 style="margin-top:50px;">공원안내</h2>
+                        </li>
+                        <ul class="ninfo">
+                            <li><b>어린이놀이터</b></li><br/>
+                            <li><b>야외운동장</b>
+                                <ul>
+                                    <li>
+                                        농구장 2면, 배구장 5면
+                                        <ul>
+                                            <li>
+                                                이용 방법 : 선착순
+                                            </li>
+                                            <li>
+                                                이용료 : 무료
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <br/>
+                                </ul>
+                            </li>
+                            <br/>
+                            <li>
+                                <b>매헌 윤봉길 의사상(동상)</b>
+                            </li><br/>
+                        </ul>
+                        <li>
+                            <h2 style="margin-top:50px;">오시는길</h2>
+                        </li>
+                        <ul class="ninfo">
+                            <li><b>지하철</b>
+                                <ul>
+                                    <li>
+                                        신분당선 | 양재시민의숲역 1번 출구 200m
+                                    </li>
+                                </ul>
+                            </li>
+                            <br/>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

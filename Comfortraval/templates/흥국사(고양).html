@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>ComforTravel</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <div class="search">
+                <div class="search_box">
+                    <h1 class="logo">ComforTravel</h1>
+                    <div class="window">
+                        <form action="/applysearch" method="GET">
+                            <input type="text" id="fname" class="input_text" name="location" placeholder="검색어를 입력하세요">
+                            <button class="Button" type="submit"><div class="searchBtn">검색</div></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            
+            <div class="main">
+                <h1>흥국사</h1>
+                <div class="pinfo">
+                    1350여년 전 신라 문무왕 때 원효대사가 창건한 사찰로 조선 영조 때 흥국사로 개칭하였다. 예불, 참선 등 한국의 불교문화를 체험할 수 있는 템플스테이를 운영한다.
+                </div>
+                <!-- 사진 -->
+                <div class="main_img">
+                    <table>
+                        <tr>
+                            <td><img alt="" src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAxOTA1MTZfMTI5%2FMDAxNTU3OTg0OTI3OTky.Aqw-k2Y_TgiwAjhieIJZuh3QHZiUQSD_mBQGmChrqX0g.aURX2VWDU_iAUob-W1G4aWVU8jW-RjFZP5ubrhoEwzsg.JPEG.letsgoyang%2F%25C8%25EF%25B1%25B9%25BB%25E701.jpg%23740x494" /></td>
+                            <td><img alt="" src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAxOTA0MTVfMjk2%2FMDAxNTU1MjkyODM0OTA5.9RceqGsxzk1KdcK-f4XzlsaKJiZp0VPEaUqkNu1GW7Ug.1s0zcdWTn6HZWfSzKMlnnIgsBiz55SOrLXizqzfVGX8g.JPEG.missionhkc%2FIMG_3318.JPG%235184x3456" /></td>
+                            <td><img alt="" src="" /></td>
+                        <tr>
+                      </table>
+                </div>
+                
+                <div class="main">
+                    <ul class="ullist">
+                        <ul class="ninfo">
+                            <li>주소 : 경기 고양시 덕양구 흥국사길 82</li>
+                            <li>전화 : 02-381-7970</li>
+                            <li>사이트 : </li>
+                            <li>운영시간 : </li>
+                        </ul>
+                        <li>
+                            <h2 style="margin-top:50px;">오시는길</h2>
+                        </li>
+                        <ul class="ninfo">
+                            <li><b>지하철</b>
+                                <ul>
+                                    <li>
+                                        3호선 | 구파밭 전철역
+                                    </li>
+                                </ul>
+                            </li><br/>
+                            <li><b>버스</b>
+                                <ul>
+                                    <li>일반 | 34</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

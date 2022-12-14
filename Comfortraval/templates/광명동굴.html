@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>ComforTravel</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <div class="search">
+                <div class="search_box">
+                    <h1 class="logo">ComforTravel</h1>
+                    <div class="window">
+                        <form action="/applysearch" method="GET">
+                            <input type="text" id="fname" class="input_text" name="location" placeholder="검색어를 입력하세요">
+                            <button class="Button" type="submit"><div class="searchBtn">검색</div></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            
+            <div class="main">
+                <h1>광명동굴</h1>
+                <div class="pinfo">
+                    광명동굴은 경기도 광명시 가학동에 있으며 2011년 개장한 동굴 테마파크이다. 폐광산인 가학광산을 이용했으며, 가학광산은 1912년 일제강점기의 조선총독부에 의해 개발된 광산으로 1972년에 폐광되었다. 서울특별시에서 가장 가까운 관광지로 각광받고 있다.
+                </div>
+                <!-- 사진 -->
+                <div class="main_img">
+                    <table>
+                        <tr>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20200729_59/1595990067365fXGAP_JPEG/%B7%D1%B8%B55.jpg" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20200729_20/1595990067408XV1lU_JPEG/%B7%D1%B8%B51.jpg" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20191020_178/1571578960474OvXs1_JPEG/wTFS9ZjsxTKCBWz97H1S0mgy.jpg" /></td>
+                        <tr>
+                      </table>
+                </div>
+                
+                <div class="main">
+                    <ul class="ullist">
+                        <ul class="ninfo">
+                            <li>주소 : 경기 광명시 가학로85번길 142</li>
+                            <li>전화 : 070-4277-8902</li>
+                            <li>사이트 : <a href="http://www.gm.go.kr/cv/index.do" target="_blank">http://www.gm.go.kr/cv/index.do</a></li>
+                            <li>운영시간 : 09:00 ~ 18:00 | 매주 월요일 정기휴무</li>
+                        </ul>
+                        <li>
+                            <h2 style="margin-top:50px;">오시는길</h2>
+                        </li>
+                        <ul class="ninfo">
+                            <li><b>지하철</b>
+                                <ul>
+                                    <li>
+                                        4호선 | 사당역 4번 출구
+                                    </li>
+                                    <li>
+                                        7호선 | 철산역 2번 출구
+                                    </li>
+                                </ul>
+                            </li><br/>
+                            <li><b>버스</b>
+                                <ul>
+                                    <li>일반 | 2, 3, 3-1, 11-2, 12, 17, 22, 77</li>
+                                </ul>
+                                <ul>
+                                    <li>광역 | 8507</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

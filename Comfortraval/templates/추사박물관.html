@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>ComforTravel</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <div class="search">
+                <div class="search_box">
+                    <h1 class="logo">ComforTravel</h1>
+                    <div class="window">
+                        <form action="/applysearch" method="GET">
+                            <input type="text" id="fname" class="input_text" name="location" placeholder="검색어를 입력하세요">
+                            <button class="Button" type="submit"><div class="searchBtn">검색</div></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            
+            <div class="main">
+                <h1>추사박물관</h1>
+                <div class="pinfo">
+                    <b>추사 김정희 선생을 재조명하는 전문박물관으로 전시 및 각종체험활동을 통해 추사 선생의 예술혼을 느낄 수 있는 공간이다</b>
+                </div>
+                <!-- 사진 -->
+                <div class="main_img">
+                    <table>
+                        <tr>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20150901_26/1441078192283CCUuD_JPEG/146470627625166_1.jpeg" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20150901_136/1441078192904XJ4ol_JPEG/146470627625166_4.jpeg" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20150901_226/1441078192698RtBMD_JPEG/146470627625166_3.jpeg" /></td>
+                        <tr>
+                      </table>
+                </div>
+                
+                <div class="main">
+                    <ul class="ullist">
+                        <ul class="ninfo">
+                            <li>주소 : 경기 과천시 추사로 78</li>
+                            <li>전화 : 02-2150-3650</li>
+                            <li>사이트 : <a href="https://www.gccity.go.kr/chusamuseum/main.do" target="_blank">https://www.gccity.go.kr/chusamuseum/main.do</a></li>
+                            <li>운영시간 : 09:00 ~ 18:00 | 매주 월요일 정기휴무</li>
+                        </ul>
+                        <li>
+                            <h2 style="margin-top:50px;">오시는길</h2>
+                        </li>
+                        <ul class="ninfo">
+                            <li><b>지하철</b>
+                                <ul>
+                                    <li>
+                                        4호선 | 선바위역 1번 출구 
+                                    </li>
+                                    <li>
+                                        3호선 | 양재역 9번 출구
+                                    </li>
+                                    <li>
+                                        신분당선 | 양재역 9번 출구
+                                    </li>
+                                </ul>
+                            </li><br/>
+                            <li><b>버스</b>
+                                <ul>
+                                    <li>일반 | 6, 11-3, 917, 441</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

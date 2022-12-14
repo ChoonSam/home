@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>ComforTravel</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <div class="search">
+                <div class="search_box">
+                    <h1 class="logo">ComforTravel</h1>
+                    <div class="window">
+                        <form action="/applysearch" method="GET">
+                            <input type="text" id="fname" class="input_text" name="location" placeholder="검색어를 입력하세요">
+                            <button class="Button" type="submit"><div class="searchBtn">검색</div></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            
+            <div class="main">
+                <h1>누들플랫폼</h1>
+                <div class="pinfo">
+                    국내 최초 누들을 테마로 한 복합 문화공간이다. 전시와 영상물을 통해 다양한 누들 콘텐츠를 만나볼 수 있으며, 각 국가와 지역별 다양한 누들 음식을 맛볼 수 있는 체험을 할 수 있다.
+                </div>
+                <!-- 사진 -->
+                <div class="main_img">
+                    <table>
+                        <tr>
+                            <td><img alt="" src="" /></td>
+                            <td><img alt="" src="" /></td>
+                            <td><img alt="" src="" /></td>
+                        <tr>
+                      </table>
+                </div>
+                
+                <div class="main">
+                    <ul class="ullist">
+                        <ul class="ninfo">
+                            <li>주소 : 인천시 중구 신포로 27번길 36</li>
+                            <li>전화 : 032-766-3770</li>
+                            <li>사이트 :  <a href="https://noodleplatform.icjgss.or.kr/" target="_blank">https://noodleplatform.icjgss.or.kr/</a></li>
+                        <li>운영시간 : 09:00 ~ 18:00 | 매주 월요일 정기휴무</li>
+                        </ul>
+                        <li>
+                            <h2 style="margin-top:50px;">오시는길</h2>
+                        </li>
+                        <ul class="ninfo">
+                            <li><b>지하철</b>
+                                <ul>
+                                    <li>
+                                        1호선 | 인천역 1km
+                                    </li>
+                                    <li>
+                                        수인분당선 | 신포역 3번 출구 500m
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <b>버스</b>
+                                <ul>
+                                    <li>
+                                        일반 | 2, 10, 15, 23, 28, 45, 307
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

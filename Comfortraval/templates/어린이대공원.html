@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>ComforTravel</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <div class="search">
+                <div class="search_box">
+                    <h1 class="logo">ComforTravel</h1>
+                    <div class="window">
+                        <form action="/applysearch" method="GET">
+                            <input type="text" id="fname" class="input_text" name="location" placeholder="검색어를 입력하세요">
+                            <button class="Button" type="submit"><div class="searchBtn">검색</div></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            
+            <div class="main">
+                <h1>어린이대공원</h1>
+                <div class="pinfo">
+                    어린이대공원(영어: Children's Grand Park)은 대한민국 서울특별시 광진구 능동에 소재한 가족 단위 휴식 공간이다. 1973년 5월 5일 어린이날에 개장하였다. 약 53만여m2로 개장 당시에는 동양 최대의 규모였다. 푸른 숲과 파란 잔디의 녹지공간으로 이루어져 있어 어린이는 물론 청소년과 일반시민을 위한 휴식 및 문화공간으로서 시민공원의 역할을 한다. 또한 교양시설, 동물원, 식물원, 놀이시설 등을 갖춘 학습교육장으로 기능하고 있다.
+                </div>
+                <!-- 사진 -->
+                <div class="main_img">
+                    <table>
+                        <tr>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20140407_231/1396855339511FARtq_JPEG/%BC%AD%BF%EF_%BE%EE%B8%B0%C0%CC%B4%EB%B0%F8%BF%F8_10.JPG?type=m500_500" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20140407_190/1396855341257QNl4c_JPEG/%BC%AD%BF%EF_%BE%EE%B8%B0%C0%CC%B4%EB%B0%F8%BF%F8_17.JPG?type=m500_500" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20210824_45/1629803879659T6PMu_JPEG/k-vE0yyvdcrMhiM073WNMFUW.jpg" /></td>
+                        <tr>
+                      </table>
+                </div>
+                
+                <div class="main">
+                    <ul class="ullist">
+                        <ul class="ninfo">
+                            <li>주소 : 서울 광진구 능동로 216</li>
+                            <li>전화 : 02-450-9311</li>
+                            <li>사이트 : <a href="https://www.sisul.or.kr/open_content/childrenpark/" target="_blank">https://www.sisul.or.kr/open_content/childrenpark/</a></li>
+                            <li>운영시간<br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;공원 05:00 ~ 22:00<br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;동물원 10:00 ~ 17:00<br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;놀이동산 10:00 ~ 18:00 | 주말 10:00 ~ 19:00<br/>
+                            </li>
+                        </ul>
+                        <li>
+                            <h2 style="margin-top:50px;">오시는길</h2>
+                        </li>
+                        <ul class="ninfo">
+                            <li><b>지하철</b>
+                                <ul>
+                                    <li>
+                                        2호선 | 건대입구역
+                                    </li>
+                                    <li>
+                                        5호선 | 아차산역 4번 출구
+                                    </li>
+                                    <li>
+                                        7호선 | 어린이대공원역 1번 출구
+                                    </li>
+                                </ul>
+                            </li><br/>
+                            <li><b>버스</b>
+                                <ul>
+                                    <li>간선
+                                        <ul>
+                                            <li>
+                                                130, 302, 303, 320, 721
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>지선
+                                        <ul>
+                                            <li>
+                                                2221, 2222, 2311, 3216, 3220, 4212, 9301, 9403
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

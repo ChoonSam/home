@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>ComforTravel</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <div class="search">
+                <div class="search_box">
+                    <h1 class="logo">ComforTravel</h1>
+                    <div class="window">
+                        <form action="/applysearch" method="GET">
+                            <input type="text" id="fname" class="input_text" name="location" placeholder="검색어를 입력하세요">
+                            <button class="Button" type="submit"><div class="searchBtn">검색</div></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            
+            <div class="main">
+                <h1>국립생물자원관</h1>
+                <div class="pinfo">
+                    국립생물자원관은 국가생물자원의 효율적 보전 및 이용을 위한 조사·연구와 생물자원에 대한 홍보·전시에 관한 사무를 관장하는 대한민국 환경부의 소속기관이다.
+                </div>
+                <!-- 사진 -->
+                <div class="main_img">
+                    <table>
+                        <tr>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20171213_201/1513151546850gm9gX_JPEG/1kDs0NcAiLddQtJMF26P3YtC.JPG.jpg" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20171213_133/1513151872993sPMMq_JPEG/kyKRCroNG6LuYVdlGKqWfBZT.JPG.jpg" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20171213_144/1513151839019Tt1aw_JPEG/Ehl-l3i8qpBZCnn0dC5v05MT.JPG.jpg" /></td>
+                        <tr>
+                      </table>
+                </div>
+                
+                <div class="main">
+                    <ul class="ullist">
+                        <ul class="ninfo">
+                            <li>주소 : 인천 서구 환경로 42 국립생물자원관</li>
+                            <li>전화 : 032-590-7000</li>
+                            <li>사이트 : <a href="https://www.nibr.go.kr/" target="_blank">https://www.nibr.go.kr/</a></li>
+                        <li>운영시간 : 09:30 ~ 17:30</li>
+                        </ul>
+                    </ul>
+                    <li>
+                        <h2 style="margin-top:50px;">오시는길</h2>
+                    </li>
+                    <ul class="ninfo">
+                        <li><b>지하철</b>
+                            <ul>
+                                <li>공항철도 | 청라국제도시역</li>
+                                <li>인천 2호선 | 계산역</li>
+                                <li>인천 1호선 | 아시아드경기장역</li>
+                            </ul>
+                        </li>
+                        <li><b>버스</b>
+                            <ul>
+                                <li>일반 | 111</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

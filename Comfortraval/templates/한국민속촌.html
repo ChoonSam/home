@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>ComforTravel</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <div class="search">
+                <div class="search_box">
+                    <h1 class="logo">ComforTravel</h1>
+                    <div class="window">
+                        <form action="/applysearch" method="GET">
+                            <input type="text" id="fname" class="input_text" name="location" placeholder="검색어를 입력하세요">
+                            <button class="Button" type="submit"><div class="searchBtn">검색</div></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            
+            <div class="main">
+                <h1>한국민속촌</h1>
+                <div class="pinfo">
+                    한국민속촌은 1974년 건립 초기부터 교육적 가치와 관광적 가치를 염두에 둔 최고의 전통문화 테마의 종합관광지를 목적으로 설립되었습니다. 한국민속촌의 조선시대 마을은 각 지방에서 이건 및 복원한 실물 가옥으로 이루어져 있으며, 철저한 고증과 자문을 거쳐 사계절 변화에 따라 생활문화를 재현하고 있습니다. 야외에서 만나는 체험형 전시와 전통방식을 계승한 생활공예, 절기별 세시풍속을 행하며 잊혀 가는 전통문화유산의 가치를 함께 나누고자 노력하고 있습니다. 한국민속촌이 지켜가는 전통문화 속에서 과거와 현재를 경험하고, 미래를 열어갈 새로운 가치를 만나보시길 바랍니다.
+                </div>
+                <!-- 사진 -->
+                <div class="main_img">
+                    <table>
+                        <tr>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20200525_120/1590394419044DhFmg_JPEG/Sp-rpylEcqrQII9AKbA7Bamy.jpg" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20200525_25/1590394594031PWLPH_JPEG/exZuM-BRA0UEwPYxmzxXVPZo.jpg" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20200525_277/15903945945868a9g7_JPEG/ggjBHapJXCmeLBKJSAAFMjYs.jpg" /></td>
+                        <tr>
+                      </table>
+                </div>
+                
+                <div class="main">
+                    <ul class="ullist">
+                        <ul class="ninfo">
+                            <li>주소 : 경기 용인시 기흥구 민속촌로 90 한국민속촌</li>
+                            <li>전화 : 031-288-0000</li>
+                            <li>사이트 : <a href="https://www.koreanfolk.co.kr/" target="_blank">https://www.koreanfolk.co.kr/</a></li>
+                            <li>운영시간 : 월,화,수,목 10:00 ~ 18:30 | 금,토,일 10:00 ~ 21:30</li>
+                        </ul>
+                        <li>
+                            <h2 style="margin-top:50px;">오시는길</h2>
+                        </li>
+                        <ul class="ninfo">
+                            <li><b>지하철</b>
+                                <ul>
+                                    <li>
+                                        1호선 | 수원역 4번 출구
+                                    </li>
+                                    <li>
+                                        분당선 | 상갈역 3번 출구
+                                    </li>
+                                </ul>
+                            </li><br/>
+                            <li><b>버스</b>
+                                <ul>
+                                    <li>
+                                        일반 | 10-5, 30, 37
+                                    </li>
+                                    <li>
+                                        공항 | A8877
+                                    </li>
+                                    <li>
+                                        직행 | 5001-1, 1560, 4101
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

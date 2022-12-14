@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>ComforTravel</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <div class="search">
+                <div class="search_box">
+                    <h1 class="logo">ComforTravel</h1>
+                    <div class="window">
+                        <form action="/applysearch" method="GET">
+                            <input type="text" id="fname" class="input_text" name="location" placeholder="검색어를 입력하세요">
+                            <button class="Button" type="submit"><div class="searchBtn">검색</div></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            
+            <div class="main">
+                <h1>흥국사</h1>
+                <div class="pinfo">
+                    남양주시 조안면 능내리에 위치한 정약용유적지는 나라의 부패를 꾸짖던 선생의 쩌렁쩌렁한 목소리와 꼿꼿하고 검소한 그의 생활이 그대로 보존되어 있는 생가 여유당, 이백 년 세월의 흐름 앞에 절로 고개 숙여지는 정약용 선생의 묘, 시대를 앞서간 선구자의 업적과 자취가 전시된 기념관과 정약용 선생을 현대적 시각으로 재조명해 보는 문화관이 있다. 한 걸음이면 뛰어 넘을 것 같은 여유당의 낮은 담장에는 허물없이 백성들의 기쁨과 아픔을 함께하고자 했던 정약용 선생의 마음이 담겨 있다.
+                </div>
+                <!-- 사진 -->
+                <div class="main_img">
+                    <table>
+                        <tr>
+                            <td><img alt="" src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAxODA2MDRfMTg4%2FMDAxNTI4MDk5Mzk5Njc1.nHCv54tKzGJbu4dHaaMVImeoH4SXNh5LgtkMRmzhZh4g.zEJcvLKY7c_x1n9VrQ1WrLnVvRJP0SzrpxhKFF6uGQIg.JPEG.rivertour%2F20180522_110457.jpg%23900x675" /></td>
+                            <td><img alt="" src="" /></td>
+                            <td><img alt="" src="" /></td>
+                        <tr>
+                      </table>
+                </div>
+                
+                <div class="main">
+                    <ul class="ullist">
+                        <ul class="ninfo">
+                            <li>주소 : 경기 남양주시 덕릉로1071번길 58</li>
+                            <li>전화 : </li>
+                            <li>사이트 : </li>
+                            <li>운영시간 : </li>
+                        </ul>
+                        <li>
+                            <h2 style="margin-top:50px;">오시는길</h2>
+                        </li>
+                        <ul class="ninfo">
+                            <li><b>지하철</b>
+                                <ul>
+                                    <li>
+                                        1호선 | 청량리역
+                                    </li>
+                                    <li>
+                                        2호선 | 강변역
+                                    </li>
+                                    <li>
+                                        경춘선 | 대성리역
+                                    </li>
+                                    <li>
+                                        경의중앙선 | 팔당역 | 운길산여
+                                    </li>
+                                </ul>
+                            </li><br/>
+                            <li><b>버스</b>
+                                <ul>
+                                    <li>일반 | 8, 56, 167, 2000-1</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

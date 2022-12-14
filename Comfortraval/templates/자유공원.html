@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>ComforTravel</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <div class="search">
+                <div class="search_box">
+                    <h1 class="logo">ComforTravel</h1>
+                    <div class="window">
+                        <form action="/applysearch" method="GET">
+                            <input type="text" id="fname" class="input_text" name="location" placeholder="검색어를 입력하세요">
+                            <button class="Button" type="submit"><div class="searchBtn">검색</div></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            
+            <div class="main">
+                <h1>자유공원</h1>
+                <div class="pinfo">
+                    자유공원은 인천항 개항 뒤인 1888년 외국인 거류민단에서 관리·운영하여 당시 시민들은 이를 ‘각국공원‘이라 불렀고, 그 뒤 일본의 세력이 커지면서 1914년 각국 거류지의 철폐와 함께 공원 관리권이 인천부로 이관되자 그때부터는 서공원으로 불렸습니다. 1945년 해방 후에는 만국공원으로 불렸으며, 인천상륙작전을 지휘한 맥아더 장군의 동상이 세워진 1957년 10월 3일부터 자유공원으로 개칭되었습니다. 응봉산 전체를 자유공원이라 부르며, 맥아더 장군 동상과 한미수교 100주년 기념탑을 비롯해 자연보호헌장탑, 충혼탑, 석정루 등을 보존하고 있습니다. 석정루에 오르면 인천항과 월미산 북성포구 등이 한 눈에 들어오는 장관이 펼쳐집니다. 우리나라 최초의 서구식 공원인 자유공원은 인천시민뿐만 아니라 각 지역에서 찾아올 만큼 사계절 늘 아름다운 풍경으로 시민들을 맞이하고 있습니다. 인천 중구 시가지와 인천항을 한눈에 바라볼 수 있는 시민의 휴식·위락 장소이며 4월에는 ‘자유공원 벚꽃축제’가 열리고, 미술대회·글짓기대회 같은 각종 행사도 자주 열리는 인천의 명소입니다.
+                </div>
+                <!-- 사진 -->
+                <div class="main_img">
+                    <table>
+                        <tr>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20150831_285/14410072198904zK2P_JPEG/106859504765799_0.jpg" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20150831_9/1441007220103iK18x_JPEG/126759555373180_0.jpg" /></td>
+                            <td><img alt="" src="" /></td>
+                        <tr>
+                      </table>
+                </div>
+                
+                <div class="main">
+                    <ul class="ullist">
+                        <ul class="ninfo">
+                            <li>주소 : 인천 중구 제물량로232번길 46</li>
+                            <li>전화 : </li>
+                            <li>사이트 :  </li>
+                        <li>운영시간 : </li>
+                        </ul>
+                        <li>
+                            <h2 style="margin-top:50px;">오시는길</h2>
+                        </li>
+                        <ul class="ninfo">
+                            <li>
+                                <b>지하철</b>
+                                <ul>
+                                    <li>
+                                        1호선 | 인천역 도보 5분
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

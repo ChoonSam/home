@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>ComforTravel</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <div class="search">
+                <div class="search_box">
+                    <h1 class="logo">ComforTravel</h1>
+                    <div class="window">
+                        <form action="/applysearch" method="GET">
+                            <input type="text" id="fname" class="input_text" name="location" placeholder="검색어를 입력하세요">
+                            <button class="Button" type="submit"><div class="searchBtn">검색</div></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            
+            <div class="main">
+                <h1>부천 로보파크</h1>
+                <div class="pinfo">
+                    경기도 부천시 약대동에 있는 로봇 상설 전시장. 부천로보파크는 부천시가 특화 산업으로 선택한 차세대 성장 동력 미래 산업인 지능형 로봇 산업을 적극 홍보·육성하고, 자라나는 신세대들에게 로봇에 대한 꿈과 희망을 심어주며 학습의 기회를 제공하기 위해 개관하였다.
+                </div>
+                <!-- 사진 -->
+                <div class="main_img">
+                    <table>
+                        <tr>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20200609_114/1591686137352Be8UR_JPEG/HCJcaF-4YJfJE_1fmxTIccTg.jpg" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20200609_170/1591686130712RgksD_JPEG/8iK-dN6Lft-juQiIOBwOJefy.jpg" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20201012_156/1602491858966jdWmV_JPEG/mGaen8FWcfH40HpL9-a7FmU5.jpg" /></td>
+                        <tr>
+                      </table>
+                </div>
+                
+                <div class="main">
+                    <ul class="ullist">
+                        <ul class="ninfo">
+                            <li>주소 : 경기 부천시 평천로 655 부천로보파크</li>
+                            <li>전화 : 032-716-6442</li>
+                            <li>사이트 : <a href="https://www.robopark.org:444/" target="_blank">https://www.robopark.org:444/</a></li>
+                            <li>운영시간 : 10:00 ~ 17:00 | 휴게시간 12:00 ~ 12:30 / 14:30 ~ 15:00 | 매주 월요일 정기휴무</li>
+                        </ul>
+                        <li>
+                            <h2 style="margin-top:50px;">오시는길</h2>
+                        </li>
+                        <ul class="ninfo">
+                            <li><b>지하철</b>
+                                <ul>
+                                    <li>
+                                        1호선 | 송내역 2번 출구 | 소사역 2번 출구
+                                    </li>
+                                </ul>
+                            </li><br/>
+                            <li><b>버스</b>
+                                <ul>
+                                    <li>일반 | 8, 60-1, 83</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

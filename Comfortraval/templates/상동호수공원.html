@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>ComforTravel</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <div class="search">
+                <div class="search_box">
+                    <h1 class="logo">ComforTravel</h1>
+                    <div class="window">
+                        <form action="/applysearch" method="GET">
+                            <input type="text" id="fname" class="input_text" name="location" placeholder="검색어를 입력하세요">
+                            <button class="Button" type="submit"><div class="searchBtn">검색</div></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            
+            <div class="main">
+                <h1>상동호수공원</h1>
+                <div class="pinfo">
+                    경기도 부천시 상동에 위치한 호수공원이다. 공원 인근에 부천영상문화단지, 한국만화박물관, 웅진플레이도시 등이 위치하고 있다.
+                </div>
+                <!-- 사진 -->
+                <div class="main_img">
+                    <table>
+                        <tr>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20150831_35/1441026060049OF7St_JPEG/116360406353869_0.jpg" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20150831_276/14410260604597SXFx_JPEG/116360406353869_2.jpg" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20150831_91/1441026060850A8J4R_JPEG/116360406353869_4.jpg" /></td>
+                        <tr>
+                      </table>
+                </div>
+                
+                <div class="main">
+                    <ul class="ullist">
+                        <ul class="ninfo">
+                            <li>주소 : 경기 부천시 조마루로 15</li>
+                            <li>전화 : 032-324-2019</li>
+                            <li>사이트 : <a href="http://sdlakepark2019.com/" target="_blank">http://sdlakepark2019.com/</a></li>
+                            <li>운영시간 : </li>
+                        </ul>
+                        <li>
+                            <h2 style="margin-top:50px;">오시는길</h2>
+                        </li>
+                        <ul class="ninfo">
+                            <li><b>지하철</b>
+                                <ul>
+                                    <li>
+                                        7호선 | 삼산체육관역 1,5번 출구
+                                    </li>
+                                </ul>
+                            </li><br/>
+                            <li><b>버스</b>
+                                <ul>
+                                    <li>일반 | 24, 37, 52, 53, 59-1, 87</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

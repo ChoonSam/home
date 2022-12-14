@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>ComforTravel</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <div class="search">
+                <div class="search_box">
+                    <h1 class="logo">ComforTravel</h1>
+                    <div class="window">
+                        <form action="/applysearch" method="GET">
+                            <input type="text" id="fname" class="input_text" name="location" placeholder="검색어를 입력하세요">
+                            <button class="Button" type="submit"><div class="searchBtn">검색</div></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            
+            <div class="main">
+                <h1>덕수궁</h1>
+                <div class="pinfo">
+                    <b>덕수궁德壽宮은 1897년에 선포된 황제국, 대한제국의 황궁으로 옛 이름은 경운궁慶運宮입니다.</b><br/><br/>
+                    덕수궁은 1592년 임진왜란이 일어나자 의주로 피난 갔던 선조가 다시 한양으로 돌아왔을 때, 
+                    월산대군 저택과 그 주변 민가를 여러 채 합하여 ‘시어소’로 정하여 행궁[정릉동 행궁]으로 삼았던 것으로부터 시작됩니다. 
+                    이후 광해군이 즉위한 후 창덕궁으로 거처를 옮기면서 ‘경운궁’이란 이름을 사용하게 되었습니다. 
+                    궁궐의 모습을 갖춘 덕수궁은 인목대비 유폐와 인조반정을 겪으면서 규모가 축소되었고, 
+                    특히 인조가 즉위한 이후 즉조당과 석어당을 제외한 나머지는 원래 주인에게 돌려주었습니다. 
+                    이로써 덕수궁은 더 이상 왕이 공식적으로 머물며 국정업무를 보던 궁궐의 기능을 하지 못하였습니다.<br/><br/>
+                    1895년 을미사변이 일어난 이후 덕수궁이 다시 역사에 등장하게 되었습니다. 
+                    을미사변으로 신변의 위협을 느낀 고종이 러시아공사관으로 거처를 옮긴 후, 1897년 2월에 덕수궁으로 환궁하게 되었습니다. 
+                    또한 대한제국이라는 황제국을 선포한 후 황궁으로서의 규모와 격식을 갖추게 되었습니다. 
+                    하지만 1904년 덕수궁 대화재와 1907년 고종의 강제퇴위 이후 덕수궁은 그 규모가 대폭 축소되었습니다. 
+                    이때 경운궁에서 덕수궁으로 이름 또한 바뀌게 되었습니다.
+                </div>
+                <!-- 사진 -->
+                <div class="main_img">
+                    <table>
+                        <tr>
+                          <td><img alt="" src="http://www.deoksugung.go.kr/ko/assets/images/gallery/t2.jpg" /></td>
+                          <td><img alt="" src="http://www.deoksugung.go.kr/ko/assets/images/gallery/t3.jpg" /></td>
+                          <td><img alt="" src="http://www.deoksugung.go.kr/ko/assets/images/gallery/t1.jpg" /></td>
+                        <tr>
+                      </table>
+                </div>
+                
+                <div class="main">
+                    <ul class="ullist">
+                        <ul class="ninfo">
+                            <li>주소 : 서울특별시 중구 세종대로 99</li>
+                            <li>전화 : 02-771-9951</li>
+                            <li>사이트 : <a href="http://www.deoksugung.go.kr/" target="_blank">http://www.deoksugung.go.kr/</a></li>
+                            <li>관람시간 : 09:00 ~ 21:00 (입장마감 : 20:00)<br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:red;">매주 월요일은 휴궁일(休宮日)입니다.</span>
+                            </li>
+                            <li>관람료<br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;〉내국인 : 만25세 ~ 만64세 : 1,000원 (10인이상 : 800원)<br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;만24세 이하 및 만 65세 이상 : 무료<br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;매월 마지막 수요일 [문화가 있는 날] : 무료<br/><br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;〉외국인 : 7세 ~ 18세 : 500원 (10인이상 : 400원)<br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;19세 ~ 64세 : 1,000원(10인이상 : 800원)<br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;만6세 이하 및 만 65세 이상, 한복 착용자 : 무료<br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;매월 마지막 수요일 [문화가 있는 날] : 무료<br/><br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;〉특별권, 무료관람 : 홈페이지 참고바람<br/><br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;〉중구민 일반관람료 50% 할인<br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;※ 할인 대상자는 반드시 신분증 또는 등본 등의 증빙서류 제시
+                            </li>
+                        </ul>
+                        <li>
+                            <h2 style="margin-top:50px;">행사/전시</h2>
+                        </li>
+                        <ul class="ninfo">
+                            <li><b>덕수궁 왕궁수문장교대식</b>
+                                <ul>
+                                    <li>
+                                        덕수궁 왕궁수문장교대식은 조선시대에 행해졌던 궁성문 개폐의식, 궁성 수위의식, 순라의식 등을 기록 자료를 바탕으로 1996년부터 재현하고 있는 행사입니다.
+                                        <ul>
+                                            <li>
+                                                매일 11:00, 14:00 / 월요일 및 혹서기/혹한기/비상저감조치 발령시/ 눈과 비가 오는 날은 행사가 쉽니다.
+                                            </li>
+                                            <li>
+                                                관람객 체험프로그램<br/>
+                                                &nbsp;&nbsp;-전통의상 입어보기 체험<br/>&nbsp;&nbsp;-수문장과 관람객의 포토타임
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>                               
+                            </li>
+                            <br/>
+                            <li><b>숭례문 파수의식</b>
+                                <ul>
+                                    <li>
+                                        숭례문 파수의식은 조선시대 중요한 군례의식이었던 파수(도성 수비), 즉 도성문을 열고 닫는 개폐의식과 순라의식 등을 연결하는 의식을 재현하고 있는 행사입니다.
+                                        <ul>
+                                            <li>
+                                                개폐의식 10:00, 15:35
+                                            </li>
+                                            <li>
+                                                파수의식 10:40, 11:20, 13:00, 13:40, 14:20, 15:00
+                                            </li>
+                                            <li>
+                                                순라의식 11:20, 13:40
+                                            </li>
+                                            <li>
+                                                ※ 연중상설 / 단, 월요일 및 혹서기/혹한기, 눈과 비 오는 날은 행사가 쉽니다.
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>                               
+                            </li>
+                            <br/>
+                        </ul>
+                        <li>
+                            <h2 style="margin-top:50px;">오시는길</h2>
+                        </li>
+                        <ul class="ninfo">
+                            <li><b>지하철</b>
+                                <ul>
+                                    <li>
+                                        1호선 시청역 12번 출구 도보 8분
+                                    </li>
+                                    <li>
+                                        2호선 시청역 12번 출구 도보 8번, 을지로입구역 1-1번 출구 도보 16분
+                                    </li>
+                                    <li>
+                                        5호선 광화문역 6번 출구 도보 10분
+                                    </li>
+                                </ul>
+                            </li>
+                            <br/>
+                            <li><b>버스</b>
+                                <ul>
+                                    <li>
+                                        마을
+                                        <ul>
+                                            <li>
+                                                종로09, 종로11
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        공항
+                                        <ul>
+                                            <li>
+                                                6005, 6701
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        간선
+                                        <ul>
+                                            <li>
+                                                103, 150, 401, 402, 106, N16(심야), 172, 472, 600, 602, N62(심야), 101, 603
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        지선
+                                        <ul>
+                                            <li>
+                                                1711, 7016, 7022, 7019
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        일반
+                                        <ul>
+                                            <li>
+                                                790, 799, 1002
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        직행
+                                        <ul>
+                                            <li>
+                                                1004, 8600, 8601, 8601A
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <br/>
+                            <li><b>덕수궁에는 주차시설이 없으니, 대중교통을 이용하여 주시기 바랍니다.</b>               
+                            </li>
+                            <br/>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

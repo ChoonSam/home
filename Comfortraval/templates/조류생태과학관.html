@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>ComforTravel</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <div class="search">
+                <div class="search_box">
+                    <h1 class="logo">ComforTravel</h1>
+                    <div class="window">
+                        <form action="/applysearch" method="GET">
+                            <input type="text" id="fname" class="input_text" name="location" placeholder="검색어를 입력하세요">
+                            <button class="Button" type="submit"><div class="searchBtn">검색</div></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            
+            <div class="main">
+                <h1>조류생태과학관</h1>
+                <div class="pinfo">
+                    연간 96종의 철새가 찾아오는 왕송호수 앞에 설립된 의왕조류생태과학관은 우리나라의 철도역사를 알 수 있는 철도박물관과 자연교육과 휴식의 요람인 자연학습공원과 연계하여 과학기술문화를 확산하고 청소년에게 꿈과 희망을 주기 위하여 건립하였다. 왕송호수의 물 속을 체험하고 조류 박제와 살아있는 어류를 볼 수 있는 수도권 최초의 조류 테마과학관이다.
+                </div>
+                <!-- 사진 -->
+                <div class="main_img">
+                    <table>
+                        <tr>
+                            <td><img alt="" src="" /></td>
+                            <td><img alt="" src="" /></td>
+                            <td><img alt="" src="" /></td>
+                        <tr>
+                      </table>
+                </div>
+                
+                <div class="main">
+                    <ul class="ullist">
+                        <ul class="ninfo">
+                            <li>주소 : 경기 의왕시 왕송못동로 209 의왕조류생태과학관</li>
+                            <li>전화 : 031-8086-7490</li>
+                            <li>사이트 : </li>
+                            <li>운영시간 : 09:00 - 18:00 | 매주 월요일 휴관</li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>ComforTravel</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <div class="search">
+                <div class="search_box">
+                    <h1 class="logo">ComforTravel</h1>
+                    <div class="window">
+                        <form action="/applysearch" method="GET">
+                            <input type="text" id="fname" class="input_text" name="location" placeholder="검색어를 입력하세요">
+                            <button class="Button" type="submit"><div class="searchBtn">검색</div></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            
+            <div class="main">
+                <h1>철도박물관</h1>
+                <div class="pinfo">
+                    대한민국 철도는 1894년 6월 28일 의정부 공무아문(工務衙門)에 철도국이 처음 설치되고 1899년 9월 18일 인천~노량진간 33.8km 구간이 개통한 것이 효시입니다.일제강점기에는 식민지 지배와 수탈의 도구로 이용되어 왔고, 해방 후에는 전쟁과 분단의 아픔을 겪으면서도 국가경제발전의 견인차 역할을 해 왔습니다. 이후 1974년 8월 15일 수도권전철이 개통되어 도시교통시대를 열었고, 2004년 4월 1일에는 경부고속철도가 개통됨으로서 명실상부한 21세기 교통의 총아로 거듭나게 되었습니다. 1988년 1월 26일 개관한 현재의 철도박물관은 겨레와 고락을 함께 해온 철도 역사가 살아 숨쉬고 있는 철도 문화의 전당으로, 1만여점의 소장품과 각종 자료들이 실내전시관과 야외전시장에서 여러분을 기다리고 있습니다. 저희 철도박물관은 어른들께는 아련한 추억을 떠올리게 하고, 아이들에게는 유익한 교육과 체험학습장이 되어 왔습니다. 최근에는 주변의 탁월한 자연환경과 함께 가족이나 친지, 연인들에게 즐겁고 편안한 휴식공간과 탐방명소의 중심으로 새롭게 부각되고 있습니다.
+                </div>
+                <!-- 사진 -->
+                <div class="main_img">
+                    <table>
+                        <tr>
+                            <td><img alt="" src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAxNzA4MTRfMjA3%2FMDAxNTAyNjc0MzQyOTA5._KlAwamLk_wmB0gjtlTlEaXPZAMW8oNF1Maf3Mu1Fe4g.4kIfSZ1gniWN4gTekWlJA--C2FGyYAY69ipU1vcHCpAg.JPEG.korea_diary%2FDSC_1665.JPG%235568x3712" /></td>
+                            <td><img alt="" src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAxNzA4MTRfMjY3%2FMDAxNTAyNjc0NTc3ODEy.GSSP0VTiBpNXT4wBhguBMUNqJkR0VjGzGNp8itjbzisg.SSDcAXxpnxLukakx8Zn5ktem7elFNLhXPXNVbbQFK7kg.JPEG.korea_diary%2FDSC_1671.JPG%235568x3712" /></td>
+                            <td><img alt="" src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAxNzA4MTRfMjUg%2FMDAxNTAyNjc0OTM5NTY1.9QOcraroVlR6BMMA__kTfCAUnuVIihKlqD0gHOYbKq4g.hsdQrI7jvEtFfPCNOMS6N5ZsSbsgvAPmrUl1kM4DhFgg.JPEG.korea_diary%2FDSC_1743.JPG%235568x3712" /></td>
+                        <tr>
+                      </table>
+                </div>
+                
+                <div class="main">
+                    <ul class="ullist">
+                        <ul class="ninfo">
+                            <li>주소 : 경기 의왕시 철도박물관로 142 철도박물관</li>
+                            <li>전화 : 031-461-3610</li>
+                            <li>사이트 : <a href="https://www.railroadmuseum.co.kr/" target="_blank">https://www.railroadmuseum.co.kr/</a></li>
+                            <li>운영시간 : 하절기 09:00 - 18:00 | 동절기 09:00 - 17:00 | 매주 월요일 휴관</li>
+                        </ul>
+                        <li>
+                            <h2 style="margin-top:50px;">오시는길</h2>
+                        </li>
+                        <ul class="ninfo">
+                            <li><b>지하철</b>
+                                <ul>
+                                    <li>
+                                        1호선 | 의왕역 2번 출구 도보 10분
+                                    </li>
+                                </ul>
+                            </li><br/>
+                            <li><b>버스</b>
+                                <ul>
+                                    <li>
+                                        일반 | 1-1, 1-5, 5
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

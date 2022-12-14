@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>ComforTravel</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <div class="search">
+                <div class="search_box">
+                    <h1 class="logo">ComforTravel</h1>
+                    <div class="window">
+                        <form action="/applysearch" method="GET">
+                            <input type="text" id="fname" class="input_text" name="location" placeholder="검색어를 입력하세요">
+                            <button class="Button" type="submit"><div class="searchBtn">검색</div></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            
+            <div class="main">
+                <h1>이천시립박물관</h1>
+                <div class="pinfo">
+                    이천시립박물관은 설봉산성에서 발굴된 유물들을 비롯하여 기증받은 고고유물, 역사유물, 민속유물, 공예품 등 다양한 유물을 소장·전시하고 있다. 에필로그, 역사문화실, 도자문화실, 기획전시실로 구성되어 이천의 역사와 문화의 다양한 발달과정을 한눈에 살펴볼 수 있다
+                </div>
+                <!-- 사진 -->
+                <div class="main_img">
+                    <table>
+                        <tr>
+                            <td><img alt="" src="" /></td>
+                            <td><img alt="" src="" /></td>
+                            <td><img alt="" src="" /></td>
+                        <tr>
+                      </table>
+                </div>
+                
+                <div class="main">
+                    <ul class="ullist">
+                        <ul class="ninfo">
+                            <li>주소 : 경기 이천시 경충대로2697번길 172 이천시립박물관</li>
+                            <li>전화 : 031-633-9734</li>
+                            <li>사이트 : <a href="https://www.artic.or.kr/icmus/main/view" target="_blank">https://www.artic.or.kr/icmus/main/view</a></li>
+                            <li>운영시간 : 09:00 - 18:00 | 매주 월요일 휴관</li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

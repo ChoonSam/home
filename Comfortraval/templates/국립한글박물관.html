@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>ComforTravel</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <div class="search">
+                <div class="search_box">
+                    <h1 class="logo">ComforTravel</h1>
+                    <div class="window">
+                        <form action="/applysearch" method="GET">
+                            <input type="text" id="fname" class="input_text" name="location" placeholder="검색어를 입력하세요">
+                            <button class="Button" type="submit"><div class="searchBtn">검색</div></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            
+            <div class="main">
+                <h1>국립한글박물관</h1>
+                <div class="pinfo">
+                    국립한글박물관은 한글에 대한 이해를 넓히고 한글과 다양한 분야의 융합을 실험하는 전시 공간인 동시에 어린이들이 한글의 원리를 쉽게 체험하고, 한글을 익히고 싶은 외국인들이 한글을 배울 수 있는 한글문화의 놀이터입니다.
+                    국내외 흩어져 있는 한글 자료를 조사 · 수집 · 연구하고 한글의 문화적 다양성과 미래 가치를 전시를 통해 보여주며, 세대와 국적을 넘어 소통과 공감을 지향하는 한글 교육으로 한글문화를 꽃피우는 곳입니다.
+
+                </div>
+                <!-- 사진 -->
+                <div class="main_img">
+                    <table>
+                        <tr>
+                          <td><img alt="" src="https://search.pstatic.net/common/?autoRotate=true&quality=95&type=w750&src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20220127_274%2F1643238608757CJtHP_JPEG%2FKIM06458_59_60_fused.jpg" /></td>
+                          <td><img alt="" src="https://ldb-phinf.pstatic.net/20220127_177/1643238736730QFFIx_JPEG/1_%C0%FC%BD%C3%C0%E5_%C0%D4%B1%B8.jpg" /></td>
+                          <td><img alt="" src="https://ldb-phinf.pstatic.net/20220127_294/1643238752924Voj1w_JPEG/6_%C7%F6%B4%EB_%C7%D1%B1%DB%287%C1%B8%29.jpg" /></td>
+                        <tr>
+                      </table>
+                </div>
+                
+                <div class="main">
+                    <ul class="ullist">
+                        <ul class="ninfo">
+                            <li>주소 : 서울 용산구 서빙고로 139</li>
+                            <li>전화 : 02-2124-6200</li>
+                            <li>사이트 : <a href="https://www.hangeul.go.kr/main.do" target="_blank">https://www.hangeul.go.kr/main.do</a></li>
+                            <li>운영시간 : 월요일-금요일, 일요일 10:00 ~ 18:00 <br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;토요일 10:00 ~ 21:00</li>
+                            <li>관람료 : 무료</li>
+                        </ul>
+                        <li>
+                            <h2 style="margin-top:50px;">행사/전시</h2>
+                        </li>
+                        <ul class="ninfo">
+                            <li><b>2층 훈민정음, 천년의 문자 계획</b>
+                                <ul>
+                                    <li>
+                                        443년 세종은 우리의 문자 ‘훈민정음’을 만들었습니다.
+                                        1446년에는 새 문자를 만든 목적과 원리를 밝힌 책 『훈민정음』을 만들었고,
+                                        『훈민정음』의 머리말에는 세종이 ‘훈민정음’을 통해 꿈꾼 새로운 세상이 설계돼 있습니다.
+                                        전시장은 『훈민정음』 머리말의 문장에 따라 7개의 공간으로 구성됐습니다.
+                                    </li>
+                                </ul>                               
+                            </li>
+                            <br/>
+                            <li><b>3층 한글 놀이터</b>
+                                <ul>
+                                    <li>
+                                        어린이가 한글이 만들어진 원리를 배우고 한글을 통해 다양한 생각을 표현할 수 있는 체험 공간입니다. 
+                                        신나게 놀면서 한글의 힘과 의미를 경험할 수 있습니다.
+                                        6~9세의 어린이가 체험하기에 적합합니다.
+
+                                    </li>
+                                </ul>
+                            </li>
+                            <br/>
+                        </ul>
+                        <li>
+                            <h2 style="margin-top:50px;">오시는길</h2>
+                        </li>
+                        <ul class="ninfo">
+                            <li><b>지하철</b>
+                                <ul>
+                                    <li>
+                                        4호선/ 경의중앙선<br/>
+                                        이촌역 2번 출구 → 용산가족공원 방면으로 430m 직진
+
+                                    </li>
+                                </ul>
+                            </li>
+                            <br/>
+                            <li><b>버스</b>
+                                <ul>
+                                    <li>
+                                        간선 400번/ 502번<br/>
+                                        국립중앙박물관, 용산가족공원 하차
+                                    </li>
+                                </ul>                               
+                            </li>
+                            <br/>
+                            <li><b>자차</b>
+                                <ul>
+                                    <li>
+                                        용산가족공원 입구에서 국립중앙박물관 방면으로 200m 직진
+                                    </li>
+                                    <li>
+                                        주차 공간이 부족하오니 관람객께서는 대중교통(버스, 지하철)을 이용해 주시기 바랍니다.
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

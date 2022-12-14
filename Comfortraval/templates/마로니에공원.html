@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>ComforTravel</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <div class="search">
+                <div class="search_box">
+                    <h1 class="logo">ComforTravel</h1>
+                    <div class="window">
+                        <form action="/applysearch" method="GET">
+                            <input type="text" id="fname" class="input_text" name="location" placeholder="검색어를 입력하세요">
+                            <button class="Button" type="submit"><div class="searchBtn">검색</div></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            
+            <div class="main">
+                <h1>마로니에 공원</h1>
+                <div class="pinfo">
+                    마로니에 공원은 대학로 옆 옛 서울대학교 문리대, 법대자리에 위치한 넓이 5,802㎡로써 문예회관 및 대학로 길거리에 작품들이 전시되어 있어 꿈과 낭만이 어린 문화예술의 거리로 독특한 분위기를 자아내고 있다. 또한 공원내에는 야외무대가 마련되어 음악콘서트, 무용, 연극등이 수시로 열리며 곳곳에 젊은이들의 만남의 광장, 대화의 장소로 인기가 매우 높다. 2002월드컵축구대회때는 마로니에공원과 대학로에서 많은 인파속에 열렬히 응원했던 장소로도 유명하다. 인근에는 성균관대, 성신여대, 한성대학 등이 위치해 있고 현재는 많은 다양한 계층의 사람들이 이용하는 곳으로 탈바꿈되었다. 특히 공원내 심어져 있는 마로니에 나무는 웅장한 고목으로 공원의 상징 기념수로 알려져 있다.
+                </div>
+                <!-- 사진 -->
+                <div class="main_img">
+                    <table>
+                        <tr>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20140407_135/1396854578351tCQ44_JPEG/%BC%AD%BF%EF_%B4%EB%C7%D0%B7%CE%B8%B6%B7%CE%B4%CF%BF%A1%B0%F8%BF%F8_1.jpg?type=m500_500" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20140407_71/1396854578772lbQhc_JPEG/%BC%AD%BF%EF_%B4%EB%C7%D0%B7%CE%B8%B6%B7%CE%B4%CF%BF%A1%B0%F8%BF%F8_10.jpg?type=m500_500" /></td>
+                            <td><img alt="" src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAxNzExMTNfMjE0%2FMDAxNTEwNTM4OTA2OTI3.5LozVU7HkqrJwmQU0p09OY3ewXQR-QXN7FUZvJsuuWkg.pYS-7uYznE0zZ7UKSFDiOpNoCzJ33OLDP79Z8LFbCawg.JPEG.yss8777%2F20171111_162858.jpg%231632x1224" /></td>
+                        <tr>
+                      </table>
+                </div>
+                
+                <div class="main">
+                    <ul class="ullist">
+                        <ul class="ninfo">
+                            <li>주소 : 서울 종로구 대학로 104</li>
+                            <li>전화 : 02-2148-4158</li>
+                        </ul>
+                        <li>
+                            <h2 style="margin-top:50px;">오시는길</h2>
+                        </li>
+                        <ul class="ninfo">
+                            <li><b>지하철</b>
+                                <ul>
+                                    <li>
+                                        4호선 | 혜화역 2번 출구 도보 1분
+                                    </li>
+                                    <li>
+                                        6호선 | 창신역 2번 출구 도보 23분
+                                    </li>
+                                </ul>
+                            </li>
+                            <br/>
+                            <li><b>버스</b>
+                                <ul>
+                                    <li>
+                                        간선
+                                        <ul>
+                                            <li>
+                                                100, 102, 104, 106, 107, 108, 109, 140, 143, 150, 160 ,162, 273, 301, 710
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        지선
+                                        <ul>
+                                            <li>
+                                                2112, 종로 07, 종로08
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li><br/>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

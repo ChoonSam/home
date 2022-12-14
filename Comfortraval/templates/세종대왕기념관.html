@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>ComforTravel</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <div class="search">
+                <div class="search_box">
+                    <h1 class="logo">ComforTravel</h1>
+                    <div class="window">
+                        <form action="/applysearch" method="GET">
+                            <input type="text" id="fname" class="input_text" name="location" placeholder="검색어를 입력하세요">
+                            <button class="Button" type="submit"><div class="searchBtn">검색</div></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            
+            <div class="main">
+                <h1>세종대왕기념관</h1>
+                <div class="pinfo">
+                    세종대왕기념관(世宗大王紀念館)은 서울특별시 동대문구 청량리동에 위치한 기념관으로, 조선 세종의 성덕과 위업을 추모하여 이를 길이 보존하기 위해 지어졌다. 
+                </div>
+                <!-- 사진 -->
+                <div class="main_img">
+                    <table>
+                        <tr>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20140407_74/1396855312191wgacS_JPEG/%BC%AD%BF%EF_%BC%BC%C1%BE%B4%EB%BF%D5%B1%E2%B3%E4%B0%FC_14.JPG?type=m500_500" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20140407_135/1396855312067UtCOC_JPEG/%BC%AD%BF%EF_%BC%BC%C1%BE%B4%EB%BF%D5%B1%E2%B3%E4%B0%FC_13.JPG?type=m500_500" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20140407_129/1396855313336zyuLv_JPEG/%BC%AD%BF%EF_%BC%BC%C1%BE%B4%EB%BF%D5%B1%E2%B3%E4%B0%FC_3.JPG?type=m500_500" /></td>
+                        <tr>
+                      </table>
+                </div>
+                
+                <div class="main">
+                    <ul class="ullist">
+                        <ul class="ninfo">
+                            <li>주소 : 서울 동대문구 회기로 56</li>
+                            <li>전화 : 02-969-8851</li>
+                            <li>사이트 : <a href="http://sejongkorea.org/main/main.html" target="_blank">http://sejongkorea.org/main/main.html</a></li>
+                            <li>운영시간<br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;매일 09:00 - 18:00 여름철(3월-10월)<br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;매일 09:00 - 17:30 겨울철(11월-2월)<br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:red;">매주 월요일 휴무</span>
+                            </li>
+                        </ul>
+                        <li>
+                            <h2 style="margin-top:50px;">오시는길</h2>
+                        </li>
+                        <ul class="ninfo">
+                            <li><b>지하철</b>
+                                <ul>
+                                    <li>
+                                        1호선 | 청량리역 2번 출구 도보 15분
+                                    </li>
+                                    <li>
+                                        6호선 | 고려대역 3번 출구 도보 5분
+                                    </li>
+                                </ul>
+                            </li><br/>
+                            <li><b>버스</b>
+                                <ul>
+                                    <li>지선
+                                        <ul>
+                                            <li>
+                                                1226
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>간선
+                                        <ul>
+                                            <li>
+                                                201, 273
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

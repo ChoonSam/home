@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>ComforTravel</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <div class="search">
+                <div class="search_box">
+                    <h1 class="logo">ComforTravel</h1>
+                    <div class="window">
+                        <form action="/applysearch" method="GET">
+                            <input type="text" id="fname" class="input_text" name="location" placeholder="검색어를 입력하세요">
+                            <button class="Button" type="submit"><div class="searchBtn">검색</div></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            
+            <div class="main">
+                <h1>트라이보울</h1>
+                <div class="pinfo">
+                    원형극장(ARENA) 형태의 공연장(823.03㎡)과 문화예술교육, 전시 등이 가능한 다목적 공간(111.13㎡)으로 이루어져 있습니다. 인천문화재단은 시민들과 함께하는 문화도시로서의 인천을 만들기 위해 트라이보울에서 공연, 문화예술교육,전시를 진행하고 있으며, 원도심과 신도심을 연결하는 지역문화예술커뮤니티를 활성화하기 위해 노력하고 있습니다.
+                </div>
+                <!-- 사진 -->
+                <div class="main_img">
+                    <table>
+                        <tr>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20200616_230/1592267896430aREFN_JPEG/VFfwSTyyVd5-xmLYswOrZKtj.jpg" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20200616_178/1592267745467Po5wz_JPEG/Gf1RaEdu7R06WhrDZzvcXZL4.jpg" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20200616_243/1592267775134u3moJ_JPEG/8mPELog4NH-JTABd9PdEUbh-.jpg" /></td>
+                        <tr>
+                      </table>
+                </div>
+                
+                <div class="main">
+                    <ul class="ullist">
+                        <ul class="ninfo">
+                            <li>주소 : 인천 연수구 인천타워대로 250</li>
+                            <li>전화 : 032-832-7992</li>
+                            <li>사이트 :  <a href="http://www.tribowl.kr/" target="_blank">http://www.tribowl.kr/</a></li>
+                        <li>운영시간 : 평일 13:00 ~ 17:30 | 매주 월요일 정기휴무</li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

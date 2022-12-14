@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>ComforTravel</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <div class="search">
+                <div class="search_box">
+                    <h1 class="logo">ComforTravel</h1>
+                    <div class="window">
+                        <form action="/applysearch" method="GET">
+                            <input type="text" id="fname" class="input_text" name="location" placeholder="검색어를 입력하세요">
+                            <button class="Button" type="submit"><div class="searchBtn">검색</div></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            
+            <div class="main">
+                <h1>누리천문대</h1>
+                <div class="pinfo">
+                    누리천문대는 군포시 대야도서관에서 운영하는 천문대로서 대야도서관 옥상 정원에 천체관측실과 천체투영실을, 4층에 천문우주체험관과 4D입체영상관을 설치하여 운영하는 시민천문대입니다. 천체관측실, 천문우주체험관, 4D입체영상관, 플라네타리움 등 아담하고 알찬 시설을 갖추고 있는 누리천문대는 군포시를 대표하는 천문우주 체험학습 공간입니다.
+                </div>
+                <!-- 사진 -->
+                <div class="main_img">
+                    <table>
+                        <tr>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20150831_34/1441015142148DBXsq_JPEG/106379543870027_0.jpg" /></td>
+                            <td><img alt="" src="" /></td>
+                            <td><img alt="" src="" /></td>
+                        <tr>
+                      </table>
+                </div>
+                
+                <div class="main">
+                    <ul class="ullist">
+                        <ul class="ninfo">
+                            <li>주소 : 경기 군포시 대야2로 139</li>
+                            <li>전화 : 031-390-8674</li>
+                            <li>사이트 : <a href="https://www.gunpolib.go.kr/nuri/" target="_blank">https://www.gunpolib.go.kr/nuri/</a></li>
+                            <li>운영시간 : 09:00 ~ 18:00 | 매주 월요일, 일요일 정기휴무</li>
+                        </ul>
+                        <li>
+                            <h2 style="margin-top:50px;">오시는길</h2>
+                        </li>
+                        <ul class="ninfo">
+                            <li><b>지하철</b>
+                                <ul>
+                                    <li>
+                                        4호선 | 대야미역 2번 출구 도보 5분
+                                    </li>
+                                </ul>
+                            </li><br/>
+                            <li><b>버스</b>
+                                <ul>
+                                    <li>일반 | 20</li>
+                                    <li>마을 | 6, 6-1</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

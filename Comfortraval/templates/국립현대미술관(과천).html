@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>ComforTravel</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <div class="search">
+                <div class="search_box">
+                    <h1 class="logo">ComforTravel</h1>
+                    <div class="window">
+                        <form action="/applysearch" method="GET">
+                            <input type="text" id="fname" class="input_text" name="location" placeholder="검색어를 입력하세요">
+                            <button class="Button" type="submit"><div class="searchBtn">검색</div></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            
+            <div class="main">
+                <h1>국립현대미술관 과천</h1>
+                <div class="pinfo">
+                    한국 근·현대 미술과 세계 미술의 맥을 짚어볼 수 있는 국내 최고의 미술관으로 실내전시관과 더불어 야외조각 전시장의 넓은 잔디밭은 가족 단위 관광객에게 큰 사랑을 받고 있다
+                </div>
+                <!-- 사진 -->
+                <div class="main_img">
+                    <table>
+                        <tr>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20150831_183/14410067013997g8BA_GIF/11620342_0.gif" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20150831_272/1441006701806f9qoQ_JPEG/11620342_2.jpg" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20150831_234/1441006702032Im26d_JPEG/11620342_3.jpg" /></td>
+                        <tr>
+                      </table>
+                </div>
+                
+                <div class="main">
+                    <ul class="ullist">
+                        <ul class="ninfo">
+                            <li>주소 : 경기 과천시 광명로 313 국립현대미술관</li>
+                            <li>전화 : 02-2188-6000</li>
+                            <li>사이트 : <a href="https://www.mmca.go.kr/" target="_blank">https://www.mmca.go.kr/</a></li>
+                            <li>운영시간 : 10:00 ~ 18:00 | 매주 월요일 정기휴무</li>
+                        </ul>
+                        <li>
+                            <h2 style="margin-top:50px;">오시는길</h2>
+                        </li>
+                        <ul class="ninfo">
+                            <li><b>지하철</b>
+                                <ul>
+                                    <li>
+                                        4호선 | 대공원역 2번 출구
+                                    </li>
+                                </ul>
+                            </li><br/>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

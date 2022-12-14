@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>ComforTravel</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <div class="search">
+                <div class="search_box">
+                    <h1 class="logo">ComforTravel</h1>
+                    <div class="window">
+                        <form action="/applysearch" method="GET">
+                            <input type="text" id="fname" class="input_text" name="location" placeholder="검색어를 입력하세요">
+                            <button class="Button" type="submit"><div class="searchBtn">검색</div></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            
+            <div class="main">
+                <h1>한국은행 화폐박물관</h1>
+                <div class="pinfo">
+                    한국은행 화폐박물관(韓國銀行 貨幣博物館)은 2001년에 설립되었다. 박물관이 위치한 한국은행 구본관은 서울 중구 남대문로에 위치한 대한민국의 사적 제280호로 지정된 건물이다. 박물관은 크게 전시 공간과 보조 공간으로 나뉘어 있는데, 전시 공간은 우리의 중앙은행, 화폐의 일생, 돈과 나라경제, 화폐광장, 상평통보갤러리, 금과 화폐실, 화폐기기실, 기증화폐실, 모형금고, 세계의 화폐실, 체험학습실, 기획전시실, 한은갤러리로 구성되어 있다. 보조 공간으로는 자료안내실, 뮤지엄샵, 카페 등을 두어 이용자들이 편안하게 이용할 수 있게 하였다.
+                </div>
+                <!-- 사진 -->
+                <div class="main_img">
+                    <table>
+                        <tr>
+                            <td><img alt="" src="" /></td>
+                            <td><img alt="" src="" /></td>
+                            <td><img alt="" src="" /></td>
+                        <tr>
+                      </table>
+                </div>
+                
+                <div class="main">
+                    <ul class="ullist">
+                        <ul class="ninfo">
+                            <li>주소 : 서울 중구 남대문로 39 한국은행</li>
+                            <li>전화 : 02-759-4881</li>
+                            <li>사이트 : <a href="https://www.bok.or.kr/museum/main/main.do" target="_blank">https://www.bok.or.kr/museum/main/main.do</a></li>
+                            <li>운영시간 : 10:00 ~ 17:00 | 매주 월요일 정기휴무</li>
+                        </ul>
+                        <li>
+                            <h2 style="margin-top:50px;">오시는길</h2>
+                        </li>
+                        <ul class="ninfo">
+                            <li><b>지하철</b>
+                                <ul>
+                                    <li>
+                                        1호선 | 시청역 7번 출구
+                                    </li>
+                                    <li>
+                                        2호선 | 시청역 7번 출구 | 을지로입구 7번 출구
+                                    </li>
+                                    <li>
+                                        4호선 | 회현역 7번 출구
+                                    </li>
+                                </ul>
+                            </li><br/>
+                            <li><b>버스</b>
+                                <ul>
+                                    <li>간선
+                                        <ul>
+                                            <li>
+                                                100, 103, 105, 143, 151, 152, 162, 163, 201, 202, 261, 262, 401, 405, 406, 421, 500, 501, 502, 504, 505, 506, 701, 702A, 702B, 704, 705, N15, N30
+                                        </ul>
+                                    </li>
+                                    <li>지선
+                                        <ul>
+                                            <li>
+                                                7017, 7021, 7022
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>광역
+                                        <ul>
+                                            <li>
+                                                9401, M4101, M4102
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>공항
+                                        <ul>
+                                            <li>
+                                                6001, 6015, 6021
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>순환
+                                        <ul>
+                                            <li>
+                                                5
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

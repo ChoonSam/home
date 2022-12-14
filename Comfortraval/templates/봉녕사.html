@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>ComforTravel</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <div class="search">
+                <div class="search_box">
+                    <h1 class="logo">ComforTravel</h1>
+                    <div class="window">
+                        <form action="/applysearch" method="GET">
+                            <input type="text" id="fname" class="input_text" name="location" placeholder="검색어를 입력하세요">
+                            <button class="Button" type="submit"><div class="searchBtn">검색</div></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            
+            <div class="main">
+                <h1>봉녕사</h1>
+                <div class="pinfo">
+                    아름답고 청정한 절 수원 봉녕사는 고려 희종 4년(1208)에 원각 국사가 창건한 사찰로서 수원 광교산 기슭에 자리잡고 있으며 대한불교조계종 제2교구본사 용주사 말사입니다. 1971년 비구니 묘전 스님이 주지로 부임하고 묘엄 명사께서 주석하시면서 쇠퇴했던 봉녕사를 비구니 승가교육의 요람으로 중흥시켜 오늘에 이르고 있습니다.
+                </div>
+                <!-- 사진 -->
+                <div class="main_img">
+                    <table>
+                        <tr>
+                            <td><img alt="" src="https://search.pstatic.net/common/?autoRotate=true&quality=95&type=w750&src=https%3A%2F%2Fmyplace-phinf.pstatic.net%2F20210423_140%2F1619104539832EVQh3_JPEG%2Fupload_ea5a32cf681f5c89107327490a03f85e.jpeg" /></td>
+                            <td><img alt="" src="https://search.pstatic.net/common/?autoRotate=true&quality=95&type=w750&src=https%3A%2F%2Fmyplace-phinf.pstatic.net%2F20210423_145%2F1619104539879SQVQR_JPEG%2Fupload_5c403aaec4ee93a9a7ca990b56136388.jpeg" /></td>
+                            <td><img alt="" src="https://myplace-phinf.pstatic.net/20210503_11/1620002877585frzjI_JPEG/upload_9074f5748045a0c6a3fd3cd1900723dd.jpg" /></td>
+                        <tr>
+                      </table>
+                </div>
+                
+                <div class="main">
+                    <ul class="ullist">
+                        <ul class="ninfo">
+                            <li>주소 : 경기 수원시 팔달구 창룡대로 236-54 봉녕사</li>
+                            <li>전화 : 031-256-4127</li>
+                            <li>사이트 : <a href="http://www.bongnyeongsa.org/" target="_blank">http://www.bongnyeongsa.org/</a></li>
+                            <li>운영시간 : </li>
+                        </ul>
+                        <li>
+                            <h2 style="margin-top:50px;">오시는길</h2>
+                        </li>
+                        <ul class="ninfo">
+                            <li><b>지하철</b>
+                                <ul>
+                                    <li>
+                                        1호선 | 수원역 9번 출구
+                                    </li>
+                                    <li>
+                                        신분당선 | 수원역 9번 출구
+                                    </li>
+                                </ul>
+                            </li><br/>
+                            <li><b>버스</b>
+                                <ul>
+                                    <li>
+                                        일반 | 7-2, 60, 660, 700-2
+                                    </li>
+                                    <li>
+                                        광역 | 1007, 1007-1, 3007, 7000, 7001
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

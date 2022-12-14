@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>ComforTravel</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <div class="search">
+                <div class="search_box">
+                    <h1 class="logo">ComforTravel</h1>
+                    <div class="window">
+                        <form action="/applysearch" method="GET">
+                            <input type="text" id="fname" class="input_text" name="location" placeholder="검색어를 입력하세요">
+                            <button class="Button" type="submit"><div class="searchBtn">검색</div></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            
+            <div class="main">
+                <h1>BMW 드라이빙 센터</h1>
+                <div class="pinfo">
+                    2014년, 전세계가 주목하는 BMW 드라이빙 센터가 인천국제도시 영종도에 문을 열었습니다. BMW, BMW Motorrad, MINI, 롤스로이스가 함께하는 BMW 드라이빙 센터는 경험(Experience), 즐거움(Joy), 친환경(Green)을 주제로 드라이빙을 즐길 수 있는 다양한 트랙과 전시장, 이벤트 홀, 주니어 캠퍼스 및 편안한 휴식 공간으로 구성되어 있습니다. 29만㎡의 부지, 축구장 약 40개 규모의 BMW 드라이빙 센터는 도시 가까이에서 가장 강렬한 퍼포먼스를 경험할 수 있는 공간이며, 다채로운 문화체험과 BMW 그룹이 전하는 가치를 누릴 수 있는 곳입니다.
+                </div>
+                <!-- 사진 -->
+                <div class="main_img">
+                    <table>
+                        <tr>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20210131_42/1612052077616UOOl7_JPEG/img_car1_7.jpg" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20210131_58/1612052077647mMBS6_PNG/%C7%DA%B5%E5%BF%C0%B9%F6.PNG" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20210131_265/1612052077600zYOrF_JPEG/img_car1_4.jpg" /></td>
+                        <tr>
+                      </table>
+                </div>
+                
+                <div class="main">
+                    <ul class="ullist">
+                        <ul class="ninfo">
+                            <li>주소 : 인천 중구 공항동로 136</li>
+                            <li>전화 : 080-269-3300</li>
+                            <li>사이트 : <a href="https://www.bmw-driving-center.co.kr/kr/index.do" target="_blank">https://www.bmw-driving-center.co.kr/kr/index.do</a></li>
+                        <li>운영시간 : 화,수,목,일 09:00 ~ 18:00 | 금 09:00 ~ 19:00 | 토 09:00 ~ 20:00 | 매주 월요일 정기휴무</li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

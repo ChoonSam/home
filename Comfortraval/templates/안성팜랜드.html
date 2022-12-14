@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>ComforTravel</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <div class="search">
+                <div class="search_box">
+                    <h1 class="logo">ComforTravel</h1>
+                    <div class="window">
+                        <form action="/applysearch" method="GET">
+                            <input type="text" id="fname" class="input_text" name="location" placeholder="검색어를 입력하세요">
+                            <button class="Button" type="submit"><div class="searchBtn">검색</div></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            
+            <div class="main">
+                <h1>안성팜랜드</h1>
+                <div class="pinfo">
+                    직접 만지고 먹이주며, 들꽃 한포기의 가치를 배우는 즐거운 체험목장, 안성팜랜드! 칡소에서부터 황소,당나귀,면양,거위등, 우리에게 소중한 가축들이 한자리에 모였습니다. 탁 트인 초원에서 귀여운 가축들과 함께 뛰놀며 우리나라 농축산업의 소중함을 몸과 마음으로 느낄 수 있습니다.
+                </div>
+                <!-- 사진 -->
+                <div class="main_img">
+                    <table>
+                        <tr>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20200804_289/15965203217120vYd0_JPEG/0D9ymouBeC1favcJVB2aa9I7.jpg" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20200804_148/1596520301096NvqRb_JPEG/BrFpZHyM2KhXwdIVMl6dcTwW.jpg" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20200804_50/15965202880595n3S9_JPEG/bzfdl_t3BmFrMt6a4nN2utJM.jpg" /></td>
+                        <tr>
+                      </table>
+                </div>
+                
+                <div class="main">
+                    <ul class="ullist">
+                        <ul class="ninfo">
+                            <li>주소 : 경기 안성시 공도읍 대신두길 28</li>
+                            <li>전화 : 031-8053-7979</li>
+                            <li>사이트 : <a href="http://nhasfarmland.com/asfarm.php?device=" target="_blank">http://nhasfarmland.com/asfarm.php?device=</a></li>
+                            <li>운영시간 : 평일 10:00 ~ 18:00 | 주말 09:00 ~ 18:00</li>
+                        </ul>
+                        <li>
+                            <h2 style="margin-top:50px;">오시는길</h2>
+                        </li>
+                        <ul class="ninfo">
+                            <li><b>버스</b>
+                                <ul>
+                                    <li>
+                                        일반 | 50, 70
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

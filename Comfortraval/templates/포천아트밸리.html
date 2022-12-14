@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>ComforTravel</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <div class="search">
+                <div class="search_box">
+                    <h1 class="logo">ComforTravel</h1>
+                    <div class="window">
+                        <form action="/applysearch" method="GET">
+                            <input type="text" id="fname" class="input_text" name="location" placeholder="검색어를 입력하세요">
+                            <button class="Button" type="submit"><div class="searchBtn">검색</div></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            
+            <div class="main">
+                <h1>포천아트밸리</h1>
+                <div class="pinfo">
+                    포천 아트밸리는 2003년부터 버려져 방치되어 있었던 신북면 기지리의 폐채석장의 환경을 복원한 복합 문화예술공간이다.
+                </div>
+                <!-- 사진 -->
+                <div class="main_img">
+                    <table>
+                        <tr>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20201005_218/1601860173256JSlbG_JPEG/lW6wo96aidZ4RwUQQn25hCZ3.jpg" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20201005_280/1601860150672aT6h1_JPEG/tWbKfzOnBJTijXDiFRbVHlkd.jpg" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20201005_136/1601860304130DxCm5_JPEG/xHZs93OemNrrnKfZpjuDD6oS.jpg" /></td>
+                        <tr>
+                      </table>
+                </div>
+                
+                <div class="main">
+                    <ul class="ullist">
+                        <ul class="ninfo">
+                            <li>주소 : 경기 포천시 신북면 아트밸리로 234</li>
+                            <li>전화 : 1668-1035</li>
+                            <li>사이트 : <a href="https://artvalley.pocheon.go.kr/" target="_blank">https://artvalley.pocheon.go.kr/</a></li>
+                            <li>운영시간 : 09:00 ~ 19:00</li>
+                        </ul>
+                    </ul>
+                    <li>
+                        <h2 style="margin-top:50px;">오시는길</h2>
+                    </li>
+                    <ul class="ninfo">
+                        <li><b>버스</b>
+                            <ul>
+                                <li>
+                                    일반 | 73, 138, 138-5, 1386
+                                </li>
+                                <li>
+                                    광역 | 3000, 3001, 3002
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

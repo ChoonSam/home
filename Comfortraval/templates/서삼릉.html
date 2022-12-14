@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>ComforTravel</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <div class="search">
+                <div class="search_box">
+                    <h1 class="logo">ComforTravel</h1>
+                    <div class="window">
+                        <form action="/applysearch" method="GET">
+                            <input type="text" id="fname" class="input_text" name="location" placeholder="검색어를 입력하세요">
+                            <button class="Button" type="submit"><div class="searchBtn">검색</div></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            
+            <div class="main">
+                <h1>서삼릉</h1>
+                <div class="pinfo">
+                    유네스코 세계유산이자 사적인 「고양 서삼릉(西三陵)」은 중종의 계비이며 인종의 생모인 장경왕후의 희릉(禧陵), 인종과 인성왕후의 효릉(孝陵), 철종장황제와 철인장황후의 예릉(睿陵)이 조성되면서 3릉(희릉, 효릉, 예릉)이 한양의 서쪽에 있다하여 ‘서삼릉’이라는 명칭을 얻게 되었습니다. 이후 의소세손의 의령원(懿寧園)과 문효세자의 효창원(孝昌園)이 서삼릉에 옮겨와 있습니다. 또한 서삼릉 비공개지역에는 소현세자의 소경원(昭慶園)이 조성되어 있으며, 이후 연산군 사친 폐비윤씨의 회묘(懷墓) 등 왕의 후궁들과 자녀들의 묘, 그리고 태실이 옮겨와 있습니다.
+                </div>
+                <!-- 사진 -->
+                <div class="main_img">
+                    <table>
+                        <tr>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20220612_176/1655039252159GODOJ_JPEG/20220612_145039.jpg" /></td>
+                            <td><img alt="" src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAxODAxMjdfMTQ0%2FMDAxNTE3MDIwMzg2NzEw.CQyhiHtngRpHJE3vhArOKMFnxvl7f6K_ilIlPDOC9QEg.YOqVdGPLxBrLvkgd5tKFr1C6TOi-hCPkvldLz7GaSDkg.JPEG.jongsulim%2Fcjfwhd003dPfmd.jpg%23900x600" /></td>
+                            <td><img alt="" src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAxODAxMjdfMTU2%2FMDAxNTE3MDIwNjM4NTcz.LDy_y88p1qIT0fc5kboKkRSDj4nd1RUfeJfZxjF4USMg.O690zfp1IQdGPSKQqkK9ZsKR1d3VelgZDdUX8pE7mCsg.JPEG.jongsulim%2Fcjfwhd010dPfmd.jpg%23900x600" /></td>
+                        <tr>
+                      </table>
+                </div>
+                
+                <div class="main">
+                    <ul class="ullist">
+                        <ul class="ninfo">
+                            <li>주소 : 경기 고양시 덕양구 서삼릉길 233-126</li>
+                            <li>전화 : 031-962-6009</li>
+                            <li>사이트 : <a href="http://royaltombs.cha.go.kr/html/HtmlPage.do?pg=/new/html/portal_01_11_01.jsp&mn=RT_01_11" target="_blank">http://royaltombs.cha.go.kr/html/HtmlPage.do?pg=/new/html/portal_01_11_01.jsp&mn=RT_01_11</a></li>
+                            <li>운영시간 : 2월~5월, 9월~10월 09:00 - 18:00 | 6월~8월 09:00 - 18:30 | 11월~1월 09:00 - 17:30 | 매주 월요일 정기휴무</li>
+                        </ul>
+
+                        <li>
+                            <h2 style="margin-top:50px;">오시는길</h2>
+                        </li>
+                        <ul class="ninfo">
+                            <li><b>지하철</b>
+                                <ul>
+                                    <li>
+                                        3호선 | 원흥역 7번 출구
+                                    </li>
+                                </ul>
+                            </li><br/>
+                            <li><b>버스</b>
+                                <ul>
+                                    <li>마을 | 43</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

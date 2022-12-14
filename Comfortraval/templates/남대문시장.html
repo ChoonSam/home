@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>ComforTravel</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <div class="search">
+                <div class="search_box">
+                    <h1 class="logo">ComforTravel</h1>
+                    <div class="window">
+                        <form action="/applysearch" method="GET">
+                            <input type="text" id="fname" class="input_text" name="location" placeholder="검색어를 입력하세요">
+                            <button class="Button" type="submit"><div class="searchBtn">검색</div></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            
+            <div class="main">
+                <h1>남대문시장</h1>
+                <div class="pinfo">
+                    전통의 모습과 현재가 상존하고 생동감이 넘쳐나는 남대문시장에 방문하는 인원은 하루 평균 30만 명에 달한다. 지리적으로도 신세계백화점, 한국은행 등 서울의 주요 건물은 물론, 정동길, 명동, 남산타워, 남산한옥마을 등 관광명소들과 인근하고 있어 서울을 찾는 외국인들이 가장 많이 찾는 명소이다. 사람들의 발길은 숭례문을 기점으로 1만여 곳에 육박하는 점포로 향한다. “남대문시장에 없으면 서울 어디에도 없다”, “남대문시장엔 고양이 뿔 빼고 다 있다”는 말이 있을 정도다. 남대문시장에는 아동·남성·여성 등 각종 의류를 비롯해 액세서리, 주방용품, 민속공예, 식품, 잡화, 농수산물 등 일상생활에 필요한 1,700여종에 달하는 상품을 판매하고 있다.남대문시장은 전국 소매상과 소비자에게 저렴한 가격으로 유통하는 도·소매기능을 겸하고 있어 국내 소매상뿐 아니라 중국, 일본, 동남아시아와 유럽, 미국, 중동 등 세계 각지에서도 찾아오고 있다. 남대문시장에는 맛집들도 많다. 은호식당, 진주집 등 오랜 역사를 자랑하는 꼬리곰탕집을 비롯해 갈치골목, 칼국수골목, 야채호떡, 닭곰탕, 이북식 냉면집 부원면옥 등 남대문시장에서만 맛 볼 수 있는 먹을거리들도 남대문시장을 꼭 한 번 방문해 볼 것을 추천한다.
+                </div>
+                <!-- 사진 -->
+                <div class="main_img">
+                    <table>
+                        <tr>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20140407_111/1396856197743iYqgA_JPEG/%BC%AD%BF%EF_%B3%B2%B4%EB%B9%AE%BD%C3%C0%E5_1.jpg?type=m500_500" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20150831_81/1441017327202CTX0J_JPEG/SUBMIT_1394249321996_13304144.jpg" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20150831_205/1441017326206dCi2F_JPEG/13304144_0.jpg" /></td>
+                        <tr>
+                      </table>
+                </div>
+                
+                <div class="main">
+                    <ul class="ullist">
+                        <ul class="ninfo">
+                            <li>주소 : 서울 중구 남대문시장4길 21</li>
+                            <li>전화 : 02-753-2805</li>
+                            <li>사이트 : <a href="http://namdaemunmarket.co.kr/" target="_blank">http://namdaemunmarket.co.kr/</a></li>
+                            <li>운영시간 : 평일 00:00 - 23:00 품목별로 운영시간이 다름.</li>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:red;">일요일 휴무<span><br/>
+                        </ul>
+                        <li>
+                            <h2 style="margin-top:50px;">오시는길</h2>
+                        </li>
+                        <ul class="ninfo">
+                            <li><b>지하철</b>
+                                <ul>
+                                    <li>
+                                        1호선 | 서울역 7번 출구 도보 6분 | 시청역 7번 출구 도보 11분
+                                    </li>
+                                    <li>
+                                        2호선 | 시청역 7번 출구 도보 11분 | 을지로입구역 7번 출구 도보 14분
+                                    </li>
+                                    <li>
+                                        4호선 | 회현역 5번 출구 도보 1분 | 서울역 7번 출구 도보 6분 | 명동역 5번 출구 도보 10분
+                                    </li>
+                                    <li>
+                                        공항선 | 서울역 7번 출구 도보 6분
+                                    </li>
+                                    <li>
+                                        경의중앙선 | 서울역 1번 출구 도보 12분
+                                    </li>
+                                </ul>
+                            </li>
+                            <br/>
+                            <li><b>버스</b>
+                                <ul>
+                                    <li>
+                                        간선
+                                        <ul>
+                                            <li>
+                                                100, 103, 105, 151, 152, 162, 173, 201, 202, 261, 262, 400, 406, 500, 701, 704, N15, N30
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        지선
+                                        <ul>
+                                            <li>
+                                                7017, 7021, 7022
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        직행
+                                        <ul>
+                                            <li>
+                                                9000-1
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        광역
+                                        <ul>
+                                            <li>
+                                                M4101, M4102
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li><br/>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

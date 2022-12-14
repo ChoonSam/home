@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>ComforTravel</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <div class="search">
+                <div class="search_box">
+                    <h1 class="logo">ComforTravel</h1>
+                    <div class="window">
+                        <form action="/applysearch" method="GET">
+                            <input type="text" id="fname" class="input_text" name="location" placeholder="검색어를 입력하세요">
+                            <button class="Button" type="submit"><div class="searchBtn">검색</div></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            
+            <div class="main">
+                <h1>종묘</h1>
+                <div class="pinfo">
+                    <b>종묘는 조선왕조 역대 왕과 왕후 및 추존된 왕과 왕후의 신주를 모신 사당으로서 가장 정제되고 장엄한 건축물 중의 하나이다.</b><br/><br/>
+                    종묘는 태조 3년 (1394) 10월 조선 왕조가 한양으로 도읍을 옮긴 그해 12월에 착공하여 이듬해(1395) 9월에 완공 하였으며, 
+                    곧이어 개성으로부터 태조의 4대조인 목조, 익조, 도조, 환조의 신주를 모셨다. 현재 정전에는 19실에 49위, 
+                    영녕전에는 16실에 34위의 신주가 모셔져 있고, 정전 뜰앞에 있는 공신당에는 정전에 계신 왕들의 공신 83위가 모셔져 있다.
+
+
+                </div>
+                <!-- 사진 -->
+                <div class="main_img">
+                    <table>
+                        <tr>
+                          <td><img alt="" src="#" /></td>
+                          <td><img alt="" src="#" /></td>
+                          <td><img alt="" src="#" /></td>
+                        <tr>
+                      </table>
+                </div>
+                
+                <div class="main">
+                    <ul class="ullist">
+                        <ul class="ninfo">
+                            <li>주소 : 서울특별시 종로구 종로157</li>
+                            <li>전화 : 02-765-0195</li>
+                            <li>사이트 : <a href="http://jm.cha.go.kr/" target="_blank">http://jm.cha.go.kr/</a></li>
+                            <li>관람시간 : 2월 ~ 5월 : 09:00 ~ 18:00(입장마감 : 17:00)<br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6월 ~ 8월
+                                : 09:00~18:30(입장마감 : 17:30)<br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;9월 ~ 10월
+                                : 09:00~18:00(입장마감 : 17:00)<br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;11월 ~ 1월
+                                : 09:00~17:30(입장마감 : 16:30)<br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:red;">매주 화요일은 휴궁일(休宮日)입니다.</span>
+                            </li>
+                            <li>관람료<br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;〉내국인 : 만25세 ~ 만64세 : 1,000원<br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;만24세 이하 및 만 65세 이상 : 무료<br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;매월 마지막 수요일 [문화가 있는 날] : 무료<br/><br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;〉외국인 : 만19세 ~ 만64세 : 1,000원<br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;만7세 ~ 만18세 : 500원<br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;만6세 이하 및 만 65세 이상 : 무료<br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;매월 마지막 수요일 [문화가 있는 날] : 무료<br/><br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;〉특별권 : 홈페이지 참고바람<br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;〉종로구 주민 50% 할인<br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;※ 할인 대상자는 반드시 신분증 또는 등본 등의 증빙서류 제시
+                            </li>
+                        </ul>
+                        <li>
+                            <h2 style="margin-top:50px;">오시는길</h2>
+                        </li>
+                        <ul class="ninfo">
+                            <li><b>지하철</b>
+                                <ul>
+                                    <li>
+                                        1호선 | 종로3가역 11번 출구 도보 3분 | 종로5가역 1번 출구 도보 11분
+                                    </li>
+                                    <li>
+                                        2호선 | 을지로4가역 3번 출구 도보 9분 | 을지로3가역 5번 출구 도보 11분
+                                    </li>
+                                    <li>
+                                        3호선 | 종로3가역 11번 출구 도보 3분 | 을지로3가역 5번 출구 도보 11분
+                                    </li>
+                                    <li>
+                                        5호서 | 종로3가역 11번 출구 도보 3분 | 을지로4가역 3번 출구 도보 9분
+                                    </li>
+                                </ul>
+                            </li>
+                            <br/>
+                            <li><b>버스</b>
+                                <ul>
+                                    <li>
+                                        간선
+                                        <ul>
+                                            <li>
+                                                101, 103, 143, 150, 201, 260, 270, 271, 370, 720, 721, N15, N26, N62
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        지선
+                                        <ul>
+                                            <li>
+                                                7212
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        직행
+                                        <ul>
+                                            <li>
+                                                9301
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        마을
+                                        <ul>
+                                            <li>
+                                                종로12
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <br/>
+                            <li><b>주차장</b>
+                                <ul>
+                                    <li>
+                                        <b>종묘는 주차장을 운영하고 있지 않습니다.</b>
+                                    </li>
+                                    <li>
+                                         인근 주차장 | 서울시설공간 종묘주차장
+                                        <ul>
+                                            <li>
+                                                위치 : 종묘 앞 종묘공원 지하
+                                            </li>
+                                            <li>
+                                                요금 : 10분당 800원
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

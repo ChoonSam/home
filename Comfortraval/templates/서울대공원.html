@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>ComforTravel</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <div class="search">
+                <div class="search_box">
+                    <h1 class="logo">ComforTravel</h1>
+                    <div class="window">
+                        <form action="/applysearch" method="GET">
+                            <input type="text" id="fname" class="input_text" name="location" placeholder="검색어를 입력하세요">
+                            <button class="Button" type="submit"><div class="searchBtn">검색</div></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            
+            <div class="main">
+                <h1>서울대공원</h1>
+                <div class="pinfo">
+                    청계산 자락 드넓은 대지 위에 자리잡은 국내 최대규모의 공원으로 동물원, 식물원 등 다양한 부대시설을 갖추고 있다
+                </div>
+                <!-- 사진 -->
+                <div class="main_img">
+                    <table>
+                        <tr>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20170403_66/1491217081772nIH5y_JPEG/186353598820945_0.jpeg" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20220103_237/1641193045106hHVIK_PNG/20220103_1.png" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20190829_137/1567045713578uzDAn_JPEG/-S23h72K46NEHdlwWPjR-alo.jpg" /></td>
+                        <tr>
+                      </table>
+                </div>
+                
+                <div class="main">
+                    <ul class="ullist">
+                        <ul class="ninfo">
+                            <li>주소 : 경기 과천시 대공원광장로 102</li>
+                            <li>전화 : 02-500-7335</li>
+                            <li>사이트 : <a href="http://grandpark.seoul.go.kr/" target="_blank">http://grandpark.seoul.go.kr/</a></li>
+                            <li>운영시간 : 09:00 ~ 18:00</li>
+                        </ul>
+                        <li>
+                            <h2 style="margin-top:50px;">오시는길</h2>
+                        </li>
+                        <ul class="ninfo">
+                            <li><b>지하철</b>
+                                <ul>
+                                    <li>
+                                        4호선 | 대공원역 1,2,3번 출구
+                                    </li>
+                                </ul>
+                            </li><br/>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

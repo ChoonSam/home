@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>ComforTravel</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <div class="search">
+                <div class="search_box">
+                    <h1 class="logo">ComforTravel</h1>
+                    <div class="window">
+                        <form action="/applysearch" method="GET">
+                            <input type="text" id="fname" class="input_text" name="location" placeholder="검색어를 입력하세요">
+                            <button class="Button" type="submit"><div class="searchBtn">검색</div></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            
+            <div class="main">
+                <h1>낙상공원</h1>
+                <div class="pinfo">
+                    낙산공원은 대학로와 동대문으로부터 이어지며 역사와 문화를 함께 즐길 수 있는 공원이다.
+                    대학로에서 낙산공원에 올라 파노라마처럼 펼쳐진 서울전망을 보고, 언덕 정상부위에 밀집한 주택과 벽화가 있는 이화동 벽화마을로 갈 수도 있다.
+                     또 흥인지문에서 한양도성길을 따라 올라가는 동대문 방면 코스는 성곽 을 따라 한적한 도심 속 숲길을 걸을 수 있다. 
+                     한성대 입구 방면으로부터 올라 가는 길은 외부 성곽 벽면 전체를 보면서 걸을 수 있어 오랜 과거로의 여행같은 느낌을 주고, 
+                     정상에 올라 북동방향의 서울 전경을 볼 수도 있다.
+                </div>
+                <!-- 사진 -->
+                <div class="main_img">
+                    <table>
+                        <tr>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20191003_117/1570109749390c8NFO_JPEG/cEG10dTCZlfapM4glJOe3Tnn.jpg" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20150206_168/1423208895240mYvq9_JPEG/%BC%AD%BF%EF_%B3%AB%BB%EA%B0%F8%BF%F8%28%BC%B3%B0%E6%29_1.JPG?type=m500_500" /></td>
+                            <td><img alt="" src="#" /></td>
+                        <tr>
+                      </table>
+                </div>
+                
+                <div class="main">
+                    <ul class="ullist">
+                        <ul class="ninfo">
+                            <li>주소 : 서울 종로구 낙산길 41</li>
+                            <li>전화 : 02-743-7985</li>
+                            <li>사이트 : <a href="https://parks.seoul.go.kr/template/sub/naksan.do">https://parks.seoul.go.kr/template/sub/naksan.do</a></li>
+                            <li>이용시간 : 상시개방(낙산전시관 09:00 ~ 17:00)</li>
+                        </ul>
+                        <li>
+                            <h2 style="margin-top:50px;">오시는길</h2>
+                        </li>
+                        <ul class="ninfo">
+                            <li><b>지하철</b>
+                                <ul>
+                                    <li>
+                                        4호선 | 혜화역 2번 출구 도보 10분 | 동대문역 1번 출구 도보 21분
+                                    </li>
+                                    <li>
+                                        6호선 | 창신역 2번 출구 도보 23분
+                                    </li>
+                                </ul>
+                            </li>
+                            <br/>
+                            <li><b>주차</b>
+                                <ul>
+                                    <li>
+                                        주차가능 수 : 29대
+                                    </li>
+                                    <li>
+                                        주차요금 : 10분당 300원
+                                    </li>
+                                    <li>
+                                        주차장이 협소하고 복잡하오니 미리 연락하고 출발해주십시오.(☎02-743-7985)
+                                    </li>
+                                </ul>
+                            </li><br/>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

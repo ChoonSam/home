@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>ComforTravel</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <div class="search">
+                <div class="search_box">
+                    <h1 class="logo">ComforTravel</h1>
+                    <div class="window">
+                        <form action="/applysearch" method="GET">
+                            <input type="text" id="fname" class="input_text" name="location" placeholder="검색어를 입력하세요">
+                            <button class="Button" type="submit"><div class="searchBtn">검색</div></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            
+            <div class="main">
+                <h1>서대문형무소역사관</h1>
+                <div class="pinfo">
+                    <b>서대문형무소는 일본제국주의가 지은 근대식 감옥입니다.</b><br/><br/>
+                    
+                    1908년 10월에 문을 열어 1987년 11월에 폐쇄될 때까지 80년 동안 감옥으로 사용되었습니다.
+                    옥사는 붉은 벽돌로 지어졌고 수감자를 효과적으로 감시할 수 있는 원형 감옥 형태인 패놉티콘 구조로 만들어졌습니다.<br/>
+
+                    일제강점기에는 식민 지배에 맞섰던 많은 항일 독립운동가들이 갇혔으며, 해방 후에는 독재 정권과 군사 정권에 저항했던 민주화 
+                    운동가들이 갇혔던 역사의 현장입니다.<br/>
+                    1908년 경성감옥, 1912년 서대문감옥, 1923년 서대문형무소, 1945년 서울형무소, 1961년 서울교도소, 
+                    1967년 서울구치소로 이름이 여러 차례 바뀌었습니다. 1987년 11월 서울구치소가 경기도 의왕시로 이전한 뒤 
+                    역사성과 보존 가치를 고려하여 보안과 청사, 제9~12옥사, 공작사, 한센병사, 사형장 등을 남겨 두고 나머지 시설은 모두 철거되었습니다.<Br/>
+
+                    이후 서대문구에서 현장을 보존하고 역사의 교훈으로 삼고자 1998년 11월 5일 서대문형무소역사관으로 개관하였습니다. 
+                    과거의 역사를 교훈으로 삼고 독립운동가와 민주화운동가의 자유와 평화를 향한 신념을 기억하고 기념하는 박물관으로 운영하고 있습니다.<br/>
+                </div>
+                <!-- 사진 -->
+                <div class="main_img">
+                    <table>
+                        <tr>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20170829_172/1503968770777pfczG_JPEG/uk1RgnRz4_f9OANl6cQHpQil.jpg" /></td>
+                          <td><img alt="" src="https://ncc-phinf.pstatic.net/ncc01/2012/9/19/194/0001.jpg" /></td>
+                          <td><img alt="" src="https://ldb-phinf.pstatic.net/20200421_95/15874685442162mQA6_JPEG/32Yk1rrJPPtEallCmB3lMUgW.jpeg.jpg" /></td>
+                        <tr>
+                      </table>
+                </div>
+                
+                <div class="main">
+                    <ul class="ullist">
+                        <ul class="ninfo">
+                            <li>주소 : 서울 서대문구 통일로 251</li>
+                            <li>전화 : 02-360-8590</li>
+                            <li>사이트 : <a href="https://sphh.sscmc.or.kr/" target="_blank">https://sphh.sscmc.or.kr/</a></li>
+                            <li>관람시간 : 3월 ~ 10월 : 09:30 ~ 18:00(입장마감 : 17:30)<br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;11월 ~ 2월 
+                                : 09:30 ~ 17:00(입장마감 : 16:30)<br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:red;">휴관일 : 1월 1일, 설날·추석 당일, 매주 월요일</span>
+                            </li>
+                            <li>관람료<br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;〉만19세 ~ 만64세 : 3,000원 (20인이상 : 2,400원)<br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;만13세 ~ 만18세 : 1,500원 (20인이상 : 1,200원)<br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;만7세 ~ 만12세 : 1,000원 (20인이상 : 800원)<br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;군인(병장이하, 군복착용) : 1,500원 (20인이상 : 1,200원)<br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;경로우대자, 유아, 장애인, 국가보훈대상자 : 무료<br/>
+                            </li>
+                        </ul>
+                        <li>
+                            <h2 style="margin-top:50px;">행사/전시</h2>
+                        </li>
+                        <ul class="ninfo">
+                            <li><b>상설전시</b>
+                                <ul>
+                                    <li>
+                                        전시관(보안과청사)
+                                    </li>
+                                    <li>
+                                        옥사전시
+                                    </li>
+                                    <li>
+                                        야외전시
+                                    </li>
+                                    <li>
+                                        민족저항실2
+                                    </li>
+                                    <li>
+                                        이달의 독립운동가
+                                    </li>
+                                    <li>
+                                        지하 조사실
+                                    </li>
+                                </ul>                               
+                            </li>
+                            <br/>
+                            <li><b>특별전시</b>
+                                <ul>
+                                    <li>홈페이지 <a href="https://sphh.sscmc.or.kr/" target="_blank">https://sphh.sscmc.or.kr/</a>참조
+                                    </li>
+                                </ul>                               
+                            </li>
+                        </ul>
+                        <li>
+                            <h2 style="margin-top:50px;">오시는길</h2>
+                        </li>
+                        <ul class="ninfo">
+                            <li><b>지하철</b>
+                                <ul>
+                                    <li>
+                                        3호선 | 독립문역 5번 출구
+                                    </li>
+                                </ul>
+                            </li>
+                            <br/>
+                            <li><b>버스</b>
+                                <ul>
+                                    <li>
+                                        간선
+                                        <ul>
+                                            <li>
+                                                471, 701, 702A, 702B, 704, 720, 752
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        지선
+                                        <ul>
+                                            <li>
+                                                7019, 7021, 7023, 7025, 7737
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>광역
+                                        <ul>
+                                            <li>
+                                                9701
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>공항
+                                        <ul>
+                                            <li>
+                                                6005
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <br/>
+                            <li><b>주차장</b>
+                                <ul>
+                                    <li>
+                                        주차공간이 부족하오니 대중교통을 이용해주시기 바랍니다.
+                                    </li>
+                                    <li>
+                                        서대문독립공원주차장은 공영주차장으로 운영되고 있어, 단체관람을 예약하더라도 주차장 만차 시에는 주차가 어려울 수 있습니다.
+                                    </li>
+                                    <li>
+                                        승용차 : 10분당 300원
+                                    </li>
+                                    <li>
+                                        버스, 대형차(15인승 이상) : 10분당 900원
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

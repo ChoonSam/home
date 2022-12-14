@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>ComforTravel</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <div class="search">
+                <div class="search_box">
+                    <h1 class="logo">ComforTravel</h1>
+                    <div class="window">
+                        <form action="/applysearch" method="GET">
+                            <input type="text" id="fname" class="input_text" name="location" placeholder="검색어를 입력하세요">
+                            <button class="Button" type="submit"><div class="searchBtn">검색</div></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            
+            <div class="main">
+                <h1>현대 모터 스튜디오</h1>
+                <div class="pinfo">
+                    <b>국내 최대의 체험형 자동차 테마파크로서 자동차의 탄생 과정 및 기능을 친근하고 즐겁게 체험할 수 있는 공간이다.</b>
+                </div>
+                <!-- 사진 -->
+                <div class="main_img">
+                    <table>
+                        <tr>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20200825_234/1598346937599dgdDM_JPEG/VrMxOGJq0EJsPzmA7OgKChBN.jpg" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20200825_44/15983472150702VXIh_JPEG/pTLkutSfKrpsrBvOM79eGFvZ.jpg" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20200825_33/1598347192862A2XT1_JPEG/RTl2nIQvHhZBQ3pYinG5V6hh.jpg" /></td>
+                        <tr>
+                      </table>
+                </div>
+                
+                <div class="main">
+                    <ul class="ullist">
+                        <ul class="ninfo">
+                            <li>주소 : 경기 고양시 일산서구 킨텍스로 217-6 현대 모터스튜디오 고양</li>
+                            <li>전화 : 1899-6611</li>
+                            <li>사이트 : <a href="https://motorstudio.hyundai.com/goyang/ln/main.do?strgCd=01" target="_blank">https://motorstudio.hyundai.com/goyang/ln/main.do?strgCd=01</a></li>
+                            <li>운영시간 : 차량전시(1~2F) 09:00 ~ 20:00</li>
+                        </ul>
+
+                        <li>
+                            <h2 style="margin-top:50px;">오시는길</h2>
+                        </li>
+                        <ul class="ninfo">
+                            <li><b>지하철</b>
+                                <ul>
+                                    <li>
+                                        3호선 | 대화역 1,4번 출구
+                                    </li>
+                                </ul>
+                            </li><br/>
+                            <li><b>버스</b>
+                                <ul>
+                                    <li>마을 | 58, 89</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

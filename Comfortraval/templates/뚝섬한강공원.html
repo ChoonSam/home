@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>ComforTravel</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <div class="search">
+                <div class="search_box">
+                    <h1 class="logo">ComforTravel</h1>
+                    <div class="window">
+                        <form action="/applysearch" method="GET">
+                            <input type="text" id="fname" class="input_text" name="location" placeholder="검색어를 입력하세요">
+                            <button class="Button" type="submit"><div class="searchBtn">검색</div></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            
+            <div class="main">
+                <h1>뚝섬 한강공원</h1>
+                <div class="pinfo">
+                    한강공원이 조성되기 이전부터 강변유원지로 유명했던 곳입니다. 수상에서는 시원한 바람을 맞으며 낭만과 젊음을 만끽할 수 있는 윈드 서핑, 수상스키, 모터보트 등 수상스포츠가 활발하게 이루어지고 있습니다.
+                </div>
+                <!-- 사진 -->
+                <div class="main_img">
+                    <table>
+                        <tr>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20190130_105/1548822513752praRX_JPEG/8W-iCA8Tvu917tYSw5JFhm3T.jpeg.jpg" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20140407_202/1396856333766xNl4u_JPEG/%BC%AD%BF%EF_%C7%D1%B0%AD%BD%C3%B9%CE%B0%F8%BF%F8%B6%D2%BC%B6%C1%F6%B1%B8_11.JPG?type=m500_500" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20140407_81/1396856333569wTRQ6_JPEG/%BC%AD%BF%EF_%C7%D1%B0%AD%BD%C3%B9%CE%B0%F8%BF%F8%B6%D2%BC%B6%C1%F6%B1%B8_10.JPG?type=m500_500" /></td>
+                        <tr>
+                      </table>
+                </div>
+                
+                <div class="main">
+                    <ul class="ullist">
+                        <ul class="ninfo">
+                            <li>주소 : 서울 광진구 강변북로 139</li>
+                            <li>전화 : 02-3780-0521</li>
+                            <li>사이트 : <a href="https://hangang.seoul.go.kr/archives/46661" target="_blank">https://hangang.seoul.go.kr/archives/46661</a></li>
+                        </ul>
+                        <li>
+                            <h2 style="margin-top:50px;">시설</h2>
+                        </li>
+                        <ul class="ninfo">
+                            <li><b>운동시설</b>
+                                <ul>
+                                    <li>
+                                        축구장2면, 농구장4면(장애인용2포함), 테니스장4면, 배드민턴장5면, 족구장2면 <a href="https://hangang.seoul.go.kr/archives/2413" target="_blank">(체육시설 이용 안내 바로가기)</a>
+                                    </li>
+                                    <li>
+                                        게이트볼장 4면, X-게임장 1개소, 야외씨름장1, 체력단련장18
+                                    </li>
+                                    <li>
+                                        인공암벽장(신청서 제출 후 이용, <a href="https://hangang.seoul.go.kr/archives/2413" target="_blank">이용 안내 바로가기)</a>
+                                    </li>
+                                </ul>                               
+                            </li>
+                            <br/>
+                            <li><b>낚시</b>
+                                <ul>
+                                    <li>
+                                        낚시 제한 사항 : 떡밥 · 어분 낚시 행위, 낚시대 4대 이상, 훌치기 낚시행위 금지 등
+                                    </li>
+                                    <li>
+                                        금지구역에서의 낚시 및 제한사항 위반자는 과태료 부과 대상입니다 <a href="https://hangang.seoul.go.kr/archives/46872">(한강낚시 금지 및 제한사항 안내 바로가기)</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <br/>
+                            <li><b>자전거도로</b>
+                                <ul>
+                                    <li>
+                                        총18.6km (자전거도로 16.6km, 자동차도로 2km)
+                                    </li>
+                                </ul>                               
+                            </li>
+                            <br/>
+                            <li><b>수상레저스포츠</b>
+                                <ul>
+                                    <li>
+                                        모터보트 등 <a href="https://hangang.seoul.go.kr/archives/46875#program-area5">(수상레저스포츠 이용안내 바로가기)</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <br/>
+                            <li><b>자전거대여점</b>
+                                <ul>
+                                    <li>
+                                        위치 : 7호선 뚝섬유원지역 2, 3번 출구 옆 광장과 미니스톱 뚝섬1호점 옆
+                                    </li>
+                                    <li>
+                                        운영시간 : 09:00~18:00 (월별 탄력적 이용)<br/>
+                                        <a href="https://hangang.seoul.go.kr/archives/46889">(자전거 대여점 정보 및 요금 안내 바로가기)</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <br/>
+                            <li><b>수영장</b>
+                                <ul>
+                                    <li>
+                                        풀장 3개소, 수용인원 3,400명 (7월 ~ 8월 개장) 
+                                    </li>
+                                    <li>
+                                        수용인원 : 3,500명(7월 ~ 8월 개장) <a href="https://hangang.seoul.go.kr/archives/46886">(수영장·물놀이장 소개 바로가기)</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <br/>
+                            <li><b>눈썰매장</b>
+                                <ul>
+                                    <li>
+                                        장소 : 뚝섬 야외수영장 내(12월말 ~ 2월 개장) <a href="https://hangang.seoul.go.kr/archives/46868">(뚝섬 눈썰매장 이용 및 요금안내 바로가기)</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <br/>
+                            <li><b>뚝썸 윈드서핑장</b>
+                                <ul>
+                                    <li>
+                                        위치 : 뚝섬한강공원 테니스장 옆
+                                    </li>
+                                </ul>
+                            </li>
+                            <br/>
+                            <li><b>아리랑하우스</b>
+                                <ul>
+                                    <li>
+                                        위치 : 수영장 앞 수상
+                                    </li>
+                                    <li>
+                                        운영시설 : 오리보트, 모터보트, 레스토랑(11:00~02:00)
+                                    </li>
+                                </ul>
+                            </li>
+                            <br/>
+                            <li><b>서울생각마루(뚝섬전망문화컴플렉스, 뚝섬자벌레)</b>
+                                <ul>
+                                    <li>
+                                        위치 : 7호선 뚝섬유원지역 3번 출구 옆 통로 연결
+                                    </li>
+                                    <li>
+                                        <a href="https://hangang.seoul.go.kr/archives/59687">서울생각마루 이용 안내 바로가기</a>
+                                    </li>
+                                    
+                                </ul>
+                            </li>
+                            <br/>
+                            <li><b>편의시설</b>
+                                <ul>
+                                    <li>
+                                        매점3개소, 어린이놀이터2개소, 음수대22, 그늘막51, 의자513, 자연학습장 29,140㎡, 장미원 6,040㎡
+
+                                    </li>
+                                    <li>
+                                        휠체어 무료 대여
+                                        <ul>
+                                            <li>
+                                                대여위치 : 뚝섬안내센터
+                                            </li>
+                                            <li>
+                                                이용시간 : 오전 09:00 ~ 오후 18:00
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <li>
+                            <h2 style="margin-top:50px;">오시는길</h2>
+                        </li>
+                        <ul class="ninfo">
+                            <li><b>지하철</b>
+                                <ul>
+                                    <li>
+                                        2호선 | 건대역 5번 출구 1km
+                                    </li>
+                                    <li>
+                                        7호선 | 뚝섬유원지역 2,3번 출구 20m
+                                    </li>
+                                </ul>
+                            </li>
+                            <br/>
+                            <li><b>버스</b>
+                                <ul>
+                                    <li>
+                                        간선
+                                        <ul>
+                                            <li>
+                                                2014, 2221, 2222, 2412, 2415
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        마을
+                                        <ul>
+                                            <li>
+                                                광진05
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li><br/>
+                            <li><b>주차장</b>
+                                <ul>
+                                    <li>
+                                        주차장 수 : 4개소(뚝섬1주차장, 뚝섬2주차장, 뚝섬3주차장, 뚝섬4주차장)
+                                    </li>
+                                    <li>
+                                        이용시간 : 오전 6시 ~ 오후 12시
+                                    </li>
+                                    <li>
+                                        주차요금
+                                        <ul>
+                                            <li>
+                                                기본요금 : 최초 30분 1,000원
+                                            </li>
+                                            <li>
+                                                초과 10분당 200원
+                                            </li>
+                                            <li>
+                                                1일 주차 최고한도 10,000원
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

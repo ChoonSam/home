@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>ComforTravel</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <div class="search">
+                <div class="search_box">
+                    <h1 class="logo">ComforTravel</h1>
+                    <div class="window">
+                        <form action="/applysearch" method="GET">
+                            <input type="text" id="fname" class="input_text" name="location" placeholder="검색어를 입력하세요">
+                            <button class="Button" type="submit"><div class="searchBtn">검색</div></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            
+            <div class="main">
+                <h1>광릉</h1>
+                <div class="pinfo">
+                    「남양주 광릉(光陵)」은 조선 제7대 세조대왕과 왕비 정희왕후 윤씨가 안장된 능입니다. 2009년 유네스코 세계유산으로 등재된 자랑스러운 문화유산인 광릉은 2010년에는 광릉숲이 생물다양성이 잘 보존된 지역임을 인정받아 유네스코 생물권보전지역으로 등재되는 등 광릉의 역사적 가치와 생물학적 가치는 세계적으로 널리 인정받고 있습니다.
+                </div>
+                <!-- 사진 -->
+                <div class="main_img">
+                    <table>
+                        <tr>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20150831_204/1441014846538QQ0er_JPEG/116167537775947_0.jpg" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20150206_62/1423207986261xzw0d_JPEG/%B0%E6%B1%E2_%B1%A4%B8%AA_1.JPG?type=m500_500" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20150206_288/1423207993196qMdwM_JPEG/%B0%E6%B1%E2_%B1%A4%B8%AA_4.JPG?type=m500_500" /></td>
+                        <tr>
+                      </table>
+                </div>
+                
+                <div class="main">
+                    <ul class="ullist">
+                        <ul class="ninfo">
+                            <li>주소 : 경기 남양주시 진접읍 광릉수목원로 354</li>
+                            <li>전화 : 031-527-7105</li>
+                            <li>사이트 : <a href="http://royaltombs.cha.go.kr/html/HtmlPage.do?pg=/new/html/portal_01_02_01.jsp&mn=RT_01_02" target="_blank">http://royaltombs.cha.go.kr/html/HtmlPage.do?pg=/new/html/portal_01_02_01.jsp&mn=RT_01_02</a></li>
+                            <li>운영시간 : 2~5월, 9~10월 09:00 - 18:00 | 6~8월 09:00 - 18:30 | 11월~1월 09:00 - 17:30 | 매주 월요일 정기휴무</li>
+                        </ul>
+                        <li>
+                            <h2 style="margin-top:50px;">오시는길</h2>
+                        </li>
+                        <ul class="ninfo">
+                            <li><b>지하철</b>
+                                <ul>
+                                    <li>
+                                        2호선 | 강남역 1번 출구 | 잠실역 7번 출구
+                                    </li>
+                                    <li>
+                                        4호선 | 진접역 2번 출구
+                                    </li>
+                                    <li>
+                                        8호선 | 잠실역 7번 출구
+                                    </li>
+                                    <li>
+                                        신분당선 | 강남역 1번 출구
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><b>버스</b>
+                                <ul>
+                                    <li>일반 | 9, 9-1, 21, 100, 202</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

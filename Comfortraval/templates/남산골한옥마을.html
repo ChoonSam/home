@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>ComforTravel</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <div class="search">
+                <div class="search_box">
+                    <h1 class="logo">ComforTravel</h1>
+                    <div class="window">
+                        <form action="/applysearch" method="GET">
+                            <input type="text" id="fname" class="input_text" name="location" placeholder="검색어를 입력하세요">
+                            <button class="Button" type="submit"><div class="searchBtn">검색</div></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            
+            <div class="main">
+                <h1>남산골 한옥마을</h1>
+                <div class="pinfo">
+                    서울의 상징인 남산은 옛 이름을 목멱산이라고 하였으며, 도성의 남쪽에 있어 남산으로 불리어 왔습니다. 남산은 그 자연의 경치가 아름다워 우리의 조상들이 골짜기마다 정자를 짓고 자연의 순리에 시·화로 화답하는 풍류 생활을 하던 곳으로서 각종 놀이와 여가생활을 위하여 수려한 경관을 찾는 선남선녀들의 발길이 끊이지 않았던 곳이었습니다. 이곳 북동쪽 7,934㎡ 대지에는 시내에 산재해 있던 서울시 민속자료 한옥 다섯 채를 이전, 복원하고 이 한옥에 살았던 사람들의 신분 성격에 걸맞은 가구 등을 배치하여 선조들의 삶을 재조명하였습니다. 전통정원 내에는 그동안 훼손되었던 지형을 원형대로 복원하여 남산의 자연식생인 전통 수종을 심었으며, 계곡을 만들어 물이 자연스럽게 흐르도록 하였고, 또한 정자·연못 등을 복원하여 전통양식의 정원으로 꾸몄습니다. 정원의 서쪽에는 물이 예스럽게 계곡을 흐르도록 하였고, 주변에는 고풍의 정자를 지어 선조들이 유유자적하였던 남산 기슭의 옛 정취를 한껏 느끼도록 하였습니다. 전통정원 남쪽에는 서울 정도(定都) 600년을 기념하는 타임캡슐을 1994년 11월 29일 지하 15m 지점에 매설하였습니다. 보신각종 모형의 타임캡슐 안에는 서울의 도시 모습, 시민 생활과 사회문화를 대표하는 각종 문물 600점을 수장함으로써 현시대의 사회상이 400년 이후인 2394년 11월 29일에 후손들에게 공개되도록 하였습니다.
+                </div>
+                <!-- 사진 -->
+                <div class="main_img">
+                    <table>
+                        <tr>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20190317_111/15528026847343PazM_JPEG/nam2.jpg" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20140407_228/1396856087323eAktJ_JPEG/%BC%AD%BF%EF_%B3%B2%BB%EA%C7%D1%BF%C1%B8%B6%C0%BB_1.jpg?type=m500_500" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20140407_281/1396856090218iwV7Y_JPEG/%BC%AD%BF%EF_%B3%B2%BB%EA%C7%D1%BF%C1%B8%B6%C0%BB_5.jpg?type=m500_500" /></td>
+                        <tr>
+                      </table>
+                </div>
+                
+                <div class="main">
+                    <ul class="ullist">
+                        <ul class="ninfo">
+                            <li>주소 : 서울 중구 퇴계로34길 28</li>
+                            <li>전화 : 02-2261-0517</li>
+                            <li>사이트 : <a href="https://www.hanokmaeul.or.kr/" target="_blank">https://www.hanokmaeul.or.kr/</a></li>
+                            <li>운영시간 : 화요일 ~ 일요일 : 09:00 ~ 21:00<br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:red;">매주 월요일 정기휴무</span><br/>
+                            </li>
+                        </ul>
+                        <li>
+                            <h2 style="margin-top:50px;">오시는길</h2>
+                        </li>
+                        <ul class="ninfo">
+                            <li><b>지하철</b>
+                                <ul>
+                                    <li>
+                                        3호선 | 충무로역 4번 출구 도보 3분
+                                    </li>
+                                    <li>
+                                        4호선 | 충무로역 4번 출구 도보 3분
+                                    </li>
+                                </ul>
+                            </li>
+                            <Br/>
+                            <li><b>버스</b>
+                                <ul>
+                                    <li>간선
+                                        <ul>
+                                            <li>
+                                                104, 105, 140, 421, 463, 507, 604, 7011
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>공항
+                                        <ul>
+                                            <li>
+                                                6001, 6015, 6021
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

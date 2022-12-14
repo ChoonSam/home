@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>ComforTravel</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <div class="search">
+                <div class="search_box">
+                    <h1 class="logo">ComforTravel</h1>
+                    <div class="window">
+                        <form action="/applysearch" method="GET">
+                            <input type="text" id="fname" class="input_text" name="location" placeholder="검색어를 입력하세요">
+                            <button class="Button" type="submit"><div class="searchBtn">검색</div></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            
+            <div class="main">
+                <h1>아해박물관</h1>
+                <div class="pinfo">
+                    어린이 전통놀이 박물관으로 실내전시관 및 숲속 야외교육장까지 갖추어 전통놀이문화에 대한 유물전시와 체험활동을 즐길 수 있다.
+                </div>
+                <!-- 사진 -->
+                <div class="main_img">
+                    <table>
+                        <tr>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20190103_251/1546495946352MGBpl_JPEG/wHjrvqr-yECNA7UpTTjGpM-u.JPG.jpg" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20190103_297/15464959603186UWoc_JPEG/wPTASKxhIMxX74c2itfsN68G.JPG.jpg" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20190103_258/1546495982933godX9_JPEG/B9-gSgLkJWUweMn9IzWa0wyd.JPG.jpg" /></td>
+                        <tr>
+                      </table>
+                </div>
+                
+                <div class="main">
+                    <ul class="ullist">
+                        <ul class="ninfo">
+                            <li>주소 : 경기 과천시 추사로 133 아해한국전통문화어린이박물관</li>
+                            <li>전화 : 02-3418-5501</li>
+                            <li>사이트 : <a href="http://www.ahaemuseum.org/" target="_blank">http://www.ahaemuseum.org/</a></li>
+                            <li>운영시간 : 10:00 ~ 18:00 | 매주 일요일 정기휴무</li>
+                        </ul>
+                        <li>
+                            <h2 style="margin-top:50px;">오시는길</h2>
+                        </li>
+                        <ul class="ninfo">
+                            <li><b>지하철</b>
+                                <ul>
+                                    <li>
+                                        4호선 | 선바위역 1번 출구
+                                    </li>
+                                </ul>
+                            </li><br/>
+                            <li><b>버스</b>
+                                <ul>
+                                    <li>일반 | 11-3, 441, 917</li>
+                                </ul>
+                                <ul>
+                                    <li>마을 | 6</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

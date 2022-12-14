@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>ComforTravel</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <div class="search">
+                <div class="search_box">
+                    <h1 class="logo">ComforTravel</h1>
+                    <div class="window">
+                        <form action="/applysearch" method="GET">
+                            <input type="text" id="fname" class="input_text" name="location" placeholder="검색어를 입력하세요">
+                            <button class="Button" type="submit"><div class="searchBtn">검색</div></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            
+            <div class="main">
+                <h1>고척스카이돔</h1>
+                <div class="pinfo">
+                    서울 구로구 고척동에 자리 잡은 고척스카이돔은 지하2층, 지상4층으로 이루어져있고, 관람석 16,744석, 높이 67.59m, 연면적 83,623㎡이다. 하부는 철근콘크리트 구조로, 지붕은 하이브리드구조(철골트러스+테프론막)로 건축되었다. 공공체육시설 확충과 다양한 행사수용이 가능한 문화시설 제공을 위해 국내 최초의 돔야구장으로 건립된 고척스카이돔은 사계절 내내 체육·문화행사를 즐길 수 있는 대한민국 최고의 복합체육문화시설이다. 또한 각종 행사 시 연계행사가 열릴 수 있는 보행광장 및 야구를 테마로 구성한 야구테마거리가 고척스카이돔과 연결되어 있다. 그리고 수영장, 헬스장, 축구장, 농구장, 판매시설 등을 갖추고 있다.
+                </div>
+                <!-- 사진 -->
+                <div class="main_img">
+                    <table>
+                        <tr>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20200512_262/1589288911579EayCb_JPEG/S6KIQJennJusJ5nHyymqwarx.jpg" /></td>
+                            <td><img alt="" src="" /></td>
+                            <td><img alt="" src="" /></td>
+                        <tr>
+                      </table>
+                </div>
+                
+                <div class="main">
+                    <ul class="ullist">
+                        <ul class="ninfo">
+                            <li>주소 : 서울 구로구 경인로 430 고척스카이돔</li>
+                            <li>전화 : 02-2128-2300</li>
+                            <li>사이트 : <a href="https://www.sisul.or.kr/open_content/skydome/" target="_blank">https://www.sisul.or.kr/open_content/skydome/</a></li>
+                            <li>운영시간 : </li>
+                        </ul>
+                        <li>
+                            <h2 style="margin-top:50px;">오시는길</h2>
+                        </li>
+                        <ul class="ninfo">
+                            <li><b>지하철</b>
+                                <ul>
+                                    <li>
+                                        1호선 | 제기동역 4번 출구 도보 15분
+                                    </li>
+                                    <li>
+                                        2호선 | 용두역 5번 출구 도보 5분 | 상왕십리역 2번 출구
+                                    </li>
+                                    <li>
+                                        5호선 | 왕십리역 7번 출구
+                                    </li>
+                                </ul>
+                            </li><br/>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

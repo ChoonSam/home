@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>ComforTravel</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    </head>
+    <body>
+        <div id="wrapper">
+
+            <div class="search">
+                <div class="search_box">
+                    <h1 class="logo">ComforTravel</h1>
+                    <div class="window">
+                        <form action="/applysearch" method="GET">
+                            <input type="text" id="fname" class="input_text" name="location" placeholder="검색어를 입력하세요">
+                            <button class="Button" type="submit"><div class="searchBtn">검색</div></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+            
+            <div class="main">
+                <h1>덕소자연사박물관</h1>
+                <div class="pinfo">
+                    “덕소 자연사박물관”에서는 오랜 기간 동안 전 세계 30 여 개국에서 수집한 진본공룡 5점, 화석 500여 점, 광물 350여 점, 어패류 2,200여 점?동물박제 90여 점, 곤충 1,200여 점, 액침표본 100여 점, 신생대 포유류 골격 50여 점을 분야별 전문가의 자문을 받아 학술적으로 전시하였습니다. 또한 작은 생태공원을 조성하여 조류, 포유류, 어류 등을 사육하고 있으므로 어린이부터 어른까지 친근하게 자연을 배우고 살펴 볼 수 있는 교육 현장입니다. 자세한 문의는 전화 또는 덕소자연사박물관(www.duksomuseum.com) 홈페이지를 통해 가능하다.
+                </div>
+                <!-- 사진 -->
+                <div class="main_img">
+                    <table>
+                        <tr>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20170413_204/1492049747838ddKSV_JPEG/186363514567662_0.jpeg" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20170409_286/1491723630661d9O4U_JPEG/186359567042736_7.jpeg" /></td>
+                            <td><img alt="" src="https://ldb-phinf.pstatic.net/20170409_6/1491723630095JBAxx_JPEG/186359567042736_6.jpeg" /></td>
+                        <tr>
+                      </table>
+                </div>
+                
+                <div class="main">
+                    <ul class="ullist">
+                        <ul class="ninfo">
+                            <li>주소 : 경기 남양주시 와부읍 석실로 46-11</li>
+                            <li>전화 : 031-521-7166</li>
+                            <li>사이트 : <a href="http://www.duksomuseum.com/" target="_blank">http://www.duksomuseum.com/</a></li>
+                            <li>운영시간 : 10:00 ~ 18:00 | 매주 화요일 정기휴무</li>
+                        </ul>
+                        <li>
+                            <h2 style="margin-top:50px;">오시는길</h2>
+                        </li>
+                        <ul class="ninfo">
+                            <li><b>지하철</b>
+                                <ul>
+                                    <li>
+                                        중앙선 | 도심역 1번 출구
+                                    </li>
+                                </ul>
+                            </li><br/>
+                            <li><b>버스</b>
+                                <ul>
+                                    <li>일반 | 8, 8-2, 10-6, 15, 30-15, 112-1, 166-1, 167, 168, 2000-1, 2000-2, 2000-3</li>
+                                    <li>광역 | 1660, 1670, 1700</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
