@@ -1,7 +1,10 @@
 *{
     font-family: 'Nanum Pen Script', cursive;
-    margin: 0;
-    padding:5px;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    overflow: hidden;
 }
 main {
     background-color: #ffffff;
@@ -9,69 +12,65 @@ main {
     font-size: 80px;
 }
 .center-hr {
-    width : 83%;
-    height: 5px;
-    background-color: pink;
-    border: 0;
-    margin-left: auto;
-    margin-right: 77px;
-}
-ul {
-    list-style-type: none;
-    margin-left: 5px;
-    padding: 0;
-    width: 200px;
-    background-color: #f1f1f1;
-}
-li a {
-    display: block;
-    color: #000;
-    padding: 8px 16px;
-    text-decoration: none;
-}
-li a.active {
-    background-color: pink;
-    color: white;
-}
-li a:hover:not(.active) {
-    background-color: rgb(126, 126, 126);
-    color: white;
-}
-.center-hn {
-    width : 82.2%;
-    height: 0.5px;
-    background-color: pink;
-    border: 0;
-    display: inline-block;
-    position: absolute;
-    left: 267.5px;
-    top: 245px;
+    width: 100vw;
+    height: 100vh;
+    margin-top: 60px;
+    background-color: #ece6cc;
+    border-top: 1px solid black;
 }
 .v-line {
     display: inline-block;
     position: absolute;
-    border-left : 11.5px solid pink;
-    height : 780px;
+    border-left : 2px dashed gray;
+    height : 100vh;
     left: 1168px;
-    top: 130px;
+    top: 194px;
   }
+ul {
+    margin-left: auto;
+    margin-right: 50px;
+    width: 83%;
+    height: 5px;
+}
+li {
+    line-height: 50px;
+    margin: -5px 10px 10px -10px;
+    border-left: 1px solid black;
+    list-style-type: none;
+    float: left;
+    width: 7.8%;
+    height: 10px;
+    text-align: center;
+    background-color: pink;
+}
+li:last-child{
+    border-right: 1px solid black;
+}
+li a {
+    display: block;
+    color: #000;
+    text-decoration: none;
+}
+li a:hover {
+    color: none;
+}
 table {
     border-collapse: collapse;
-    margin-left: 20px;
-    margin-top: -590px;
-    position: absolute;
+    margin: 160px 0px 0px 150px;
+    width: 100%;
+    height: 100%;
 }
 td {
     border: 1px solid gray;
     font-size: 25px;
     width: 100px;
-    height: 100px;
+    height: 112px;
     vertical-align: top;
 }
 th {
     border: 1px solid gray;
     background-color: #dddddd;
-    width: 113.6px;
+    width: 100px;
     height: 30px;
     font-size: 20px;
 }
