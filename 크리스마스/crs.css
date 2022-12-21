@@ -3,13 +3,14 @@
     margin: 0px;
     padding: 0px;
 }
-body{
-    overflow: hidden;
-}
 main {
     background-color: #ffffff;
     text-align-last: center;
     font-size: 80px;
+}
+.back {
+    display: block;
+    position: fixed;
 }
 .center-hr {
     width: 100vw;
@@ -19,12 +20,12 @@ main {
     border-top: 1px solid black;
 }
 .v-line {
-    display: inline-block;
+    display: block;
     position: absolute;
     border-left : 2px dashed gray;
-    height : 100vh;
-    left: 1168px;
-    top: 194px;
+    height : 81.4vh;
+    left: 58vw;
+    bottom: 0px;
   }
 ul {
     margin-left: auto;
@@ -42,6 +43,7 @@ li {
     height: 10px;
     text-align: center;
     background-color: pink;
+    font-size: 25px;
 }
 li:last-child{
     border-right: 1px solid black;
@@ -54,25 +56,185 @@ li a {
 li a:hover {
     color: none;
 }
+.table-layout{
+    display: block;
+    position: fixed;
+    left: 5.2%;
+    top: 30%;
+    width: 46.5vw;
+}
 table {
+    white-space: nowrap;
     border-collapse: collapse;
-    margin: 160px 0px 0px 150px;
-    width: 100%;
-    height: 100%;
+    border-spacing: 0;
+    box-sizing: inherit;
 }
 td {
+    width: 10%;
     border: 1px solid gray;
+    height: 120px;
     font-size: 25px;
-    width: 100px;
-    height: 112px;
     vertical-align: top;
 }
 th {
     border: 1px solid gray;
+    height: 20px;
     background-color: #dddddd;
-    width: 100px;
-    height: 30px;
     font-size: 20px;
+}
+.month {
+    display: inline-block;
+    position: absolute;
+    left:27vw;
+    top: 20.5vh;
+    font-size: 50px;
+}
+.pic{
+    display: inline-block;
+    position: absolute;
+    left:75.5vw;
+    top: 20.5vh;
+    font-size: 50px;
+}
+.pink {
+    font-size: 30px;
+    color: rgb(255, 148, 166); 
+}
+.orange {
+    font-size: 30px;
+    color: #ff9f40;
+}
+.blue {
+    font-size: 30px;
+    color: #005282
+}
+.puple {
+    font-size: 30px;
+    color: #8000bf;
 }
 td:nth-child(1), th:nth-child(1) {color:red;}
 td:nth-last-child(1), th:nth-last-child(1) {color: blue;}
+
+@media all and (max-height: 1040px) {
+    .v-line {
+        height: 79.8vh;
+    }
+    .table-layout{
+        width: 45vw;
+        left: 6.2%;
+        top: 33%;
+    }
+    td {
+        height: 108px;
+    }
+    th {
+        height: 18px;
+    }
+    .pink {
+        font-size: 27px;
+    }
+    .orange {
+        font-size: 27px;
+    }
+    .blue {
+        font-size: 27px;
+    }
+    .puple {
+        font-size: 27px;
+    }
+    .month {
+        left: 27.3vw;
+        top: 22.5vh;
+        font-size: 45px;
+    }
+    .pic {
+        top: 22.5vh;
+        font-size: 45px;
+    }
+}
+
+@media all and (max-height: 960px) {
+    .v-line {
+        height: 79.6vh;
+    }
+    .table-layout{
+        width: 44.5vw;
+        left: 6.2%;
+        top: 33%;
+    }
+    td {
+        height: 108px;
+    }
+    th {
+        height: 18px;
+    }
+    .pink {
+        font-size: 23.5px;
+    }
+    .orange {
+        font-size: 23.5px;
+    }
+    .blue {
+        font-size: 23.5px;
+    }
+    .puple {
+        font-size: 23.5px;
+    }
+    .month {
+        left: 27.3vw;
+        top: 22.5vh;
+        font-size: 43px;
+    }
+    .pic {
+        top: 22.5vh;
+        font-size: 43px;
+    }
+}
+
+@media all and (max-width: 900px) {
+    .v-line {
+        border-left : none;
+        height : 0px;
+        left: 0px;
+    }
+    .table-layout{
+        width: 44.5vw;
+        left: 6.2%;
+        top: 33%;
+        position: absolute;
+    }
+    td {
+        height: 108px;
+    }
+    th {
+        height: 18px;
+    }
+    .pink {
+        font-size: 23.5px;
+    }
+    .orange {
+        font-size: 23.5px;
+    }
+    .blue {
+        font-size: 23.5px;
+    }
+    .puple {
+        font-size: 23.5px;
+    }
+    .month {
+        left: 27.3vw;
+        top: 22.5vh;
+        font-size: 10px;
+    }
+    .pic {
+        top: 22.5vh;
+        font-size: 0px;
+    }
+    li {
+        font-size: 15px;
+        margin: -5px 10px 10px 0px;
+    }
+    .back {
+        position: absolute;
+    }
+}
