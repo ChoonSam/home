@@ -1,7 +1,8 @@
 *{
     font-family: 'Nanum Pen Script', cursive;
-    margin: 0px;
+    margin: 0px auto;
     padding: 0px;
+    box-sizing: border-box;
 }
 main {
     background-color: #ffffff;
@@ -92,7 +93,7 @@ th {
 .pic{
     display: inline-block;
     position: absolute;
-    left:75.5vw;
+    left:77vw;
     top: 20.5vh;
     font-size: 50px;
 }
@@ -111,6 +112,22 @@ th {
 .puple {
     font-size: 30px;
     color: #8000bf;
+}
+.hotgirl {
+    font-size: 28px;
+    color: #ff00ff;
+    text-align-last: center;
+}
+.black {
+    font-size: 30px; color: black;
+}
+.lgray {
+    font-size: 30px;
+    color: #464964;
+}
+.occo {
+    font-size: 30px;
+    color: #bc5e00;
 }
 td:nth-child(1), th:nth-child(1) {color:red;}
 td:nth-last-child(1), th:nth-last-child(1) {color: blue;}
@@ -140,6 +157,18 @@ td:nth-last-child(1), th:nth-last-child(1) {color: blue;}
         font-size: 27px;
     }
     .puple {
+        font-size: 27px;
+    }
+    .hotgirl {
+        font-size: 27px;
+    }
+    .back {
+        font-size: 27px;
+    }
+    .lgray {
+        font-size: 27px;
+    }
+    .occo {
         font-size: 27px;
     }
     .month {
@@ -178,6 +207,18 @@ td:nth-last-child(1), th:nth-last-child(1) {color: blue;}
         font-size: 23.5px;
     }
     .puple {
+        font-size: 23.5px;
+    }
+    .hotgirl {
+        font-size: 23.5px;
+    }
+    .back {
+        font-size: 23.5px;
+    }
+    .lgray {
+        font-size: 23.5px;
+    }
+    .occo {
         font-size: 23.5px;
     }
     .month {
@@ -219,6 +260,18 @@ td:nth-last-child(1), th:nth-last-child(1) {color: blue;}
         font-size: 23.5px;
     }
     .puple {
+        font-size: 23.5px;
+    }
+    .hotgirl {
+        font-size: 23.5px;
+    }
+    .back {
+        font-size: 23.5px;
+    }
+    .lgray {
+        font-size: 23.5px;
+    }
+    .occo {
         font-size: 23.5px;
     }
     .month {
