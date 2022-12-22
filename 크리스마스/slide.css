@@ -62,9 +62,15 @@ body{
     float: right;
     width: 3vw;
     height: 55%;
-  }
+}
   
-/* slide1{
-    transform: translateX(-100%);
-    z-index: 1;
-}*/
+@media all and (max-height: 1040px) {
+    .conta{
+        top: 33%;
+    }
+}
+@media all and (max-height: 960px) {
+    .conta{
+        top: 33%;
+    }
+}
